@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'smileicons';
+	src:
+		url('../fonts/smileicons.ttf?2dr8qw') format('truetype'),
+		url('../fonts/smileicons.woff?2dr8qw') format('woff'),
+		url('../fonts/smileicons.svg?2dr8qw#smileicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.i {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'smileicons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.i-ar-right:before {
+	content: "\e900";
+}
+.i-down:before {
+	content: "\e901";
+}
+.i-left:before {
+	content: "\e902";
+}
+.i-menu:before {
+	content: "\e903";
+}
+.i-phone-plus:before {
+	content: "\e904";
+}
+.i-pin:before {
+	content: "\e905";
+}
+.i-right:before {
+	content: "\e906";
+}
+.i-shield:before {
+	content: "\e907";
+}
+.i-up:before {
+	content: "\e908";
+}

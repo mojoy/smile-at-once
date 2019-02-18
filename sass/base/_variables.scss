@@ -1,0 +1,23 @@
+$breakpoints: (
+	'xxl': (max-width: 1680px),
+	'xl': (max-width: 1400px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 680px),
+	'xs': (max-width: 480px),
+	'xxs': (max-width: 375px),
+);
+
+$font: 'PF DinDisplay Pro', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+$font-icon: 'smileicons' !important;
+
+$container_width: 1292px;
+
+$gutter: 15px;
+
+$pink: #ff5274;
+$green: #72dbd4;
+$green-dark: #239ca3;
+$black: #000000;
+$bg-color: #f8fbfc;
+$gray-text: #7b90a1;

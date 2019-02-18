@@ -1,0 +1,42 @@
+.social-links{
+	display: flex;
+	align-items: center;
+}
+
+.social-links__item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 35px;
+	height: 35px;
+	flex-shrink: 0;
+	margin: 0 10px;
+
+	&:hover{
+		&:before{
+			background: $green-dark;
+			transform: rotate(45deg) scale3d(1.2,1.2,1.1);
+		}
+	}
+
+	&:before{
+		content: '';
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: 1;
+		background: $green;
+		border-radius: 4px;
+		transform: rotate(45deg);
+		transition: all 0.3s ease;
+	}
+
+	img{
+		position: relative;
+		display: block;
+		z-index: 2;
+	}
+}

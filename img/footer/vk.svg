@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 20.01" width="16" height="20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>vk</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Isolation_Mode" data-name="Isolation Mode">
+      <path class="cls-1" d="M0,0H9.13c3,0,5.53,1.46,5.53,4.43,0,2.47-.9,3.43-2.74,4.52.16.13,1.21.45,1.57.62a4.33,4.33,0,0,1,1.27.94A4.48,4.48,0,0,1,16,14.21c0,3.86-3.74,5.8-7.33,5.8H0L0,0ZM5,5.26v2.6c2.34,0,4.54.3,4.54-2.23,0-2.35-2.49-2-4.55-2v1.6ZM5,16.33c2.56,0,5.73.42,5.79-2.49S7.51,11.35,5,11.35v5Z"/>
+    </g>
+  </g>
+</svg>

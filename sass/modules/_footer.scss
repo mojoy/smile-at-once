@@ -1,0 +1,167 @@
+.s-footer{
+
+}
+
+.footer{
+	padding-top: 35px;
+	padding-bottom: 35px;
+	border-top: 1px solid #dae2e7;
+	border-bottom: 1px solid #dae2e7;
+}
+
+.footer__left{
+	@include res(l){
+		order: 3;
+		margin-top: 10px;
+	}
+}
+.footer__right{
+	@include res(l){
+		order: 2;
+		margin-top: 40px;
+	}
+	@include res(s){
+		margin-top: 20px;
+	}
+}
+
+.footer-logo{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.copyright{
+	display: block;
+	font-size: 14px;
+	line-height: 1.2;
+	color: $gray-text;
+	margin-bottom: 15px;
+}
+
+.footer-metalinks{
+	line-height: 1.2;
+
+	a{
+		display: inline-block;
+		color: $pink;
+		font-size: 13px;
+		margin-bottom: 4px;
+		transition: all 0.3s ease;
+		text-decoration: underline;
+
+		&:hover{
+			color: $green;
+		}
+	}
+}
+
+.footer-list{
+	font-size: 14px;
+	@include res(s){
+		margin-bottom: 20px;
+	}
+
+	li{
+		margin-bottom: 8px;
+	}
+
+	a{
+		display: block;
+		line-height: 1.2;
+		color: $gray-text;
+		transition: all 0.3s ease;
+
+		&:hover{
+			color: $green;
+		}
+
+		&.current{
+			color: $green;
+			pointer-events: none;
+		}
+	}
+}
+
+.footer-cont{
+	display: block;
+	font-size: 14px;
+	line-height: 1;
+	margin-bottom: 20px;
+	@include res(l){
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 40px;
+		font-size: 12px;
+	}
+
+	&:last-child{
+		margin-right: 0;
+	}
+
+	strong{
+		white-space: nowrap;
+		display: block;
+		line-height: 1.4;
+		font-weight: bold;
+		font-size: 20px;
+		@include res(l){
+			font-size: 16px;
+		}
+	}
+}
+
+//footer-bottom
+.footer-bottom{
+	padding: 25px 0;
+	display: flex;
+	justify-content: space-between;
+	@include res(s){
+		flex-wrap: wrap;
+	}
+}
+
+.footer-bottom__left{
+	font-size: 14px;
+	color: $gray-text;
+	@include res(s){
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	a{
+		color: $pink;
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: $green;
+		}
+	}
+}
+
+.footer-pen{
+	display: flex;
+	align-items: center;
+	margin-left: 70px;
+	flex-shrink: 0;
+	@include res(s){
+		margin-left: 0;
+	}
+
+	&:hover{
+		span{
+			color: $green;
+		}
+	}
+
+	span{
+		color: $gray-text;
+		font-size: 12px;
+		line-height: 1.2;
+		width: 95px;
+		flex-shrink: 0;
+		transition: color 0.3s ease;
+	}
+}
+//footer-bottom
