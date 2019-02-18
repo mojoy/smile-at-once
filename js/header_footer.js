@@ -155,6 +155,9 @@ Services menu END
 ***********************/
 
 
+/***********************
+Footer menu BEGIN
+***********************/
 (function() {
 	var block, i, j, len, len1, ref, ref1, slideToggler, trigger,
 		bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
@@ -239,3 +242,6 @@ Services menu END
 	}
 
 }).call(this);
+/***********************
+ Footer menu END
+ ***********************/
