@@ -159,16 +159,6 @@
 	}
 }
 
-.top-panel__callback{
-	color: $pink;
-	transition: all 0.3s ease;
-	border-bottom: 1px dotted currentColor;
-
-	&:hover{
-		color: $green;
-	}
-}
-
 .top-panel__online{
 	position: relative;
 

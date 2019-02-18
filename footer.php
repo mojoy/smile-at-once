@@ -185,8 +185,8 @@
 					</a>
 					<div class="copyright">© 2019 Стоматологическая клиника Smile-at-Once</div>
 					<div class="footer-metalinks">
-						<div><a href="#">Политика конфиденциальности</a></div>
-						<div><a href="#">Карта сайта</a></div>
+						<div><a href="#" class="link-border">Политика конфиденциальности</a></div>
+						<div><a href="#" class="link-dot">Карта сайта</a></div>
 					</div>
 				</div>
 				<div class="grid-2 grid-3_l grid-6_s">
@@ -230,11 +230,11 @@
 					<div class="footer-cont">
 						<div>Для регионов</div>
 						<strong><a href="tel:8 800 333-46-28">8 800 333-46-28</a></strong>
-						<a href="#" class="fancy-modal top-panel__callback" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
+						<a href="#" class="link-dot" rel="nofollow">Заказать обратный звонок</a>
 					</div>
 					<div class="footer-cont">
 						<div>Для Москвы и МО</div>
-						<strong class="top-panel__online"><a href="tel:8 495 540-50-42">8 495 540-50-42</a></strong>
+						<strong><a href="tel:8 495 540-50-42">8 495 540-50-42</a></strong>
 						<div>Ежедневно с 10:00 до 21:00 </div>
 					</div>
 				</div>
@@ -242,7 +242,7 @@
 		</div>
 		<div class="footer-bottom">
 			<div class="footer-bottom__left">
-				Мы собираем обезличенные метаданные пользователя (cookie, данные об IP-адресе и местоположении) для нормального функционирования сайта и если вы не желаете, чтобы эти данные обрабатывались, то пожалуйста покиньте сайт. <a href="#">Пользовательское соглашение</a>
+				Мы собираем обезличенные метаданные пользователя (cookie, данные об IP-адресе и местоположении) для нормального функционирования сайта и если вы не желаете, чтобы эти данные обрабатывались, то пожалуйста покиньте сайт. <a href="#" class="link-simple">Пользовательское соглашение</a>
 			</div>
 			<div class="footer-bottom__right">
 				<a href="https://penbrain.ru" class="footer-pen" rel="nofollow" target="_blank">

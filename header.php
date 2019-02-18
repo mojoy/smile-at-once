@@ -60,7 +60,7 @@
 			<div class="top-panel__cont">
 				<div>Для регионов</div>
 				<strong><a href="tel:8 800 333-46-28">8 800 333-46-28</a></strong>
-				<a href="#" class="fancy-modal top-panel__callback" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
+				<a href="#" class="link-dot" rel="nofollow">Заказать обратный звонок</a>
 			</div>
 			<div class="top-panel__cont">
 				<div>Для Москвы и МО</div>

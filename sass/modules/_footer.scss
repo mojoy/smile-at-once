@@ -41,19 +41,14 @@
 }
 
 .footer-metalinks{
-	line-height: 1.2;
+	line-height: 1;
+
+	div{
+		margin-bottom: 4px;
+	}
 
 	a{
-		display: inline-block;
-		color: $pink;
 		font-size: 13px;
-		margin-bottom: 4px;
-		transition: all 0.3s ease;
-		text-decoration: underline;
-
-		&:hover{
-			color: $green;
-		}
 	}
 }
 
@@ -128,15 +123,6 @@
 	@include res(s){
 		width: 100%;
 		margin-bottom: 20px;
-	}
-
-	a{
-		color: $pink;
-		transition: color 0.3s ease;
-
-		&:hover{
-			color: $green;
-		}
 	}
 }
 

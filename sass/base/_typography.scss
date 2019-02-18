@@ -22,3 +22,34 @@ h1,.h1{
 	font-size: 55px;
 	line-height: 1.1;
 }
+
+.link-border{
+	color: $pink;
+	border-bottom: 1px solid transparentize($pink,0.5);
+	transition: all 0.3s ease;
+
+	&:hover{
+		color: $green;
+		border-color: $green;
+	}
+}
+
+.link-dot{
+	color: $pink;
+	border-bottom: 1px dotted $pink;
+	transition: all 0.3s ease;
+
+	&:hover{
+		color: $green;
+		border-color: $green;
+	}
+}
+
+.link-simple{
+	color: $pink;
+	transition: all 0.3s ease;
+
+	&:hover{
+		color: $green;
+		border-color: $green	}
+}
