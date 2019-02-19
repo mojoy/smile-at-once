@@ -214,50 +214,56 @@ $(function () {
 
 
 /***********************
- Mob menu BEGIN
- ***********************/
-$(function () {
-	$('.burger').on('click', function () {
-		$(this).toggleClass('active');
-		$('.mob-panel').toggleClass('active');
-		$('body').toggleClass('stopped');
-	});
-
-	$(document).on('click touchstart', function (e) {
-		var div = $(".burger,.mob-panel");
-		if (!div.is(e.target) && div.has(e.target).length === 0) {
-			$('.burger').removeClass('active');
-			$('.mob-panel').removeClass('active');
-			$('body').removeClass('stopped');
-		}
-	});
-});
-/***********************
- Mob menu END
- ***********************/
-
-
-/***********************
-Fixed panel BEGIN
+Cases slider BEGIN
 ***********************/
-$(function($){
-	var fixedPanel = $('.main-nav-fix');
-
-	$(window).on('scroll',function () {
-		checkFixedPanel()
+document.addEventListener('DOMContentLoaded',function () {
+	var casesSlider = new Swiper ('.cases-slider', {
+		direction: 'vertical',
+		slidesPerView: 5,
+		spaceBetween: 30,
+		grabCursor: true,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev'
+		}
 	});
 
-	checkFixedPanel();
+	var casesThumbs = document.querySelectorAll('.case-thumb');
+	var casesSlides = document.querySelectorAll('.case-thumb');
 
-	function checkFixedPanel() {
-		var topPanelHeight = $('.s-top-panel').outerHeight();
-		if (window.pageYOffset > topPanelHeight){
-			fixedPanel.addClass('fixed compensate-for-scrollbar');
-		} else {
-			fixedPanel.removeClass('fixed compensate-for-scrollbar');
+	for (var i = 0; i < casesThumbs.length; ++i) {
+		casesThumbs[i].index = i;
+		casesThumbs[i].addEventListener("click", function () {
+			selectCase(this.index)
+		});
+	}
+
+	function selectCase(index) {
+		for (var i = 0; i < casesThumbs.length; ++i) {
+			casesThumbs[i].classList.remove('active');
 		}
+		casesThumbs[index].classList.add('active');
 	}
 });
 /***********************
-Fixed panel END
+Cases slider END
+***********************/
+
+
+/***********************
+Prizes slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var prizesSlider = new Swiper ('.prizes-slider', {
+		slidesPerView: 'auto',
+		grabCursor: true,
+		centeredSlides: true,
+		roundLengths: true,
+		initialSlide: 3,
+		loop: true,
+		loopedSlides: 7
+	});
+});
+/***********************
+Prizes slider END
 ***********************/

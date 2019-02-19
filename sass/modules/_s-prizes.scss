@@ -1,0 +1,106 @@
+.s-prizes{
+	overflow: hidden;
+}
+
+.prizes-slider{
+	overflow: visible;
+
+	.swiper-slide{
+		width: 230px;
+		height: initial;
+		margin: 0 15px;
+	}
+}
+
+.prize-block{
+	position: relative;
+	text-align: center;
+	padding: 12px;
+	height: 100%;
+
+	&:hover{
+		&:before{
+			opacity: 1;
+		}
+		.prize-block__header img{
+			&:first-child{
+				opacity: 0;
+			}
+			&:last-child{
+				opacity: 1;
+			}
+		}
+		.prize-block__descr{
+			opacity: 1;
+		}
+	}
+
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+		background: #FFF;
+		border-radius: 10px;
+		box-shadow: $shadow-block-big;
+		opacity: 0;
+		@include res(l){
+			opacity: 1;
+		}
+	}
+}
+
+.prize-block__header{
+	position: relative;
+	z-index: 2;
+	height: 180px;
+	margin-bottom: 10px;
+	@include res(l){
+		height: 90px;
+	}
+
+	img{
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		max-height: 100%;
+		max-width: 100%;
+		width: auto;
+		@include res(l){
+			opacity: 0;
+		}
+
+		&:last-child{
+			opacity: 0;
+			@include res(l){
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.prize-block__name{
+	position: relative;
+	z-index: 2;
+	font-size: 18px;
+	line-height: 1.2;
+	margin-bottom: 6px;
+}
+
+.prize-block__descr{
+	position: relative;
+	z-index: 2;
+	font-size: 14px;
+	line-height: 1.3;
+	color: $gray-text;
+	opacity: 0;
+	@include res(l){
+		opacity: 1;
+	}
+}

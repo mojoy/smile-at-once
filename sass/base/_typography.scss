@@ -9,7 +9,6 @@ body{
 
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
 	font-family: $font;
-	color: $black;
 	font-weight: 300;
 }
 
@@ -21,6 +20,24 @@ a {
 h1,.h1{
 	font-size: 55px;
 	line-height: 1.1;
+	@include res(xl){
+		font-size: 48px;
+	}
+	@include res(l){
+		font-size: 36px;
+	}
+	@include res(s){
+		font-size: 32px;
+	}
+}
+
+
+h3,.h3{
+	font-size: 24px;
+	line-height: 1.2;
+	@include res(l){
+		font-size: 20px;
+	}
 }
 
 .link-border{
@@ -31,6 +48,18 @@ h1,.h1{
 	&:hover{
 		color: $green;
 		border-color: $green;
+	}
+}
+
+.link-arrow{
+	display: inline-flex;
+	align-items: center;
+	color: $pink;
+	transition: all 0.3s ease;
+
+	.i{
+		font-size: 0.7em;
+		margin-left: 5px;
 	}
 }
 
@@ -52,4 +81,9 @@ h1,.h1{
 	&:hover{
 		color: $green;
 		border-color: $green	}
+}
+
+.sec-title{
+	text-align: center;
+	margin-bottom: 25px;
 }
