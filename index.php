@@ -232,6 +232,52 @@
 </section>
 
 
+<section class="s-regions s-def">
+	<div class="container">
+		<div class="h1 sec-title">Помогаем восстановить зубы пациентам со&nbsp;всей&nbsp;России и&nbsp;других стран</div>
+		<div class="sec-title-descr">Мы предлагаем максимально комфортные условия прохождения лечения в&nbsp;Москве в&nbsp;клинике «Smile-at-Once»</div>
+
+		<div class="regions-steps">
+			<div class="regions-step">
+				<div class="regions-step__bg">
+					<img src="/img/home/region-step-1.png" alt="1">
+				</div>
+				<strong>01</strong>
+				<div class="regions-step__descr">Дистанционная <br>консультация врача <br>онлайн</div>
+			</div>
+			<div class="regions-step">
+				<div class="regions-step__bg">
+					<img src="/img/home/region-step-2.png" alt="1">
+				</div>
+				<strong>02</strong>
+				<div class="regions-step__descr">Организация <br>приезда и <br>размещения</div>
+			</div>
+			<div class="regions-step">
+				<div class="regions-step__bg">
+					<img src="/img/home/region-step-3.png" alt="1">
+				</div>
+				<strong>03</strong>
+				<div class="regions-step__descr">Восстановление <br>зубов за 1-3 дня</div>
+			</div>
+			<div class="regions-step">
+				<div class="regions-step__bg">
+					<img src="/img/home/region-step-4.png" alt="1">
+				</div>
+				<strong>04</strong>
+				<div class="regions-step__descr">Забота и уход <br>во время лечения</div>
+			</div>
+			<div class="regions-step">
+				<div class="regions-step__bg">
+					<img src="/img/home/region-step-5.png" alt="1">
+				</div>
+				<strong>05</strong>
+				<div class="regions-step__descr">Проводы <br>домой и поддержка <br>после</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="pb">
 	<div class="container">
 		<h1>Hello from the other side</h1>
