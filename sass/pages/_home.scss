@@ -211,6 +211,9 @@
 	min-height: 996px;
 	background-size: cover;
 	overflow: hidden;
+	@include res(xl){
+		min-height: 880px;
+	}
 	@include res(l){
 		min-height: initial;
 		background: none;
@@ -387,3 +390,269 @@
 	}
 }
 //s-regions
+
+
+//s-popular-services
+.s-popular-services{
+
+}
+
+.popular-block-wrap{
+	margin-bottom: 30px;
+	display: flex;
+	align-items: stretch;
+	@include res(xs){
+		margin-bottom: 10px;
+	}
+}
+
+.popular-block{
+	display: block;
+	width: 100%;
+	background: #FFF;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+	padding: 25px 25px 10px 25px;
+	min-height: 150px;
+	@include res(l){
+		padding: 15px;
+		min-height: 110px;
+	}
+
+	&:hover{
+		box-shadow: $shadow-block-big;
+	}
+
+	.h3{
+		margin-bottom: 15px;
+		//word-wrap: break-word;
+		@include res(s){
+			font-size: 14px;
+		}
+	}
+}
+//s-popular-services
+
+
+//s-facts
+.s-facts{
+	overflow: hidden;
+	background: url("../img/home/facts-bg.jpg") center bottom no-repeat;
+	background-size: cover;
+	@include res(l){
+		background-size: 100% auto;
+	}
+}
+
+.facts-rombs{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	@include res(l){
+		flex-wrap: wrap;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+}
+
+.fact-romb{
+	position: relative;
+	width: 210px;
+	flex-shrink: 0;
+	height: 210px;
+	text-align: center;
+	padding-top: 40px;
+	margin: 0 -25px;
+	@include res(xl){
+		width: 180px;
+		height: 180px;
+	}
+	@include res(l){
+		width: calc(50% - 15px);
+		height: auto;
+		padding: 25px 20px;
+		margin: 0 15px 15px 0;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	@include res(xs){
+		width: 100%;
+		margin: 0 0 15px 0;
+	}
+
+	&:before{
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background: $bg-color;
+		border-radius: 20px;
+		box-shadow: $shadow-block;
+		transform: rotate(45deg);
+		@include res(l){
+			transform: none;
+		}
+	}
+
+	&:after{
+		content: '';
+		position: absolute;
+		z-index: 2;
+		top: 10px;
+		right: 10px;
+		bottom: 10px;
+		left: 10px;
+		border: 1px solid $green;
+		border-radius: 15px;
+		transform: rotate(45deg);
+		@include res(l){
+			transform: none;
+		}
+	}
+
+	&>*{
+		position: relative;
+		z-index: 3;
+	}
+
+	strong{
+		display: block;
+		color: $green;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 1;
+		margin-bottom: 10px;
+		@include res(xl){
+			font-size: 30px;
+		}
+
+		&:before{
+			content: '';
+			width: 8px;
+			height: 8px;
+			background: $green;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: -30px;
+			margin: 0 auto;
+			transform: rotate(45deg);
+			@include res(l){
+				display: none;
+			}
+		}
+	}
+
+	span{
+		display: block;
+		font-size: 16px;
+		line-height: 1.4;
+		@include res(xl){
+			font-size: 14px;
+		}
+
+		br{
+			@include res(l){
+				display: none;
+			}
+		}
+	}
+
+	&:nth-child(2n-1){
+		margin-top: 160px;
+		@include res(l){
+			margin-top: 0;
+		}
+	}
+}
+
+.fact-panel-wrap{
+	margin-bottom: 30px;
+	display: flex;
+	align-items: stretch;
+	@include res(xs){
+		margin-bottom: 10px;
+	}
+}
+
+.fact-panel{
+	display: block;
+	width: 100%;
+	background: #FFF;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+	padding: 25px 25px 10px 25px;
+	min-height: 150px;
+	@include res(l){
+		padding: 15px;
+		min-height: 110px;
+	}
+
+	header{
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-start;
+		height: 50px;
+		margin-bottom: 10px;
+	}
+}
+
+.facts-panel__title{
+	font-size: 18px;
+	line-height: 1.2;
+	@include res(s){
+		font-size: 14px;
+	}
+}
+//s-facts
+
+
+//s-home-blog
+.s-home-blog{
+	padding: 80px 0;
+	@include res(l){
+		padding: 40px 0;
+	}
+
+	.intro-list{
+		@include res(m){
+			max-width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.home-blog__title{
+	display: inline-block;
+	transition: color 0.3s ease;
+	margin-bottom: 30px;
+	@include res(m){
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	&:hover{
+		color: $pink;
+	}
+}
+
+.intro-list{
+	.intro{
+		margin-bottom: 35px;
+	}
+}
+//s-home-blog
+
+//subscribe-block
+.subscribe-block{
+
+}
+//subscribe-block

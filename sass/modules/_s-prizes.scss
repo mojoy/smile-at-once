@@ -9,6 +9,9 @@
 		width: 230px;
 		height: initial;
 		margin: 0 15px;
+		@include res(xs){
+			margin: 0 5px
+		}
 	}
 }
 
@@ -49,6 +52,7 @@
 		opacity: 0;
 		@include res(l){
 			opacity: 1;
+			box-shadow: $shadow-block;
 		}
 	}
 }

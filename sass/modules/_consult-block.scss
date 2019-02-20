@@ -1,0 +1,109 @@
+.consult-block{
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+	display: flex;
+	box-shadow: $shadow-block-big;
+	background: linear-gradient(to right, #39e3ec, #279da3);
+	color: #FFF;
+	padding-right: 40px;
+	@include res(l){
+		padding-right: 20px;
+	}
+	@include res(m){
+		background: linear-gradient(to right, #34ced6, #279da3);
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 20px;
+	}
+
+	&:before{
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		background: url("../img/home/consult-squares.png") right center no-repeat;
+		pointer-events: none;
+		z-index: 0;
+	}
+}
+
+.consult-block__img{
+	position: relative;
+	z-index: 2;
+	align-self: flex-end;
+	width: 30%;
+	flex-shrink: 0;
+	text-align: center;
+	@include res(m){
+		display: none;
+	}
+
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.consult-block__center{
+	position: relative;
+	z-index: 2;
+	padding: 20px;
+	width: 500px;
+	flex-shrink: 1;
+	@include res(m){
+		width: 100%;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+
+	.h2{
+		margin-bottom: 0.3em;
+	}
+}
+
+.consult-block__descr{
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-bottom: 20px;
+	@include res(l){
+		font-size: 18px;
+	}
+}
+
+.consult-block__btn{
+	flex-shrink: 0;
+	position: relative;
+	z-index: 2;
+	margin-left: auto;
+	align-self: center;
+	@include res(m){
+		align-self: flex-start;
+		margin-left: initial;
+	}
+}
+
+.consult-block__phone{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+
+	&:last-child{
+		margin-right: 0;
+	}
+
+	small{
+		display: block;
+		color: $black;
+		font-size: 18px;
+	}
+
+	a{
+		font-weight: bold;
+		font-size: 24px;
+		white-space: nowrap;
+	}
+}

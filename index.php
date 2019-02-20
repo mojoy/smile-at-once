@@ -278,51 +278,305 @@
 </section>
 
 
-<section class="pb">
+<section class="s-popular-services s-def-bottom">
 	<div class="container">
-		<h1>Hello from the other side</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h2>Hello from the other side</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h3>Hello from the other side</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h4>Hello from the other side</h4>
-		<ul>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ul>
-		<h5>Hello from the other side</h5>
-		<ol>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ol>
-		<ul>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ul>
-		<h5>Hello from the other side</h5>
-		<ol>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ol>
+		<div class="h1 sec-title">Популярные услуги</div>
+		<div class="row">
+			<div class="grid-3 grid-6_m popular-block-wrap">
+				<a href="#" class="popular-block">
+					<div class="h3">Протезирование</div>
+					<img src="/img/home/pop-service-1.svg" alt="1">
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m popular-block-wrap">
+				<a href="#" class="popular-block">
+					<div class="h3">Имплантация</div>
+					<img src="/img/home/pop-service-2.svg" alt="1">
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m popular-block-wrap">
+				<a href="#" class="popular-block">
+					<div class="h3">Исправление прикуса</div>
+					<img src="/img/home/pop-service-3.svg" alt="1">
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m popular-block-wrap">
+				<a href="#" class="popular-block">
+					<div class="h3">Эстетичская стоматология</div>
+					<img src="/img/home/pop-service-4.svg" alt="1">
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m popular-block-wrap">
+				<a href="#" class="popular-block">
+					<div class="h3">Лечение зубов</div>
+					<img src="/img/home/pop-service-5.svg" alt="1">
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m popular-block-wrap">
+				<a href="#" class="popular-block">
+					<div class="h3">Профессиональная чистка</div>
+					<img src="/img/home/pop-service-6.svg" alt="1">
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m popular-block-wrap">
+				<a href="#" class="popular-block">
+					<div class="h3">Имплантация</div>
+					<img src="/img/home/pop-service-2.svg" alt="1">
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m popular-block-wrap">
+				<a href="#" class="popular-block">
+					<div class="h3">Протезирование</div>
+					<img src="/img/home/pop-service-1.svg" alt="1">
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
 
 
+<section class="s-def">
+	<div class="container">
+		<div class="consult-block">
+			<div class="consult-block__img">
+				<img src="/img/home/consult-img-1.png" alt="1">
+			</div>
+			<div class="consult-block__center">
+				<div class="h2">Задайте вопрос!</div>
+				<div class="consult-block__descr">Дадим грамотную консультацию и&nbsp;поможем определиться с&nbsp;лечением</div>
+				<div class="consult-block__phone">
+					<small>Для регионов</small>
+					<a href="tel:8 800 333-46-28">8 800 333-46-28</a>
+				</div>
+				<div class="consult-block__phone">
+					<small>Для Москвы и МО</small>
+					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
+				</div>
+			</div>
+			<button class="btn consult-block__btn">Консультация врача</button>
+		</div>
+	</div>
+</section>
 
 
+<section class="s-facts s-def">
+	<div class="container">
+		<div class="h1 sec-title">Smile-at-once – лучшая стоматология 2018</div>
+		<div class="facts-rombs">
+			<div class="fact-romb">
+				<strong>5 – 7</strong>
+				<span>операций по <br>имплантации каждый <br>день</span>
+			</div>
+			<div class="fact-romb">
+				<strong>12 000+</strong>
+				<span>пациентам наши врачи <br>восстановили зубы <br>за последние <br>10 лет</span>
+			</div>
+			<div class="fact-romb">
+				<strong>5 000+</strong>
+				<span>операций полного <br>восстановления зубов <br>за 2017-2018 <br>годы</span>
+			</div>
+			<div class="fact-romb">
+				<strong>94%</strong>
+				<span>случаев без осложнений, <br>в остальных – проведена <br> переделка по <br>гарантии</span>
+			</div>
+			<div class="fact-romb">
+				<strong>5</strong>
+				<span>социальных мероприятий. <br>помогли людям, которые <br>не могут позволить <br>лечение</span>
+			</div>
+			<div class="fact-romb">
+				<strong>75%</strong>
+				<span>пациентов приходят к нам <br>по рекомендации</span>
+			</div>
+			<div class="fact-romb">
+				<strong>100%</strong>
+				<span>качество и сервис; <br>пожизненная гарантия <br>на имплантацию <br>зубов</span>
+			</div>
+		</div>
+		<div class="facts-panels row">
+			<div class="grid-3 grid-6_m fact-panel-wrap">
+				<div class="fact-panel">
+					<header>
+						<img src="/img/home/fact-1.svg" alt="1">
+					</header>
+					<div class="facts-panel__title">3D диагностика и планирование операций</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m fact-panel-wrap">
+				<div class="fact-panel">
+					<header>
+						<img src="/img/home/fact-2.svg" alt="1">
+					</header>
+					<div class="facts-panel__title">Новые зубы буквально сразу после имплантации</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m fact-panel-wrap">
+				<div class="fact-panel">
+					<header>
+						<img src="/img/home/pop-service-4.svg" alt="1">
+					</header>
+					<div class="facts-panel__title">Отличная эстетика улыбки</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m fact-panel-wrap">
+				<div class="fact-panel">
+					<header>
+						<img src="/img/home/fact-4.svg" alt="1">
+					</header>
+					<div class="facts-panel__title">Без синус-лифтингаи наращивание костной ткани</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m fact-panel-wrap">
+				<div class="fact-panel">
+					<header>
+						<img src="/img/home/fact-5.svg" alt="1">
+					</header>
+					<div class="facts-panel__title">Безошибочное хирургическое вмешательство</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m fact-panel-wrap">
+				<div class="fact-panel">
+					<header>
+						<img src="/img/home/fact-6.svg" alt="1">
+					</header>
+					<div class="facts-panel__title">Применяем лучшие бренды имплантов и материалов</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m fact-panel-wrap">
+				<div class="fact-panel">
+					<header>
+						<img src="/img/home/fact-7.svg" alt="1">
+					</header>
+					<div class="facts-panel__title">Эффективная борьба против осложнений</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m fact-panel-wrap">
+				<div class="fact-panel">
+					<header>
+						<img src="/img/home/fact-8.svg" alt="1">
+					</header>
+					<div class="facts-panel__title">Забота после и пожизненная гарантия на работу</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-		<a href="#" class="fancy-modal btn" data-src="#modal-order">Открыть order</a>
-		<a href="#" class="fancy-modal btn" data-src="#modal-order">Открыть order</a>
-		<a href="img/img.png" class="fancy btn" data-fancybox="1">Открыть img</a>
-		<a href="img/img.png" class="fancy btn" data-fancybox="1">Открыть img</a>
-		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video btn">Открыть youtube</a>
-		<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map btn">схема проезда</a>
 
+<section class="s-home-blog">
+	<div class="container">
+		<div class="row home-blog">
+
+			<div class="grid-4 grid-12_m">
+				<a href="#" class="h2 home-blog__title">Вебинары</a>
+				<div class="intro-list">
+					<div class="intro">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="intro__header intro__header--video fancy-video">
+							<img src="/img/home/intro-1.jpg" alt="1" class="intro__img">
+							<span class="play-btn"></span>
+						</a>
+						<main class="intro__main">
+							<a href="#" class="h3 intro__title">Как выбрать стоматологическую клинику?</a>
+						</main>
+						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
+					</div>
+					<div class="intro">
+						<header class="intro__header">
+							<a href="#"><img src="/img/home/intro-2.jpg" alt="1" class="intro__img"></a>
+						</header>
+						<main class="intro__main">
+							<a href="#" class="h3 intro__title">Как выбрать правильно выбрать своего врача?</a>
+						</main>
+						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-4 grid-12_m">
+				<a href="#" class="h2 home-blog__title">Статьи</a>
+				<div class="intro-list">
+					<div class="intro">
+						<header class="intro__header">
+							<a href="#"><img src="/img/home/intro-4.jpg" alt="1" class="intro__img"></a>
+						</header>
+						<main class="intro__main">
+							<a href="#" class="h3 intro__title">Секрет улыбки после 65+</a>
+							<div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div>
+						</main>
+						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
+					</div>
+					<div class="intro">
+						<header class="intro__header">
+							<a href="#"><img src="/img/home/intro-4.jpg" alt="1" class="intro__img"></a>
+						</header>
+						<main class="intro__main">
+							<a href="#" class="h3 intro__title">Секрет улыбки после 65+</a>
+							<div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div>
+						</main>
+						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-4 grid-12_m">
+				<a href="#" class="h2 home-blog__title">Новости</a>
+				<div class="intro-list">
+					<div class="intro">
+						<header class="intro__header">
+							<a href="#"><img src="/img/home/intro-3.jpg" alt="1" class="intro__img"></a>
+						</header>
+						<main class="intro__main">
+							<a href="#" class="h3 intro__title">Открыли новую клинику</a>
+							<div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div>
+						</main>
+						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
+					</div>
+					<div class="intro">
+						<header class="intro__header">
+							<a href="#"><img src="/img/home/intro-3.jpg" alt="2" class="intro__img"></a>
+						</header>
+						<main class="intro__main">
+							<a href="#" class="h3 intro__title">Открыли новую клинику</a>
+							<div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div>
+						</main>
+						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<section class="s-subscribe s-def">
+	<div class="container">
+		<div class="subscribe-block">
+
+		</div>
+	</div>
+</section>
+
+
+<section class="s-def">
+	<div class="container">
+		<div class="consult-block">
+			<div class="consult-block__img">
+				<img src="/img/home/consult-img-2.png" alt="2">
+			</div>
+			<div class="consult-block__center">
+				<div class="h2">Есть противопоказания?</div>
+				<div class="consult-block__descr">Обязательно советуйтесь с&nbsp;врачом!</div>
+				<div class="consult-block__phone">
+					<small>Для регионов</small>
+					<a href="tel:8 800 333-46-28">8 800 333-46-28</a>
+				</div>
+				<div class="consult-block__phone">
+					<small>Для Москвы и МО</small>
+					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
+				</div>
+			</div>
+			<button class="btn consult-block__btn">Консультация врача</button>
+		</div>
 	</div>
 </section>
 
