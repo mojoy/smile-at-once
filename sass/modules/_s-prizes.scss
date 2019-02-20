@@ -6,6 +6,7 @@
 	overflow: visible;
 
 	.swiper-slide{
+		display: flex;
 		width: 230px;
 		height: initial;
 		margin: 0 15px;
@@ -19,7 +20,7 @@
 	position: relative;
 	text-align: center;
 	padding: 12px;
-	height: 100%;
+	//height: 100%;
 
 	&:hover{
 		&:before{

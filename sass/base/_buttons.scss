@@ -2,7 +2,7 @@
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
-	padding: 14px 30px;
+	padding: 16px 30px;
 	font-family: $font;
 	line-height: 1.3;
 	text-decoration: none;
@@ -27,15 +27,18 @@
 	}
 
 	&:focus {
+		background: linear-gradient(to bottom, #f85e76, #cc0147);
 		outline: none;
 	}
 
 	&:hover{
+		background: linear-gradient(to bottom, #f85e76, #cc0147);
 		box-shadow:  0 5px 0 0 #b0244a;
 		transform: translate3d(0,-2px,0);
 	}
 
 	&:active{
+		background: linear-gradient(to bottom, #f85e76, #cc0147);
 		box-shadow:  0 1px 0 0 #b0244a;
 		transform: translate3d(0,2px,0);
 	}

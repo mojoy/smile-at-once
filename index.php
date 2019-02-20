@@ -551,7 +551,83 @@
 <section class="s-subscribe s-def">
 	<div class="container">
 		<div class="subscribe-block">
+			<div class="subscribe-block__shout">Подпишитесь на&nbsp;полезную рассылку</div>
+			<!--Инпутам можно проставлять класс .danger при ошибке-->
+			<form action="#" class="subscribe-block__form">
+				<div class="subscribe-block__row">
+					<input type="email" class="input-text" placeholder="Введите e-mail">
+					<button type="submit" class="btn">Подписаться</button>
+				</div>
+				<label class="style-check-ios">
+					<input type="checkbox" name="xxx" value="yes" checked="">
+					<span>Соглашаюсь на обработку персональных данных и&nbsp;с&nbsp;условиями политики конфиденциальности</span>
+				</label>
+			</form>
+		</div>
+	</div>
+</section>
 
+
+<section class="s-ratings s-def">
+	<div class="container">
+		<div class="h1 sec-title">Независимые рейтинги</div>
+		<div class="sec-title-descr">Хотите получить максимально полную информацию о&nbsp;наших услугах и&nbsp;сервисе от&nbsp;пациентов? Изучите мнение о&nbsp;нас на&nbsp;независимых авторитетных интернет-ресурсах.</div>
+
+		<div class="ratings-row row">
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<div class="rating-block">
+					<header class="rating-block__header">
+						<img src="/img/home/rating-1.png" alt="1">
+					</header>
+					<main class="rating-block__num">4.9</main>
+					<footer class="rating-block__descr">из возможных 5</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<div class="rating-block">
+					<header class="rating-block__header">
+						<img src="/img/home/rating-2.png" alt="1">
+					</header>
+					<main class="rating-block__num">5</main>
+					<footer class="rating-block__descr">из возможных 5</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<div class="rating-block">
+					<header class="rating-block__header">
+						<img src="/img/home/rating-3.png" alt="1">
+					</header>
+					<main class="rating-block__num">5 <small>★</small></main>
+					<footer class="rating-block__descr">из возможных 5 звезд</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<div class="rating-block">
+					<header class="rating-block__header">
+						<img src="/img/home/rating-4.png" alt="1">
+					</header>
+					<main class="rating-block__num">4.9</main>
+					<footer class="rating-block__descr">из возможных 5</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<div class="rating-block">
+					<header class="rating-block__header">
+						<img src="/img/home/rating-5.png" alt="1">
+					</header>
+					<main class="rating-block__num">14+</main>
+					<footer class="rating-block__descr">отрицательных отзывов 0</footer>
+				</div>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<div class="rating-block">
+					<header class="rating-block__header">
+						<img src="/img/home/rating-6.png" alt="1">
+					</header>
+					<main class="rating-block__num">4.9</main>
+					<footer class="rating-block__descr">из возможных 5</footer>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

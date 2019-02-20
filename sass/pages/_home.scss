@@ -295,6 +295,18 @@
 		margin: 0 0 10px 0;
 	}
 
+	&:hover{
+		.regions-step__bg:before{
+			left: 5px;
+			top: 5px;
+			right: 5px;
+			bottom: 5px;
+		}
+		.regions-step__bg img{
+			transform: scale(1.05);
+		}
+	}
+
 	&:nth-child(2n){
 		margin-top: 205px;
 		@include res(l){
@@ -373,6 +385,7 @@
 		z-index: 2;
 		bottom: 0;
 		right: 0;
+		transition: all 1s ease;
 	}
 
 	&:before{
@@ -385,7 +398,7 @@
 		border: 1px solid $green;
 		border-radius: 15px;
 		z-index: 1;
-		transition: all 0.2s ease;
+		transition: all 0.25s ease;
 		pointer-events: none;
 	}
 }
@@ -482,6 +495,18 @@
 		margin: 0 0 15px 0;
 	}
 
+	&:hover{
+		&:after{
+			top: 5px;
+			right: 5px;
+			bottom: 5px;
+			left: 5px;
+		}
+		strong:before{
+			transform: rotate(-45deg);
+		}
+	}
+
 	&:before{
 		content: '';
 		width: 100%;
@@ -509,6 +534,7 @@
 		left: 10px;
 		border: 1px solid $green;
 		border-radius: 15px;
+		transition: all 0.25s ease;
 		transform: rotate(45deg);
 		@include res(l){
 			transform: none;
@@ -542,6 +568,7 @@
 			top: -30px;
 			margin: 0 auto;
 			transform: rotate(45deg);
+			transition: all 0.3s ease;
 			@include res(l){
 				display: none;
 			}
@@ -653,6 +680,190 @@
 
 //subscribe-block
 .subscribe-block{
+	display: flex;
+	align-items: center;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: $shadow-block-big;
+	padding: 50px;
+	transition: all 1s ease;
+	background: repeating-linear-gradient(
+			-45deg,
+			$bg-color,
+			$bg-color 20px,
+			#007db5 20px,
+			#007db5 40px,
+			$bg-color 40px,
+			$bg-color 60px,
+			#f04031 60px,
+			#f04031 80px
+	);
+	background-size: 100% 100%;
+	@include res(m){
+		flex-direction: column;
+		padding: 30px;
+	}
 
+	&:hover{
+		background-size: 110% 100%;
+	}
+
+	&:before{
+		content: '';
+		left: 10px;
+		top: 10px;
+		bottom: 10px;
+		right: 10px;
+		position: absolute;
+		z-index: 1;
+		background: $bg-color;
+		border-radius: 15px;
+	}
+
+	&>*{
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.subscribe-block__shout{
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 1.2;
+	width: 30%;
+	@include res(xl){
+		font-size: 30px;
+	}
+	@include res(m){
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	@include res(s){
+		font-size: 24px;
+	}
+}
+
+.subscribe-block__form{
+	width: 70%;
+	flex: 1 1 auto;
+	padding-left: 20px;
+	@include res(m){
+		width: 100%;
+		padding-left: 0;
+	}
+}
+
+.subscribe-block__row{
+	display: flex;
+	align-items: stretch;
+	@include res(xs){
+		flex-direction: column;
+	}
+
+	.input-text{
+		flex-shrink: 1;
+	}
+
+	.btn{
+		flex-shrink: 0;
+		margin-left: 30px;
+		@include res(m){
+			margin-left: 15px;
+		}
+		@include res(xs){
+			margin-left: 0;
+			margin-top: 10px;
+		}
+	}
 }
 //subscribe-block
+
+
+//s-ratings
+.s-ratings{
+	background: url("../img/home/ratings-bg.jpg") center top no-repeat;
+}
+
+.ratings-row{
+	padding-top: 40px;
+	@include res(xs){
+		padding-top: 20px;
+	}
+}
+
+.rating-block-wrapper{
+	display: flex;
+	align-items: stretch;
+	@include res(l){
+		margin-bottom: 30px;
+	}
+	@include res(xs){
+		margin-bottom: 15px;
+	}
+}
+
+.rating-block{
+	width: 100%;
+	background: #FFF;
+	box-shadow: $shadow-block;
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px 5px 25px 5px;
+	@include res(xs){
+		padding: 0 5px 10px 5px;
+	}
+}
+
+.rating-block__header{
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 10px;
+
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.rating-block__num{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	color: $green;
+	font-size: 48px;
+	line-height: 1;
+	width: 80px;
+	height: 80px;
+	margin: 20px auto;
+	@include res(xs){
+		width: 60px;
+		height: 60px;
+		font-size: 32px;
+	}
+
+	&:before{
+		content: '';
+		border: 1px solid $green;
+		border-radius: 10px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		transform: rotate(45deg);
+	}
+
+	small{
+		font-size: 50%;
+	}
+}
+
+.rating-block__descr{
+	color: #9ab5ca;
+	line-height: 1.2;
+}
+//s-ratings
