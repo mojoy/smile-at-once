@@ -220,7 +220,8 @@ document.addEventListener('DOMContentLoaded',function () {
 		centeredSlides: true,
 		loop: true,
 		threshold: 5,
-		initialSlide: 1
+		initialSlide: 1,
+		grabCursor: true
 	});
 
 	teamThumbs.controller.control = teamSlider;
