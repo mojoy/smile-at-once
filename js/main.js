@@ -180,3 +180,52 @@ document.addEventListener('DOMContentLoaded',function () {
 /***********************
 Prizes slider END
 ***********************/
+
+
+/***********************
+Photo line slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var photoLineSlider = new Swiper ('.photo-line-slider', {
+		slidesPerView: 'auto',
+		roundLengths: true,
+		loop: true,
+		loopedSlides: 12
+	});
+});
+/***********************
+Photo line slider END
+***********************/
+
+
+/***********************
+Team BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var teamThumbs = new Swiper ('.team-thumbs', {
+		slidesPerView: 'auto',
+		centeredSlides: true,
+		loop: true,
+		slideToClickedSlide: true,
+		initialSlide: 1,
+		navigation: {
+			nextEl: '.slider-arrow--next',
+			prevEl: '.slider-arrow--prev',
+		},
+		threshold: 5
+	});
+
+	var teamSlider = new Swiper ('.team-slider', {
+		slidesPerView: 'auto',
+		centeredSlides: true,
+		loop: true,
+		threshold: 5,
+		initialSlide: 1
+	});
+
+	teamThumbs.controller.control = teamSlider;
+	teamSlider.controller.control = teamThumbs;
+});
+/***********************
+Team END
+***********************/

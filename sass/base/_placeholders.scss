@@ -1,0 +1,11 @@
+%border-green{
+	content: '';
+	position: absolute;
+	pointer-events: none;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	border: 1px solid $green;
+	border-radius: 15px;
+}

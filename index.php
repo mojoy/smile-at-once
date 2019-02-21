@@ -78,7 +78,7 @@
 					<div class="case-slide__right">
 						<blockquote class="case-slide__cite">—  Не мог есть нормально еду. Был случай, когда кусочки пищи вывалились из рта прямо в гостях Это было ужасно!</blockquote>
 						<div class="case-slide__name">Бытаев В.А., 60 лет</div>
-						<a href="#" class="btn">Фотоотчет и видео отзыв</a>
+						<a href="#" class="button">Фотоотчет и видео отзыв</a>
 						<div class="case-slide__before">
 							<img src="/img/cases/case-1-before.jpg" alt="1">
 						</div>
@@ -232,6 +232,169 @@
 </section>
 
 
+<section class="s-team s-def-top">
+	<div class="container">
+		<div class="h1 sec-title">Команда специалистов высокой квалификации</div>
+
+		<div class="swiper-container team-thumbs">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/2.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/3.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/4.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/1.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/5.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/6.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/7.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/8.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/9.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/10.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/11.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/12.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/13.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/14.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/15.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/16.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/17.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/18.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/19.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-thumbs__item">
+					<img src="/img/team/20.jpg" alt="1">
+				</div>
+			</div>
+			<div class="team-thumbs__nav">
+				<div class="slider-arrow slider-arrow--prev">
+					<span class="i i-left"></span>
+				</div>
+				<div class="slider-arrow slider-arrow--next">
+					<span class="i i-right"></span>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="swiper-container team-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/2.jpg" alt="1">
+					<div class="team-info">
+						<div class="team-info__name">Чорный Станислав</div>
+						<div class="team-info__descr">Специализация:<br>Стоматолог-ортопед</div>
+						<div class="team-info__xp">Опыт: <strong>16+</strong></div>
+					</div>
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/3.jpg" alt="1">
+					<div class="team-info">
+						<div class="team-info__name">Беспалов Роман</div>
+						<div class="team-info__descr">Специализация:<br>Челюстно-лицевой хирург, имплантолог</div>
+						<div class="team-info__xp">Опыт: <strong>22+</strong></div>
+					</div>
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/4.jpg" alt="1">
+					<div class="team-info">
+						<div class="team-info__name">Путь Владимир</div>
+						<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+						<div class="team-info__xp">Опыт: <strong>27+</strong></div>
+					</div>
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/1.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/5.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/6.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/7.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/8.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/9.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/10.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/11.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/12.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/13.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/14.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/15.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/16.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/17.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/18.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/19.jpg" alt="1">
+				</div>
+				<div class="swiper-slide team-slider__item">
+					<img src="/img/team/20.jpg" alt="1">
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</section>
+
+
 <section class="s-regions s-def">
 	<div class="container">
 		<div class="h1 sec-title">Помогаем восстановить зубы пациентам со&nbsp;всей&nbsp;России и&nbsp;других стран</div>
@@ -353,7 +516,7 @@
 					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
 				</div>
 			</div>
-			<button class="btn consult-block__btn">Консультация врача</button>
+			<button class="button consult-block__btn">Консультация врача</button>
 		</div>
 	</div>
 </section>
@@ -556,7 +719,7 @@
 			<form action="#" class="subscribe-block__form">
 				<div class="subscribe-block__row">
 					<input type="email" class="input-text" placeholder="Введите e-mail">
-					<button type="submit" class="btn">Подписаться</button>
+					<button type="submit" class="button">Подписаться</button>
 				</div>
 				<label class="style-check-ios">
 					<input type="checkbox" name="xxx" value="yes" checked="">
@@ -633,6 +796,130 @@
 </section>
 
 
+<section class="s-smi s-def">
+	<div class="container">
+		<div class="h1 sec-title">О нас пишут</div>
+
+		<div class="smi-row">
+			<a href="#" class="smi-row__item">
+				<img src="/img/home/smi-1.png" alt="1">
+			</a>
+			<a href="#" class="smi-row__item">
+				<img src="/img/home/smi-2.png" alt="1">
+			</a>
+			<a href="#" class="smi-row__item">
+				<img src="/img/home/smi-3.png" alt="1">
+			</a>
+			<a href="#" class="smi-row__item">
+				<img src="/img/home/smi-4.png" alt="1">
+			</a>
+			<a href="#" class="smi-row__item">
+				<img src="/img/home/smi-1.png" alt="1">
+			</a>
+			<a href="#" class="smi-row__item">
+				<img src="/img/home/smi-2.png" alt="1">
+			</a>
+			<a href="#" class="smi-row__item">
+				<img src="/img/home/smi-3.png" alt="1">
+			</a>
+			<a href="#" class="smi-row__item">
+				<img src="/img/home/smi-4.png" alt="1">
+			</a>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-about s-def">
+	<div class="container">
+		<div class="about-content">
+			<div class="h1">О клинике</div>
+			<div class="about-content__descr">Мы – единственная стоматологическая клиника в Российской Федерации, предлагающая уникальный пакет стоматологических услуг по вопросу комплексного восстановления зубов без привязки к одному производителю имплантов и практикующая лучшие разработки в этой области.</div>
+			<a href="#" class="button button--outline">Подробнее</a>
+			<a href="#" class="link-simple">Адреса клиник</a>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-comfort s-def">
+	<div class="container">
+		<div class="comfort-block">
+			<div class="row">
+				<div class="comfort-item">
+					<div class="comfort-item__icon">
+						<img src="/img/home/comfort-1.svg" alt="1">
+					</div>
+					<span class="comfort-item__text">Бесплатная<br>парковка</span>
+				</div>
+				<div class="comfort-item">
+					<div class="comfort-item__icon">
+						<img src="/img/home/comfort-2.svg" alt="1">
+					</div>
+					<span class="comfort-item__text">Бесплатный<br>Wi-Fi</span>
+				</div>
+				<div class="comfort-item">
+					<div class="comfort-item__icon">
+						<img src="/img/home/comfort-3.svg" alt="1">
+					</div>
+					<span class="comfort-item__text">Рассрочка и&nbsp;кредиты на&nbsp;лечение</span>
+				</div>
+				<div class="comfort-item">
+					<div class="comfort-item__icon">
+						<img src="/img/home/comfort-4.svg" alt="1">
+					</div>
+					<span class="comfort-item__text">Все виды<br>оплаты</span>
+				</div>
+				<div class="comfort-item">
+					<div class="comfort-item__icon">
+						<img src="/img/home/comfort-5.svg" alt="1">
+					</div>
+					<span class="comfort-item__text">Зона отдыха и&nbsp;наблюдения после операции</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-photo-line">
+	<div class="swiper-container photo-line-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide photo-line-slider__slide">
+				<a href="/img/photo-line/1.jpg" class="fancy" data-fancybox="photoline">
+					<img src="/img/photo-line/1.jpg" alt="1">
+				</a>
+			</div>
+			<div class="swiper-slide photo-line-slider__slide">
+				<a href="/img/photo-line/2.jpg" class="fancy" data-fancybox="photoline">
+					<img src="/img/photo-line/2.jpg" alt="1">
+				</a>
+			</div>
+			<div class="swiper-slide photo-line-slider__slide">
+				<a href="/img/photo-line/3.jpg" class="fancy" data-fancybox="photoline">
+					<img src="/img/photo-line/3.jpg" alt="1">
+				</a>
+			</div>
+			<div class="swiper-slide photo-line-slider__slide">
+				<a href="/img/photo-line/4.jpg" class="fancy" data-fancybox="photoline">
+					<img src="/img/photo-line/4.jpg" alt="1">
+				</a>
+			</div>
+			<div class="swiper-slide photo-line-slider__slide">
+				<a href="/img/photo-line/5.jpg" class="fancy" data-fancybox="photoline">
+					<img src="/img/photo-line/5.jpg" alt="1">
+				</a>
+			</div>
+			<div class="swiper-slide photo-line-slider__slide">
+				<a href="/img/photo-line/6.jpg" class="fancy" data-fancybox="photoline">
+					<img src="/img/photo-line/6.jpg" alt="1">
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-def">
 	<div class="container">
 		<div class="consult-block">
@@ -651,7 +938,7 @@
 					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
 				</div>
 			</div>
-			<button class="btn consult-block__btn">Консультация врача</button>
+			<button class="button consult-block__btn">Консультация врача</button>
 		</div>
 	</div>
 </section>
