@@ -179,11 +179,11 @@
 	<div class="container">
 		<div class="footer">
 			<div class="row">
-				<div class="grid-2 grid-12_l footer__left">
+				<div class="grid-2 grid-4_l grid-12_m footer__left">
 					<a href="/">
 						<img src="/img/logo.svg" alt="Логотип" class="footer-logo">
 					</a>
-					<div class="copyright">© 2019 Стоматологическая клиника Smile-at-Once</div>
+					<div class="copyright">© 2019 Стоматологическая клиника <nobr>Smile-at-Once</nobr></div>
 					<div class="footer-metalinks">
 						<div><a href="#" class="link-border">Политика конфиденциальности</a></div>
 						<div><a href="#" class="link-dot">Карта сайта</a></div>
@@ -226,11 +226,11 @@
 						<li><a href="#">Новости</a></li>
 					</ul>
 				</div>
-				<div class="grid-2 grid-12_l footer__right">
+				<div class="grid-2 grid-6_l grid-12_m footer__right">
 					<div class="footer-cont">
 						<div>Для регионов</div>
 						<strong><a href="tel:8 800 333-46-28">8 800 333-46-28</a></strong>
-						<a href="#" class="link-dot" rel="nofollow">Заказать обратный звонок</a>
+						<a href="#" class="link-dot fancy-modal" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
 					</div>
 					<div class="footer-cont">
 						<div>Для Москвы и МО</div>
@@ -259,41 +259,40 @@
 <div class="modals-sec pb">
 
 	<div id="modal-callback" class="modal">
-		<p>Заказать обратный звонок</p>
-		<p>Оставьте заявку и наш администратор свяжется с&nbsp;Вами в течение 10 минут</p>
-		<form class="ajax-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
-			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
-			<input type="file" name="user_file" data-label="Файл">
-			<input type="hidden" value="Новая заявка" name="form_subject">
+		<header class="modal__header">
+			<p class="h3">Заказать обратный звонок</p>
+			<p>Оставьте заявку и&nbsp;наш&nbsp;администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
+		</header>
+		<form action="#" class="vertical-form">
+			<input type="text" name="user_name" placeholder="Введите имя" class="input-text">
+			<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text danger">
 			<button type="submit" class="button">Отправить</button>
-			<label class="style-check-ios">
-				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-				<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+			<label class="style-check-ios style-check-ios--small">
+				<input type="checkbox" name="user_policy" value="yes"checked="">
+				<span>Соглашаюсь на&nbsp;обработку персональных данных и&nbsp;с&nbsp;условиями политики конфиденциальности</span>
 			</label>
 		</form>
 	</div>
 
-	<div id="modal-order" class="modal">
-		<p>Оставить заявку</p>
-		<p>Оставьте заявку и наш администратор свяжется с&nbsp;Вами в течение 10 минут</p>
-		<form class="ajax-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="input-text" >
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="input-text" data-req="true">
-			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="input-text" data-req="true">
-			<input type="file" name="user_file" data-label="Файл">
-			<input type="hidden" value="Новая заявка" name="form_subject">
+	<div id="modal-consult" class="modal">
+		<header class="modal__header">
+			<p class="h3">Получить консультацию</p>
+			<p>Оставьте заявку и&nbsp;наш&nbsp;администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
+		</header>
+		<form action="#" class="vertical-form">
+			<input type="text" name="user_name" placeholder="Введите имя" class="input-text" >
+			<input type="email" name="user_email" placeholder="Введите e-mail" class="input-text">
+			<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text danger">
 			<button type="submit" class="button">Отправить</button>
-			<label class="style-check-ios">
-				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-				<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+			<label class="style-check-ios style-check-ios--small">
+				<input type="checkbox" name="user_policy" value="yes"checked="">
+				<span>Соглашаюсь на&nbsp;обработку персональных данных и&nbsp;с&nbsp;условиями политики конфиденциальности</span>
 			</label>
 		</form>
 	</div>
 
 	<div id="modal-thanks" class="modal">
-		<p>Спасибо за заявку!</p>
+		<p class="h2">Спасибо за&nbsp;заявку!</p>
 	</div>
 
 	<div id="modal-error" class="modal">
@@ -310,7 +309,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/assets.js" type="text/javascript" ></script>
-<script src="js/main.js" type="text/javascript" ></script>-->
+<script src="js/main.js" type="text/javascript" ></script>
 
 
 <script src="js/header_footer.js" type="text/javascript" ></script>

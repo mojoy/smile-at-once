@@ -66,8 +66,8 @@
 
 	&:hover{
 		img{
-			transform: translate3d(0,-5px,0);
-			box-shadow: 0 7px 15px 0 transparentize(#a6bfcf,0.4);;
+			//transform: translate3d(0,-5px,0);
+			//box-shadow: 0 7px 15px 0 transparentize(#a6bfcf,0.4);
 		}
 	}
 
@@ -77,28 +77,28 @@
 		display: block;
 		width: 100%;
 		height: auto;
-		transition: all 0.3s ease;
-		filter: grayscale(100%);
+		transform: translate3d(0,0,0);
+		//filter: grayscale(100%);
 	}
 
 	&.swiper-slide-active{
 		img{
-			filter: grayscale(0%);
+			//filter: grayscale(0%);
 		}
 	}
 	&.swiper-slide-prev{
 		img{
-			filter: grayscale(0%);
+			//filter: grayscale(0%);
 			@include res(xs){
-				filter: grayscale(100%);
+				//filter: grayscale(100%);
 			}
 		}
 	}
 	&.swiper-slide-next{
 		img{
-			filter: grayscale(0%);
+			//filter: grayscale(0%);
 			@include res(xs){
-				filter: grayscale(100%);
+				//filter: grayscale(100%);
 			}
 		}
 	}
@@ -109,6 +109,7 @@
 .team-slider{
 	overflow: visible;
 	user-select: none;
+	max-width: 1158px;
 }
 
 .team-slider__item{

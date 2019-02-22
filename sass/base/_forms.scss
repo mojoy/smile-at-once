@@ -15,6 +15,10 @@ label {
 	padding: 15px 25px;
 	overflow: visible;
 	margin: 0;
+	@include res(l){
+		font-size: 16px;
+		padding: 12px 20px;
+	}
 
 	&::placeholder {
 		font-size: 18px;
@@ -23,6 +27,9 @@ label {
 		font-style: italic;
 		opacity: 1;
 		transition: opacity 0.3s ease;
+		@include res(l){
+			font-size: 16px;
+		}
 	}
 
 	&:focus {
@@ -114,6 +121,11 @@ label {
 	font-size: 16px;
 	line-height: 1.2;
 	transform: translate3d(0, 0, 0);
+
+	&--small{
+		font-size: 12px;
+	}
+
 	input {
 		opacity: 0;
 		position: absolute;
@@ -173,13 +185,21 @@ label {
 	}
 
 	a {
-		color: #004dd8;
-		text-decoration: underline;
+		color: $pink;
 		transition: color 0.3s ease;
 
 		&:hover {
-			color: #fbac00;
+			color: $green;
 		}
 	}
 }
 //style-check-ios
+
+
+//vertical-form
+.vertical-form{
+	.input-text{
+		margin-bottom: 10px;
+	}
+}
+//vertical-form

@@ -11,14 +11,21 @@
 
 .footer__left{
 	@include res(l){
+		order: 2;
+		margin-top: 30px;
+	}
+	@include res(m){
 		order: 3;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 }
 .footer__right{
 	@include res(l){
+		order: 3;
+		margin-top: 30px;
+	}
+	@include res(m){
 		order: 2;
-		margin-top: 40px;
 	}
 	@include res(s){
 		margin-top: 20px;

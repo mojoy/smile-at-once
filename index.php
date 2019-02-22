@@ -516,7 +516,7 @@
 					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
 				</div>
 			</div>
-			<button class="button consult-block__btn">Консультация врача</button>
+			<button class="button consult-block__btn fancy-modal" data-src="#modal-consult">Консультация врача</button>
 		</div>
 	</div>
 </section>
@@ -715,14 +715,14 @@
 	<div class="container">
 		<div class="subscribe-block">
 			<div class="subscribe-block__shout">Подпишитесь на&nbsp;полезную рассылку</div>
-			<!--Инпутам можно проставлять класс .danger при ошибке-->
+			<!--Инпутам можно добавлять класс .danger при ошибке-->
 			<form action="#" class="subscribe-block__form">
 				<div class="subscribe-block__row">
 					<input type="email" class="input-text" placeholder="Введите e-mail">
 					<button type="submit" class="button">Подписаться</button>
 				</div>
 				<label class="style-check-ios">
-					<input type="checkbox" name="xxx" value="yes" checked="">
+					<input type="checkbox" name="user_policy" value="yes" checked="">
 					<span>Соглашаюсь на обработку персональных данных и&nbsp;с&nbsp;условиями политики конфиденциальности</span>
 				</label>
 			</form>
@@ -938,7 +938,7 @@
 					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
 				</div>
 			</div>
-			<button class="button consult-block__btn">Консультация врача</button>
+			<button class="button consult-block__btn fancy-modal" data-src="#modal-consult">Консультация врача</button>
 		</div>
 	</div>
 </section>

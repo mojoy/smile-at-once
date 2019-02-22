@@ -41,6 +41,14 @@ $(function () {
 $.fancybox.defaults.backFocus = false;
 $.fancybox.defaults.autoFocus = false;
 $.fancybox.defaults.lang = 'ru';
+$.fancybox.defaults.idleTime = 0;
+$.fancybox.defaults.infobar = false;
+$.fancybox.defaults.btnTpl.arrowLeft = '<button data-fancybox-prev class="fancybox-button fancybox-button--arrow_left" title="{{PREV}}">' +
+	'<span class="i i-left"></span>' +
+	"</button>";
+$.fancybox.defaults.btnTpl.arrowRight = '<button data-fancybox-next class="fancybox-button fancybox-button--arrow_right" title="{{NEXT}}">' +
+	'<span class="i i-right"></span>' +
+	"</button>";
 $.fancybox.defaults.i18n =
 	{
 		'ru': {
@@ -61,7 +69,6 @@ function init_fancy() {
 		baseClass: "pb"
 	});
 	$('.fancy-modal').fancybox({
-		selector: '',
 		touch: false,
 		baseClass: "pb"
 	});
