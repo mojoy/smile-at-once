@@ -61,7 +61,7 @@
 			<div class="top-panel__cont">
 				<div>Для регионов</div>
 				<strong><a href="tel:8 800 333-46-28">8 800 333-46-28</a></strong>
-				<a href="#" class="link-dot" rel="nofollow">Заказать обратный звонок</a>
+				<a href="#" class="link-dot fancy-modal" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
 			</div>
 			<div class="top-panel__cont">
 				<div>Для Москвы и МО</div>
@@ -90,6 +90,32 @@
 						<span class="i i-phone-plus"></span>
 						Обратная связь
 					</button>
+					<div class="main-nav-callback__panel">
+						<a href="#" class="callback-link fancy-modal" data-src="#modal-callback">
+							<div class="callback-link__icon">
+								<img src="/img/header/callback-2.svg" alt="2">
+							</div>
+							<span>Заказать обратный звонок</span>
+						</a>
+						<a href="https://smile-at-once.ru/otzivi_o_stomatologii/" class="callback-link">
+							<div class="callback-link__icon">
+								<img src="/img/header/callback-3.svg" alt="2">
+							</div>
+							<span>Отзыв о&nbsp;работе</span>
+						</a>
+						<a href="https://smile-at-once.ru/documents.html" class="callback-link">
+							<div class="callback-link__icon">
+								<img src="/img/header/callback-4.svg" alt="2">
+							</div>
+							<span>Написать директору</span>
+						</a>
+						<a href="https://smile-at-once.ru/calculator/" class="callback-link">
+							<div class="callback-link__icon">
+								<img src="/img/header/callback-5.svg" alt="2">
+							</div>
+							<span>Дистанционная консультация</span>
+						</a>
+					</div>
 				</div>
 			</nav>
 		</div>
@@ -595,11 +621,50 @@
 	<div class="mob-panel__contacts">
 		<strong><a href="tel:8 800 333-46-28">8 800 333-46-28</a></strong>
 		<strong><a href="tel:8 495 540-50-42">8 495 540-50-42</a></strong>
-		<a href="#" class="fancy-modal mob-panel__callback" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
+		<a href="#" class="mob-panel__callback fancy-modal" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
 		<div>Ежедневно с 10:00 до 21:00 </div>
 		<div class="top-panel__links">
 			<a href="#" class="top-panel__link"><span class="i i-shield"></span>О клинике</a>
 			<a href="#" class="top-panel__link"><span class="i i-pin"></span>Адреса клиник</a>
+		</div>
+	</div>
+
+	<div class="mob-panel__connect">
+		<button class="main-nav-callback__btn">
+			<span class="i i-phone-plus"></span>
+			Обратная связь
+		</button>
+		<div class="main-nav-callback__panel">
+			<a href="tel:8 800 333-46-28" class="callback-link">
+				<div class="callback-link__icon">
+					<img src="/img/header/callback-1.svg" alt="2">
+				</div>
+				<span>Позвонить</span>
+			</a>
+			<a href="#" class="callback-link fancy-modal" data-src="#modal-callback">
+				<div class="callback-link__icon">
+					<img src="/img/header/callback-2.svg" alt="2">
+				</div>
+				<span>Заказать обратный звонок</span>
+			</a>
+			<a href="https://smile-at-once.ru/otzivi_o_stomatologii/" class="callback-link">
+				<div class="callback-link__icon">
+					<img src="/img/header/callback-3.svg" alt="2">
+				</div>
+				<span>Отзыв о&nbsp;работе</span>
+			</a>
+			<a href="https://smile-at-once.ru/documents.html" class="callback-link">
+				<div class="callback-link__icon">
+					<img src="/img/header/callback-4.svg" alt="2">
+				</div>
+				<span>Написать директору</span>
+			</a>
+			<a href="https://smile-at-once.ru/calculator/" class="callback-link">
+				<div class="callback-link__icon">
+					<img src="/img/header/callback-5.svg" alt="2">
+				</div>
+				<span>Дистанционная консультация</span>
+			</a>
 		</div>
 	</div>
 

@@ -3542,6 +3542,7 @@
 }
 
 .pb .main-nav-callback {
+  position: relative;
   margin-left: auto;
 }
 
@@ -3595,6 +3596,85 @@
   top: 17px;
   right: 15px;
   transition: all 0.3s ease;
+}
+
+.pb .main-nav-callback__panel {
+  padding-top: 8px;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  background: #e3edf6;
+  box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5);
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  width: 250px;
+  transition: all 0.3s ease;
+  -webkit-transform: translate3d(0, -8px, 0);
+  transform: translate3d(0, -8px, 0);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.pb .main-nav-callback__panel.active {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: none;
+  transform: none;
+}
+
+.pb .callback-link {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  padding: 10px 8px;
+  background: #e3edf6;
+  border-bottom: 1px solid #a7bfc6;
+  border-top: 1px solid #a7bfc6;
+  margin-top: -1px;
+}
+
+.pb .callback-link:last-child {
+  border-bottom: none;
+}
+
+.pb .callback-link:first-child {
+  border-top: none;
+}
+
+.pb .callback-link:hover {
+  z-index: 2;
+  background: #FFF;
+  border-color: #FFF;
+  color: #ff5274;
+}
+
+.pb .callback-link:hover .callback-link__icon {
+  opacity: 1;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.pb .callback-link__icon {
+  width: 42px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  text-align: center;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.4;
+}
+
+.pb .callback-link span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 1;
 }
 
 .pb body .pb-header {
@@ -4130,6 +4210,40 @@
   min-height: initial;
   margin-bottom: 10px;
   line-height: 1.2;
+}
+
+.pb .mob-panel__connect .main-nav-callback__btn {
+  border: 1px solid #FFF;
+  color: #FFF;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.pb .mob-panel__connect .main-nav-callback__btn:after {
+  border-color: #FFF transparent transparent transparent;
+}
+
+.pb .mob-panel__connect .main-nav-callback__panel {
+  display: none;
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: none;
+  transform: none;
+  width: 100%;
+  background: #f8fbfc;
+  padding-top: 0;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+.pb .mob-panel__connect .main-nav-callback__panel.active {
+  display: block;
+}
+
+.pb .mob-panel__connect .callback-link {
+  width: 100%;
+  color: #000000;
 }
 
 .pb .s-footer-socials {

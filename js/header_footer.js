@@ -57,6 +57,39 @@ document.addEventListener('DOMContentLoaded',function () {
 
 
 /***********************
+Callback menu BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var callbackBtns = document.querySelectorAll('.main-nav-callback__btn');
+	var callbackPanels = document.querySelectorAll('.main-nav-callback__panel');
+
+	for (var i = 0; i < callbackBtns.length; ++i) {
+		callbackBtns[i].addEventListener('click',function (e) {
+			e.preventDefault();
+			for (var i = 0; i < callbackBtns.length; ++i) {
+				callbackPanels[i].classList.toggle('active');
+			}
+		});
+		callbackBtns[i].addEventListener('click', function(evt) {
+			evt.stopPropagation();
+		});
+		callbackPanels[i].addEventListener('click', function(evt) {
+			evt.stopPropagation();
+		});
+	}
+
+	document.addEventListener("click", function () {
+		for (var i = 0; i < callbackBtns.length; ++i) {
+			callbackPanels[i].classList.remove('active');
+		}
+	});
+});
+/***********************
+Callback menu END
+***********************/
+
+
+/***********************
 Services menu BEGIN
 ***********************/
 document.addEventListener('DOMContentLoaded',function () {

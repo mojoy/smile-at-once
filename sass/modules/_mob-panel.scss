@@ -252,3 +252,42 @@ body.stopped{
 	}
 }
 //mobile-nav
+
+
+//mob-panel__callback
+.mob-panel__connect{
+
+	.main-nav-callback__btn{
+		border: 1px solid #FFF;
+		color: #FFF;
+		margin-bottom: 10px;
+		margin-left: 15px;
+
+		&:after{
+			border-color: #FFF transparent transparent transparent;
+		}
+	}
+
+	.main-nav-callback__panel{
+		display: none;
+		position: relative;
+		opacity: 1;
+		visibility: visible;
+		transform: none;
+		width: 100%;
+		background: $bg-color;
+		padding-top: 0;
+		border-radius: 0;
+		margin-bottom: 15px;
+
+		&.active{
+			display: block;
+		}
+	}
+
+	.callback-link{
+		width: 100%;
+		color: $black;
+	}
+}
+//mob-panel__callback
