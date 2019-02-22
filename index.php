@@ -920,6 +920,117 @@
 </section>
 
 
+<section class="s-faq-steps">
+	<div class="container">
+		<div class="h1 s-faq-steps__title">Что надо знать,<br>выбирая клинику?</div>
+		<div class="faq-steps">
+			<div class="faq-step">
+				<div class="faq-step__title">1. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+			<div class="faq-step">
+				<div class="faq-step__title">2. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+			<div class="faq-step">
+				<div class="faq-step__title">3. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+			<div class="faq-step">
+				<div class="faq-step__title">1. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+			<div class="faq-step">
+				<div class="faq-step__title">2. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+			<div class="faq-step">
+				<div class="faq-step__title">3. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+			<div class="faq-step">
+				<div class="faq-step__title">1. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+			<div class="faq-step">
+				<div class="faq-step__title">2. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+			<div class="faq-step">
+				<div class="faq-step__title">3. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+			<div class="faq-step">
+				<div class="faq-step__title">3. Подготовка</div>
+				<ul class="faq-step__list">
+					<li>Бесплатная 3D диагностика и консультация врача.</li>
+					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
+					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
+				</ul>
+				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container faq-steps-nav"></div>
+
+</section>
+
+
 <section class="s-def">
 	<div class="container">
 		<div class="consult-block">

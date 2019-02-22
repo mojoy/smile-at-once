@@ -237,3 +237,48 @@ document.addEventListener('DOMContentLoaded',function () {
 /***********************
 Team END
 ***********************/
+
+
+/***********************
+faq steps BEGIN
+***********************/
+$(function($){
+	var faqSteps = $('.faq-step');
+	var faqStepsNav;
+	var faqStepsNavContainer = $('.faq-steps-nav');
+
+	function generateFaqStepsNav() {
+		faqSteps.each(function () {
+			var index = parseInt($(this).index()) + 1;
+			var dot = '<div class="faq-steps-nav__item"><span>'+index+'</span></div>';
+			faqStepsNavContainer.append(dot);
+		});
+		faqStepsNav = $('.faq-steps-nav__item');
+		return faqStepsNav;
+	}
+
+	generateFaqStepsNav();
+
+	function selectFaqStep(index) {
+		faqSteps.removeClass('active').eq(index).addClass('active');
+		faqStepsNav.removeClass('active').eq(index).addClass('active');
+		faqStepsNav.filter('.active').prevAll().addClass('active');
+	}
+
+	selectFaqStep(0);
+
+	$('.faq-step__next').on('click',function (e) {
+		e.preventDefault();
+		var nextIndex = faqSteps.filter('.active').next().index();
+		selectFaqStep(nextIndex);
+	});
+
+	faqStepsNav.on('click',function (e) {
+		e.preventDefault();
+		var thisIndex = $(this).index();
+		selectFaqStep(thisIndex);
+	});
+});
+/***********************
+faq steps END
+***********************/

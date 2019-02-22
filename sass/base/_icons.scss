@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-check:before {
+	content: "\e909";
+}
 .i-ar-right:before {
 	content: "\e900";
 }
