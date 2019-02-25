@@ -15,6 +15,10 @@
 				<img src="/img/footer/prize_3.png" alt="1">
 				<span>Лучшие стоматологии<br>РФ 2018</span>
 			</div>
+			<div class="footer-przies__item">
+				<img src="/img/footer/prize_4.png" alt="1">
+				<span>ISO 9001</span>
+			</div>
 		</div>
 		<div class="social-links">
 			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/vk.svg" alt="1"></a>

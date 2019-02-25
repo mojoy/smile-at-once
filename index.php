@@ -168,6 +168,46 @@
 					<div class="prize-block__descr">Награда 100 лучших предприятий и организаций</div>
 				</div>
 			</div>
+			<div class="swiper-slide">
+				<div class="prize-block">
+					<header class="prize-block__header">
+						<img src="/img/prizes/8.png" alt="1">
+						<img src="/img/prizes/8_1.jpg" alt="1">
+					</header>
+					<div class="prize-block__name">100 лучших медицинских организаций</div>
+					<div class="prize-block__descr">Награда 100 лучших медицинских организаций</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="prize-block">
+					<header class="prize-block__header">
+						<img src="/img/prizes/9.png" alt="1">
+						<img src="/img/prizes/9_1.jpg" alt="1">
+					</header>
+					<div class="prize-block__name">ISO ООО "Стоматология новая улыбка"</div>
+					<div class="prize-block__descr">Сертификат соответствия</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="prize-block">
+					<header class="prize-block__header">
+						<img src="/img/prizes/10.png" alt="1">
+						<img src="/img/prizes/10_1.jpg" alt="1">
+					</header>
+					<div class="prize-block__name">Высокое качество "Стоматология новая улыбка"</div>
+					<div class="prize-block__descr">Сертификат соответствия</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="prize-block">
+					<header class="prize-block__header">
+						<img src="/img/prizes/11.png" alt="1">
+						<img src="/img/prizes/11_1.jpg" alt="1">
+					</header>
+					<div class="prize-block__name">Инновация года ООО "Стоматология новая улыбка"</div>
+					<div class="prize-block__descr">Сертификат соответствия</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
