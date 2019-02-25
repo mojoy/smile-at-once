@@ -42,6 +42,12 @@ button[type="button"].fancybox-close-small {
 	opacity: 1;
 }
 
+.fancybox-slide--video button[type="button"].fancybox-close-small{
+	top: -10px;
+	right: -10px;
+	background: #FFF;
+}
+
 .fancybox-slide--video,.fancybox-slide--html,.fancybox-slide--iframe {
 	padding: 24px 20px;
 	@include res(s){

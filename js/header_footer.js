@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded',function () {
 	function setServiceTabHeigth() {
 		var serviceTab = document.querySelector('.services-menu__main');
 		var headerHeight = header.clientHeight;
-		var maxHeight = document.body.clientHeight - headerHeight - 20;
+		var maxHeight = document.documentElement.clientHeight - headerHeight - 20;
 		serviceTab.style.maxHeight = maxHeight + 'px';
 	}
 

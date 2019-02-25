@@ -718,7 +718,7 @@
 			<!--Инпутам можно добавлять класс .danger при ошибке-->
 			<form action="#" class="subscribe-block__form">
 				<div class="subscribe-block__row">
-					<input type="email" class="input-text" placeholder="Введите e-mail">
+					<input type="email" class="input-text" placeholder="Введите e-mail*">
 					<button type="submit" class="button">Подписаться</button>
 				</div>
 				<label class="style-check-ios">
