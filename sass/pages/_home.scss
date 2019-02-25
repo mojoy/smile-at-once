@@ -99,25 +99,6 @@
 }
 
 .info-links{
-	position: relative;
-	background: $bg-color;
-	box-shadow: $shadow-block-big;
-	border-radius: 20px;
-	padding: 30px 25px;
-
-	&:before{
-		content: '';
-		position: absolute;
-		left: 10px;
-		top: 10px;
-		bottom: 10px;
-		right: 10px;
-		border: 1px solid $pink;
-		border-radius: 15px;
-		z-index: 1;
-		transition: all 0.2s ease;
-		pointer-events: none;
-	}
 
 	.grid-3{
 		@include res(xs){
@@ -936,15 +917,6 @@
 }
 
 .comfort-block{
-	position: relative;
-	background: $bg-color;
-	border-radius: 20px;
-	box-shadow: $shadow-block-big;
-	padding: 30px 25px;
-
-	&:before{
-		@extend %border-green;
-	}
 
 	.row{
 		justify-content: center;

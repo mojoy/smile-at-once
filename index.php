@@ -216,7 +216,7 @@
 
 <section class="s-info-links s-def">
 	<div class="container">
-		<div class="info-links">
+		<div class="info-links bordered-block bordered-block--pink">
 			<div class="row">
 				<div class="grid-3 grid-6_m grid-12_xs">
 					<a href="#" class="info-link">
@@ -893,7 +893,7 @@
 
 <section class="s-comfort s-def">
 	<div class="container">
-		<div class="comfort-block">
+		<div class="comfort-block bordered-block">
 			<div class="row">
 				<div class="comfort-item">
 					<div class="comfort-item__icon">
