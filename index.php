@@ -277,68 +277,82 @@
 		<div class="h1 sec-title">Команда специалистов высокой квалификации</div>
 
 		<div class="swiper-container team-thumbs">
+
 			<div class="swiper-wrapper">
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/2.jpg" alt="1">
+					<img src="/img/team/t/2.jpg" alt="1">
+					<img src="/img/team/t/2.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/3.jpg" alt="1">
+					<img src="/img/team/t/3.jpg" alt="1">
+					<img src="/img/team/t/3.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/4.jpg" alt="1">
+					<img src="/img/team/t/4.jpg" alt="1">
+					<img src="/img/team/t/4.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/1.jpg" alt="1">
+					<img src="/img/team/t/1.jpg" alt="1">
+					<img src="/img/team/t/1.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/5.jpg" alt="1">
+					<img src="/img/team/t/5.jpg" alt="1">
+					<img src="/img/team/t/5.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/6.jpg" alt="1">
+					<img src="/img/team/t/6.jpg" alt="1">
+					<img src="/img/team/t/6.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/7.jpg" alt="1">
+					<img src="/img/team/t/7.jpg" alt="1">
+					<img src="/img/team/t/7.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/8.jpg" alt="1">
+					<img src="/img/team/t/8.jpg" alt="1">
+					<img src="/img/team/t/8.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/9.jpg" alt="1">
+					<img src="/img/team/t/9.jpg" alt="1">
+					<img src="/img/team/t/9.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/10.jpg" alt="1">
+					<img src="/img/team/t/10.jpg" alt="1">
+					<img src="/img/team/t/10.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/11.jpg" alt="1">
+					<img src="/img/team/t/11.jpg" alt="1">
+					<img src="/img/team/t/11.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/12.jpg" alt="1">
+					<img src="/img/team/t/12.jpg" alt="1">
+					<img src="/img/team/t/12.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/13.jpg" alt="1">
+					<img src="/img/team/t/13.jpg" alt="1">
+					<img src="/img/team/t/13.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/14.jpg" alt="1">
+					<img src="/img/team/t/14.jpg" alt="1">
+					<img src="/img/team/t/14.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/15.jpg" alt="1">
+					<img src="/img/team/t/15.jpg" alt="1">
+					<img src="/img/team/t/15.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/16.jpg" alt="1">
+					<img src="/img/team/t/16.jpg" alt="1">
+					<img src="/img/team/t/16.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/17.jpg" alt="1">
+					<img src="/img/team/t/17.jpg" alt="1">
+					<img src="/img/team/t/17.jpg" alt="1">
 				</div>
 				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/18.jpg" alt="1">
-				</div>
-				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/19.jpg" alt="1">
-				</div>
-				<div class="swiper-slide team-thumbs__item">
-					<img src="/img/team/20.jpg" alt="1">
+					<img src="/img/team/t/18.jpg" alt="1">
+					<img src="/img/team/t/18.jpg" alt="1">
 				</div>
 			</div>
+
 			<div class="team-thumbs__nav">
 				<div class="slider-arrow slider-arrow--prev">
 					<span class="i i-left"></span>
@@ -347,6 +361,7 @@
 					<span class="i i-right"></span>
 				</div>
 			</div>
+
 		</div>
 
 
@@ -420,12 +435,6 @@
 				</div>
 				<div class="swiper-slide team-slider__item">
 					<img src="/img/team/18.jpg" alt="1">
-				</div>
-				<div class="swiper-slide team-slider__item">
-					<img src="/img/team/19.jpg" alt="1">
-				</div>
-				<div class="swiper-slide team-slider__item">
-					<img src="/img/team/20.jpg" alt="1">
 				</div>
 			</div>
 		</div>

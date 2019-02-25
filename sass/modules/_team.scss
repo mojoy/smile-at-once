@@ -57,6 +57,7 @@
 }
 
 .team-thumbs__item{
+	position: relative;
 	width: 128px;
 	cursor: pointer;
 	padding: 10px;
@@ -66,39 +67,62 @@
 
 	&:hover{
 		img{
-			//transform: translate3d(0,-5px,0);
-			//box-shadow: 0 7px 15px 0 transparentize(#a6bfcf,0.4);
+			&:nth-child(1){
+				opacity: 1;
+			}
 		}
 	}
 
 	img{
-		box-shadow: $shadow-block;
-		border-radius: 10px;
-		display: block;
-		width: 100%;
-		height: auto;
-		transform: translate3d(0,0,0);
-		//filter: grayscale(100%);
+		&:nth-child(1){
+			position: relative;
+			z-index: 2;
+			border-radius: 10px;
+			display: block;
+			width: 100%;
+			height: auto;
+			opacity: 0;
+			transition: opacity 0.3s ease;
+			transform: translate3d(0,0,0);
+		}
+
+		&:nth-child(2){
+			position: absolute;
+			z-index: 1;
+			top: 10px;
+			left: 10px;
+			filter: grayscale(100%);
+			width: calc(100% - 20px);
+			height: auto;
+			border-radius: 10px;
+			box-shadow: $shadow-block;
+		}
 	}
 
 	&.swiper-slide-active{
 		img{
-			//filter: grayscale(0%);
+			&:nth-child(1){
+				opacity: 1;
+			}
 		}
 	}
 	&.swiper-slide-prev{
 		img{
-			//filter: grayscale(0%);
-			@include res(xs){
-				//filter: grayscale(100%);
+			&:nth-child(1){
+				opacity: 1;
+				@include res(xs){
+					opacity: 0;
+				}
 			}
 		}
 	}
 	&.swiper-slide-next{
 		img{
-			//filter: grayscale(0%);
-			@include res(xs){
-				//filter: grayscale(100%);
+			&:nth-child(1){
+				opacity: 1;
+				@include res(xs){
+					opacity: 0;
+				}
 			}
 		}
 	}
