@@ -1,6 +1,83 @@
 ﻿<?php include('header.php'); ?>
 
 
+<section class="s-head-slider">
+	<div class="head-slider swiper-container">
+		<div class="swiper-wrapper">
+			<div class="head-slide swiper-slide">
+				<img src="/img/home/head-slide-1.jpg" alt="1" class="head-slide__bg" width="1902" height="688">
+				<div class="container head-slide__container">
+					<div class="head-slide__content">
+						<div class="head-slide__title">Имплантация зубов<br>с&nbsp;немедленной<br>нагрузкой протезами</div>
+						<div class="head-slide__descr">Революционные технологии восстановления всех зубов <nobr>за&nbsp;1-3 дня</nobr> с&nbsp;пожизненной гарантией.</div>
+						<ul class="head-slide__list">
+							<li>Консультация врача бесплатно</li>
+							<li>Пожизненная гарантия</li>
+							<li>Восстанавливаем зубы за пару дней и навсегда</li>
+							<li>Для пациентов из других городов – бесплатное размещение</li>
+						</ul>
+						<a href="#" class="button head-slide__btn fancy-modal" data-src="#modal-consult">Записаться онлайн</a>
+					</div>
+				</div>
+			</div>
+			<div class="head-slide swiper-slide">
+				<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+				<img src="/img/home/hs-place.png" data-src="/img/home/head-slide-2.jpg" alt="1" class="head-slide__bg swiper-lazy" width="1902" height="688">
+				<div class="container head-slide__container">
+					<div class="head-slide__content">
+						<div class="head-slide__title">Стоматология<br>инновационных технологий<br>Smile-at-once</div>
+						<div class="head-slide__descr">Цифровые технологии – прорыв в&nbsp;стоматологии<br>Предсказуемый результат и&nbsp;защита от&nbsp;ошибок и&nbsp;осложнений</div>
+						<ul class="head-slide__list">
+							<li>Компьютерная диагностика</li>
+							<li>Моделирование и планирование лечения в 3D</li>
+							<li>Цифровой дизайн улыбки - DSD</li>
+							<li>3D принтер для изготовления хирургических шаблонов</li>
+							<li>Роботизированная зуботехническая лаборатория</li>
+						</ul>
+						<a href="#" class="button head-slide__btn">Подробнее</a>
+					</div>
+				</div>
+			</div>
+			<div class="head-slide swiper-slide">
+				<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+				<img src="/img/home/hs-place.png" data-src="/img/home/head-slide-3.jpg" alt="1" class="head-slide__bg swiper-lazy" width="1902" height="688">
+				<div class="container head-slide__container">
+					<div class="head-slide__content">
+						<div class="head-slide__title">Гарантия и<br>сервис, которые вы<br>не найдете нигде!</div>
+						<ul class="head-slide__list">
+							<li>Пожизненная гарантия на работу врачей</li>
+							<li>Пожизненная гарантия на импланты</li>
+							<li>Гарантии на протезы до 15 лет</li>
+							<li>Бесплатные ежегодные проф осмотры</li>
+							<li>Бесплатная ежегодная гигиена полости рта</li>
+						</ul>
+						<a href="#" class="button head-slide__btn">Подробнее</a>
+					</div>
+				</div>
+			</div>
+			<div class="head-slide swiper-slide">
+				<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+				<img src="/img/home/hs-place.png" data-src="/img/home/head-slide-4.jpg" alt="1" class="head-slide__bg swiper-lazy" width="1902" height="688">
+				<div class="container head-slide__container">
+					<div class="head-slide__content">
+						<img src="/img/home/head-slide-logos.png" alt="1" class="head-slide__logos">
+						<div class="head-slide__title">Социальный проект -<br>Трансформация улыбки</div>
+						<div class="head-slide__descr">Двум пациентам по&nbsp;результатам народного голосования были восстановлены зубы</div>
+						<ul class="head-slide__list">
+							<li>Совершенно бесплатно!</li>
+							<li>Пожизненная гарантия</li>
+							<li>За 3 дня</li>
+						</ul>
+						<a href="#" class="button head-slide__btn">Смотреть отчет</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</section>
+
+
 <section class="s-mini-banners s-def">
 	<div class="container">
 		<div class="row">

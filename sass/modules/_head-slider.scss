@@ -1,0 +1,140 @@
+.head-slider{
+	border-bottom: 4px solid $pink;
+	background: $green;
+}
+
+.head-slide{
+	height: calc(100vw / 2.84);
+}
+
+.head-slide__bg{
+	display: block;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: auto;
+	@include res(s){
+		width: 110%;
+	}
+}
+
+.head-slide__container{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.head-slide__content{
+	width: 50%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	@include res(s){
+		width: 60%;
+	}
+}
+
+.head-slide__title{
+	color: #FFF;
+	font-size: 2.9vw;
+	font-weight: 300;
+	line-height: 1;
+	margin-bottom: 0.2em;
+	@include res(xl){
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	@include res(s){
+		font-size: 4vw;
+		font-weight: normal;
+		line-height: 1.2;
+	}
+}
+
+.head-slide__descr{
+	color: #FFF;
+	font-size: 1.3vw;
+	line-height: 1.2;
+	font-weight: 300;
+	margin-bottom: 0.8em;
+	@include res(xl){
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	@include res(l){
+		display: none;
+	}
+}
+
+.head-slide__list{
+	list-style: none;
+	@include res(l){
+		display: none;
+	}
+
+	li{
+		display: block;
+		position: relative;
+		padding-left: 25px;
+		font-size: 1vw;
+		line-height: 1.2;
+		margin-bottom: 0.4em;
+		font-weight: 300;
+		@include res(xl){
+			font-size: 14px;
+		}
+
+		&:before{
+			content: '';
+			position: absolute;
+			top: 0.3em;
+			left: 0;
+			width: 14px;
+			height: 14px;
+			border-radius: 7px;
+			background: $pink;
+			z-index: 1;
+		}
+
+		&:after{
+			content: '\e909';
+			font-family: $font-icon;
+			position: absolute;
+			z-index: 2;
+			top: 0.2em;
+			left: 3px;
+			color: #FFF;
+			font-size: 14px;
+		}
+	}
+}
+
+.head-slide__btn{
+	margin-top: 30px;
+	@include res(xl){
+		margin-top: 20px;
+	}
+	@include res(s){
+		margin-top: 0;
+		font-size: 10px;
+		padding: 7px 10px 5px;
+	}
+}
+
+.head-slide__logos{
+	display: block;
+	margin-bottom: 10px;
+	width: 20vw;
+	max-width: 432px;
+	@include res(l){
+		width: 216px;
+	}
+	@include res(s){
+		display: none;
+	}
+}

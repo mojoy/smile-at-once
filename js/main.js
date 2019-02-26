@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded',function () {
 		initialSlide: 1,
 		navigation: {
 			nextEl: '.slider-arrow--next',
-			prevEl: '.slider-arrow--prev',
+			prevEl: '.slider-arrow--prev'
 		},
 		threshold: 5
 	});
@@ -281,4 +281,26 @@ $(function($){
 });
 /***********************
 faq steps END
+***********************/
+
+
+/***********************
+Head-slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var headSlider = new Swiper ('.head-slider', {
+		slidesPerView: 1,
+		loop: true,
+		threshold: 5,
+		grabCursor: true,
+		preloadImages: false,
+		lazy: true,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
+		}
+	});
+});
+/***********************
+Head-slider END
 ***********************/

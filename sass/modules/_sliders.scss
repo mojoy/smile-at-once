@@ -84,3 +84,42 @@
 		}
 	}
 }
+
+.swiper-container-horizontal > .swiper-pagination-bullets{
+
+	@include res(s){
+		bottom: 5px;
+		text-align: right;
+		padding-right: 15px;
+	}
+
+	.swiper-pagination-bullet{
+		width: 14px;
+		height: 14px;
+		margin: 0 9px;
+		border: 1px solid $green;
+		background: #FFF;
+		opacity: 1;
+		transform: rotate(45deg);
+		border-radius: 2px;
+		transition: all 0.3s ease;
+		@include res(s){
+			width: 10px;
+			height: 10px;
+			margin: 0 4px;
+		}
+
+		&.swiper-pagination-bullet-active{
+			background: $pink;
+			border: $pink;
+		}
+
+		&:focus{
+			outline: none;
+		}
+
+		&:hover{
+			border: 1px solid $pink;
+		}
+	}
+}
