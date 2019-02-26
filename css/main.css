@@ -135,7 +135,7 @@
   /* a11y */
 }
 
-.pb .mini-banner:before, .pb .regions-step__bg:before, .pb .fact-romb:after {
+.pb .regions-step__bg:before, .pb .fact-romb:after {
   content: '';
   position: absolute;
   pointer-events: none;
@@ -3109,43 +3109,15 @@
 .pb .play-btn:before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
   border: 1px solid #ff5274;
   border-radius: 6px;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
   transition: all 0.3s ease;
-  -webkit-animation: playWave 1s infinite alternate;
-  animation: playWave 1s infinite alternate;
-}
-
-@-webkit-keyframes playWave {
-  from {
-    -webkit-transform: scale3d(1.5, 1.5, 1.5);
-    transform: scale3d(1.5, 1.5, 1.5);
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale3d(1.3, 1.3, 1.3);
-    transform: scale3d(1.3, 1.3, 1.3);
-    opacity: 1;
-  }
-}
-
-@keyframes playWave {
-  from {
-    -webkit-transform: scale3d(1.5, 1.5, 1.5);
-    transform: scale3d(1.5, 1.5, 1.5);
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale3d(1.3, 1.3, 1.3);
-    transform: scale3d(1.3, 1.3, 1.3);
-    opacity: 1;
-  }
 }
 
 .pb .modal {
@@ -5472,11 +5444,15 @@
   }
 }
 
-.pb .team-thumbs__item:hover img:nth-child(1) {
+.pb .team-thumbs__item:hover .team-thumbs__color {
   opacity: 1;
 }
 
-.pb .team-thumbs__item img:nth-child(1) {
+.pb .team-thumbs__item img {
+  display: block;
+}
+
+.pb .team-thumbs__item img.team-thumbs__color {
   position: relative;
   z-index: 2;
   border-radius: 10px;
@@ -5489,7 +5465,7 @@
   transform: translate3d(0, 0, 0);
 }
 
-.pb .team-thumbs__item img:nth-child(2) {
+.pb .team-thumbs__item img.team-thumbs__bw {
   position: absolute;
   z-index: 1;
   top: 10px;
@@ -5502,26 +5478,26 @@
   box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5);
 }
 
-.pb .team-thumbs__item.swiper-slide-active img:nth-child(1) {
+.pb .team-thumbs__item.swiper-slide-active .team-thumbs__color {
   opacity: 1;
 }
 
-.pb .team-thumbs__item.swiper-slide-prev img:nth-child(1) {
+.pb .team-thumbs__item.swiper-slide-prev .team-thumbs__color {
   opacity: 1;
 }
 
 @media (max-width: 480px) {
-  .pb .team-thumbs__item.swiper-slide-prev img:nth-child(1) {
+  .pb .team-thumbs__item.swiper-slide-prev .team-thumbs__color {
     opacity: 0;
   }
 }
 
-.pb .team-thumbs__item.swiper-slide-next img:nth-child(1) {
+.pb .team-thumbs__item.swiper-slide-next .team-thumbs__color {
   opacity: 1;
 }
 
 @media (max-width: 480px) {
-  .pb .team-thumbs__item.swiper-slide-next img:nth-child(1) {
+  .pb .team-thumbs__item.swiper-slide-next .team-thumbs__color {
     opacity: 0;
   }
 }
@@ -5531,12 +5507,12 @@
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  max-width: 1158px;
 }
 
 .pb .team-slider__item {
   position: relative;
   width: calc(100% / 3);
+  max-width: 386px;
 }
 
 @media (max-width: 1400px) {
@@ -5558,6 +5534,7 @@
 }
 
 .pb .team-slider__item img {
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -5784,6 +5761,39 @@
   border: 1px solid #ff5274;
 }
 
+.pb .slide-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 10;
+  width: 20px;
+  height: 20px;
+  background: #72dbd4;
+  border-radius: 15px;
+}
+
+.pb .slide-loading:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border: 1px solid #72dbd4;
+  border-radius: 50%;
+}
+
+.pb .slide-loading--pink {
+  background: #ff5274;
+}
+
+.pb .slide-loading--pink:before {
+  border-color: #ff5274;
+}
+
 .pb .bordered-block {
   position: relative;
   background: #f8fbfc;
@@ -5863,7 +5873,7 @@
 
 .pb .head-slide__title {
   color: #FFF;
-  font-size: 2.9vw;
+  font-size: 2.8vw;
   font-weight: 300;
   line-height: 1;
   margin-bottom: 0.2em;
@@ -5975,7 +5985,7 @@
 .pb .head-slide__logos {
   display: block;
   margin-bottom: 10px;
-  width: 20vw;
+  width: 24vw;
   max-width: 432px;
 }
 
@@ -5988,113 +5998,6 @@
 @media (max-width: 680px) {
   .pb .head-slide__logos {
     display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .pb .s-mini-banners .mini-banner {
-    height: auto;
-    margin-bottom: 20px;
-  }
-}
-
-.pb .mini-banner {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  position: relative;
-  border-radius: 20px;
-  overflow: hidden;
-  background: #f8fbfc;
-  box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5);
-  padding: 25px;
-  height: 100%;
-  min-height: 280px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  transition: all 0.2s ease;
-}
-
-@media (max-width: 1024px) {
-  .pb .mini-banner {
-    min-height: 200px;
-  }
-}
-
-.pb .mini-banner:hover {
-  background: #FFF;
-  box-shadow: 0 2px 35px 0 rgba(166, 191, 207, 0.9);
-}
-
-.pb .mini-banner:hover:before {
-  left: 5px;
-  top: 5px;
-  bottom: 5px;
-  right: 5px;
-}
-
-@media (max-width: 1024px) {
-  .pb .mini-banner br {
-    display: none;
-  }
-}
-
-.pb .mini-banner:before {
-  z-index: 1;
-  transition: all 0.2s ease;
-}
-
-.pb .mini-banner .link-arrow {
-  margin-top: auto;
-  position: relative;
-  z-index: 3;
-}
-
-.pb .mini-banner__title {
-  position: relative;
-  z-index: 3;
-  font-size: 24px;
-  line-height: 1.2;
-  font-weight: 300;
-}
-
-@media (max-width: 1024px) {
-  .pb .mini-banner__title {
-    font-size: 20px;
-  }
-}
-
-.pb .mini-banner__descr {
-  position: relative;
-  z-index: 3;
-}
-
-@media (max-width: 1024px) {
-  .pb .mini-banner__descr {
-    font-size: 14px;
-  }
-}
-
-.pb .mini-banner__img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  pointer-events: none;
-  z-index: 2;
-  max-height: 100%;
-  width: auto;
-}
-
-@media (max-width: 1024px) {
-  .pb .mini-banner__img {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-    -webkit-transform-origin: right bottom;
-    transform-origin: right bottom;
   }
 }
 
@@ -6208,7 +6111,8 @@
 }
 
 .pb .s-regions {
-  background: url("../img/home/regions-bg.png") center top no-repeat;
+  background-position: center top;
+  background-repeat: no-repeat;
   min-height: 996px;
   background-size: cover;
   overflow: hidden;
@@ -7260,9 +7164,10 @@
 }
 
 .pb .s-faq-steps {
-  background: url("../img/home/faq-steps-bg.jpg") center top no-repeat;
-  min-height: 827px;
+  background-repeat: no-repeat;
+  background-position: center top;
   background-size: cover;
+  min-height: 827px;
   padding-top: 90px;
   padding-bottom: 140px;
   overflow: hidden;

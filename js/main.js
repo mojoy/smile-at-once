@@ -134,6 +134,41 @@ $(function () {
 
 
 /***********************
+ Lazy BEGIN
+ ***********************/
+function lazyLoad(){
+	var lazyImgs = $('[data-lazy]');
+	lazyImgs.each(function(){
+		var lazyImage = $(this);
+		var src = lazyImage.attr('data-lazy');
+		lazyImage.attr('src',src);
+	});
+}
+
+function lazyLoadBg(){
+	var lazyImgs = $('[data-lazybg]');
+
+	lazyImgs.each(function(){
+		var lazyImage = $(this);
+		var src = lazyImage.attr('data-lazybg');
+		lazyImage.css('background-image','url('+src+')');
+	});
+}
+
+$(function(){
+	lazyLoad();
+	lazyLoadBg();
+});
+
+$(window).on('load',function () {
+	Waypoint.refreshAll();
+});
+/***********************
+ Lazy END
+ ***********************/
+
+
+/***********************
 Cases slider BEGIN
 ***********************/
 document.addEventListener('DOMContentLoaded',function () {
@@ -181,7 +216,12 @@ document.addEventListener('DOMContentLoaded',function () {
 		roundLengths: true,
 		initialSlide: 3,
 		loop: true,
-		loopedSlides: 7
+		loopedSlides: 10,
+		watchSlidesVisibility: true,
+		preloadImages: false,
+		lazy: {
+			preloaderClass: 'slide-loading'
+		}
 	});
 });
 /***********************
@@ -195,9 +235,13 @@ Photo line slider BEGIN
 document.addEventListener('DOMContentLoaded',function () {
 	var photoLineSlider = new Swiper ('.photo-line-slider', {
 		slidesPerView: 'auto',
-		roundLengths: true,
 		loop: true,
-		loopedSlides: 12
+		loopedSlides: 12,
+		watchSlidesVisibility: true,
+		preloadImages: false,
+		lazy: {
+			preloaderClass: 'slide-loading'
+		}
 	});
 });
 /***********************
@@ -214,7 +258,12 @@ document.addEventListener('DOMContentLoaded',function () {
 		centeredSlides: true,
 		loop: true,
 		slideToClickedSlide: true,
+		watchSlidesVisibility: true,
 		initialSlide: 1,
+		preloadImages: false,
+		lazy: {
+			preloaderClass: 'slide-loading'
+		},
 		navigation: {
 			nextEl: '.slider-arrow--next',
 			prevEl: '.slider-arrow--prev'
@@ -227,8 +276,15 @@ document.addEventListener('DOMContentLoaded',function () {
 		centeredSlides: true,
 		loop: true,
 		threshold: 5,
+		grabCursor: true,
+		watchSlidesVisibility: true,
 		initialSlide: 1,
-		grabCursor: true
+		preloadImages: false,
+		lazy: {
+			preloaderClass: 'slide-loading',
+			loadPrevNext: true,
+			loadPrevNextAmount: 4
+		}
 	});
 
 	teamThumbs.controller.control = teamSlider;
@@ -294,7 +350,9 @@ document.addEventListener('DOMContentLoaded',function () {
 		threshold: 5,
 		grabCursor: true,
 		preloadImages: false,
-		lazy: true,
+		lazy: {
+			preloaderClass: 'slide-loading'
+		},
 		pagination: {
 			el: '.swiper-pagination',
 			clickable: true

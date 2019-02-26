@@ -4,27 +4,27 @@
 	<div class="container">
 		<div class="footer-prizes">
 			<div class="footer-przies__item">
-				<img src="/img/footer/prize_1.png" alt="1">
+				<img src="" data-lazy="/img/footer/prize_1.png" alt="1">
 				<span>Лучшая стоматологическая клиника по версии КоммерсантЪ</span>
 			</div>
 			<div class="footer-przies__item">
-				<img src="/img/footer/prize_2.png" alt="1">
+				<img src="" data-lazy="/img/footer/prize_2.png" alt="1">
 				<span>Инновационный Центр стоматологической ассоциации РФ</span>
 			</div>
 			<div class="footer-przies__item">
-				<img src="/img/footer/prize_3.png" alt="1">
+				<img src="" data-lazy="/img/footer/prize_3.png" alt="1">
 				<span>Лучшие стоматологии<br>РФ 2018</span>
 			</div>
 			<div class="footer-przies__item">
-				<img src="/img/footer/prize_4.png" alt="1">
+				<img src="" data-lazy="/img/footer/prize_4.png" alt="1">
 				<span>ISO 9001</span>
 			</div>
 		</div>
 		<div class="social-links">
-			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/vk.svg" alt="1"></a>
-			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/facebook.svg" alt="2"></a>
-			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/insta.svg" alt="3"></a>
-			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/youtube.svg" alt="4"></a>
+			<a href="#" target="_blank" class="social-links__item"><img src="" data-lazy="/img/footer/vk.svg" alt="1"></a>
+			<a href="#" target="_blank" class="social-links__item"><img src="" data-lazy="/img/footer/facebook.svg" alt="2"></a>
+			<a href="#" target="_blank" class="social-links__item"><img src="" data-lazy="/img/footer/insta.svg" alt="3"></a>
+			<a href="#" target="_blank" class="social-links__item"><img src="" data-lazy="/img/footer/youtube.svg" alt="4"></a>
 		</div>
 	</div>
 </section>
@@ -185,7 +185,7 @@
 			<div class="row">
 				<div class="grid-2 grid-4_l grid-12_m footer__left">
 					<a href="/">
-						<img src="/img/logo.svg" alt="Логотип" class="footer-logo">
+						<img src="" data-lazy="/img/logo.svg" alt="Логотип" class="footer-logo">
 					</a>
 					<div class="copyright">© 2019 Стоматологическая клиника <nobr>Smile-at-Once</nobr></div>
 					<div class="footer-metalinks">
@@ -251,7 +251,7 @@
 			<div class="footer-bottom__right">
 				<a href="https://penbrain.ru" class="footer-pen" rel="nofollow" target="_blank">
 					<span>Создавали сайт со&nbsp;здоровыми зубами</span>
-					<img src="/img/footer/pen.svg" alt="Pen&Brain">
+					<img src="" data-lazy="/img/footer/pen.svg" alt="Pen&Brain">
 				</a>
 			</div>
 		</div>
