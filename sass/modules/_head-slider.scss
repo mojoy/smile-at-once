@@ -72,43 +72,14 @@
 }
 
 .head-slide__list{
-	list-style: none;
 	@include res(l){
 		display: none;
 	}
 
 	li{
-		display: block;
-		position: relative;
-		padding-left: 25px;
 		font-size: 1vw;
-		line-height: 1.2;
-		margin-bottom: 0.4em;
 		font-weight: 300;
 		@include res(xl){
-			font-size: 14px;
-		}
-
-		&:before{
-			content: '';
-			position: absolute;
-			top: 0.3em;
-			left: 0;
-			width: 14px;
-			height: 14px;
-			border-radius: 7px;
-			background: $pink;
-			z-index: 1;
-		}
-
-		&:after{
-			content: '\e909';
-			font-family: $font-icon;
-			position: absolute;
-			z-index: 2;
-			top: 0.2em;
-			left: 3px;
-			color: #FFF;
 			font-size: 14px;
 		}
 	}

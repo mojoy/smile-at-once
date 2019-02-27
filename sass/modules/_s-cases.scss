@@ -1,73 +1,269 @@
-.cases-slider{
-	height: 500px;
-	width: 70px;
-}
+.s-cases{
+	overflow: hidden;
 
-.cases{
-	display: flex;
-	align-items: stretch;
-}
+	.sec-title-descr{
+		margin-bottom: 30px;
+		@include res(s){
+			margin-top: -20px;
+		}
 
-.cases__nav{
-	width: 70px;
-	flex-shrink: 0;
-	margin-right: 20px;
-}
+		.link-arrow{
+			@include res(s){
+				font-size: 14px;
+			}
 
-.cases__main{
-	flex: 1 1 auto;
-}
-
-.case-thumb{
-	height: 70px;
-	width: 70px;
-	background: #FFF;
-	border-radius: 35px;
-
-	&.active{
-		background: $green;
+			&:hover{
+				color: $green;
+			}
+		}
 	}
 }
 
 
-.case-slide{
-	display: flex;
+//thumbs
+.cases-thumbs{
+	overflow: visible;
+	user-select: none;
+	z-index: 2;
+
+	&:after{
+		content: '';
+		position: absolute;
+		border: 1px solid $green;
+		border-radius: 10px;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 128px;
+		bottom: 0;
+		pointer-events: none;
+		z-index: 3;
+		@include res(l){
+			width: 90px;
+		}
+	}
 }
 
-.case-slide__left{
-	text-align: center;
-	flex: 1 1 auto;
+.cases-thumbs__nav{
+	width: 128px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	margin: auto;
+	@include res(l){
+		width: 90px;
+	}
 }
 
-.case-slide__after{
-	display: inline-block;
+.cases-thumbs__item{
+	position: relative;
+	width: 128px;
+	cursor: pointer;
+	padding: 10px;
+	@include res(l){
+		width: 90px;
+	}
+
+	&:hover{
+		.cases-thumbs__color{
+			opacity: 1;
+		}
+	}
 
 	img{
 		display: block;
-		position: relative;
-		z-index: 1;
-		max-width: 100%;
-		height: auto;
-		border-radius: 0 0 50% 50% / 0 0 15% 15%;
+
+		&.cases-thumbs__color{
+			position: relative;
+			z-index: 2;
+			border-radius: 10px;
+			display: block;
+			width: 100%;
+			height: auto;
+			opacity: 0;
+			transition: opacity 0.3s ease;
+			transform: translate3d(0,0,0);
+		}
+
+		&.cases-thumbs__bw{
+			position: absolute;
+			z-index: 1;
+			top: 10px;
+			left: 10px;
+			filter: grayscale(100%);
+			width: calc(100% - 20px);
+			height: auto;
+			border-radius: 10px;
+			box-shadow: $shadow-block;
+		}
+	}
+
+	&.swiper-slide-active{
+		.cases-thumbs__color{
+			opacity: 1;
+		}
+	}
+}
+//thumbs
+
+
+//cases
+.cases-wrap{
+	display: flex;
+	padding-top: 45px;
+	@include res(m){
+		flex-direction: column;
+		align-items: center;
+	}
+	@include res(s){
+		padding-top: 30px;
 	}
 }
 
-.case-slide__right{
-	width: 280px;
-	margin-left: auto;
+.cases{
+	flex: 1 1 auto;
+	position: relative;
 }
 
-.case-slide__cite{
-	display: block;
+.case{
+	display: flex;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease;
+	overflow: hidden;
+	@include res(s){
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	&.active{
+		position: relative;
+		z-index: 2;
+		opacity: 1;
+		visibility: visible;
+		
+		.case__left{
+			transform: none;
+		}
+		.case__center{
+			transform: none;
+		}
+	}
+}
+
+.case__left{
+	flex-shrink: 0;
+	width: calc(100% / 3);
+	transition: all 0.5s ease;
+	transform: translate3d(-400px,0,0);
+	@include res(s){
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.case__center{
+	flex-shrink: 0;
+	width: calc(100% / 3 * 2);
+	text-align: center;
+	padding: 0 20px;
+	transform: scale3d(0.7,0.7,1);
+	transition: all 0.5s ease;
+	@include res(s){
+		width: 100%;
+		display: flex;
+		align-items: flex-start;
+		padding: 0;
+		margin-bottom: 15px;
+	}
+}
+
+.case__cite{
 	font-style: italic;
-	font-size: 20px;
+	font-size: 18px;
+	line-height: 1.3;
 	margin-bottom: 10px;
 	font-weight: 300;
-	line-height: 1.4;
+	@include res(s){
+		font-size: 14px;
+		font-weight: normal;
+	}
 }
 
-.case-slide__name{
+.case__hwo{
 	font-weight: bold;
 	font-size: 18px;
-	margin-bottom: 15px;
+	line-height: 1.2;
+	margin-bottom: 3px;
 }
+
+.case__city{
+	color: $gray-text;
+	line-height: 1.2;
+}
+
+.case__more-btn{
+	margin-top: 30px;
+	@include res(s){
+		margin-top: 15px;
+	}
+}
+
+.case__before{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-top: 30px;
+	border-radius: 20px;
+	@include res(s){
+		display: none;
+	}
+}
+
+.case__before-mob{
+	display: none;
+	width: 40%;
+	flex-shrink: 0;
+	height: auto;
+	border-radius: 10px;
+	@include res(s){
+		display: block;
+	}
+}
+
+.case__after{
+	max-width: 100%;
+	height: auto;
+	border-radius: 0 0 50% 50% / 0 0 15% 15%;
+	@include res(s){
+		width: 60%;
+	}
+}
+
+
+.cases-form{
+	z-index: 2;
+	flex-shrink: 0;
+	width: 320px;
+	max-width: 100%;
+	@include res(m){
+		margin-top: 30px;
+	}
+}
+
+.cases-form__title{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.cases-form__triggers{
+	margin-top: 20px;
+}
+//cases

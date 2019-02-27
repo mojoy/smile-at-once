@@ -10,7 +10,7 @@
 					<div class="head-slide__content">
 						<div class="head-slide__title">Имплантация зубов<br>с&nbsp;немедленной<br>нагрузкой протезами</div>
 						<div class="head-slide__descr">Революционные технологии восстановления всех зубов <nobr>за&nbsp;1-3 дня</nobr> с&nbsp;пожизненной гарантией.</div>
-						<ul class="head-slide__list">
+						<ul class="head-slide__list checked-round-list">
 							<li>Консультация врача бесплатно</li>
 							<li>Пожизненная гарантия</li>
 							<li>Восстанавливаем зубы за пару дней и навсегда</li>
@@ -27,7 +27,7 @@
 					<div class="head-slide__content">
 						<div class="head-slide__title">Стоматология<br>инновационных технологий<br>Smile-at-once</div>
 						<div class="head-slide__descr">Цифровые технологии – прорыв в&nbsp;стоматологии<br>Предсказуемый результат и&nbsp;защита от&nbsp;ошибок и&nbsp;осложнений</div>
-						<ul class="head-slide__list">
+						<ul class="head-slide__list checked-round-list">
 							<li>Компьютерная диагностика</li>
 							<li>Моделирование и планирование лечения в 3D</li>
 							<li>Цифровой дизайн улыбки - DSD</li>
@@ -44,7 +44,7 @@
 				<div class="container head-slide__container">
 					<div class="head-slide__content">
 						<div class="head-slide__title">Гарантия и<br>сервис, которые вы<br>не найдете нигде!</div>
-						<ul class="head-slide__list">
+						<ul class="head-slide__list checked-round-list">
 							<li>Пожизненная гарантия на работу врачей</li>
 							<li>Пожизненная гарантия на импланты</li>
 							<li>Гарантии на протезы до 15 лет</li>
@@ -63,7 +63,7 @@
 						<img src="/img/home/head-slide-logos.png" alt="1" class="head-slide__logos">
 						<div class="head-slide__title">Социальный проект -<br>Трансформация улыбки</div>
 						<div class="head-slide__descr">Двум пациентам по&nbsp;результатам народного голосования были восстановлены зубы</div>
-						<ul class="head-slide__list">
+						<ul class="head-slide__list checked-round-list">
 							<li>Совершенно бесплатно!</li>
 							<li>Пожизненная гарантия</li>
 							<li>За 3 дня</li>
@@ -75,6 +75,151 @@
 		</div>
 		<div class="swiper-pagination"></div>
 	</div>
+</section>
+
+
+<section class="s-cases s-def">
+	<div class="container">
+		<div class="h1 sec-title">Мы меняем жизнь людей к&nbsp;лучшему</div>
+		<div class="sec-title-descr">
+			<a href="#" class="link-arrow">Более 500 отзывов и счастливых улыбок <span class="i i-ar-right"></span></a>
+		</div>
+	</div>
+
+
+	<div class="swiper-container cases-thumbs">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/cases/t/1.jpg" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/cases/t/1.jpg" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/cases/t/1.jpg" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/cases/t/1.jpg" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+			<div class="swiper-slide cases-thumbs__item">
+				<div class="slide-loading"></div>
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__bw swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+				<img src="/img/team/t/placeholder.png" class="cases-thumbs__color swiper-lazy" data-src="/img/team/t/placeholder.png" alt="1">
+			</div>
+		</div>
+		<div class="cases-thumbs__nav">
+			<div class="slider-arrow slider-arrow--prev">
+				<span class="i i-left"></span>
+			</div>
+			<div class="slider-arrow slider-arrow--next">
+				<span class="i i-right"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="container cases-wrap">
+
+		<div class="cases">
+			<div class="case">
+				<div class="case__left">
+					<div class="case__cite">—  Не мог есть нормально еду. Был случай, когда кусочки пищи вывалились из рта прямо в гостях Это было ужасно!</div>
+					<div class="case__hwo">Бытаев В.А., 60 лет</div>
+					<div class="case__city">город Сызрань</div>
+					<button class="button button--outline case__more-btn">Видео отзыв</button>
+					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before">
+				</div>
+				<div class="case__center">
+					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob">
+					<img src="/img/cases/case-1-after.jpg" alt="" class="case__after">
+				</div>
+			</div>
+			<div class="case">
+				<div class="case__left">
+					<div class="case__cite">—  Не мог есть нормально еду.</div>
+					<div class="case__hwo">Бытаев В.А., 60 лет</div>
+					<div class="case__city">город Сызрань</div>
+					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before">
+				</div>
+				<div class="case__center">
+					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob">
+					<img src="/img/cases/case-1-after.jpg" alt="" class="case__after">
+				</div>
+			</div>
+		</div>
+
+		<div class="cases-form">
+			<div class="bordered-block bordered-block--pink">
+				<div class="h3 cases-form__title">Узнайте какое решение подходит в&nbsp;вашем случае</div>
+				<form action="#" class="vertical-form">
+					<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text input-text--round">
+					<button type="submit" class="button">Записаться</button>
+				</form>
+				<ul class="cases-form__triggers checked-pink-list">
+					<li>Бесплатная консультация имплантолога и ортопеда.</li>
+					<li>Компьютерная томография и&nbsp;ортопанотграмма 0 руб.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 </section>
 
 

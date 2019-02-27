@@ -20,6 +20,10 @@ label {
 		padding: 12px 20px;
 	}
 
+	&--round{
+		border-radius: 28px;
+	}
+
 	&::placeholder {
 		font-size: 18px;
 		line-height: 1.3;

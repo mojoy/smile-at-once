@@ -296,6 +296,44 @@ Team END
 
 
 /***********************
+Cases BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var casesThumbs = new Swiper ('.cases-thumbs', {
+		slidesPerView: 'auto',
+		centeredSlides: true,
+		loop: true,
+		slideToClickedSlide: true,
+		watchSlidesVisibility: true,
+		preloadImages: false,
+		lazy: {
+			preloaderClass: 'slide-loading'
+		},
+		navigation: {
+			nextEl: '.slider-arrow--next',
+			prevEl: '.slider-arrow--prev'
+		},
+		threshold: 5
+	});
+
+	casesThumbs.on('transitionEnd', function () {
+		selectCase(casesThumbs.realIndex);
+	});
+
+	var cases = $('.case');
+
+	function selectCase(index) {
+		cases.removeClass('active').eq(index).addClass('active');
+	}
+
+	selectCase(0);
+});
+/***********************
+Cases END
+***********************/
+
+
+/***********************
 faq steps BEGIN
 ***********************/
 $(function($){

@@ -113,3 +113,63 @@ h3,.h3{
 	font-size: 18px;
 	text-align: center;
 }
+
+
+.checked-round-list{
+	list-style: none;
+
+	li{
+		display: block;
+		position: relative;
+		padding-left: 25px;
+		line-height: 1.2;
+		margin-bottom: 0.4em;
+
+		&:before{
+			content: '';
+			position: absolute;
+			top: 0.3em;
+			left: 0;
+			width: 14px;
+			height: 14px;
+			border-radius: 7px;
+			background: $pink;
+			z-index: 1;
+		}
+
+		&:after{
+			content: '\e909';
+			font-family: $font-icon;
+			position: absolute;
+			z-index: 2;
+			top: 0.2em;
+			left: 3px;
+			color: #FFF;
+			font-size: 14px;
+		}
+	}
+}
+
+
+.checked-pink-list{
+	list-style: none;
+
+	li{
+		display: block;
+		position: relative;
+		padding-left: 25px;
+		line-height: 1.2;
+		margin-bottom: 0.4em;
+
+		&:before{
+			content: '\e909';
+			font-family: $font-icon;
+			position: absolute;
+			z-index: 2;
+			top: 0.2em;
+			left: 3px;
+			color: $pink;
+			font-size: 14px;
+		}
+	}
+}
