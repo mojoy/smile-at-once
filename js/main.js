@@ -310,6 +310,13 @@ $(function($){
 			faqStepsNavContainer.append(dot);
 		});
 		faqStepsNav = $('.faq-steps-nav__item');
+
+		faqStepsNav.on('click',function (e) {
+			e.preventDefault();
+			var thisIndex = $(this).index();
+			selectFaqStep(thisIndex);
+		});
+
 		return faqStepsNav;
 	}
 
@@ -329,11 +336,6 @@ $(function($){
 		selectFaqStep(nextIndex);
 	});
 
-	faqStepsNav.on('click',function (e) {
-		e.preventDefault();
-		var thisIndex = $(this).index();
-		selectFaqStep(thisIndex);
-	});
 });
 /***********************
 faq steps END

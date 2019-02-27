@@ -97,7 +97,7 @@
 	}
 	@include res(l){
 		min-height: initial;
-		background: none;
+		background-size: 100% auto;
 	}
 }
 
@@ -967,6 +967,8 @@
 	visibility: hidden;
 	transition: all 0.3s ease;
 	opacity: 0;
+	overflow: hidden;
+	transform: translate3d(0,0,0);
 
 	&.active{
 		opacity: 1;
@@ -975,20 +977,17 @@
 
 		.faq-step__title{
 			transform: none;
-			opacity: 1;
-			transition: all 1s ease 0.2s;
+			transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
 		}
 
 		.faq-step__list{
 			transform: none;
-			opacity: 1;
-			transition: all 1s ease 0.1s;
+			transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) 0.1s;
 		}
 
-		.faq-step__next{
+		.faq-step__next {
 			transform: none;
-			opacity: 1;
-			transition: all 0.5s ease;
+			transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 		}
 	}
 }
@@ -997,9 +996,8 @@
 	font-size: 30px;
 	font-weight: 300;
 	margin-bottom: 10px;
-	transition: all 0.3s ease;
-	transform: translate3d(-60px,0,0);
-	opacity: 0;
+	transition: all 0.3s ease-out;
+	transform: translate3d(-540px,0,0);
 	@include res(s){
 		font-size: 24px;
 	}
@@ -1007,9 +1005,8 @@
 
 .faq-step__list{
 	font-size: 18px;
-	transition: all 0.3s ease;
-	transform: translate3d(-60px,0,0);
-	opacity: 0;
+	transition: all 0.3s ease-out;
+	transform: translate3d(-540px,0,0);
 	@include res(s){
 		font-size: 14px;
 	}
@@ -1034,9 +1031,8 @@
 
 .faq-step__next{
 	margin-top: 60px;
-	transition: all 0.3s ease;
-	transform: translate3d(-60px,0,0);
-	opacity: 0;
+	transition: all 0.3s ease-out;
+	transform: translate3d(-540px,0,0);
 	@include res(xl){
 		margin-top: 30px;
 	}

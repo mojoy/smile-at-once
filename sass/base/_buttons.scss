@@ -11,8 +11,8 @@
 	cursor: pointer;
 	transition: all 0.2s ease;
 	user-select: none;
-	background: linear-gradient(to bottom, #f85e76, #cc0147);
-	border: 1px solid #e64a63;
+	background: linear-gradient(to bottom, #f85e76, #e12e5e);
+	border: 1px solid #ee496b;
 	box-shadow:  0 3px 0 0 #b0244a;
 	color: #FFF;
 	font-size: 18px;
@@ -27,18 +27,18 @@
 	}
 
 	&:focus {
-		background: linear-gradient(to bottom, #f85e76, #cc0147);
+		background: linear-gradient(to bottom, #f85e76, #e12e5e);
 		outline: none;
 	}
 
 	&:hover{
-		background: linear-gradient(to bottom, #f85e76, #cc0147);
+		background: linear-gradient(to bottom, #f85e76, #e12e5e);
 		box-shadow:  0 5px 0 0 #b0244a;
 		transform: translate3d(0,-2px,0);
 	}
 
 	&:active{
-		background: linear-gradient(to bottom, #f85e76, #cc0147);
+		background: linear-gradient(to bottom, #f85e76, #e12e5e);
 		box-shadow:  0 1px 0 0 #b0244a;
 		transform: translate3d(0,2px,0);
 	}

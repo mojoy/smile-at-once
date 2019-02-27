@@ -27,10 +27,10 @@
 	<meta property="og:image" content="/img/og.jpg">
 	<!-- og -->
 
-	<!--<link href="css/all-prev.css" rel="stylesheet">
+	<link href="css/all-prev.css" rel="stylesheet">
 	<link href="css/all.css" rel="stylesheet">
 	<link href="css/all_doctors_dev.css" rel="stylesheet">
-	<link href="css/animate.min.css" rel="stylesheet">-->
+	<link href="css/animate.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 </head>
 
@@ -45,9 +45,9 @@
 			<img src="/img/logo-mini.svg" alt="Логотип" class="top-panel__logo-mob">
 		</a>
 		<div class="top-panel__prizes">
-			<a href="#"><img src="/img/header/prize_1.png" alt="1" title="Награда"></a>
-			<a href="#"><img src="/img/header/prize_2.png" alt="2" title="Награда"></a>
-			<a href="#"><img src="/img/header/prize_3.png" alt="3" title="Награда"></a>
+			<a href="#"><img src="/img/header/prize_1.png" alt="1" title="Лучшая стоматологическая клиника по версии КоммерсантЪ"></a>
+			<a href="#"><img src="/img/header/prize_2.png" alt="2" title="Инновационный Центр стоматологической ассоциации РФ"></a>
+			<a href="#"><img src="/img/header/prize_3.png" alt="3" title="Инновационный Центр стоматологической ассоциации РФ"></a>
 		</div>
 		<div class="top-panel__links">
 			<a href="#" class="top-panel__link"><span class="i i-shield"></span>О клинике</a>

@@ -1144,7 +1144,6 @@
 					<li>Снятие фотопараметров и кондилографии (параметров прикуса).</li>
 					<li>Подбор вариантов лечения с визуализацией и указанием точной стоимости.</li>
 				</ul>
-				<button class="button button--outline faq-step__next">Следующий шаг<span class="i i-ar-right"></span></button>
 			</div>
 		</div>
 	</div>
@@ -1173,6 +1172,27 @@
 				</div>
 			</div>
 			<button class="button consult-block__btn fancy-modal" data-src="#modal-consult">Консультация врача</button>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-def">
+	<div class="container">
+		<div class="regions-banner">
+			<div class="regions-banner__content">
+				<div class="h2 regions-banner__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
+				<div class="regions-banner__descr">Организация лечения с&nbsp;размещением «под ключ» для&nbsp;пациентов из&nbsp;других городов</div>
+				<div class="consult-block__phone">
+					<small>Для регионов</small>
+					<a href="tel:8 800 333-46-28">8 800 333-46-28</a>
+				</div>
+				<div class="consult-block__phone">
+					<small>Для Москвы и МО</small>
+					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
+				</div>
+				<a href="#" class="button regions-banner__btn">Узнать больше</a>
+			</div>
 		</div>
 	</div>
 </section>

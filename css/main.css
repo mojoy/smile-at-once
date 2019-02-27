@@ -2979,8 +2979,8 @@
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background: linear-gradient(to bottom, #f85e76, #cc0147);
-  border: 1px solid #e64a63;
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
+  border: 1px solid #ee496b;
   box-shadow: 0 3px 0 0 #b0244a;
   color: #FFF;
   font-size: 18px;
@@ -2999,19 +2999,19 @@
 }
 
 .pb .button:focus {
-  background: linear-gradient(to bottom, #f85e76, #cc0147);
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
   outline: none;
 }
 
 .pb .button:hover {
-  background: linear-gradient(to bottom, #f85e76, #cc0147);
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
   box-shadow: 0 5px 0 0 #b0244a;
   -webkit-transform: translate3d(0, -2px, 0);
   transform: translate3d(0, -2px, 0);
 }
 
 .pb .button:active {
-  background: linear-gradient(to bottom, #f85e76, #cc0147);
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
   box-shadow: 0 1px 0 0 #b0244a;
   -webkit-transform: translate3d(0, 2px, 0);
   transform: translate3d(0, 2px, 0);
@@ -6001,6 +6001,68 @@
   }
 }
 
+.pb .regions-banner {
+  background: url("../img/regions-block-bg.jpg") right bottom no-repeat #36dbe3;
+  min-height: 420px;
+  border-radius: 20px;
+  box-shadow: 0 3px 35px 0 rgba(166, 191, 207, 0.7);
+  padding: 30px;
+}
+
+@media (max-width: 1024px) {
+  .pb .regions-banner {
+    background-size: 100% auto;
+    background-position: 50px bottom;
+  }
+}
+
+@media (max-width: 768px) {
+  .pb .regions-banner {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .pb .regions-banner {
+    padding-bottom: 50%;
+    background-size: 130% auto;
+    background-position: right bottom;
+  }
+}
+
+.pb .regions-banner__content {
+  max-width: 500px;
+  color: #FFF;
+}
+
+.pb .regions-banner__title {
+  margin-bottom: 10px;
+}
+
+.pb .regions-banner__descr {
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 680px) {
+  .pb .regions-banner__descr {
+    font-size: 18px;
+  }
+}
+
+.pb .regions-banner__btn {
+  margin-top: 40px;
+  width: 280px;
+  max-width: 100%;
+}
+
+@media (max-width: 680px) {
+  .pb .regions-banner__btn {
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 480px) {
   .pb .info-links .grid-3 {
     margin-bottom: 25px;
@@ -6127,7 +6189,7 @@
 @media (max-width: 1024px) {
   .pb .s-regions {
     min-height: initial;
-    background: none;
+    background-size: 100% auto;
   }
 }
 
@@ -7214,6 +7276,9 @@
   visibility: hidden;
   transition: all 0.3s ease;
   opacity: 0;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .pb .faq-step.active {
@@ -7225,32 +7290,28 @@
 .pb .faq-step.active .faq-step__title {
   -webkit-transform: none;
   transform: none;
-  opacity: 1;
-  transition: all 1s ease 0.2s;
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
 }
 
 .pb .faq-step.active .faq-step__list {
   -webkit-transform: none;
   transform: none;
-  opacity: 1;
-  transition: all 1s ease 0.1s;
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) 0.1s;
 }
 
 .pb .faq-step.active .faq-step__next {
   -webkit-transform: none;
   transform: none;
-  opacity: 1;
-  transition: all 0.5s ease;
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .pb .faq-step__title {
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 10px;
-  transition: all 0.3s ease;
-  -webkit-transform: translate3d(-60px, 0, 0);
-  transform: translate3d(-60px, 0, 0);
-  opacity: 0;
+  transition: all 0.3s ease-out;
+  -webkit-transform: translate3d(-540px, 0, 0);
+  transform: translate3d(-540px, 0, 0);
 }
 
 @media (max-width: 680px) {
@@ -7261,10 +7322,9 @@
 
 .pb .faq-step__list {
   font-size: 18px;
-  transition: all 0.3s ease;
-  -webkit-transform: translate3d(-60px, 0, 0);
-  transform: translate3d(-60px, 0, 0);
-  opacity: 0;
+  transition: all 0.3s ease-out;
+  -webkit-transform: translate3d(-540px, 0, 0);
+  transform: translate3d(-540px, 0, 0);
 }
 
 @media (max-width: 680px) {
@@ -7292,10 +7352,9 @@
 
 .pb .faq-step__next {
   margin-top: 60px;
-  transition: all 0.3s ease;
-  -webkit-transform: translate3d(-60px, 0, 0);
-  transform: translate3d(-60px, 0, 0);
-  opacity: 0;
+  transition: all 0.3s ease-out;
+  -webkit-transform: translate3d(-540px, 0, 0);
+  transform: translate3d(-540px, 0, 0);
 }
 
 @media (max-width: 1400px) {
