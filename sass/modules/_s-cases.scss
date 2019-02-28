@@ -267,3 +267,156 @@
 	margin-top: 20px;
 }
 //cases
+
+
+//cases modal
+.case-modal{
+	width: 930px;
+	text-align: center;
+	@include res(xl){
+		width: 600px;
+	}
+}
+
+.case-modal__title{
+	margin-bottom: 0.5em;
+	@include res(xl){
+		font-size: 24px;
+	}
+	@include res(s){
+		font-size: 18px;
+	}
+}
+
+.case-modal__video{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-bottom: 10px;
+
+	&:hover{
+		&:after{
+			background: rgba(0,0,0,0.4);
+		}
+		.play-btn{
+			background: $green;
+
+			&:before{
+				border-color: $green;
+			}
+		}
+	}
+
+	&:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: rgba(0,0,0,0.2);
+		z-index: 2;
+		transition: all 0.3s ease;
+	}
+
+	img{
+		display: block;
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		height: auto;
+	}
+
+	.play-btn{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		z-index: 3;
+		width: 64px;
+		height: 64px;
+		border-radius: 10px;
+		@include res(s){
+			width: 40px;
+			height: 40px;
+			border-radius: 6px;
+		}
+
+		&:before{
+			top: -8px;
+			left: -8px;
+			right: -8px;
+			bottom: -8px;
+			border-radius: 10px;
+			@include res(s){
+				top: -4px;
+				left: -4px;
+				right: -4px;
+				bottom: -4px;
+				border-radius: 6px;
+			}
+		}
+	}
+}
+
+.case-modal__order{
+	background: #f8fbfc;
+	border: 1px solid $pink;
+	border-radius: 15px;
+	padding: 20px 30px;
+	margin-top: 10px;
+	@include res(xl){
+		padding: 10px 20px;
+	}
+	@include res(s){
+		border-radius: 0;
+		margin-left: -20px;
+		margin-right: -20px;
+		border-left: none;
+		border-right: none;
+	}
+}
+
+.case-modal__order-title{
+	margin-bottom: 0.7em;
+	@include res(xl){
+		font-size: 20px;
+	}
+	@include res(s){
+		font-size: 16px;
+	}
+}
+
+.case-modal__form{
+	margin-bottom: 10px;
+	position: relative;
+
+	.input-text{
+		width: 100%;
+	}
+
+	.button{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 4px;
+		@include res(xs){
+			position: relative;
+			bottom: initial;
+			margin-top: 5px;
+			width: 100%;
+		}
+	}
+}
+
+.case-modal__note{
+	font-size: 14px;
+	line-height: 1.2;
+	@include res(s){
+		font-size: 12px;
+	}
+}
+//cases modal

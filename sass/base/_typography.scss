@@ -71,9 +71,15 @@ h3,.h3{
 	color: $pink;
 	transition: all 0.3s ease;
 
+	&:hover{
+		color: $green;
+	}
+
 	.i{
 		font-size: 0.7em;
-		margin-left: 5px;
+		margin-left: 0.5em;
+		position: relative;
+		top: 0.1em;
 	}
 }
 

@@ -101,7 +101,9 @@ button::-moz-focus-inner {
 	background: $pink;
 	border-radius: 6px;
 	transform: rotate(45deg);
+	border: none;
 	transition: all 0.3s ease;
+	cursor: pointer;
 
 	&:hover{
 		background: $green;

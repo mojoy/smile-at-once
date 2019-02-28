@@ -183,12 +183,28 @@
 					<div class="case__cite">—  Не мог есть нормально еду. Был случай, когда кусочки пищи вывалились из рта прямо в гостях Это было ужасно!</div>
 					<div class="case__hwo">Бытаев В.А., 60 лет</div>
 					<div class="case__city">город Сызрань</div>
-					<button class="button button--outline case__more-btn">Видео отзыв</button>
+					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-1" data-fancybox="cases">Видео отзыв</button>
 					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before">
 				</div>
 				<div class="case__center">
 					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob">
 					<img src="/img/cases/case-1-after.jpg" alt="" class="case__after">
+				</div>
+				<div class="modal case-modal" id="case-modal-1">
+					<div class="h2 case-modal__title">Восстановление зубов верхней челюсти постоянным несъемным протезом на имплантах</div>
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video">
+						<img src="/img/cases/video.jpg" alt="1">
+						<button class="play-btn"></button>
+					</a>
+					<a href="#" class="link-arrow">Полный отчёт <span class="i i-ar-right"></span></a>
+					<div class="case-modal__order">
+						<div class="h3 case-modal__order-title">Узнайте какое решение подходит в вашем случае</div>
+						<form action="#" class="case-modal__form">
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text input-text--round">
+							<button type="submit" class="button">Записаться к врачу</button>
+						</form>
+						<div class="case-modal__note">Бесплатная консультация имплантолога и ортопеда. Компьютерная томография и ортопанотграмма 0 руб.</div>
+					</div>
 				</div>
 			</div>
 			<div class="case">
@@ -196,11 +212,28 @@
 					<div class="case__cite">—  Не мог есть нормально еду.</div>
 					<div class="case__hwo">Бытаев В.А., 60 лет</div>
 					<div class="case__city">город Сызрань</div>
+					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-2" data-fancybox="cases">Видео отзыв</button>
 					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before">
 				</div>
 				<div class="case__center">
 					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob">
 					<img src="/img/cases/case-1-after.jpg" alt="" class="case__after">
+				</div>
+				<div class="modal case-modal" id="case-modal-2">
+					<div class="h2 case-modal__title">Восстановление зубов верхней челюсти</div>
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video">
+						<img src="/img/cases/video.jpg" alt="1">
+						<button class="play-btn"></button>
+					</a>
+					<a href="#" class="link-arrow">Полный отчёт <span class="i i-ar-right"></span></a>
+					<div class="case-modal__order">
+						<div class="h3 case-modal__order-title">Узнайте какое решение подходит в вашем случае</div>
+						<form action="#" class="case-modal__form">
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text input-text--round">
+							<button type="submit" class="button">Записаться к врачу</button>
+						</form>
+						<div class="case-modal__note">Бесплатная консультация имплантолога и ортопеда. Компьютерная томография и ортопанотграмма 0 руб.</div>
+					</div>
 				</div>
 			</div>
 		</div>

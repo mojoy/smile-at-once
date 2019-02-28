@@ -1913,9 +1913,15 @@
   transition: all 0.3s ease;
 }
 
+.pb .link-arrow:hover {
+  color: #72dbd4;
+}
+
 .pb .link-arrow .i {
   font-size: 0.7em;
-  margin-left: 5px;
+  margin-left: 0.5em;
+  position: relative;
+  top: 0.1em;
 }
 
 .pb .link-dot {
@@ -3140,7 +3146,9 @@
   border-radius: 6px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+  border: none;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .pb .play-btn:hover {
@@ -3184,7 +3192,7 @@
 
 .pb .modal {
   display: none;
-  background: #FFF;
+  background: #f8fbfc;
   width: 400px;
   max-width: 100%;
   will-change: transform, opacity;
@@ -3194,6 +3202,12 @@
   transform: translate3d(0, -20px, 0);
   opacity: 0;
   transition: all 0.5s ease;
+}
+
+@media (max-width: 680px) {
+  .pb .modal {
+    padding: 20px;
+  }
 }
 
 .pb .modal__header {
@@ -3306,14 +3320,9 @@
 }
 
 .pb .fancybox-navigation .fancybox-button {
+  display: block;
   background: transparent;
   padding: 0;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -3444,7 +3453,14 @@
 }
 
 .pb .fancybox-navigation .fancybox-button .i {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 18px;
+  height: 18px;
   z-index: 2;
   color: #FFF;
   font-size: 18px;
@@ -3453,6 +3469,8 @@
 @media (max-width: 1024px) {
   .pb .fancybox-navigation .fancybox-button .i {
     font-size: 14px;
+    width: 14px;
+    height: 14px;
   }
 }
 
@@ -5299,6 +5317,188 @@
 
 .pb .cases-form__triggers {
   margin-top: 20px;
+}
+
+.pb .case-modal {
+  width: 930px;
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  .pb .case-modal {
+    width: 600px;
+  }
+}
+
+.pb .case-modal__title {
+  margin-bottom: 0.5em;
+}
+
+@media (max-width: 1400px) {
+  .pb .case-modal__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 680px) {
+  .pb .case-modal__title {
+    font-size: 18px;
+  }
+}
+
+.pb .case-modal__video {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.pb .case-modal__video:hover:after {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.pb .case-modal__video:hover .play-btn {
+  background: #72dbd4;
+}
+
+.pb .case-modal__video:hover .play-btn:before {
+  border-color: #72dbd4;
+}
+
+.pb .case-modal__video:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.pb .case-modal__video img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.pb .case-modal__video .play-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 3;
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+}
+
+@media (max-width: 680px) {
+  .pb .case-modal__video .play-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+  }
+}
+
+.pb .case-modal__video .play-btn:before {
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  border-radius: 10px;
+}
+
+@media (max-width: 680px) {
+  .pb .case-modal__video .play-btn:before {
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 6px;
+  }
+}
+
+.pb .case-modal__order {
+  background: #f8fbfc;
+  border: 1px solid #ff5274;
+  border-radius: 15px;
+  padding: 20px 30px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1400px) {
+  .pb .case-modal__order {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .pb .case-modal__order {
+    border-radius: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.pb .case-modal__order-title {
+  margin-bottom: 0.7em;
+}
+
+@media (max-width: 1400px) {
+  .pb .case-modal__order-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .pb .case-modal__order-title {
+    font-size: 16px;
+  }
+}
+
+.pb .case-modal__form {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.pb .case-modal__form .input-text {
+  width: 100%;
+}
+
+.pb .case-modal__form .button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 4px;
+}
+
+@media (max-width: 480px) {
+  .pb .case-modal__form .button {
+    position: relative;
+    bottom: initial;
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+
+.pb .case-modal__note {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+@media (max-width: 680px) {
+  .pb .case-modal__note {
+    font-size: 12px;
+  }
 }
 
 .pb .s-prizes {
