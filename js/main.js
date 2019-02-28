@@ -402,3 +402,31 @@ document.addEventListener('DOMContentLoaded',function () {
 /***********************
 Head-slider END
 ***********************/
+
+
+/***********************
+Promo slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var promoSlider = new Swiper ('.promo-slider', {
+		slidesPerView: 1,
+		loop: true,
+		threshold: 5,
+		grabCursor: true,
+		preloadImages: false,
+		lazy: {
+			preloaderClass: 'slide-loading'
+		},
+		navigation: {
+			nextEl: '.promo-slider__next',
+			prevEl: '.promo-slider__prev'
+		},
+		pagination: {
+			el: '.promo-slider__pages',
+			type: 'fraction'
+		}
+	});
+});
+/***********************
+Promo slider END
+***********************/

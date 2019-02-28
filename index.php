@@ -183,7 +183,7 @@
 					<div class="case__cite">—  Не мог есть нормально еду. Был случай, когда кусочки пищи вывалились из рта прямо в гостях Это было ужасно!</div>
 					<div class="case__hwo">Бытаев В.А., 60 лет</div>
 					<div class="case__city">город Сызрань</div>
-					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-1" data-fancybox="cases">Видео отзыв</button>
+					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-1" data-fancybox="cases">Фото и видео</button>
 					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before">
 				</div>
 				<div class="case__center">
@@ -212,7 +212,7 @@
 					<div class="case__cite">—  Не мог есть нормально еду.</div>
 					<div class="case__hwo">Бытаев В.А., 60 лет</div>
 					<div class="case__city">город Сызрань</div>
-					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-2" data-fancybox="cases">Видео отзыв</button>
+					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-2" data-fancybox="cases">Фото и видео</button>
 					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before">
 				</div>
 				<div class="case__center">
@@ -260,7 +260,7 @@
 	<div class="container">
 		<div class="triggers-block bordered-block bordered-block--pink">
 			<div class="row">
-				<div class="grid-4 grid-12_m">
+				<div class="grid-4 grid-12_m trigger-last-mob">
 					<div class="trigger">
 						<div class="trigger__icon">
 							<img src="#" data-lazy="/img/home/trigger-1.svg" alt="1">
@@ -293,6 +293,108 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-promo">
+	<div class="container">
+		<div class="swiper-container promo-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide promo-banner promo-banner--purple promo-banner--dark">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-1.png" alt="1" class="promo-banner__img swiper-lazy">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__date">до 18.03.2019</div>
+						<div class="promo-banner__title">Протезирование на&nbsp;имплантах Trefoil для&nbsp;нижней челюсти</div>
+						<ul class="promo-banner__list checked-pink-list">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<div class="promo-banner__prices">
+							<div class="promo-banner__price">90 000 руб</div>
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+				</div>
+				<div class="swiper-slide promo-banner promo-banner--yellow">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-2.png" alt="1" class="promo-banner__img swiper-lazy">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__date">до 18.03.2019</div>
+						<div class="promo-banner__title">ALL-ON-4 - Все&nbsp;зубы на&nbsp;четырех имплантах</div>
+						<ul class="promo-banner__list checked-pink-list">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<div class="promo-banner__prices">
+							<div class="promo-banner__price">90 000 руб</div>
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+				</div>
+				<div class="swiper-slide promo-banner promo-banner--pink">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-3.png" alt="1" class="promo-banner__img swiper-lazy">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__title">ALL-ON-6 - Протезирование на&nbsp;6 имплантах от 90 000 руб</div>
+						<ul class="promo-banner__list checked-pink-list">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+				</div>
+				<div class="swiper-slide promo-banner promo-banner--green">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-4.png" alt="1" class="promo-banner__img swiper-lazy">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__title">Базальная имплантация зубов <nobr>от 90 000 руб</nobr></div>
+						<ul class="promo-banner__list checked-pink-list">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+				</div>
+				<div class="swiper-slide promo-banner promo-banner--gray promo-banner--dark">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-5.png" alt="1" class="promo-banner__img swiper-lazy">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__title">Скуловая имплантация зубов <nobr>от 90 000 руб</nobr></div>
+						<ul class="promo-banner__list checked-pink-list">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+				</div>
+			</div>
+			<div class="promo-slider__nav">
+				<div class="i i-left promo-slider__prev"></div>
+				<div class="promo-slider__pages"></div>
+				<div class="i i-right promo-slider__next"></div>
 			</div>
 		</div>
 	</div>

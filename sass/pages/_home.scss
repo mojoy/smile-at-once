@@ -148,7 +148,7 @@
 		text-align: left;
 		width: calc(50% - 20px);
 		box-shadow: $shadow-block;
-		margin: 0 10px 20px 10px;
+		margin: 0 10px 20px 10px !important;
 		padding: 30px;
 		border-radius: 20px;
 		height: initial;
@@ -169,11 +169,20 @@
 		}
 	}
 	@include res(s){
-		padding: 20px;
+		padding: 10px 15px;
+		margin: 0 5px 10px 5px !important;
+		width: calc(50% - 10px);
+
+		&:before{
+			left: 4px;
+			top: 4px;
+			bottom: 4px;
+			right: 4px;
+		}
 	}
 	@include res(xs){
-		width: 100%;
-		margin: 0 0 10px 0;
+		flex-direction: column;
+		align-items: flex-start;
 	}
 
 	&:hover{
@@ -223,6 +232,10 @@
 		}
 		@include res(s){
 			font-size: 40px;
+		}
+		@include res(xs){
+			font-size: 20px;
+			margin-right: 7px;
 		}
 	}
 }
@@ -354,17 +367,18 @@
 		height: 180px;
 	}
 	@include res(l){
-		width: calc(50% - 15px);
+		width: calc(50% - 20px);
 		height: auto;
 		padding: 25px 20px;
-		margin: 0 15px 15px 0;
+		margin: 0 10px 15px;
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 	}
 	@include res(xs){
-		width: 100%;
-		margin: 0 0 15px 0;
+		width: calc(50% - 10px);
+		margin: 0 5px 10px;
+		padding: 15px 10px;
 	}
 
 	&:hover{
@@ -405,6 +419,12 @@
 		@include res(l){
 			transform: none;
 		}
+		@include res(xs){
+			left: 4px;
+			top: 4px;
+			bottom: 4px;
+			right: 4px;
+		}
 	}
 
 	&>*{
@@ -421,6 +441,10 @@
 		margin-bottom: 10px;
 		@include res(xl){
 			font-size: 30px;
+		}
+		@include res(xs){
+			margin-bottom: 5px;
+			font-size: 20px;
 		}
 
 		&:before{
@@ -447,6 +471,10 @@
 		line-height: 1.4;
 		@include res(xl){
 			font-size: 14px;
+		}
+		@include res(xs){
+			font-size: 12px;
+			line-height: 1.3;
 		}
 
 		br{
@@ -1198,6 +1226,12 @@
 	line-height: 1.3;
 	@include res(xs){
 		font-size: 14px;
+	}
+}
+
+.trigger-last-mob{
+	@include res(m){
+		order: 2;
 	}
 }
 //s-triggers
