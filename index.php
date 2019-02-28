@@ -256,6 +256,49 @@
 </section>
 
 
+<section class="s-triggers s-def-bottom">
+	<div class="container">
+		<div class="triggers-block bordered-block bordered-block--pink">
+			<div class="row">
+				<div class="grid-4 grid-12_m">
+					<div class="trigger">
+						<div class="trigger__icon">
+							<img src="#" data-lazy="/img/home/trigger-1.svg" alt="1">
+						</div>
+						<div class="trigger__content">
+							<div class="h3 trigger__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
+							<div class="trigger__descr">Организация лечения с&nbsp;размещением «под ключ» для&nbsp;пациентов из&nbsp;других городов.</div>
+						</div>
+					</div>
+				</div>
+				<div class="grid-4 grid-12_m">
+					<div class="trigger">
+						<div class="trigger__icon">
+							<img src="#" data-lazy="/img/home/trigger-2.svg" alt="1">
+						</div>
+						<div class="trigger__content">
+							<div class="h3 trigger__title">Бессрочная гарантия и&nbsp;сервисное обслуживание</div>
+							<div class="trigger__descr">Мы лечим наверняка и&nbsp;не&nbsp;бросаем после! Все наши договоренности зафиксированы в&nbsp;договоре.</div>
+						</div>
+					</div>
+				</div>
+				<div class="grid-4 grid-12_m">
+					<div class="trigger">
+						<div class="trigger__icon">
+							<img src="#" data-lazy="/img/home/trigger-3.svg" alt="1">
+						</div>
+						<div class="trigger__content">
+							<div class="h3 trigger__title">Более 24&nbsp;решений по&nbsp;срокам и&nbsp;финансам</div>
+							<div class="trigger__descr">Единственная стоматология в&nbsp;РФ, где применяются все технологии немедленной нагрузки, а&nbsp;не&nbsp;какая-то одна.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-prizes s-def">
 	<div class="container">
 		<div class="h1 sec-title">Наши партнеры и&nbsp;награды</div>
