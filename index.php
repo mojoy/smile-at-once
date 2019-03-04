@@ -5,10 +5,12 @@
 	<div class="head-slider swiper-container">
 		<div class="swiper-wrapper">
 			<div class="head-slide swiper-slide">
-				<img src="/img/home/head-slide-1.jpg" alt="1" class="head-slide__bg" width="1902" height="688">
+				<a href="#" class="head-slide__bg">
+					<img src="/img/home/head-slide-1.jpg" alt="1" width="1902" height="688">
+				</a>
 				<div class="container head-slide__container">
 					<div class="head-slide__content">
-						<div class="head-slide__title">Имплантация зубов<br>с&nbsp;немедленной<br>нагрузкой протезами</div>
+						<div class="head-slide__title">Имплантация зубов <br>с&nbsp;немедленной <br>нагрузкой протезами</div>
 						<div class="head-slide__descr">Революционные технологии восстановления всех зубов <nobr>за&nbsp;1-3 дня</nobr> с&nbsp;пожизненной гарантией.</div>
 						<ul class="head-slide__list checked-round-list">
 							<li>Консультация врача бесплатно</li>
@@ -21,11 +23,13 @@
 				</div>
 			</div>
 			<div class="head-slide swiper-slide">
-				<div class="slide-loading slide-loading--pink"></div>
-				<img src="/img/home/hs-place.png" data-src="/img/home/head-slide-2.jpg" alt="1" class="head-slide__bg swiper-lazy" width="1902" height="688">
+				<a href="#" class="head-slide__bg">
+					<div class="slide-loading slide-loading--pink"></div>
+					<img src="/img/home/hs-place.png" data-src="/img/home/head-slide-2.jpg" alt="1" class="swiper-lazy" width="1902" height="688">
+				</a>
 				<div class="container head-slide__container">
 					<div class="head-slide__content">
-						<div class="head-slide__title">Стоматология<br>инновационных технологий<br>Smile-at-once</div>
+						<div class="head-slide__title">Стоматология <br>инновационных технологий <br>Smile-at-once</div>
 						<div class="head-slide__descr">Цифровые технологии – прорыв в&nbsp;стоматологии<br>Предсказуемый результат и&nbsp;защита от&nbsp;ошибок и&nbsp;осложнений</div>
 						<ul class="head-slide__list checked-round-list">
 							<li>Компьютерная диагностика</li>
@@ -39,11 +43,13 @@
 				</div>
 			</div>
 			<div class="head-slide swiper-slide">
-				<div class="slide-loading slide-loading--pink"></div>
-				<img src="/img/home/hs-place.png" data-src="/img/home/head-slide-3.jpg" alt="1" class="head-slide__bg swiper-lazy" width="1902" height="688">
+				<a href="#" class="head-slide__bg">
+					<div class="slide-loading slide-loading--pink"></div>
+					<img src="/img/home/hs-place.png" data-src="/img/home/head-slide-3.jpg" alt="1" class="swiper-lazy" width="1902" height="688">
+				</a>
 				<div class="container head-slide__container">
 					<div class="head-slide__content">
-						<div class="head-slide__title">Гарантия и<br>сервис, которые вы<br>не найдете нигде!</div>
+						<div class="head-slide__title">Гарантия и <br>сервис, которые вы <br>не&nbsp;найдете нигде!</div>
 						<ul class="head-slide__list checked-round-list">
 							<li>Пожизненная гарантия на работу врачей</li>
 							<li>Пожизненная гарантия на импланты</li>
@@ -56,12 +62,14 @@
 				</div>
 			</div>
 			<div class="head-slide swiper-slide">
-				<div class="slide-loading slide-loading--pink"></div>
-				<img src="/img/home/hs-place.png" data-src="/img/home/head-slide-4.jpg" alt="1" class="head-slide__bg swiper-lazy" width="1902" height="688">
+				<a href="#" class="head-slide__bg">
+					<div class="slide-loading slide-loading--pink"></div>
+					<img src="/img/home/hs-place.png" data-src="/img/home/head-slide-4.jpg" alt="1" class="swiper-lazy" width="1902" height="688">
+				</a>
 				<div class="container head-slide__container">
 					<div class="head-slide__content">
 						<img src="/img/home/head-slide-logos.png" alt="1" class="head-slide__logos">
-						<div class="head-slide__title">Социальный проект -<br>Трансформация улыбки</div>
+						<div class="head-slide__title">Социальный проект - <br>Трансформация улыбки</div>
 						<div class="head-slide__descr">Двум пациентам по&nbsp;результатам народного голосования были восстановлены зубы</div>
 						<ul class="head-slide__list checked-round-list">
 							<li>Совершенно бесплатно!</li>
@@ -1310,31 +1318,33 @@
 	<div class="container">
 		<div class="h1 sec-title">О нас пишут</div>
 
-		<div class="smi-row">
-			<a href="#" class="smi-row__item">
-				<img src="" data-lazy="/img/home/smi-1.png" alt="1">
-			</a>
-			<a href="#" class="smi-row__item">
-				<img src="" data-lazy="/img/home/smi-2.png" alt="1">
-			</a>
-			<a href="#" class="smi-row__item">
-				<img src="" data-lazy="/img/home/smi-3.png" alt="1">
-			</a>
-			<a href="#" class="smi-row__item">
-				<img src="" data-lazy="/img/home/smi-4.png" alt="1">
-			</a>
-			<a href="#" class="smi-row__item">
-				<img src="" data-lazy="/img/home/smi-1.png" alt="1">
-			</a>
-			<a href="#" class="smi-row__item">
-				<img src="" data-lazy="/img/home/smi-2.png" alt="1">
-			</a>
-			<a href="#" class="smi-row__item">
-				<img src="" data-lazy="/img/home/smi-3.png" alt="1">
-			</a>
-			<a href="#" class="smi-row__item">
-				<img src="" data-lazy="/img/home/smi-4.png" alt="1">
-			</a>
+		<div class="swiper-container smi-row">
+			<div class="swiper-wrapper">
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-1.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-2.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-3.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-4.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-1.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-2.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-3.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-4.png" alt="1">
+				</a>
+			</div>
 		</div>
 	</div>
 </section>

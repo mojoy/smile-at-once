@@ -87,11 +87,11 @@
 
 .swiper-container-horizontal > .swiper-pagination-bullets{
 
-	@include res(s){
-		bottom: 5px;
-		text-align: right;
-		padding-right: 15px;
-	}
+	//@include res(s){
+	//	bottom: 5px;
+	//	text-align: right;
+	//	padding-right: 15px;
+	//}
 
 	.swiper-pagination-bullet{
 		width: 14px;

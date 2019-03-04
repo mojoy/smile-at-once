@@ -31,7 +31,7 @@
 	<link href="css/all.css" rel="stylesheet">
 	<link href="css/all_doctors_dev.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">-->
-	<link href="css/main.css" rel="stylesheet">
+	<link href="css/main.css?v=1" rel="stylesheet">
 </head>
 
 <body>
@@ -625,6 +625,7 @@
 </div>
 
 <div class="mob-panel">
+	<a href="/" class="mob-panel__logo"><img src="/img/logo-white.svg" alt="логотип"></a>
 	<div class="mob-panel__contacts">
 		<strong><a href="tel:88003334628">8 800 333-46-28</a></strong>
 		<strong><a href="tel:84955405042">8 495 540-50-42</a></strong>

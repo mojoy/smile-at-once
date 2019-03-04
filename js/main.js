@@ -430,3 +430,19 @@ document.addEventListener('DOMContentLoaded',function () {
 /***********************
 Promo slider END
 ***********************/
+
+
+/***********************
+Smi slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var smiSlider = new Swiper ('.smi-row', {
+		slidesPerView: 'auto',
+		loop: true,
+		threshold: 5,
+		grabCursor: true
+	});
+});
+/***********************
+Smi slider END
+***********************/
