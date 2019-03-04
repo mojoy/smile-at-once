@@ -628,12 +628,7 @@
 	<div class="mob-panel__contacts">
 		<strong><a href="tel:88003334628">8 800 333-46-28</a></strong>
 		<strong><a href="tel:84955405042">8 495 540-50-42</a></strong>
-		<a href="#" class="mob-panel__callback fancy-modal" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
 		<div>Ежедневно с 10:00 до 21:00 </div>
-		<div class="top-panel__links">
-			<a href="#" class="top-panel__link"><span class="i i-shield"></span>О клинике</a>
-			<a href="#" class="top-panel__link"><span class="i i-pin"></span>Адреса клиник</a>
-		</div>
 	</div>
 
 	<div class="mob-panel__connect">
@@ -766,6 +761,13 @@
 		<li><a href="#">Отзывы</a></li>
 		<li><a href="#">Пациентам из других городов</a></li>
 	</ul>
+
+	<div class="mob-panel__footer">
+		<div class="top-panel__links">
+			<a href="#" class="top-panel__link"><span class="i i-shield"></span>О клинике</a>
+			<a href="#" class="top-panel__link"><span class="i i-pin"></span>Адреса клиник</a>
+		</div>
+	</div>
 </div>
 
 </header>

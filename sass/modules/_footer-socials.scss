@@ -16,6 +16,7 @@
 	display: flex;
 	align-items: center;
 	@include res(s){
+		display: none;
 		margin-bottom: 20px;
 	}
 }

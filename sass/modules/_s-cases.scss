@@ -170,6 +170,7 @@
 }
 
 .case__center{
+	position: relative;
 	flex-shrink: 0;
 	width: calc(100% / 3 * 2);
 	text-align: center;
@@ -178,9 +179,7 @@
 	transition: all 0.5s ease;
 	@include res(s){
 		width: 100%;
-		display: flex;
-		align-items: flex-start;
-		padding: 0;
+		display: block;
 		margin-bottom: 15px;
 	}
 }
@@ -192,6 +191,7 @@
 	margin-bottom: 10px;
 	font-weight: 300;
 	@include res(s){
+		display: none;
 		font-size: 14px;
 		font-weight: normal;
 	}
@@ -217,33 +217,48 @@
 }
 
 .case__before{
-	max-width: 100%;
-	height: auto;
 	display: block;
 	margin-top: 30px;
-	border-radius: 20px;
 	@include res(s){
 		display: none;
+	}
+
+	img{
+		display: block;
+		max-width: 100%;
+		height: auto;
+		border-radius: 20px;
 	}
 }
 
 .case__before-mob{
 	display: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 	width: 40%;
-	flex-shrink: 0;
-	height: auto;
-	border-radius: 10px;
 	@include res(s){
 		display: block;
+	}
+
+	img{
+		width: 100%;
+		height: auto;
+		display: block;
+		border-radius: 10px;
 	}
 }
 
 .case__after{
-	max-width: 100%;
-	height: auto;
-	border-radius: 0 0 50% 50% / 0 0 15% 15%;
+	width: 100%;
 	@include res(s){
-		width: 60%;
+		width: 100%;
+	}
+
+	img{
+		max-width: 100%;
+		height: auto;
+		border-radius: 0 0 50% 50% / 0 0 15% 15%;
 	}
 }
 

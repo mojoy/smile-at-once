@@ -10,6 +10,7 @@
 	@include res(s){
 		flex-direction: column;
 		height: auto;
+		min-height: initial;
 	}
 
 	&:before{
@@ -64,6 +65,7 @@
 	flex-shrink: 0;
 	@include res(s){
 		width: 50%;
+		display: none;
 	}
 
 	&:before{
@@ -101,7 +103,6 @@
 	padding: 20px 15px 60px 15px;
 	@include res(s){
 		width: 100%;
-		padding-top: 0;
 	}
 }
 
@@ -136,6 +137,7 @@
 .promo-banner__list{
 	margin-bottom: 20px;
 	@include res(s){
+		display: none;
 		margin-bottom: 10px;
 	}
 }

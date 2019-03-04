@@ -184,11 +184,17 @@
 					<div class="case__hwo">Бытаев В.А., 60 лет</div>
 					<div class="case__city">город Сызрань</div>
 					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-1" data-fancybox="cases">Видео отзыв</button>
-					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-before.jpg" alt="" class="case__before"></a>
+					<a href="#" class="fancy-modal case__before" data-src="#case-modal-1">
+						<img src="/img/cases/case-1-before.jpg" alt="1">
+					</a>
 				</div>
 				<div class="case__center">
-					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob"></a>
-					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-after.jpg" alt="" class="case__after"></a>
+					<a href="#" data-src="#case-modal-1" class="case__before-mob fancy-modal">
+						<img src="/img/cases/case-1-before.jpg" alt="1">
+					</a>
+					<a href="#" data-src="#case-modal-1" class="case__after fancy-modal">
+						<img src="/img/cases/case-1-after.jpg" alt="1">
+					</a>
 				</div>
 				<div class="modal case-modal" id="case-modal-1">
 					<div class="h2 case-modal__title">Восстановление зубов верхней челюсти постоянным несъемным протезом на имплантах</div>
@@ -213,11 +219,17 @@
 					<div class="case__hwo">Бытаев В.А., 60 лет</div>
 					<div class="case__city">город Сызрань</div>
 					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-2" data-fancybox="cases">Видео отзыв</button>
-					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-before.jpg" alt="" class="case__before"></a>
+					<a href="#" class="fancy-modal case__before" data-src="#case-modal-2">
+						<img src="/img/cases/case-1-before.jpg" alt="1">
+					</a>
 				</div>
 				<div class="case__center">
-					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob"></a>
-					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-after.jpg" alt="" class="case__after"></a>
+					<a href="#" data-src="#case-modal-2" class="case__before-mob fancy-modal">
+						<img src="/img/cases/case-1-before.jpg" alt="1">
+					</a>
+					<a href="#" data-src="#case-modal-2" class="case__after fancy-modal">
+						<img src="/img/cases/case-1-after.jpg" alt="1">
+					</a>
 				</div>
 				<div class="modal case-modal" id="case-modal-2">
 					<div class="h2 case-modal__title">Восстановление зубов верхней челюсти</div>
@@ -875,7 +887,7 @@
 
 
 <section class="s-regions s-def" data-lazybg="/img/home/regions-bg.png">
-	<div class="container">
+	<div class="container s-regions__pc">
 		<div class="h1 sec-title">Помогаем восстановить зубы пациентам со&nbsp;всей&nbsp;России и&nbsp;других стран</div>
 		<div class="sec-title-descr">Мы предлагаем максимально комфортные условия прохождения лечения в&nbsp;Москве в&nbsp;клинике «Smile-at-Once»</div>
 
@@ -917,6 +929,25 @@
 			</a>
 		</div>
 	</div>
+
+	<div class="container s-regions__mob">
+		<div class="regions-banner">
+			<a href="#" class="regions-banner__link"></a>
+			<div class="regions-banner__content">
+				<div class="h2 regions-banner__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
+				<div class="consult-block__phone">
+					<small>Для регионов</small>
+					<a href="tel:88003334628">8 800 333-46-28</a>
+				</div>
+				<div class="consult-block__phone">
+					<small>Для Москвы и МО</small>
+					<a href="tel:84955405042">8 495 540-50-42</a>
+				</div>
+				<a href="#" class="button regions-banner__btn">Узнать больше</a>
+			</div>
+		</div>
+	</div>
+
 </section>
 
 
@@ -1213,7 +1244,7 @@
 <section class="s-ratings s-def">
 	<div class="container">
 		<div class="h1 sec-title">Независимые рейтинги</div>
-		<div class="sec-title-descr">Хотите получить максимально полную информацию о&nbsp;наших услугах и&nbsp;сервисе от&nbsp;пациентов? Изучите мнение о&nbsp;нас на&nbsp;независимых авторитетных интернет-ресурсах.</div>
+		<div class="sec-title-descr ratings-descr">Хотите получить максимально полную информацию о&nbsp;наших услугах и&nbsp;сервисе от&nbsp;пациентов? Изучите мнение о&nbsp;нас на&nbsp;независимых авторитетных интернет-ресурсах.</div>
 
 		<div class="ratings-row row">
 			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
