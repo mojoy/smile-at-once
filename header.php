@@ -31,7 +31,7 @@
 	<link href="css/all.css" rel="stylesheet">
 	<link href="css/all_doctors_dev.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">-->
-	<link href="css/main.css?v=1" rel="stylesheet">
+	<link href="css/main.css?v=2" rel="stylesheet">
 </head>
 
 <body>
@@ -44,7 +44,6 @@
 	<div class="container top-panel">
 		<a href="/" class="top-panel__logo">
 			<img src="/img/logo.svg" alt="Логотип" class="top-panel__logo-pc">
-			<img src="/img/logo-mini.svg" alt="Логотип" class="top-panel__logo-mob">
 		</a>
 		<div class="top-panel__prizes">
 			<a href="#"><img src="/img/header/prize_1.png" alt="1" title="Лучшая стоматологическая клиника по версии КоммерсантЪ"></a>
@@ -56,10 +55,9 @@
 			<a href="#" class="top-panel__link"><span class="i i-pin"></span>Адреса клиник</a>
 		</div>
 		<div class="top-panel__contacts">
-			<div class="top-panel__cont-mob">
-				<strong><a href="tel:88003334628">8 800 333-46-28</a></strong>
-				<strong><a href="tel:84955405042">8 495 540-50-42</a></strong>
-			</div>
+			<a href="tel:88003334628" class="top-panel__cont-mob">
+				<span class="i i-phone"></span>
+			</a>
 			<div class="top-panel__cont">
 				<div>Для регионов</div>
 				<strong><a href="tel:88003334628">8 800 333-46-28</a></strong>

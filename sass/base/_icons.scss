@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-phone:before {
+	content: "\e90a";
+}
 .i-check:before {
 	content: "\e909";
 }
