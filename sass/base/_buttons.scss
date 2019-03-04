@@ -65,23 +65,25 @@ button::-moz-focus-inner {
 	}
 
 	&:focus {
-		background: transparent;
+		background: $pink;
 		outline: none;
 		transform: none;
-		border-color: $green;
-		color: $green;
+		border-color: $pink;
+		color: #FFF;
 	}
 
 	&:hover{
-		background: transparent;
+		background: $pink;
 		box-shadow: none;
 		transform: none;
-		border-color: $green;
-		color: $green;
+		border-color: $pink;
+		color: #FFF;
 	}
 
 	&:active{
-		background: transparent;
+		background: $pink;
+		border-color: $pink;
+		color: #FFF;
 		box-shadow: none;
 		transform: none;
 	}

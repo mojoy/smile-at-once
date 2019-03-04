@@ -17,10 +17,10 @@
 }
 
 .prize-block{
+	display: block;
 	position: relative;
 	text-align: center;
 	padding: 12px;
-	//height: 100%;
 
 	&:hover{
 		&:before{

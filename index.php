@@ -16,7 +16,7 @@
 							<li>Восстанавливаем зубы за пару дней и навсегда</li>
 							<li>Для пациентов из других городов – бесплатное размещение</li>
 						</ul>
-						<a href="#" class="button head-slide__btn fancy-modal" data-src="#modal-consult">Записаться онлайн</a>
+						<a href="#" class="button head-slide__btn">Варианты и цены</a>
 					</div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 	<div class="container">
 		<div class="h1 sec-title">Мы меняем жизнь людей к&nbsp;лучшему</div>
 		<div class="sec-title-descr">
-			<a href="#" class="link-arrow">Более 500 отзывов и счастливых улыбок <span class="i i-ar-right"></span></a>
+			<a href="#" class="link-arrow-border"><span>Более 500 отзывов и счастливых улыбок</span> <span class="i i-ar-right"></span></a>
 		</div>
 	</div>
 
@@ -183,12 +183,12 @@
 					<div class="case__cite">—  Не мог есть нормально еду. Был случай, когда кусочки пищи вывалились из рта прямо в гостях Это было ужасно!</div>
 					<div class="case__hwo">Бытаев В.А., 60 лет</div>
 					<div class="case__city">город Сызрань</div>
-					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-1" data-fancybox="cases">Фото и видео</button>
-					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before">
+					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-1" data-fancybox="cases">Видео отзыв</button>
+					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-before.jpg" alt="" class="case__before"></a>
 				</div>
 				<div class="case__center">
-					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob">
-					<img src="/img/cases/case-1-after.jpg" alt="" class="case__after">
+					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob"></a>
+					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-after.jpg" alt="" class="case__after"></a>
 				</div>
 				<div class="modal case-modal" id="case-modal-1">
 					<div class="h2 case-modal__title">Восстановление зубов верхней челюсти постоянным несъемным протезом на имплантах</div>
@@ -212,12 +212,12 @@
 					<div class="case__cite">—  Не мог есть нормально еду.</div>
 					<div class="case__hwo">Бытаев В.А., 60 лет</div>
 					<div class="case__city">город Сызрань</div>
-					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-2" data-fancybox="cases">Фото и видео</button>
-					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before">
+					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-2" data-fancybox="cases">Видео отзыв</button>
+					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-before.jpg" alt="" class="case__before"></a>
 				</div>
 				<div class="case__center">
-					<img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob">
-					<img src="/img/cases/case-1-after.jpg" alt="" class="case__after">
+					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-before.jpg" alt="" class="case__before-mob"></a>
+					<a href="#" class="fancy-modal" data-src="#case-modal-1"><img src="/img/cases/case-1-after.jpg" alt="" class="case__after"></a>
 				</div>
 				<div class="modal case-modal" id="case-modal-2">
 					<div class="h2 case-modal__title">Восстановление зубов верхней челюсти</div>
@@ -261,7 +261,7 @@
 		<div class="triggers-block bordered-block bordered-block--pink">
 			<div class="row">
 				<div class="grid-4 grid-12_m trigger-last-mob">
-					<div class="trigger">
+					<a href="#" class="trigger">
 						<div class="trigger__icon">
 							<img src="#" data-lazy="/img/home/trigger-1.svg" alt="1">
 						</div>
@@ -269,10 +269,10 @@
 							<div class="h3 trigger__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
 							<div class="trigger__descr">Организация лечения с&nbsp;размещением «под ключ» для&nbsp;пациентов из&nbsp;других городов.</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="grid-4 grid-12_m">
-					<div class="trigger">
+					<a href="#" class="trigger">
 						<div class="trigger__icon">
 							<img src="#" data-lazy="/img/home/trigger-2.svg" alt="1">
 						</div>
@@ -280,10 +280,10 @@
 							<div class="h3 trigger__title">Бессрочная гарантия и&nbsp;сервисное обслуживание</div>
 							<div class="trigger__descr">Мы лечим наверняка и&nbsp;не&nbsp;бросаем после! Все наши договоренности зафиксированы в&nbsp;договоре.</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="grid-4 grid-12_m">
-					<div class="trigger">
+					<a href="#" class="trigger">
 						<div class="trigger__icon">
 							<img src="#" data-lazy="/img/home/trigger-3.svg" alt="1">
 						</div>
@@ -291,7 +291,7 @@
 							<div class="h3 trigger__title">Более 24&nbsp;решений по&nbsp;срокам и&nbsp;финансам</div>
 							<div class="trigger__descr">Единственная стоматология в&nbsp;РФ, где применяются все технологии немедленной нагрузки, а&nbsp;не&nbsp;какая-то одна.</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -306,7 +306,7 @@
 				<div class="swiper-slide promo-banner promo-banner--purple promo-banner--dark">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
-						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-1.png" alt="1" class="promo-banner__img swiper-lazy">
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-1.png" alt="1" class="promo-banner__img swiper-lazy"></a>
 					</div>
 					<div class="promo-banner__content">
 						<div class="promo-banner__date">до 18.03.2019</div>
@@ -326,7 +326,7 @@
 				<div class="swiper-slide promo-banner promo-banner--yellow">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
-						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-2.png" alt="1" class="promo-banner__img swiper-lazy">
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-2.png" alt="1" class="promo-banner__img swiper-lazy"></a>
 					</div>
 					<div class="promo-banner__content">
 						<div class="promo-banner__date">до 18.03.2019</div>
@@ -346,7 +346,7 @@
 				<div class="swiper-slide promo-banner promo-banner--pink">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
-						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-3.png" alt="1" class="promo-banner__img swiper-lazy">
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-3.png" alt="1" class="promo-banner__img swiper-lazy"></a>
 					</div>
 					<div class="promo-banner__content">
 						<div class="promo-banner__title">ALL-ON-6 - Протезирование на&nbsp;6 имплантах от 90 000 руб</div>
@@ -361,7 +361,7 @@
 				<div class="swiper-slide promo-banner promo-banner--green">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
-						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-4.png" alt="1" class="promo-banner__img swiper-lazy">
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-4.png" alt="1" class="promo-banner__img swiper-lazy"></a>
 					</div>
 					<div class="promo-banner__content">
 						<div class="promo-banner__title">Базальная имплантация зубов <nobr>от 90 000 руб</nobr></div>
@@ -377,7 +377,7 @@
 				<div class="swiper-slide promo-banner promo-banner--gray promo-banner--dark">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
-						<img src="/img/promo/placeholder.png" data-src="/img/promo/img-5.png" alt="1" class="promo-banner__img swiper-lazy">
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-5.png" alt="1" class="promo-banner__img swiper-lazy"></a>
 					</div>
 					<div class="promo-banner__content">
 						<div class="promo-banner__title">Скуловая имплантация зубов <nobr>от 90 000 руб</nobr></div>
@@ -409,7 +409,7 @@
 	<div class="prizes-slider swiper-container">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/1.png" alt="1" class="swiper-lazy">
@@ -417,10 +417,10 @@
 					</header>
 					<div class="prize-block__name">Статус лучшая стоматология страны 2018</div>
 					<div class="prize-block__descr">Медаль лучшие стоматологии РФ 2018</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/2.png" alt="1" class="swiper-lazy">
@@ -428,10 +428,10 @@
 					</header>
 					<div class="prize-block__name">Права потребителей и качество обслуживания</div>
 					<div class="prize-block__descr">Награда Права потребителей и качество обслуживания</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/3.png" alt="1" class="swiper-lazy">
@@ -439,10 +439,10 @@
 					</header>
 					<div class="prize-block__name">ТОП-100 лучших стоматологий России</div>
 					<div class="prize-block__descr">Сертификат STARTSMILE</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/4.jpg" alt="1" class="swiper-lazy">
@@ -450,10 +450,10 @@
 					</header>
 					<div class="prize-block__name">Инновационный центр СтАР</div>
 					<div class="prize-block__descr">Диплом Стоматологической Ассоциации России</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/5.jpg" alt="1" class="swiper-lazy">
@@ -461,10 +461,10 @@
 					</header>
 					<div class="prize-block__name">Международная премия «Грация»</div>
 					<div class="prize-block__descr">«Лучшая стоматологическая клиника. Доверие и репутация» «Лучшая сеть стоматологических клиник»</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/6.png" alt="1" class="swiper-lazy">
@@ -472,10 +472,10 @@
 					</header>
 					<div class="prize-block__name">Премия «Время инноваций»</div>
 					<div class="prize-block__descr">«Лучшая стоматологическая клиника. Доверие и репутация» «Лучшая сеть стоматологических клиник»</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/7.png" alt="1" class="swiper-lazy">
@@ -483,10 +483,10 @@
 					</header>
 					<div class="prize-block__name">ТОП-100 лучших предприятий и организаций страны</div>
 					<div class="prize-block__descr">Награда 100 лучших предприятий и организаций</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/8.png" alt="1" class="swiper-lazy">
@@ -494,10 +494,10 @@
 					</header>
 					<div class="prize-block__name">100 лучших медицинских организаций</div>
 					<div class="prize-block__descr">Награда 100 лучших медицинских организаций</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/9.png" alt="1" class="swiper-lazy">
@@ -505,10 +505,10 @@
 					</header>
 					<div class="prize-block__name">ISO ООО "Стоматология новая улыбка"</div>
 					<div class="prize-block__descr">Сертификат соответствия</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/10.png" alt="1" class="swiper-lazy">
@@ -516,10 +516,10 @@
 					</header>
 					<div class="prize-block__name">Высокое качество "Стоматология новая улыбка"</div>
 					<div class="prize-block__descr">Сертификат соответствия</div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide">
-				<div class="prize-block">
+				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/11.png" alt="1" class="swiper-lazy">
@@ -527,7 +527,7 @@
 					</header>
 					<div class="prize-block__name">Инновация года ООО "Стоматология новая улыбка"</div>
 					<div class="prize-block__descr">Сертификат соответствия</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -708,90 +708,165 @@
 		<div class="swiper-wrapper">
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/2.jpg" alt="1">
-				<div class="team-info">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/2.jpg" alt="1"></a>
+				<a href="#" class="team-info">
 					<div class="team-info__name">Чорный Станислав</div>
 					<div class="team-info__descr">Специализация:<br>Стоматолог-ортопед</div>
 					<div class="team-info__xp">Опыт: <strong>16+</strong></div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/3.jpg" alt="1">
-				<div class="team-info">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/3.jpg" alt="1"></a>
+				<a href="#" class="team-info">
 					<div class="team-info__name">Беспалов Роман</div>
 					<div class="team-info__descr">Специализация:<br>Челюстно-лицевой хирург, имплантолог</div>
 					<div class="team-info__xp">Опыт: <strong>22+</strong></div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/4.jpg" alt="1">
-				<div class="team-info">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/4.jpg" alt="1"></a>
+				<a href="#" class="team-info">
 					<div class="team-info__name">Путь Владимир</div>
 					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
 					<div class="team-info__xp">Опыт: <strong>27+</strong></div>
-				</div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/1.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/1.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/5.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/5.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/6.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/6.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/7.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/7.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/8.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/8.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/9.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/9.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/10.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/10.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/11.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/11.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/12.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/12.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/13.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/13.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/14.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/14.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/15.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/15.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/16.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/16.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/17.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/17.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 			<div class="swiper-slide team-slider__item">
 				<div class="slide-loading"></div>
-				<img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/18.jpg" alt="1">
+				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/18.jpg" alt="1"></a>
+				<a href="#" class="team-info">
+					<div class="team-info__name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -805,41 +880,41 @@
 		<div class="sec-title-descr">Мы предлагаем максимально комфортные условия прохождения лечения в&nbsp;Москве в&nbsp;клинике «Smile-at-Once»</div>
 
 		<div class="regions-steps">
-			<div class="regions-step">
+			<a href="#" class="regions-step">
 				<div class="regions-step__bg">
 					<img src="" data-lazy="/img/home/region-step-1.png" alt="1">
 				</div>
 				<strong>01</strong>
 				<div class="regions-step__descr">Дистанционная <br>консультация врача <br>онлайн</div>
-			</div>
-			<div class="regions-step">
+			</a>
+			<a href="#" class="regions-step">
 				<div class="regions-step__bg">
 					<img src="" data-lazy="/img/home/region-step-2.png" alt="1">
 				</div>
 				<strong>02</strong>
 				<div class="regions-step__descr">Организация <br>приезда и <br>размещения</div>
-			</div>
-			<div class="regions-step">
+			</a>
+			<a href="#" class="regions-step">
 				<div class="regions-step__bg">
 					<img src="" data-lazy="/img/home/region-step-3.png" alt="1">
 				</div>
 				<strong>03</strong>
 				<div class="regions-step__descr">Восстановление <br>зубов за 1-3 дня</div>
-			</div>
-			<div class="regions-step">
+			</a>
+			<a href="#" class="regions-step">
 				<div class="regions-step__bg">
 					<img src="" data-lazy="/img/home/region-step-4.png" alt="1">
 				</div>
 				<strong>04</strong>
 				<div class="regions-step__descr">Забота и уход <br>во время лечения</div>
-			</div>
-			<div class="regions-step">
+			</a>
+			<a href="#" class="regions-step">
 				<div class="regions-step__bg">
 					<img src="" data-lazy="/img/home/region-step-5.png" alt="1">
 				</div>
 				<strong>05</strong>
 				<div class="regions-step__descr">Проводы <br>домой и поддержка <br>после</div>
-			</div>
+			</a>
 		</div>
 	</div>
 </section>
@@ -913,11 +988,11 @@
 				<div class="consult-block__descr">Дадим грамотную консультацию и&nbsp;поможем определиться с&nbsp;лечением</div>
 				<div class="consult-block__phone">
 					<small>Для регионов</small>
-					<a href="tel:8 800 333-46-28">8 800 333-46-28</a>
+					<a href="tel:88003334628">8 800 333-46-28</a>
 				</div>
 				<div class="consult-block__phone">
 					<small>Для Москвы и МО</small>
-					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
+					<a href="tel:84955405042">8 495 540-50-42</a>
 				</div>
 			</div>
 			<button class="button consult-block__btn fancy-modal" data-src="#modal-consult">Консультация врача</button>
@@ -930,99 +1005,99 @@
 	<div class="container">
 		<div class="h1 sec-title">Smile-at-once – лучшая стоматология 2018</div>
 		<div class="facts-rombs">
-			<div class="fact-romb">
+			<a href="#" class="fact-romb">
 				<strong>5 – 7</strong>
 				<span>операций по <br>имплантации каждый <br>день</span>
-			</div>
-			<div class="fact-romb">
+			</a>
+			<a href="#" class="fact-romb">
 				<strong>12 000+</strong>
 				<span>пациентам наши врачи <br>восстановили зубы <br>за последние <br>10 лет</span>
-			</div>
-			<div class="fact-romb">
+			</a>
+			<a href="#" class="fact-romb">
 				<strong>5 000+</strong>
 				<span>операций полного <br>восстановления зубов <br>за 2017-2018 <br>годы</span>
-			</div>
-			<div class="fact-romb">
+			</a>
+			<a href="#" class="fact-romb">
 				<strong>94%</strong>
 				<span>случаев без осложнений, <br>в остальных – проведена <br> переделка по <br>гарантии</span>
-			</div>
-			<div class="fact-romb">
+			</a>
+			<a href="#" class="fact-romb">
 				<strong>5</strong>
 				<span>социальных мероприятий. <br>помогли людям, которые <br>не могут позволить <br>лечение</span>
-			</div>
-			<div class="fact-romb">
+			</a>
+			<a href="#" class="fact-romb">
 				<strong>75%</strong>
 				<span>пациентов приходят к нам <br>по рекомендации</span>
-			</div>
-			<div class="fact-romb">
+			</a>
+			<a href="#" class="fact-romb">
 				<strong>100%</strong>
 				<span>качество и сервис; <br>пожизненная гарантия <br>на имплантацию <br>зубов</span>
-			</div>
+			</a>
 		</div>
 		<div class="facts-panels row">
 			<div class="grid-3 grid-6_m fact-panel-wrap">
-				<div class="fact-panel">
+				<a href="#" class="fact-panel">
 					<header>
 						<img src="" data-lazy="/img/home/fact-1.svg" alt="1">
 					</header>
 					<div class="facts-panel__title">3D диагностика и планирование операций</div>
-				</div>
+				</a>
 			</div>
 			<div class="grid-3 grid-6_m fact-panel-wrap">
-				<div class="fact-panel">
+				<a href="#" class="fact-panel">
 					<header>
 						<img src="" data-lazy="/img/home/fact-2.svg" alt="1">
 					</header>
 					<div class="facts-panel__title">Новые зубы буквально сразу после имплантации</div>
-				</div>
+				</a>
 			</div>
 			<div class="grid-3 grid-6_m fact-panel-wrap">
-				<div class="fact-panel">
+				<a href="#" class="fact-panel">
 					<header>
 						<img src="" data-lazy="/img/home/pop-service-4.svg" alt="1">
 					</header>
 					<div class="facts-panel__title">Отличная эстетика улыбки</div>
-				</div>
+				</a>
 			</div>
 			<div class="grid-3 grid-6_m fact-panel-wrap">
-				<div class="fact-panel">
+				<a href="#" class="fact-panel">
 					<header>
 						<img src="" data-lazy="/img/home/fact-4.svg" alt="1">
 					</header>
 					<div class="facts-panel__title">Без синус-лифтингаи наращивание костной ткани</div>
-				</div>
+				</a>
 			</div>
 			<div class="grid-3 grid-6_m fact-panel-wrap">
-				<div class="fact-panel">
+				<a href="#" class="fact-panel">
 					<header>
 						<img src="" data-lazy="/img/home/fact-5.svg" alt="1">
 					</header>
 					<div class="facts-panel__title">Безошибочное хирургическое вмешательство</div>
-				</div>
+				</a>
 			</div>
 			<div class="grid-3 grid-6_m fact-panel-wrap">
-				<div class="fact-panel">
+				<a href="#" class="fact-panel">
 					<header>
 						<img src="" data-lazy="/img/home/fact-6.svg" alt="1">
 					</header>
 					<div class="facts-panel__title">Применяем лучшие бренды имплантов и материалов</div>
-				</div>
+				</a>
 			</div>
 			<div class="grid-3 grid-6_m fact-panel-wrap">
-				<div class="fact-panel">
+				<a href="#" class="fact-panel">
 					<header>
 						<img src="" data-lazy="/img/home/fact-7.svg" alt="1">
 					</header>
 					<div class="facts-panel__title">Эффективная борьба против осложнений</div>
-				</div>
+				</a>
 			</div>
 			<div class="grid-3 grid-6_m fact-panel-wrap">
-				<div class="fact-panel">
+				<a href="#" class="fact-panel">
 					<header>
 						<img src="" data-lazy="/img/home/fact-8.svg" alt="1">
 					</header>
 					<div class="facts-panel__title">Забота после и пожизненная гарантия на работу</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -1067,7 +1142,7 @@
 						</header>
 						<main class="intro__main">
 							<a href="#" class="h3 intro__title">Секрет улыбки после 65+</a>
-							<div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div>
+							<a href="#"><div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div></a>
 						</main>
 						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
 					</div>
@@ -1077,7 +1152,7 @@
 						</header>
 						<main class="intro__main">
 							<a href="#" class="h3 intro__title">Секрет улыбки после 65+</a>
-							<div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div>
+							<a href="#"><div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div></a>
 						</main>
 						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
 					</div>
@@ -1093,7 +1168,7 @@
 						</header>
 						<main class="intro__main">
 							<a href="#" class="h3 intro__title">Открыли новую клинику</a>
-							<div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div>
+							<a href="#"><div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div></a>
 						</main>
 						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
 					</div>
@@ -1103,7 +1178,7 @@
 						</header>
 						<main class="intro__main">
 							<a href="#" class="h3 intro__title">Открыли новую клинику</a>
-							<div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div>
+							<a href="#"><div class="intro__descr">Мы часто помогаем пациентам со сложными формами заболеваний десен и зубочелюстной системы, такими как.</div></a>
 						</main>
 						<time datetime="2019-02-20" class="intro__time">20.02.2019</time>
 					</div>
@@ -1142,58 +1217,58 @@
 
 		<div class="ratings-row row">
 			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<div class="rating-block">
+				<a href="#" class="rating-block">
 					<header class="rating-block__header">
 						<img src="" data-lazy="/img/home/rating-1.png" alt="1">
 					</header>
 					<main class="rating-block__num">4.9</main>
 					<footer class="rating-block__descr">из возможных 5</footer>
-				</div>
+				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<div class="rating-block">
+				<a href="#" class="rating-block">
 					<header class="rating-block__header">
 						<img src="" data-lazy="/img/home/rating-2.png" alt="1">
 					</header>
 					<main class="rating-block__num">5</main>
 					<footer class="rating-block__descr">из возможных 5</footer>
-				</div>
+				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<div class="rating-block">
+				<a href="#" class="rating-block">
 					<header class="rating-block__header">
 						<img src="" data-lazy="/img/home/rating-3.png" alt="1">
 					</header>
 					<main class="rating-block__num">5 <small>★</small></main>
 					<footer class="rating-block__descr">из возможных 5 звезд</footer>
-				</div>
+				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<div class="rating-block">
+				<a href="#" class="rating-block">
 					<header class="rating-block__header">
 						<img src="" data-lazy="/img/home/rating-4.png" alt="1">
 					</header>
 					<main class="rating-block__num">4.9</main>
 					<footer class="rating-block__descr">из возможных 5</footer>
-				</div>
+				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<div class="rating-block">
+				<a href="#" class="rating-block">
 					<header class="rating-block__header">
 						<img src="" data-lazy="/img/home/rating-5.png" alt="1">
 					</header>
 					<main class="rating-block__num">14+</main>
 					<footer class="rating-block__descr">отрицательных отзывов 0</footer>
-				</div>
+				</a>
 			</div>
 			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<div class="rating-block">
+				<a href="#" class="rating-block">
 					<header class="rating-block__header">
 						<img src="" data-lazy="/img/home/rating-6.png" alt="1">
 					</header>
 					<main class="rating-block__num">4.9</main>
 					<footer class="rating-block__descr">из возможных 5</footer>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -1240,7 +1315,7 @@
 			<div class="h1">О клинике</div>
 			<div class="about-content__descr">Мы – единственная стоматологическая клиника в Российской Федерации, предлагающая уникальный пакет стоматологических услуг по вопросу комплексного восстановления зубов без привязки к одному производителю имплантов и практикующая лучшие разработки в этой области.</div>
 			<a href="#" class="button button--outline">Подробнее</a>
-			<a href="#" class="link-simple">Адреса клиник</a>
+			<a href="#" class="link-border">Адреса клиник</a>
 		</div>
 	</div>
 </section>
@@ -1250,36 +1325,36 @@
 	<div class="container">
 		<div class="comfort-block bordered-block">
 			<div class="row">
-				<div class="comfort-item">
+				<a href="#" class="comfort-item">
 					<div class="comfort-item__icon">
 						<img src="" data-lazy="/img/home/comfort-1.svg" alt="1">
 					</div>
 					<span class="comfort-item__text">Бесплатная<br>парковка</span>
-				</div>
-				<div class="comfort-item">
+				</a>
+				<a href="#" class="comfort-item">
 					<div class="comfort-item__icon">
 						<img src="" data-lazy="/img/home/comfort-2.svg" alt="1">
 					</div>
 					<span class="comfort-item__text">Бесплатный<br>Wi-Fi</span>
-				</div>
-				<div class="comfort-item">
+				</a>
+				<a href="#" class="comfort-item">
 					<div class="comfort-item__icon">
 						<img src="" data-lazy="/img/home/comfort-3.svg" alt="1">
 					</div>
 					<span class="comfort-item__text">Рассрочка и&nbsp;кредиты на&nbsp;лечение</span>
-				</div>
-				<div class="comfort-item">
+				</a>
+				<a href="#" class="comfort-item">
 					<div class="comfort-item__icon">
 						<img src="" data-lazy="/img/home/comfort-4.svg" alt="1">
 					</div>
 					<span class="comfort-item__text">Все виды<br>оплаты</span>
-				</div>
-				<div class="comfort-item">
+				</a>
+				<a href="#" class="comfort-item">
 					<div class="comfort-item__icon">
 						<img src="" data-lazy="/img/home/comfort-5.svg" alt="1">
 					</div>
 					<span class="comfort-item__text">Зона отдыха и&nbsp;наблюдения после операции</span>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -1484,11 +1559,11 @@
 				<div class="consult-block__descr">Обязательно советуйтесь с&nbsp;врачом!</div>
 				<div class="consult-block__phone">
 					<small>Для регионов</small>
-					<a href="tel:8 800 333-46-28">8 800 333-46-28</a>
+					<a href="tel:88003334628">8 800 333-46-28</a>
 				</div>
 				<div class="consult-block__phone">
 					<small>Для Москвы и МО</small>
-					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
+					<a href="tel:84955405042">8 495 540-50-42</a>
 				</div>
 			</div>
 			<button class="button consult-block__btn fancy-modal" data-src="#modal-consult">Консультация врача</button>
@@ -1500,16 +1575,17 @@
 <section class="s-def">
 	<div class="container">
 		<div class="regions-banner">
+			<a href="#" class="regions-banner__link"></a>
 			<div class="regions-banner__content">
 				<div class="h2 regions-banner__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
 				<div class="regions-banner__descr">Организация лечения с&nbsp;размещением «под ключ» для&nbsp;пациентов из&nbsp;других городов</div>
 				<div class="consult-block__phone">
 					<small>Для регионов</small>
-					<a href="tel:8 800 333-46-28">8 800 333-46-28</a>
+					<a href="tel:88003334628">8 800 333-46-28</a>
 				</div>
 				<div class="consult-block__phone">
 					<small>Для Москвы и МО</small>
-					<a href="tel:8 495 540-50-42">8 495 540-50-42</a>
+					<a href="tel:84955405042">8 495 540-50-42</a>
 				</div>
 				<a href="#" class="button regions-banner__btn">Узнать больше</a>
 			</div>

@@ -60,8 +60,7 @@ h3,.h3{
 	transition: all 0.3s ease;
 
 	&:hover{
-		color: $green;
-		border-color: $green;
+		border-bottom: 1px solid transparent;
 	}
 }
 
@@ -83,14 +82,40 @@ h3,.h3{
 	}
 }
 
+.link-arrow-border{
+	display: inline-flex;
+	align-items: center;
+	color: $pink;
+	line-height: 1.1;
+	transition: all 0.3s ease;
+
+	&:hover{
+		text-decoration: none;
+
+		&>span:first-child{
+			text-decoration: none;
+		}
+	}
+
+	&>span:first-child{
+		text-decoration: underline;
+	}
+
+	.i{
+		font-size: 0.7em;
+		margin-left: 0.5em;
+		position: relative;
+		top: 0.1em;
+	}
+}
+
 .link-dot{
 	color: $pink;
 	border-bottom: 1px dotted $pink;
 	transition: all 0.3s ease;
 
 	&:hover{
-		color: $green;
-		border-color: $green;
+		border-bottom: 1px dotted transparent;
 	}
 }
 

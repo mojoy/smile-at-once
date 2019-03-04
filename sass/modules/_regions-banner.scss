@@ -1,4 +1,6 @@
 .regions-banner{
+	display: block;
+	position: relative;
 	background: url("../img/regions-block-bg.jpg") right bottom no-repeat #36dbe3;
 	min-height: 420px;
 	border-radius: 20px;
@@ -19,6 +21,8 @@
 }
 
 .regions-banner__content{
+	position: relative;
+	z-index: 2;
 	max-width: 500px;
 	color: #FFF;
 }
@@ -43,4 +47,13 @@
 	@include res(s){
 		margin-top: 20px;
 	}
+}
+
+.regions-banner__link{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
 }

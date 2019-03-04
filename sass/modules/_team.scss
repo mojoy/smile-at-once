@@ -148,9 +148,17 @@
 		width: 100%;
 		height: auto;
 	}
+
+	&:hover{
+		.team-info{
+			box-shadow: $shadow-block;
+			transform: translate3d(0,-5px,0);
+		}
+	}
 }
 
 .team-info{
+	display: block;
 	background: $bg-color;
 	border-radius: 20px;
 	padding: 15px 10px 10px 10px;
@@ -161,6 +169,7 @@
 	right: 0;
 	margin: auto;
 	z-index: 2;
+	transition: all 0.3s ease;
 	@include res(l){
 		bottom: 20px;
 		padding: 10px 10px 5px 10px;

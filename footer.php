@@ -3,22 +3,22 @@
 <section class="s-footer-socials">
 	<div class="container">
 		<div class="footer-prizes">
-			<div class="footer-przies__item">
+			<a href="#" class="footer-przies__item">
 				<img src="/img/footer/prize_1.png" alt="1">
 				<span>Лучшая стоматологическая клиника по версии КоммерсантЪ</span>
-			</div>
-			<div class="footer-przies__item">
+			</a>
+			<a href="#" class="footer-przies__item">
 				<img src="/img/footer/prize_2.png" alt="1">
 				<span>Инновационный Центр стоматологической ассоциации РФ</span>
-			</div>
-			<div class="footer-przies__item">
+			</a>
+			<a href="#" class="footer-przies__item">
 				<img src="/img/footer/prize_3.png" alt="1">
 				<span>Лучшие стоматологии<br>РФ 2018</span>
-			</div>
-			<div class="footer-przies__item">
+			</a>
+			<a href="#" class="footer-przies__item">
 				<img src="/img/footer/prize_4.png" alt="1">
 				<span>ISO 9001</span>
-			</div>
+			</a>
 		</div>
 		<div class="social-links">
 			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/vk.svg" alt="1"></a>
@@ -233,12 +233,12 @@
 				<div class="grid-2 grid-6_l grid-12_m footer__right">
 					<div class="footer-cont">
 						<div>Для регионов</div>
-						<strong><a href="tel:8 800 333-46-28">8 800 333-46-28</a></strong>
+						<strong><a href="tel:88003334628">8 800 333-46-28</a></strong>
 						<a href="#" class="link-dot fancy-modal" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
 					</div>
 					<div class="footer-cont">
 						<div>Для Москвы и МО</div>
-						<strong><a href="tel:8 495 540-50-42">8 495 540-50-42</a></strong>
+						<strong><a href="tel:84955405042">8 495 540-50-42</a></strong>
 						<div>Ежедневно с 10:00 до 21:00 </div>
 					</div>
 				</div>

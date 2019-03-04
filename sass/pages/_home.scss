@@ -337,8 +337,15 @@
 	overflow: hidden;
 	background: url("../img/home/facts-bg.jpg") center bottom no-repeat;
 	background-size: cover;
+	padding-bottom: 240px;
+	border-radius: 0 0 50% 50% / 0 0 90px 90px;
+	@include res(xl){
+		border-radius: 0 0 50% 50% / 0 0 60px 60px;
+	}
 	@include res(l){
 		background-size: 100% auto;
+		border-radius: 0 0 50% 50% / 0 0 30px 30px;
+		padding-bottom: 10%;
 	}
 }
 
@@ -512,6 +519,11 @@
 	@include res(l){
 		padding: 15px;
 		min-height: 110px;
+	}
+
+	&:hover{
+		box-shadow: $shadow-block;
+		color: $pink;
 	}
 
 	header{
@@ -692,7 +704,7 @@
 		margin-bottom: 30px;
 	}
 	@include res(xs){
-		margin-bottom: 15px;
+		margin-bottom: 10px;
 	}
 }
 
@@ -705,6 +717,17 @@
 	padding: 5px 5px 25px 5px;
 	@include res(xs){
 		padding: 0 5px 10px 5px;
+	}
+
+	&:hover{
+		.rating-block__num{
+			color: $pink;
+
+			&:before{
+				border-color: $pink;
+				transform: rotate(45deg) scale(0.95);
+			}
+		}
 	}
 }
 
@@ -733,6 +756,7 @@
 	width: 80px;
 	height: 80px;
 	margin: 20px auto;
+	transition: color 0.3s ease;
 	@include res(xs){
 		width: 60px;
 		height: 60px;
@@ -749,6 +773,7 @@
 		bottom: 0;
 		right: 0;
 		transform: rotate(45deg);
+		transition: all 0.3s ease;
 	}
 
 	small{
@@ -847,11 +872,19 @@
 
 //s-comfort
 .s-comfort{
-
+	padding-bottom: 100px;
+	@include res(s){
+		padding-bottom: 60px;
+	}
 }
 
 .comfort-block{
-
+	padding-top: 50px;
+	padding-bottom: 50px;
+	@include res(l){
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
 	.row{
 		justify-content: center;
 	}
@@ -861,6 +894,7 @@
 	display: flex;
 	width: 20%;
 	padding: 0 10px;
+	transition: all 0.3s ease;
 	@include res(l){
 		width: calc(100% / 3);
 		margin: 10px 0;
@@ -878,6 +912,10 @@
 		&:last-child{
 			margin-bottom: 0;
 		}
+	}
+
+	&:hover{
+		color: $green;
 	}
 }
 
@@ -1188,8 +1226,17 @@
 .trigger{
 	display: flex;
 	align-items: flex-start;
+	transition: color 0.3s ease;
 	@include res(m){
 		margin: 10px 0;
+	}
+
+	&:hover{
+		color: $pink;
+
+		.trigger__descr{
+			color: $pink;
+		}
 	}
 }
 
@@ -1224,6 +1271,7 @@
 .trigger__descr{
 	color: $gray-text;
 	line-height: 1.3;
+	transition: color 0.3s ease;
 	@include res(xs){
 		font-size: 14px;
 	}

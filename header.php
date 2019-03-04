@@ -49,7 +49,7 @@
 		<div class="top-panel__prizes">
 			<a href="#"><img src="/img/header/prize_1.png" alt="1" title="Лучшая стоматологическая клиника по версии КоммерсантЪ"></a>
 			<a href="#"><img src="/img/header/prize_2.png" alt="2" title="Инновационный Центр стоматологической ассоциации РФ"></a>
-			<a href="#"><img src="/img/header/prize_3.png" alt="3" title="Инновационный Центр стоматологической ассоциации РФ"></a>
+			<a href="#"><img src="/img/header/prize_3.png" alt="3" title="Лучшие стоматологии РФ 2018"></a>
 		</div>
 		<div class="top-panel__links">
 			<a href="#" class="top-panel__link"><span class="i i-shield"></span>О клинике</a>
@@ -57,17 +57,17 @@
 		</div>
 		<div class="top-panel__contacts">
 			<div class="top-panel__cont-mob">
-				<strong><a href="tel:8 800 333-46-28">8 800 333-46-28</a></strong>
-				<strong><a href="tel:8 495 540-50-42">8 495 540-50-42</a></strong>
+				<strong><a href="tel:88003334628">8 800 333-46-28</a></strong>
+				<strong><a href="tel:84955405042">8 495 540-50-42</a></strong>
 			</div>
 			<div class="top-panel__cont">
 				<div>Для регионов</div>
-				<strong><a href="tel:8 800 333-46-28">8 800 333-46-28</a></strong>
+				<strong><a href="tel:88003334628">8 800 333-46-28</a></strong>
 				<a href="#" class="link-dot fancy-modal" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
 			</div>
 			<div class="top-panel__cont">
 				<div>Для Москвы и МО</div>
-				<strong class="top-panel__online"><a href="tel:8 495 540-50-42">8 495 540-50-42</a></strong>
+				<strong class="top-panel__online"><a href="tel:84955405042">8 495 540-50-42</a></strong>
 				<div>Ежедневно с 10:00 до 21:00 </div>
 			</div>
 		</div>
@@ -116,6 +116,12 @@
 								<img src="/img/header/callback-5.svg" alt="2">
 							</div>
 							<span>Дистанционная консультация</span>
+						</a>
+						<a href="#" class="callback-link">
+							<div class="callback-link__icon">
+								<img src="/img/header/callback-6.svg" alt="2">
+							</div>
+							<span>Посмотреть на карте</span>
 						</a>
 					</div>
 				</div>
@@ -611,7 +617,6 @@
 			</main>
 		</div>
 	</div>
-
 </section>
 
 
@@ -621,8 +626,8 @@
 
 <div class="mob-panel">
 	<div class="mob-panel__contacts">
-		<strong><a href="tel:8 800 333-46-28">8 800 333-46-28</a></strong>
-		<strong><a href="tel:8 495 540-50-42">8 495 540-50-42</a></strong>
+		<strong><a href="tel:88003334628">8 800 333-46-28</a></strong>
+		<strong><a href="tel:84955405042">8 495 540-50-42</a></strong>
 		<a href="#" class="mob-panel__callback fancy-modal" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
 		<div>Ежедневно с 10:00 до 21:00 </div>
 		<div class="top-panel__links">
@@ -637,7 +642,7 @@
 			Обратная связь
 		</button>
 		<div class="main-nav-callback__panel">
-			<a href="tel:8 800 333-46-28" class="callback-link">
+			<a href="tel:88003334628" class="callback-link">
 				<div class="callback-link__icon">
 					<img src="/img/header/callback-1.svg" alt="2">
 				</div>
@@ -666,6 +671,12 @@
 					<img src="/img/header/callback-5.svg" alt="2">
 				</div>
 				<span>Дистанционная консультация</span>
+			</a>
+			<a href="#" class="callback-link">
+				<div class="callback-link__icon">
+					<img src="/img/header/callback-6.svg" alt="2">
+				</div>
+				<span>Посмотреть на карте</span>
 			</a>
 		</div>
 	</div>

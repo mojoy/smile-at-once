@@ -256,7 +256,7 @@ body.stopped{
 		
 		a{
 			font-size: 14px;
-			color: $gray-text;
+			color: #565656;
 			min-height: initial;
 			margin-bottom: 10px;
 			line-height: 1.2;
@@ -277,6 +277,10 @@ body.stopped{
 
 		&:after{
 			border-color: #FFF transparent transparent transparent;
+		}
+
+		&:hover{
+			border-color: $pink;
 		}
 	}
 

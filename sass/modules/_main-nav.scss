@@ -75,7 +75,7 @@
 			}
 
 			&:hover{
-				color: $green;
+				color: $pink;
 			}
 
 			.i-menu{
@@ -94,17 +94,17 @@
 			a{
 				text-align: left;
 				padding-left: 0;
-				color: $pink;
+				//color: $pink;
 				cursor: pointer;
 
 				&:hover{
-					color: $green;
+					color: $pink;
 				}
 			}
 
 			&.active{
 				a{
-					color: $green-dark;
+					color: $pink;
 				}
 			}
 		}
@@ -139,11 +139,12 @@
 	}
 
 	&:hover{
-		color: $green;
-		border-color: $green;
+		background: $pink;
+		color: #FFF;
+		border-color: $pink;
 
 		&:after{
-			border-color: $green transparent transparent transparent;
+			border-color: #FFF transparent transparent transparent;
 		}
 	}
 
@@ -401,7 +402,7 @@ body{
 		line-height: 1.2;
 
 		&:hover{
-			color: $green;
+			color: $pink;
 		}
 
 		&.current{
@@ -416,7 +417,7 @@ body{
 	margin-bottom: 20px;
 	
 	a{
-		color: $gray-text;
+		color: #565656;
 		font-size: 14px;
 		margin-bottom: 7px;
 	}
