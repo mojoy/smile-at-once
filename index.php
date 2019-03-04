@@ -966,24 +966,24 @@
 			<div class="grid-3 grid-6_m popular-block-wrap">
 				<a href="#" class="popular-block">
 					<div class="h3">Протезирование</div>
-					<img src="" data-lazy="/img/home/pop-service-1.svg" alt="1">
-				</a>
-			</div>
-			<div class="grid-3 grid-6_m popular-block-wrap">
-				<a href="#" class="popular-block">
-					<div class="h3">Имплантация</div>
 					<img src="" data-lazy="/img/home/pop-service-2.svg" alt="1">
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m popular-block-wrap">
 				<a href="#" class="popular-block">
-					<div class="h3">Исправление прикуса</div>
-					<img src="" data-lazy="/img/home/pop-service-3.svg" alt="1">
+					<div class="h3">Имплантация</div>
+					<img src="" data-lazy="/img/home/fact-4.svg" alt="1">
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m popular-block-wrap">
 				<a href="#" class="popular-block">
-					<div class="h3">Эстетичская стоматология</div>
+					<div class="h3">Исправление прикуса</div>
+					<img src="" data-lazy="/img/home/pop-service-1.svg" alt="1">
+				</a>
+			</div>
+			<div class="grid-3 grid-6_m popular-block-wrap">
+				<a href="#" class="popular-block">
+					<div class="h3">Виниры</div>
 					<img src="" data-lazy="/img/home/pop-service-4.svg" alt="1">
 				</a>
 			</div>
@@ -995,20 +995,20 @@
 			</div>
 			<div class="grid-3 grid-6_m popular-block-wrap">
 				<a href="#" class="popular-block">
-					<div class="h3">Профессиональная чистка</div>
+					<div class="h3">Чистка и&nbsp;отбеливание</div>
 					<img src="" data-lazy="/img/home/pop-service-6.svg" alt="1">
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m popular-block-wrap">
 				<a href="#" class="popular-block">
-					<div class="h3">Имплантация</div>
-					<img src="" data-lazy="/img/home/pop-service-2.svg" alt="1">
+					<div class="h3">Лечение десен</div>
+					<img src="" data-lazy="/img/home/pop-service-7.svg" alt="1">
 				</a>
 			</div>
 			<div class="grid-3 grid-6_m popular-block-wrap">
 				<a href="#" class="popular-block">
-					<div class="h3">Протезирование</div>
-					<img src="" data-lazy="/img/home/pop-service-1.svg" alt="1">
+					<div class="h3">Дентальный лифтинг</div>
+					<img src="" data-lazy="/img/home/pop-service-3.svg" alt="1">
 				</a>
 			</div>
 		</div>
