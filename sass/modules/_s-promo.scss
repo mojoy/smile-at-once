@@ -64,8 +64,9 @@
 	width: 50%;
 	flex-shrink: 0;
 	@include res(s){
-		width: 50%;
-		display: none;
+		width: 100%;
+		margin-bottom: -30px;
+		margin-top: -15px;
 	}
 
 	&:before{
@@ -103,6 +104,7 @@
 	padding: 20px 15px 60px 15px;
 	@include res(s){
 		width: 100%;
+		text-align: center;
 	}
 }
 
@@ -160,6 +162,9 @@
 		font-size: 24px;
 		margin-right: 20px;
 	}
+	@include res(s){
+		margin: 0 10px;
+	}
 }
 
 .promo-banner__oldprice{
@@ -171,6 +176,9 @@
 	text-decoration: line-through;
 	@include res(l){
 		font-size: 20px;
+	}
+	@include res(s){
+		margin: 0 10px;
 	}
 }
 

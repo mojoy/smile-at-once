@@ -943,11 +943,11 @@
 			<a href="#" class="regions-banner__link"></a>
 			<div class="regions-banner__content">
 				<div class="h2 regions-banner__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
-				<div class="consult-block__phone">
+				<div class="regions-banner__phone">
 					<small>Для регионов</small>
 					<a href="tel:88003334628">8 800 333-46-28</a>
 				</div>
-				<div class="consult-block__phone">
+				<div class="regions-banner__phone">
 					<small>Для Москвы и МО</small>
 					<a href="tel:84955405042">8 495 540-50-42</a>
 				</div>
@@ -1249,107 +1249,6 @@
 </section>
 
 
-<section class="s-ratings s-def">
-	<div class="container">
-		<div class="h1 sec-title">Независимые рейтинги</div>
-		<div class="sec-title-descr ratings-descr">Хотите получить максимально полную информацию о&nbsp;наших услугах и&nbsp;сервисе от&nbsp;пациентов? Изучите мнение о&nbsp;нас на&nbsp;независимых авторитетных интернет-ресурсах.</div>
-
-		<div class="ratings-row row">
-			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<a href="#" class="rating-block">
-					<header class="rating-block__header">
-						<img src="" data-lazy="/img/home/rating-1.png" alt="1">
-					</header>
-					<main class="rating-block__num">4.9</main>
-					<footer class="rating-block__descr">из возможных 5</footer>
-				</a>
-			</div>
-			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<a href="#" class="rating-block">
-					<header class="rating-block__header">
-						<img src="" data-lazy="/img/home/rating-2.png" alt="1">
-					</header>
-					<main class="rating-block__num">5</main>
-					<footer class="rating-block__descr">из возможных 5</footer>
-				</a>
-			</div>
-			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<a href="#" class="rating-block">
-					<header class="rating-block__header">
-						<img src="" data-lazy="/img/home/rating-3.png" alt="1">
-					</header>
-					<main class="rating-block__num">5 <small>★</small></main>
-					<footer class="rating-block__descr">из возможных 5 звезд</footer>
-				</a>
-			</div>
-			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<a href="#" class="rating-block">
-					<header class="rating-block__header">
-						<img src="" data-lazy="/img/home/rating-4.png" alt="1">
-					</header>
-					<main class="rating-block__num">4.9</main>
-					<footer class="rating-block__descr">из возможных 5</footer>
-				</a>
-			</div>
-			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<a href="#" class="rating-block">
-					<header class="rating-block__header">
-						<img src="" data-lazy="/img/home/rating-5.png" alt="1">
-					</header>
-					<main class="rating-block__num">14+</main>
-					<footer class="rating-block__descr">отрицательных отзывов 0</footer>
-				</a>
-			</div>
-			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
-				<a href="#" class="rating-block">
-					<header class="rating-block__header">
-						<img src="" data-lazy="/img/home/rating-6.png" alt="1">
-					</header>
-					<main class="rating-block__num">4.9</main>
-					<footer class="rating-block__descr">из возможных 5</footer>
-				</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-<section class="s-smi s-def">
-	<div class="container">
-		<div class="h1 sec-title">О нас пишут</div>
-
-		<div class="swiper-container smi-row">
-			<div class="swiper-wrapper">
-				<a href="#" class="smi-row__item swiper-slide">
-					<img src="" data-lazy="/img/home/smi-1.png" alt="1">
-				</a>
-				<a href="#" class="smi-row__item swiper-slide">
-					<img src="" data-lazy="/img/home/smi-2.png" alt="1">
-				</a>
-				<a href="#" class="smi-row__item swiper-slide">
-					<img src="" data-lazy="/img/home/smi-3.png" alt="1">
-				</a>
-				<a href="#" class="smi-row__item swiper-slide">
-					<img src="" data-lazy="/img/home/smi-4.png" alt="1">
-				</a>
-				<a href="#" class="smi-row__item swiper-slide">
-					<img src="" data-lazy="/img/home/smi-1.png" alt="1">
-				</a>
-				<a href="#" class="smi-row__item swiper-slide">
-					<img src="" data-lazy="/img/home/smi-2.png" alt="1">
-				</a>
-				<a href="#" class="smi-row__item swiper-slide">
-					<img src="" data-lazy="/img/home/smi-3.png" alt="1">
-				</a>
-				<a href="#" class="smi-row__item swiper-slide">
-					<img src="" data-lazy="/img/home/smi-4.png" alt="1">
-				</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-
 <section class="s-about s-def">
 	<div class="container">
 		<div class="about-content">
@@ -1475,6 +1374,107 @@
 				<a href="/img/photo-line/6.jpg" class="fancy" data-fancybox="photoline">
 					<span class="slide-loading"></span>
 					<img src="/img/photo-line/placeholder.png" class="swiper-lazy" data-src="/img/photo-line/6.jpg" alt="1">
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-ratings s-def">
+	<div class="container">
+		<div class="h1 sec-title">Независимые рейтинги</div>
+		<div class="sec-title-descr ratings-descr">Хотите получить максимально полную информацию о&nbsp;наших услугах и&nbsp;сервисе от&nbsp;пациентов? Изучите мнение о&nbsp;нас на&nbsp;независимых авторитетных интернет-ресурсах.</div>
+
+		<div class="ratings-row row">
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<a href="#" class="rating-block">
+					<header class="rating-block__header">
+						<img src="" data-lazy="/img/home/rating-1.png" alt="1">
+					</header>
+					<main class="rating-block__num">4.9</main>
+					<footer class="rating-block__descr">из возможных 5</footer>
+				</a>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<a href="#" class="rating-block">
+					<header class="rating-block__header">
+						<img src="" data-lazy="/img/home/rating-2.png" alt="1">
+					</header>
+					<main class="rating-block__num">5</main>
+					<footer class="rating-block__descr">из возможных 5</footer>
+				</a>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<a href="#" class="rating-block">
+					<header class="rating-block__header">
+						<img src="" data-lazy="/img/home/rating-3.png" alt="1">
+					</header>
+					<main class="rating-block__num">5 <small>★</small></main>
+					<footer class="rating-block__descr">из возможных 5 звезд</footer>
+				</a>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<a href="#" class="rating-block">
+					<header class="rating-block__header">
+						<img src="" data-lazy="/img/home/rating-4.png" alt="1">
+					</header>
+					<main class="rating-block__num">4.9</main>
+					<footer class="rating-block__descr">из возможных 5</footer>
+				</a>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<a href="#" class="rating-block">
+					<header class="rating-block__header">
+						<img src="" data-lazy="/img/home/rating-5.png" alt="1">
+					</header>
+					<main class="rating-block__num">14+</main>
+					<footer class="rating-block__descr">отрицательных отзывов 0</footer>
+				</a>
+			</div>
+			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
+				<a href="#" class="rating-block">
+					<header class="rating-block__header">
+						<img src="" data-lazy="/img/home/rating-6.png" alt="1">
+					</header>
+					<main class="rating-block__num">4.9</main>
+					<footer class="rating-block__descr">из возможных 5</footer>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-smi s-def">
+	<div class="container">
+		<div class="h1 sec-title">О нас пишут</div>
+
+		<div class="swiper-container smi-row">
+			<div class="swiper-wrapper">
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-1.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-2.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-3.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-4.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-1.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-2.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-3.png" alt="1">
+				</a>
+				<a href="#" class="smi-row__item swiper-slide">
+					<img src="" data-lazy="/img/home/smi-4.png" alt="1">
 				</a>
 			</div>
 		</div>
@@ -1620,11 +1620,11 @@
 			<div class="regions-banner__content">
 				<div class="h2 regions-banner__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
 				<div class="regions-banner__descr">Организация лечения с&nbsp;размещением «под ключ» для&nbsp;пациентов из&nbsp;других городов</div>
-				<div class="consult-block__phone">
+				<div class="regions-banner__phone">
 					<small>Для регионов</small>
 					<a href="tel:88003334628">8 800 333-46-28</a>
 				</div>
-				<div class="consult-block__phone">
+				<div class="regions-banner__phone">
 					<small>Для Москвы и МО</small>
 					<a href="tel:84955405042">8 495 540-50-42</a>
 				</div>

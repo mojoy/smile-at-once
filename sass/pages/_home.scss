@@ -115,14 +115,14 @@
 }
 
 .s-regions__pc{
-	@include res(s){
+	@include res(m){
 		display: none;
 	}
 }
 
 .s-regions__mob{
 	display: none;
-	@include res(s){
+	@include res(m){
 		display: block;
 	}
 }
@@ -828,7 +828,7 @@
 
 //s-smi
 .s-smi{
-
+	border-bottom: 4px solid $green;
 }
 
 .smi-row{
