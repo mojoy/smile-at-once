@@ -45,11 +45,11 @@
 		<a href="/" class="top-panel__logo">
 			<img src="/img/logo.svg" alt="Логотип" class="top-panel__logo-pc">
 		</a>
-		<div class="top-panel__prizes">
+		<!--<div class="top-panel__prizes">
 			<a href="#"><img src="/img/header/prize_1.png" alt="1" title="Лучшая стоматологическая клиника по версии КоммерсантЪ"></a>
 			<a href="#"><img src="/img/header/prize_2.png" alt="2" title="Инновационный Центр стоматологической ассоциации РФ"></a>
 			<a href="#"><img src="/img/header/prize_3.png" alt="3" title="Лучшие стоматологии РФ 2018"></a>
-		</div>
+		</div>-->
 		<div class="top-panel__links">
 			<a href="#" class="top-panel__link"><span class="i i-shield"></span>О клинике</a>
 			<a href="#" class="top-panel__link"><span class="i i-pin"></span>Адреса клиник</a>
