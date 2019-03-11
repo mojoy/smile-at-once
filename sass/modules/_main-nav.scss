@@ -171,7 +171,7 @@
 	top: calc(100% + 8px);
 	left: 0;
 	background: #e3edf6;
-	padding-top: 8px;
+	//padding-top: 8px;
 	border-radius: 0 0 10px 10px;
 	overflow: hidden;
 	box-shadow: $shadow-block;
@@ -190,18 +190,29 @@
 
 	a{
 		display: block;
+		position: relative;
 		font-weight: bold;
 		text-transform: uppercase;
 		font-size: 13px;
 		letter-spacing: 0.1em;
 		line-height: 1;
-		padding: 12px 12px;
+		padding: 14px 20px;
 		transition: all 0.3s ease;
 		white-space: nowrap;
 		
 		&:hover{
 			background: #FFF;
 		}
+
+		//&:before{
+		//	content: '';
+		//	width: 8px;
+		//	height: 2px;
+		//	position: absolute;
+		//	left: 2px;
+		//	top: 16px;
+		//	background: $gray-text;
+		//}
 	}
 }
 

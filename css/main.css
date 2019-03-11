@@ -3920,7 +3920,6 @@
   top: calc(100% + 8px);
   left: 0;
   background: #e3edf6;
-  padding-top: 8px;
   border-radius: 0 0 10px 10px;
   overflow: hidden;
   box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5);
@@ -3938,12 +3937,13 @@
 
 .pb .main-nav__sub-menu a {
   display: block;
+  position: relative;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 0.1em;
   line-height: 1;
-  padding: 12px 12px;
+  padding: 14px 20px;
   transition: all 0.3s ease;
   white-space: nowrap;
 }
