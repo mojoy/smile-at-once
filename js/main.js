@@ -169,43 +169,6 @@ $(window).on('load',function () {
 
 
 /***********************
-Cases slider BEGIN
-***********************/
-document.addEventListener('DOMContentLoaded',function () {
-	var casesSlider = new Swiper ('.cases-slider', {
-		direction: 'vertical',
-		slidesPerView: 5,
-		spaceBetween: 30,
-		grabCursor: true,
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev'
-		}
-	});
-
-	var casesThumbs = document.querySelectorAll('.case-thumb');
-	var casesSlides = document.querySelectorAll('.case-thumb');
-
-	for (var i = 0; i < casesThumbs.length; ++i) {
-		casesThumbs[i].index = i;
-		casesThumbs[i].addEventListener("click", function () {
-			selectCase(this.index)
-		});
-	}
-
-	function selectCase(index) {
-		for (var i = 0; i < casesThumbs.length; ++i) {
-			casesThumbs[i].classList.remove('active');
-		}
-		casesThumbs[index].classList.add('active');
-	}
-});
-/***********************
-Cases slider END
-***********************/
-
-
-/***********************
 Prizes slider BEGIN
 ***********************/
 document.addEventListener('DOMContentLoaded',function () {
@@ -219,8 +182,13 @@ document.addEventListener('DOMContentLoaded',function () {
 		loopedSlides: 10,
 		watchSlidesVisibility: true,
 		preloadImages: false,
+		threshold: 5,
 		lazy: {
 			preloaderClass: 'slide-loading'
+		},
+		navigation: {
+			nextEl: '.slider-arrow--next',
+			prevEl: '.slider-arrow--prev'
 		}
 	});
 });

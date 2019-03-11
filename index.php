@@ -550,6 +550,12 @@
 				</a>
 			</div>
 		</div>
+		<div class="slider-arrow slider-arrow--prev">
+			<span class="i i-left"></span>
+		</div>
+		<div class="slider-arrow slider-arrow--next">
+			<span class="i i-right"></span>
+		</div>
 	</div>
 
 </section>

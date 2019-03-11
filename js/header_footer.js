@@ -60,28 +60,33 @@ document.addEventListener('DOMContentLoaded',function () {
 Callback menu BEGIN
 ***********************/
 document.addEventListener('DOMContentLoaded',function () {
-	var callbackBtns = document.querySelectorAll('.main-nav-callback__btn');
-	var callbackPanels = document.querySelectorAll('.main-nav-callback__panel');
+	var callbackBtn = document.querySelector('.main-nav .main-nav-callback__btn');
+	var callbackPanel = document.querySelector('.main-nav .main-nav-callback__panel');
 
-	for (var i = 0; i < callbackBtns.length; ++i) {
-		callbackBtns[i].addEventListener('click',function (e) {
-			e.preventDefault();
-			for (var i = 0; i < callbackBtns.length; ++i) {
-				callbackPanels[i].classList.toggle('active');
-			}
-		});
-		callbackBtns[i].addEventListener('click', function(evt) {
-			evt.stopPropagation();
-		});
-		callbackPanels[i].addEventListener('click', function(evt) {
-			evt.stopPropagation();
-		});
-	}
+	callbackBtn.addEventListener('click',function (e) {
+		e.preventDefault();
+		callbackPanel.classList.toggle('active');
+		document.body.classList.toggle('overlayed');
+	});
+	callbackBtn.addEventListener('click', function(evt) {
+		evt.stopPropagation();
+	});
+	callbackPanel.addEventListener('click', function(evt) {
+		evt.stopPropagation();
+	});
 
 	document.addEventListener("click", function () {
-		for (var i = 0; i < callbackBtns.length; ++i) {
-			callbackPanels[i].classList.remove('active');
-		}
+		callbackPanel.classList.remove('active');
+		document.body.classList.remove('overlayed');
+	});
+
+	//on mobile panel
+	var callbackBtnMob = document.querySelector('.mob-panel .main-nav-callback__btn');
+	var callbackPanelMob = document.querySelector('.mob-panel .main-nav-callback__panel');
+
+	callbackBtnMob.addEventListener('click',function (e) {
+		e.preventDefault();
+		callbackPanelMob.classList.toggle('active');
 	});
 });
 /***********************
@@ -278,3 +283,24 @@ Footer menu BEGIN
 /***********************
  Footer menu END
  ***********************/
+
+
+/***********************
+main sub menu BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var hasSub = document.querySelectorAll('.main-nav__has-sub');
+
+	for (var i = 0; i < hasSub.length; ++i) {
+		hasSub[i].addEventListener('mouseover',function (event) {
+			this.classList.add('active');
+		});
+
+		hasSub[i].addEventListener("mouseout", function(event) {
+			this.classList.remove('active');
+		})
+	}
+});
+/***********************
+main sub menu END
+***********************/

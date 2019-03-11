@@ -31,7 +31,7 @@
 	<link href="css/all.css" rel="stylesheet">
 	<link href="css/all_doctors_dev.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">-->
-	<link href="css/main.css?v=5" rel="stylesheet">
+	<link href="css/main.css?v=6" rel="stylesheet">
 </head>
 
 <body>
@@ -79,9 +79,49 @@
 			<nav class="container main-nav__nav">
 				<ul class="main-nav__list">
 					<li class="main-nav__services-root"><a href="javascript:void(0)"><span class="i i-menu"></span>Все Услуги</a></li>
-					<li><a href="#">Цены</a></li>
+					<li class="main-nav__has-sub">
+						<a href="#">Цены</a>
+						<div class="main-nav__sub">
+							<ul class="main-nav__sub-menu">
+								<li><a title="Все цены" href="/ceni/">Все цены</a></li>
+								<li><a title="Акции" href="/akcii/">Акции</a></li>
+								<li><a title="Годовое сопровождение" href="/lechenie_zubov_godovie_programmi.html">Годовое сопровождение</a></li>
+								<li><a title="Кредит и рассрочка" href="/lechenie-zubov-v-kredit.html">Кредит и рассрочка</a></li>
+								<li><a title="Налоговый вычет" href="/nalogoviy-vichet-na-lechenie.html">Налоговый вычет</a></li>
+								<li><a title="Гарантии и страховка" href="/garantii.html">Гарантии и страховка</a></li>
+								<li><a title="Онлайн диагност" href="/calculator/">Онлайн диагностика</a></li>
+							</ul>
+						</div>
+					</li>
 					<li><a href="#" class="current">До и после</a></li>
-					<li><a href="#">Врачи</a></li>
+					<li class="main-nav__has-sub">
+						<a href="#">Врачи</a>
+						<div class="main-nav__sub">
+							<ul class="main-nav__sub-menu">
+								<li><a href="#">Намдаков Николай Владимирович</a></li>
+								<li><a href="#">Джутова Аида Владимировна</a></li>
+								<li><a href="#">Орлова Елена Владимировна</a></li>
+								<li><a href="#">Вагапов Закир Иркинович</a></li>
+								<li><a href="#">Чорный Станислав Владимирович</a></li>
+								<li><a href="#">Гармаев Булат Вячеславович</a></li>
+								<li><a href="#">Копылов Иван Павлович</a></li>
+								<li><a href="#">Беляева Ольга Александровна</a></li>
+								<li><a href="#">Васин Юрий Александрович</a></li>
+								<li><a href="#">Кашаева Виктория Николаевна</a></li>
+							</ul>
+							<ul class="main-nav__sub-menu">
+								<li><a href="#">Самбуев Баир Сергеевич</a></li>
+								<li><a href="#">Варламова Татьяна Витальевна</a></li>
+								<li><a href="#">Беспалов Роман Дмитриевич</a></li>
+								<li><a href="#">Путь Владимир Анатольевич</a></li>
+								<li><a href="#">Чернов Андрей Растиславович</a></li>
+								<li><a href="#">Дулгаров Жаргал Галсанович</a></li>
+								<li><a href="#">Горовой Евгений Андреевич</a></li>
+								<li><a href="#">Кример Дмитрий Аркадьевич</a></li>
+								<li><a href="#">Жиленко Евгений Александрович</a></li>
+							</ul>
+						</div>
+					</li>
 					<li><a href="#">Отзывы</a></li>
 					<li><a href="#">Пациентам из других городов</a></li>
 				</ul>
@@ -127,52 +167,28 @@
 		</div>
 		<div class="main-nav__services services-menu">
 			<aside class="services-menu__aside">
-				<a href="#" class="services-menu__category-link">
-					<figure>
-						<img src="/img/header/services-1.svg" alt="Имплантация">
-					</figure>
+				<a href="#" class="services-menu__category-link services-menu__category-link--1">
 					Имплантация
 				</a>
-				<a href="#" class="services-menu__category-link">
-					<figure>
-						<img src="/img/header/services-2.svg" alt="Имплантация">
-					</figure>
+				<a href="#" class="services-menu__category-link services-menu__category-link--2">
 					Протезирование
 				</a>
-				<a href="#" class="services-menu__category-link">
-					<figure>
-						<img src="/img/header/services-3.svg" alt="Имплантация">
-					</figure>
+				<a href="#" class="services-menu__category-link services-menu__category-link--3">
 					Лечение зубов
 				</a>
-				<a href="#" class="services-menu__category-link">
-					<figure>
-						<img src="/img/header/services-4.svg" alt="Имплантация">
-					</figure>
+				<a href="#" class="services-menu__category-link services-menu__category-link--4">
 					Парадонтология
 				</a>
-				<a href="#" class="services-menu__category-link">
-					<figure>
-						<img src="/img/header/services-5.svg" alt="Имплантация">
-					</figure>
+				<a href="#" class="services-menu__category-link services-menu__category-link--5">
 					Хирургия
 				</a>
-				<a href="#" class="services-menu__category-link">
-					<figure>
-						<img src="/img/header/services-6.svg" alt="Имплантация">
-					</figure>
+				<a href="#" class="services-menu__category-link services-menu__category-link--6">
 					Эстетика
 				</a>
-				<a href="#" class="services-menu__category-link">
-					<figure>
-						<img src="/img/header/services-7.svg" alt="Имплантация">
-					</figure>
+				<a href="#" class="services-menu__category-link services-menu__category-link--7">
 					Ортодонтия
 				</a>
-				<a href="#" class="services-menu__category-link">
-					<figure>
-						<img src="/img/header/services-8.svg" alt="Имплантация">
-					</figure>
+				<a href="#" class="services-menu__category-link services-menu__category-link--8">
 					Без боли
 				</a>
 			</aside>
@@ -754,9 +770,45 @@
 				<li><a href="#">Без боли</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Цены</a></li>
+		<li class="has-sub">
+			<a href="#">Цены</a>
+			<div class="i i-down"></div>
+			<ul>
+				<li><a title="Все цены" href="/ceni/">Все цены</a></li>
+				<li><a title="Акции" href="/akcii/">Акции</a></li>
+				<li><a title="Годовое сопровождение" href="/lechenie_zubov_godovie_programmi.html">Годовое сопровождение</a></li>
+				<li><a title="Кредит и рассрочка" href="/lechenie-zubov-v-kredit.html">Кредит и рассрочка</a></li>
+				<li><a title="Налоговый вычет" href="/nalogoviy-vichet-na-lechenie.html">Налоговый вычет</a></li>
+				<li><a title="Гарантии и страховка" href="/garantii.html">Гарантии и страховка</a></li>
+				<li><a title="Онлайн диагност" href="/calculator/">Онлайн диагностика</a></li>
+			</ul>
+		</li>
 		<li><a href="#" class="current">До и после</a></li>
-		<li><a href="#">Врачи</a></li>
+		<li class="has-sub">
+			<a href="#">Врачи</a>
+			<div class="i i-down"></div>
+			<ul>
+				<li><a href="#">Намдаков Николай Владимирович</a></li>
+				<li><a href="#">Джутова Аида Владимировна</a></li>
+				<li><a href="#">Орлова Елена Владимировна</a></li>
+				<li><a href="#">Вагапов Закир Иркинович</a></li>
+				<li><a href="#">Чорный Станислав Владимирович</a></li>
+				<li><a href="#">Гармаев Булат Вячеславович</a></li>
+				<li><a href="#">Копылов Иван Павлович</a></li>
+				<li><a href="#">Беляева Ольга Александровна</a></li>
+				<li><a href="#">Васин Юрий Александрович</a></li>
+				<li><a href="#">Кашаева Виктория Николаевна</a></li>
+				<li><a href="#">Самбуев Баир Сергеевич</a></li>
+				<li><a href="#">Варламова Татьяна Витальевна</a></li>
+				<li><a href="#">Беспалов Роман Дмитриевич</a></li>
+				<li><a href="#">Путь Владимир Анатольевич</a></li>
+				<li><a href="#">Чернов Андрей Растиславович</a></li>
+				<li><a href="#">Дулгаров Жаргал Галсанович</a></li>
+				<li><a href="#">Горовой Евгений Андреевич</a></li>
+				<li><a href="#">Кример Дмитрий Аркадьевич</a></li>
+				<li><a href="#">Жиленко Евгений Александрович</a></li>
+			</ul>
+		</li>
 		<li><a href="#">Отзывы</a></li>
 		<li><a href="#">Пациентам из других городов</a></li>
 	</ul>
