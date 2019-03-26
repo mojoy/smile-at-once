@@ -3815,10 +3815,11 @@
   align-items: center;
   width: 100%;
   text-align: center;
-  padding: 0 40px;
+  padding: 0 30px;
   height: 40px;
-  font-size: 16px;
-  font-weight: normal;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
   line-height: 1;
   white-space: nowrap;
   transition: all 0.3s ease;
@@ -3826,7 +3827,7 @@
 
 @media (max-width: 1400px) {
   .pb .main-nav__list > li > a {
-    padding: 0 20px;
+    padding: 0 15px;
   }
 }
 
@@ -3865,7 +3866,7 @@
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  top: 1px;
+  top: 0;
   margin-left: 7px;
 }
 
@@ -3891,7 +3892,7 @@
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  top: 1px;
+  top: 0;
   margin-left: 7px;
 }
 
@@ -4310,7 +4311,7 @@
 
 .pb .services-menu-category__list a {
   color: #565656;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 7px;
 }
 
