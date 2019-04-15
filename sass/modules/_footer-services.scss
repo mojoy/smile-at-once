@@ -4,9 +4,7 @@
 }
 
 .footer-services{
-	@include res(l){
-		margin-bottom: 20px;
-	}
+	margin-bottom: 20px;
 
 	a{
 		transition: color 0.3s ease;
@@ -32,6 +30,7 @@
 .footer-services__list{
 
 	&>li{
+		padding-left: 20px;
 		line-height: 1.1;
 		margin-bottom: 8px;
 
@@ -68,8 +67,8 @@
 
 		figure{
 			position: absolute;
-			top: 4px;
-			right: 0;
+			top: 3px;
+			left: 0;
 			width: 12px;
 			height: 10px;
 			border-top: 2px solid $gray-text;

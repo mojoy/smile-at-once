@@ -79,8 +79,11 @@
 		z-index: 2;
 		color: #FFF;
 		font-size: 18px;
+		width: 18px;
+		flex-shrink: 0;
 		@include res(l){
 			font-size: 14px;
+			width: 14px;
 		}
 	}
 }
@@ -94,8 +97,8 @@
 	//}
 
 	.swiper-pagination-bullet{
-		width: 14px;
-		height: 14px;
+		width: 20px;
+		height: 20px;
 		margin: 0 9px;
 		border: 1px solid $green;
 		background: #FFF;
@@ -104,8 +107,8 @@
 		border-radius: 2px;
 		transition: all 0.3s ease;
 		@include res(s){
-			width: 10px;
-			height: 10px;
+			width: 13px;
+			height: 13px;
 			margin: 0 4px;
 		}
 
