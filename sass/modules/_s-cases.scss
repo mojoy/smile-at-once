@@ -170,6 +170,7 @@
 }
 
 .case__center{
+	align-self: flex-end;
 	position: relative;
 	flex-shrink: 0;
 	width: calc(100% / 3 * 2);
@@ -226,6 +227,7 @@
 	img{
 		display: block;
 		max-width: 100%;
+		max-height: 198px;
 		height: auto;
 		border-radius: 20px;
 	}

@@ -97,28 +97,180 @@
 					<li class="main-nav__has-sub">
 						<a href="#">Врачи</a>
 						<div class="main-nav__sub">
-							<ul class="main-nav__sub-menu">
-								<li><a href="#">Намдаков Николай Владимирович</a></li>
-								<li><a href="#">Джутова Аида Владимировна</a></li>
-								<li><a href="#">Орлова Елена Владимировна</a></li>
-								<li><a href="#">Вагапов Закир Иркинович</a></li>
-								<li><a href="#">Чорный Станислав Владимирович</a></li>
-								<li><a href="#">Гармаев Булат Вячеславович</a></li>
-								<li><a href="#">Копылов Иван Павлович</a></li>
-								<li><a href="#">Беляева Ольга Александровна</a></li>
-								<li><a href="#">Васин Юрий Александрович</a></li>
-								<li><a href="#">Кашаева Виктория Николаевна</a></li>
+							<ul class="main-nav__sub-doctors">
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/1.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Намдаков Николай Владимирович</strong>
+											<small>Челюстно-лицевой хирург, имплантолог, ортопед</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/2.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Джутова Аида Владимировна</strong>
+											<small>Хирург-имплантолог, пародонтолог</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/3.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Орлова Елена Владимировна</strong>
+											<small>Терапевт, пародонтолог</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/4.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Вагапов Закир Иркинович</strong>
+											<small>Ортодонт</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/5.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Чорный Станислав Владимирович</strong>
+											<small>Стоматолог-ортопед</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/6.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Гармаев Булат Вячеславович</strong>
+											<small>Хирург-имплантолог, чесюлстно-лицевой хирург ортопед</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/7.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Копылов Иван Павлович</strong>
+											<small>Челюстно-лицевой хирург, имплантолог</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/8.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Беляева Ольга Александровна</strong>
+											<small>Стоматолог-терапевт</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/9.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Васин Юрий Александрович</strong>
+											<small>Стоматолог-ортопед</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/10.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Кашаева Виктория Николаевна</strong>
+											<small>Стоматолог-гигиенист, терапевт</small>
+										</span>
+									</a>
+								</li>
 							</ul>
-							<ul class="main-nav__sub-menu">
-								<li><a href="#">Самбуев Баир Сергеевич</a></li>
-								<li><a href="#">Варламова Татьяна Витальевна</a></li>
-								<li><a href="#">Беспалов Роман Дмитриевич</a></li>
-								<li><a href="#">Путь Владимир Анатольевич</a></li>
-								<li><a href="#">Чернов Андрей Растиславович</a></li>
-								<li><a href="#">Дулгаров Жаргал Галсанович</a></li>
-								<li><a href="#">Горовой Евгений Андреевич</a></li>
-								<li><a href="#">Кример Дмитрий Аркадьевич</a></li>
-								<li><a href="#">Жиленко Евгений Александрович</a></li>
+							<ul class="main-nav__sub-doctors">
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/11.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Самбуев Баир Сергеевич</strong>
+											<small>Стомотолог-ортопед</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/12.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Варламова Татьяна Витальевна</strong>
+											<small>Стомотолог-терапевт</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/13.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Беспалов Роман Дмитриевич</strong>
+											<small>Челюстно-лицевой хирург, имплантолог</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/14.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Путь Владимир Анатольевич</strong>
+											<small>Хирург-имплантолог, ортопед</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/15.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Чернов Андрей Растиславович</strong>
+											<small>Врач, стоматолог-ортопед, гнатолог</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/16.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Дулгаров Жаргал Галсанович</strong>
+											<small>Стоматолог-терапевт, ортодонд</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/17.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Стоматолог-терапевт, ортодонд</strong>
+											<small>Хирург-имплантолог</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/18.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Кример Дмитрий Аркадьевич</strong>
+											<small>Стоматолог-ортопед, гнатолог</small>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="sub-menu-doctor">
+										<img src="/img/header/doctors/19.jpg" alt="1" class="sub-menu-doctor__img">
+										<span class="sub-menu-doctor__info">
+											<strong>Жиленко Евгений Александрович</strong>
+											<small>Хирург-имплантолог, ортопед</small>
+										</span>
+									</a>
+								</li>
 							</ul>
 						</div>
 					</li>
