@@ -221,42 +221,44 @@ Photo line slider END
 Team BEGIN
 ***********************/
 document.addEventListener('DOMContentLoaded',function () {
-	var teamThumbs = new Swiper ('.team-thumbs', {
-		slidesPerView: 'auto',
-		centeredSlides: true,
-		loop: true,
-		slideToClickedSlide: true,
-		watchSlidesVisibility: true,
-		initialSlide: 1,
-		preloadImages: false,
-		lazy: {
-			preloaderClass: 'slide-loading'
-		},
-		navigation: {
-			nextEl: '.slider-arrow--next',
-			prevEl: '.slider-arrow--prev'
-		},
-		threshold: 5
-	});
+	if ($('.team-thumbs').length) {
+		var teamThumbs = new Swiper('.team-thumbs', {
+			slidesPerView: 'auto',
+			centeredSlides: true,
+			loop: true,
+			slideToClickedSlide: true,
+			watchSlidesVisibility: true,
+			initialSlide: 1,
+			preloadImages: false,
+			lazy: {
+				preloaderClass: 'slide-loading'
+			},
+			navigation: {
+				nextEl: '.slider-arrow--next',
+				prevEl: '.slider-arrow--prev'
+			},
+			threshold: 5
+		});
 
-	var teamSlider = new Swiper ('.team-slider', {
-		slidesPerView: 'auto',
-		centeredSlides: true,
-		loop: true,
-		threshold: 5,
-		grabCursor: true,
-		watchSlidesVisibility: true,
-		initialSlide: 1,
-		preloadImages: false,
-		lazy: {
-			preloaderClass: 'slide-loading',
-			loadPrevNext: true,
-			loadPrevNextAmount: 4
-		}
-	});
+		var teamSlider = new Swiper('.team-slider', {
+			slidesPerView: 'auto',
+			centeredSlides: true,
+			loop: true,
+			threshold: 5,
+			grabCursor: true,
+			watchSlidesVisibility: true,
+			initialSlide: 1,
+			preloadImages: false,
+			lazy: {
+				preloaderClass: 'slide-loading',
+				loadPrevNext: true,
+				loadPrevNextAmount: 4
+			}
+		});
 
-	teamThumbs.controller.control = teamSlider;
-	teamSlider.controller.control = teamThumbs;
+		teamThumbs.controller.control = teamSlider;
+		teamSlider.controller.control = teamThumbs;
+	}
 });
 /***********************
 Team END
@@ -413,4 +415,123 @@ document.addEventListener('DOMContentLoaded',function () {
 });
 /***********************
 Smi slider END
+***********************/
+
+
+/***********************
+ select-like BEGIN
+***********************/
+$(function($){
+	var selects = $('.select-like__current');
+
+	selects.on('click',function (e) {
+		e.preventDefault();
+		var thisDrop = $(this).next('.select-like__drop');
+		selects.next('.select-like__drop').not(thisDrop).removeClass('active');
+		thisDrop.toggleClass('active');
+	});
+
+	selects.on('click', function(evt) {
+		evt.stopPropagation();
+	});
+
+	document.addEventListener("click", function () {
+		$('.select-like__drop').removeClass('active');
+	});
+});
+/***********************
+ select-like END
+***********************/
+
+
+/***********************
+Filter mob BEGIN
+***********************/
+$(function($){
+	$('.mob-filter-opener').on('click',function (e) {
+		e.preventDefault();
+		$('.reviews-filter-block').toggleClass('visible');
+	})
+});
+/***********************
+Filter mob END
+***********************/
+
+
+/***********************
+Stars BEGIN
+***********************/
+$(function($){
+	$(".stars-rating").starRating({
+		useFullStars: true,
+		emptyColor: '#cedae1',
+		hoverColor: '#72dbd4',
+		activeColor: '#72dbd4',
+		ratedColor: '#239ca3',
+		disableAfterRate: false,
+		starSize: 24,
+		useGradient: false,
+		strokeColor: 'transparent',
+		callback: function(currentRating, $el){
+			$el.siblings('input').val(currentRating);
+		}
+	});
+});
+/***********************
+Stars END
+***********************/
+
+
+/***********************
+Reviews maps BEGIN
+***********************/
+$(function($){
+	if ($('#users-map').length) {
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map("users-map", {
+				center: [55.76, 37.64],
+				zoom: 7,
+				controls: ['zoomControl']
+			});
+
+			var clusterer = new ymaps.Clusterer({
+				hasBaloon: false,
+				hasHint: false,
+				clusterIcons: [{
+					href: '/img/claster.png',
+					size: [55, 44],
+					offset: [-27, -22]
+				}],
+				clusterIconContentLayout: ymaps.templateLayoutFactory.createClass('<div style="color: #FFFFFF; font-weight: bold; top: -10px; position: relative;font-size: 14px;">{{ properties.geoObjects.length }}</div>')
+			});
+
+			var points = user_coordinates;
+
+			var geoObjects = [];
+
+			var placemarkOptions = {
+				iconLayout: 'default#image',
+				iconImageHref: '/img/placemark.png',
+				iconImageSize: [20, 20],
+				iconImageOffset: [-10, -10]
+			};
+
+			for (var i = 0, len = points.length; i < len; i++) {
+				geoObjects[i] = new ymaps.Placemark(points[i], null, placemarkOptions);
+			}
+
+			clusterer.add(geoObjects);
+			myMap.geoObjects.add(clusterer);
+
+			myMap.setBounds(clusterer.getBounds(), {
+				checkZoomRange: true
+			});
+
+		}
+	}
+});
+/***********************
+Reviews maps END
 ***********************/

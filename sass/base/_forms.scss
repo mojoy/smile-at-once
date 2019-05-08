@@ -11,10 +11,11 @@ label {
 	-webkit-appearance: none;
 	border: 1px solid #cedae1;
 	background: #FFF;
-	border-radius: 10px;
+	border-radius: 28px;
 	padding: 15px 25px;
 	overflow: visible;
 	margin: 0;
+	width: 100%;
 	@include res(l){
 		font-size: 16px;
 		padding: 12px 20px;
@@ -215,3 +216,16 @@ label {
 	}
 }
 //vertical-form
+
+
+//stars
+.stars{
+
+}
+
+.stars__title{
+	font-size: 20px;
+	margin-bottom: 5px;
+	line-height: 1.2;
+}
+//stars

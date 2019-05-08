@@ -274,7 +274,7 @@
 							</ul>
 						</div>
 					</li>
-					<li><a href="#">Отзывы</a></li>
+					<li><a href="/reviews.php ">Отзывы</a></li>
 					<li><a href="#">Пациентам из других городов</a></li>
 				</ul>
 				<div class="main-nav-callback">
@@ -974,3 +974,13 @@
 </div>
 
 </header>
+
+
+<section class="s-breadcrumbs compensate-for-scrollbar">
+	<div class="container">
+		<ul class="breadcrumbs">
+			<li><a href="/">Главная</a></li>
+			<li><a href="#">Отзывы пациентов</a></li>
+		</ul>
+	</div>
+</section>

@@ -24,4 +24,13 @@
 			border-color: $pink;
 		}
 	}
+
+	&--small{
+		&:before{
+			left: 6px;
+			top: 6px;
+			bottom: 6px;
+			right: 6px;
+		}
+	}
 }

@@ -8,6 +8,7 @@
 
 @import 'vendors/jquery.fancybox';
 @import 'vendors/swiper';
+@import 'vendors/star-rating-svg';
 
 @import 'base/reset';
 
@@ -34,6 +35,10 @@
 @import 'modules/head-slider';
 @import 'modules/regions-banner';
 @import 'modules/s-promo';
+@import 'modules/breadcrumbs';
+@import 'modules/review-intro';
+@import 'modules/pagination';
 
 @import 'pages/home';
+@import 'pages/reviews';
 }

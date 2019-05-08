@@ -1,0 +1,48 @@
+.s-breadcrumbs{
+	position: absolute;
+	z-index: 8;
+	left: 0;
+	right: 0;
+	padding-top: 20px;
+
+	@include res(l){
+		display: none;
+	}
+}
+
+.breadcrumbs{
+	display: flex;
+	font-size: 14px;
+	user-select: none;
+	white-space: nowrap;
+
+	li{
+		position: relative;
+		margin-right: 26px;
+
+		&:after{
+			content: '>';
+			color: $black;
+			position: absolute;
+			top: -1px;
+			right: -17px;
+			pointer-events: none;
+		}
+
+		&:last-child{
+			&:after{
+				display: none;
+			}
+		}
+	}
+
+	a{
+		position: relative;
+		color: $black;
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: $green-dark;
+		}
+	}
+}
