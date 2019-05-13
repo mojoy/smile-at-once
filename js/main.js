@@ -535,3 +535,26 @@ $(function($){
 /***********************
 Reviews maps END
 ***********************/
+
+
+/***********************
+Review thanks slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var reviewThanksSlider = new Swiper ('.photo-stack-slider', {
+		slidesPerView: 1,
+		loop: false,
+		threshold: 5,
+		grabCursor: true,
+		navigation: {
+			nextEl: '.photo-stack-slider--next',
+			prevEl: '.photo-stack-slider--prev'
+		},
+		lazy: {
+			preloaderClass: 'slide-loading'
+		}
+	});
+});
+/***********************
+Review thanks slider END
+***********************/

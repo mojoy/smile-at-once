@@ -32,6 +32,15 @@
 		outline: none;
 	}
 
+	&.swiper-button-disabled{
+		&:before{
+			background: $gray-bg;
+		}
+		&:after{
+			border-color: $gray-bg;
+		}
+	}
+
 	&--prev{
 		left: -20px;
 		@include res(l){

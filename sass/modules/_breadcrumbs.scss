@@ -22,7 +22,7 @@
 
 		&:after{
 			content: '>';
-			color: $black;
+			color: $green-dark;
 			position: absolute;
 			top: -1px;
 			right: -17px;
@@ -38,11 +38,11 @@
 
 	a{
 		position: relative;
-		color: $black;
+		color: $green-dark;
 		transition: color 0.3s ease;
 
 		&:hover{
-			color: $green-dark;
+			color: $black;
 		}
 	}
 }

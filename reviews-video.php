@@ -30,6 +30,39 @@
 </section>
 
 
+<section class="s-review-thanks">
+	<div class="container review-thanks">
+		<div class="row">
+			<div class="grid-6 grid-12_m">
+				<div class="review-thanks__title">— Никогда бы не подумала, что смогу так улыбаться. Спасибо Smile At once</div>
+				<div class="review-thanks__text">После очередной коррекции протеза и профилактического осмотра после проведения базальной имплантации зубов: «Хочу поделиться своим опытом общения с компанией «Новая улыбка» (стоматология Smile-at-Once). Как известно, без зубов плохо, а вот с зубами хорошо. Поэтому я обратился в эту компанию и получил массу удовольствия от общения с ними. Все условия, которые предлагаются, абсолютно открыты, спокойно рассказывают обо всех проблемах, которые есть и как их лучше решить. Оплата и все остальные процедуры по оформлению абсолютно прозрачны. Мне очень понравилось что с хирургом, что с ортопедом, поэтому я могу всем рекомендовать обращаться в эту компанию – получите массу удовольствия и приятную улыбку».</div>
+			</div>
+			<div class="grid-6 grid-12_m">
+				<div class="photo-stack-slider__wrapper">
+					<div class="photo-stack-slider swiper-container">
+						<div class="swiper-wrapper">
+							<div class="photo-stack-slider__slide swiper-slide">
+								<div class="slide-loading"></div>
+								<img src="/img/reviews/stack-slider-place.png" data-src="/img/reviews/thanks-img.jpg" alt="1" class="swiper-lazy">
+							</div>
+							<div class="photo-stack-slider__slide swiper-slide">
+								<div class="slide-loading"></div>
+								<img src="/img/reviews/stack-slider-place.png" data-src="/img/reviews/thanks-img.jpg" alt="1" class="swiper-lazy">
+							</div>
+						</div>
+					</div>
+					<div class="slider-arrow slider-arrow--prev photo-stack-slider--prev">
+						<span class="i i-left"></span>
+					</div>
+					<div class="slider-arrow slider-arrow--next photo-stack-slider--next">
+						<span class="i i-right"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <section class="s-order">
 	<div class="container">
