@@ -9080,7 +9080,7 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  min-height: 780px;
+  min-height: 776px;
   padding-top: 90px;
   padding-bottom: 130px;
   overflow: hidden;
@@ -9107,6 +9107,7 @@
     border-radius: 0;
     padding-bottom: 20px;
     background: #f8fbfc;
+    background-image: none !important;
     min-height: initial;
   }
 }

@@ -465,8 +465,8 @@ $(function($){
 	$(".stars-rating").starRating({
 		useFullStars: true,
 		emptyColor: '#cedae1',
-		hoverColor: '#72dbd4',
-		activeColor: '#72dbd4',
+		hoverColor: '#239ca3',
+		activeColor: '#239ca3',
 		ratedColor: '#239ca3',
 		disableAfterRate: false,
 		starSize: 24,
