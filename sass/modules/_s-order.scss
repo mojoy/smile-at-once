@@ -1,0 +1,59 @@
+.s-order{
+	background: url("../img/reviews/order-bg.jpg") center top no-repeat #835836;
+	background-size: cover;
+	min-height: 771px;
+	@extend %round-bottom;
+	padding: 130px 0 150px 0;
+	color: #FFF;
+	@include res(xl){
+		min-height: inherit;
+	}
+	@include res(l){
+		padding: 80px 0 80px 0;
+	}
+	@include res(m){
+		background: url("../img/reviews/order-bg-m.jpg") center top no-repeat #835836;
+		background-size: cover;
+	}
+	@include res(s){
+		padding: 50px 0;
+	}
+}
+
+.order-text{
+	margin-bottom: 30px;
+}
+
+.order-text__title{
+	margin-bottom: 0.4em;
+}
+
+.order-text__text{
+	font-size: 18px;
+	@include res(s){
+		font-size: 16px;
+	}
+}
+
+.order-form-block{
+	max-width: 680px;
+}
+
+.order-form{
+
+}
+
+.order-form__row{
+	display: flex;
+	@include res(s){
+		flex-direction: column;
+	}
+
+	.button{
+		margin-left: 20px;
+		@include res(s){
+			margin-left: 0;
+			margin-top: 15px;
+		}
+	}
+}

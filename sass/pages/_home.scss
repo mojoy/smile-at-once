@@ -364,14 +364,20 @@
 	background: url("../img/home/facts-bg.jpg") center bottom no-repeat;
 	background-size: cover;
 	padding-bottom: 240px;
-	border-radius: 0 0 50% 50% / 0 0 90px 90px;
-	@include res(xl){
-		border-radius: 0 0 50% 50% / 0 0 60px 60px;
-	}
+	@extend %round-bottom;
 	@include res(l){
 		background-size: 100% auto;
-		border-radius: 0 0 50% 50% / 0 0 30px 30px;
 		padding-bottom: 10%;
+	}
+
+	&--reviews{
+		padding-top: 8%;
+		@include res(xl){
+			padding-top: 50px;
+		}
+		@include res(m){
+			display: none;
+		}
 	}
 }
 

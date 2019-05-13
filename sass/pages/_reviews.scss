@@ -5,16 +5,18 @@
 	background-size: cover;
 	padding: 90px 0 140px 0;
 	min-height: 535px;
-	border-radius: 0 0 50% 50% / 0 0 90px 90px;
+	@extend %round-bottom;
 	@include res(xl){
 		padding-top: 70px;
 		min-height: inherit;
-		border-radius: 0 0 50% 50% / 0 0 60px 60px;
 	}
 	@include res(l){
 		padding-top: 50px;
 		padding-bottom: 50px;
-		border-radius: 0;
+
+		&:after{
+			display: none;
+		}
 	}
 }
 
@@ -103,6 +105,8 @@
 }
 
 .reviews-filter-block{
+	position: relative;
+	z-index: 3;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -312,6 +316,7 @@
 
 	.button{
 		width: 300px;
+		max-width: 100%;
 	}
 }
 //review-form
