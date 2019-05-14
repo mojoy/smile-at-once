@@ -23,6 +23,12 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-clock:before {
+	content: "\e90b";
+}
+.i-wallet:before {
+	content: "\e90c";
+}
 .i-phone:before {
 	content: "\e90a";
 }

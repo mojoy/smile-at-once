@@ -1,31 +1,166 @@
 <?php include('header.php'); ?>
 
 
-<section class="s-reviews-header">
-	<div class="container reviews-header">
-		<div class="row">
-			<div class="grid-6 grid-8_l grid-12_s">
-				<h1 class="h1 reviews-header__title">Отзывы пациентов</h1>
-				<div class="reviews-header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</div>
-				<a href="#review-send" class="button scrollto">Оставить отзыв</a>
-			</div>
-			<div class="grid-6 grid-12_l">
-				<div class="reviews-header-counter">
-					<header>
-						<img src="/img/reviews/youtube-icon.svg" alt="youtube-icon">
-					</header>
-					<strong>765</strong>
-					<small>видео отзыва<br>у&nbsp;нас</small>
+<section class="s-review-begin">
+	<div class="container">
+		<h1 class="h1">Полное восстановление зубов за 4 дня на 2 челюсти</h1>
+
+		<div class="review-hero">
+			<span class="review-hero__name">Ольга Пыхова,</span>
+			<span class="review-hero__age">45 лет</span>
+			<span class="review-hero__city">г. Сызрань</span>
+		</div>
+
+		<div class="review-cite">
+			<div class="row">
+				<div class="grid-4 grid-12_s">
+					<img src="/img/reviews/cite-after.jpg" alt="1" class="review-cite__after">
 				</div>
-				<div class="reviews-header-counter">
-					<header>
-						<img src="/img/reviews/insta-icon.svg" alt="instagram-icon">
-					</header>
-					<strong>1765</strong>
-					<small>селфи пациентов<br>с&nbsp;врачами</small>
+				<div class="grid-8 grid-12_s">
+					<div class="review-cite__text">После очередной коррекции протеза и профилактического осмотра после проведения базальной имплантации зубов: «Хочу поделиться своим опытом общения с компанией «Новая улыбка» (стоматология Smile-at-Once). Как известно, без зубов плохо, а вот с зубами хорошо. Поэтому я обратился в эту компанию и получил массу удовольствия от общения с ними. Все условия, которые предлагаются, абсолютно открыты, спокойно рассказывают обо всех проблемах, которые есть и как их лучше решить.</div>
+					<img src="/img/reviews/cite-before.jpg" alt="1" class="review-cite__before">
 				</div>
 			</div>
 		</div>
+
+	</div>
+</section>
+
+
+<section class="s-triggers">
+	<div class="container">
+		<div class="triggers-block bordered-block bordered-block--pink">
+			<div class="row">
+				<div class="grid-4 grid-12_m trigger-last-mob">
+					<a href="#" class="trigger">
+						<div class="trigger__icon">
+							<img src="#" data-lazy="/img/home/trigger-1.svg" alt="1">
+						</div>
+						<div class="trigger__content">
+							<div class="h3 trigger__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
+							<div class="trigger__descr">Организация лечения с&nbsp;размещением «под ключ» для&nbsp;пациентов из&nbsp;других городов.</div>
+						</div>
+					</a>
+				</div>
+				<div class="grid-4 grid-12_m">
+					<a href="#" class="trigger">
+						<div class="trigger__icon">
+							<img src="#" data-lazy="/img/home/trigger-2.svg" alt="1">
+						</div>
+						<div class="trigger__content">
+							<div class="h3 trigger__title">Бессрочная гарантия и&nbsp;сервисное обслуживание</div>
+							<div class="trigger__descr">Мы лечим наверняка и&nbsp;не&nbsp;бросаем после! Все наши договоренности зафиксированы в&nbsp;договоре.</div>
+						</div>
+					</a>
+				</div>
+				<div class="grid-4 grid-12_m">
+					<a href="#" class="trigger">
+						<div class="trigger__icon">
+							<img src="#" data-lazy="/img/home/trigger-3.svg" alt="1">
+						</div>
+						<div class="trigger__content">
+							<div class="h3 trigger__title">Более 24&nbsp;решений по&nbsp;срокам и&nbsp;финансам</div>
+							<div class="trigger__descr">Единственная стоматология в&nbsp;РФ, где применяются все технологии немедленной нагрузки, а&nbsp;не&nbsp;какая-то одна.</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-def">
+	<div class="container">
+		<div class="h1 sec-title">До и после</div>
+
+		<div class="row">
+
+			<div class="grid-8 grid-12_l">
+				<div class="review-history row">
+					<div class="grid-6 grid-12_s">
+						<img src="/img/reviews/history-1.jpg" alt="1" class="review-history__img">
+					</div>
+					<div class="grid-6 grid-12_s">
+						<header class="review-history__header review-history__header--red">
+							<div class="h3">Проблема</div>
+							<figure></figure>
+							<div class="review-history__icon">
+								<img src="/img/reviews/history-icon-1.png" alt="1">
+							</div>
+						</header>
+						<a href="/img/reviews/snimok.jpg" class="review-history__snimok fancy">
+							<img src="/img/reviews/snimok.jpg" alt="1">
+							<span>Смотреть снимок КТ Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+						</a>
+						<main class="review-history__main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</main>
+					</div>
+				</div>
+				<div class="review-history row">
+					<div class="grid-6 grid-12_s">
+						<img src="/img/reviews/history-1.jpg" alt="1" class="review-history__img">
+					</div>
+					<div class="grid-6 grid-12_s">
+						<header class="review-history__header">
+							<div class="h3">Решение</div>
+							<figure></figure>
+							<div class="review-history__icon">
+								<img src="/img/reviews/history-icon-2.png" alt="2">
+							</div>
+						</header>
+						<a href="/img/reviews/snimok.jpg" class="review-history__snimok fancy">
+							<img src="/img/reviews/snimok.jpg" alt="1">
+							<span>Смотреть снимок КТ</span>
+						</a>
+						<main class="review-history__main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</main>
+					</div>
+				</div>
+				<div class="review-history row">
+					<div class="grid-6 grid-12_s">
+						<img src="/img/reviews/history-1.jpg" alt="1" class="review-history__img">
+					</div>
+					<div class="grid-6 grid-12_s">
+						<header class="review-history__header">
+							<div class="h3">Протезирование</div>
+							<figure></figure>
+							<div class="review-history__icon">
+								<img src="/img/reviews/history-icon-3.png" alt="3">
+							</div>
+						</header>
+						<main class="review-history__main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</main>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-4 grid-12_l review-techinfo__wrapper">
+				<div class="bordered-block bordered-block--pink review-techinfo">
+					<div class="h3 cases-form__title">Возможные технологии</div>
+					<ul class="checked-pink-list">
+						<li>Одноэтапная имплантация и с немедленной нагрузкой.</li>
+						<li>Базальная имплантация зубов.</li>
+						<li>Зубные протезы для верхней че на имплантах.</li>
+						<li>Для нижней челюсти: особенности и варианты.</li>
+						<li>При парадонтите и парадонтозе.</li>
+						<li>Зубы за 1 день - Трансфармация улыбки.</li>
+					</ul>
+					<div class="review-techinfo__stats">
+						<div class="review-techinfo__stat">
+							<span class="i i-clock"></span>
+							<span>Срок:</span>
+							<div class="h3">3 дня</div>
+						</div>
+						<div class="review-techinfo__stat">
+							<span class="i i-wallet"></span>
+							<span>Цена:</span>
+							<div class="h3">от 90 000 руб</div>
+						</div>
+					</div>
+					<a href="#" class="button fancy-modal" data-src="#modal-callback">Узнать свою стоимость</a>
+				</div>
+			</div>
+
+		</div>
+
 	</div>
 </section>
 
@@ -49,7 +184,7 @@
 							<div class="slide-loading"></div>
 							<img src="/img/reviews/how-slider-place.png" data-src="/img/reviews/how-1.jpg" alt="1" class="swiper-lazy how-change-slider__img">
 						</a>
-						<div class="how-change-slider__note">Сразу после длинное описание на пару строк</div>
+						<div class="how-change-slider__note">Сразу после описание на пару строк</div>
 					</div>
 					<div class="how-change-slider__slide grid-3 grid-4_m grid-6_s swiper-slide">
 						<a href="/img/reviews/how-1.jpg" class="fancy">

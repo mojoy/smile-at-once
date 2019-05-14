@@ -41,6 +41,10 @@
 		}
 	}
 
+	&.swiper-button-lock{
+		opacity: 0;
+	}
+
 	&--prev{
 		left: -20px;
 		@include res(l){

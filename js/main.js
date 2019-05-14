@@ -571,6 +571,7 @@ document.addEventListener('DOMContentLoaded',function () {
 		grabCursor: true,
 		preloadImages: false,
 		watchSlidesVisibility: true,
+		watchOverflow: true,
 		navigation: {
 			nextEl: '.how-change-slider__next',
 			prevEl: '.how-change-slider__prev'
