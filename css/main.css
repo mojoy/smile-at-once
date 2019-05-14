@@ -2823,10 +2823,17 @@
 .pb .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 1290px;
+  max-width: 1320px;
   position: relative;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (max-width: 1024px) {
+  .pb .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .pb .row {
@@ -3366,6 +3373,11 @@
 
 .pb .big-gray-btn img {
   margin-right: 10px;
+}
+
+.pb .center-btn {
+  text-align: center;
+  padding-top: 25px;
 }
 
 .pb .modal {
@@ -4355,7 +4367,7 @@
   background: #FFF;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 35px 35px 0 rgba(0, 0, 0, 0.1);
-  max-width: 1258px;
+  max-width: 1288px;
   top: 100%;
   left: 16px;
   right: 16px;
@@ -10149,4 +10161,75 @@
   display: block;
   width: 100%;
   height: auto;
+}
+
+.pb .how-change-slider__wrapper {
+  position: relative;
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .pb .how-change-slider__wrapper {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.pb .how-change-slider__wrapper .swiper-container {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+@media (max-width: 480px) {
+  .pb .how-change-slider__wrapper .swiper-container {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+}
+
+.pb .how-change-slider__wrapper .slider-arrow {
+  top: calc(50% - 1.5em);
+}
+
+.pb .how-change-slider {
+  padding: 10px 0;
+}
+
+.pb .how-change-slider__slide {
+  padding: 0 15px;
+  text-align: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .pb .how-change-slider__slide {
+    padding: 0 5px;
+  }
+}
+
+.pb .how-change-slider__slide .fancy {
+  display: block;
+  position: relative;
+}
+
+.pb .how-change-slider__slide .fancy:hover .how-change-slider__img {
+  box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5);
+}
+
+.pb .how-change-slider__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.pb .how-change-slider__note {
+  padding-top: 0.5em;
+  color: #7b90a1;
+  line-height: 1.2;
+  height: 3em;
 }

@@ -547,8 +547,8 @@ document.addEventListener('DOMContentLoaded',function () {
 		threshold: 5,
 		grabCursor: true,
 		navigation: {
-			nextEl: '.photo-stack-slider--next',
-			prevEl: '.photo-stack-slider--prev'
+			nextEl: '.photo-stack-slider__next',
+			prevEl: '.photo-stack-slider__prev'
 		},
 		lazy: {
 			preloaderClass: 'slide-loading'
@@ -557,4 +557,29 @@ document.addEventListener('DOMContentLoaded',function () {
 });
 /***********************
 Review thanks slider END
+***********************/
+
+
+/***********************
+ how-change-slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var howChangeSlider = new Swiper ('.how-change-slider', {
+		slidesPerView: 'auto',
+		loop: false,
+		threshold: 5,
+		grabCursor: true,
+		preloadImages: false,
+		watchSlidesVisibility: true,
+		navigation: {
+			nextEl: '.how-change-slider__next',
+			prevEl: '.how-change-slider__prev'
+		},
+		lazy: {
+			preloaderClass: 'slide-loading'
+		}
+	});
+});
+/***********************
+ how-change-slider END
 ***********************/

@@ -30,6 +30,65 @@
 </section>
 
 
+<section class="s-def">
+	<div class="container">
+		<div class="h1 sec-title">Как изменился пациент</div>
+
+		<div class="how-change-slider__wrapper">
+			<div class="how-change-slider swiper-container">
+				<div class="swiper-wrapper">
+					<div class="how-change-slider__slide grid-3 grid-4_m grid-6_s swiper-slide">
+						<a href="/img/reviews/how-1.jpg" class="fancy">
+							<div class="slide-loading"></div>
+							<img src="/img/reviews/how-slider-place.png" data-src="/img/reviews/how-1.jpg" alt="1" class="swiper-lazy how-change-slider__img">
+						</a>
+						<div class="how-change-slider__note">Сразу до</div>
+					</div>
+					<div class="how-change-slider__slide grid-3 grid-4_m grid-6_s swiper-slide">
+						<a href="/img/reviews/how-1.jpg" class="fancy">
+							<div class="slide-loading"></div>
+							<img src="/img/reviews/how-slider-place.png" data-src="/img/reviews/how-1.jpg" alt="1" class="swiper-lazy how-change-slider__img">
+						</a>
+						<div class="how-change-slider__note">Сразу после длинное описание на пару строк</div>
+					</div>
+					<div class="how-change-slider__slide grid-3 grid-4_m grid-6_s swiper-slide">
+						<a href="/img/reviews/how-1.jpg" class="fancy">
+							<div class="slide-loading"></div>
+							<img src="/img/reviews/how-slider-place.png" data-src="/img/reviews/how-1.jpg" alt="1" class="swiper-lazy how-change-slider__img">
+						</a>
+						<div class="how-change-slider__note">Сразу после</div>
+					</div>
+					<div class="how-change-slider__slide grid-3 grid-4_m grid-6_s swiper-slide">
+						<a href="/img/reviews/how-1.jpg" class="fancy">
+							<div class="slide-loading"></div>
+							<img src="/img/reviews/how-slider-place.png" data-src="/img/reviews/how-1.jpg" alt="1" class="swiper-lazy how-change-slider__img">
+						</a>
+						<div class="how-change-slider__note">Сразу после</div>
+					</div>
+					<div class="how-change-slider__slide grid-3 grid-4_m grid-6_s swiper-slide">
+						<a href="/img/reviews/how-1.jpg" class="fancy">
+							<div class="slide-loading"></div>
+							<img src="/img/reviews/how-slider-place.png" data-src="/img/reviews/how-1.jpg" alt="1" class="swiper-lazy how-change-slider__img">
+						</a>
+						<div class="how-change-slider__note">Сразу после</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-arrow slider-arrow--prev how-change-slider__prev">
+				<span class="i i-left"></span>
+			</div>
+			<div class="slider-arrow slider-arrow--next how-change-slider__next">
+				<span class="i i-right"></span>
+			</div>
+		</div>
+
+		<div class="center-btn">
+			<a href="#review-send" class="button button--outline scrollto">Хочу также</a>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-review-thanks">
 	<div class="container review-thanks">
 		<div class="row">
@@ -51,10 +110,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="slider-arrow slider-arrow--prev photo-stack-slider--prev">
+					<div class="slider-arrow slider-arrow--prev photo-stack-slider__prev">
 						<span class="i i-left"></span>
 					</div>
-					<div class="slider-arrow slider-arrow--next photo-stack-slider--next">
+					<div class="slider-arrow slider-arrow--next photo-stack-slider__next">
 						<span class="i i-right"></span>
 					</div>
 				</div>
