@@ -23,6 +23,93 @@
 			</div>
 		</div>
 
+		<div class="row">
+			<div class="grid-8 grid-7_l grid-12_m">
+
+				<div class="swiper-with-nav">
+					<div class="swiper-slider__wrapper">
+						<div class="video-slider swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/watch?v=5cSmeHhDMqM" class="video-screen fancy-video">
+										<img src="/img/reviews/video-screen-big.jpg" alt="1">
+										<button class="play-btn play-btn--big"></button>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/watch?v=5cSmeHhDMqM" class="video-screen fancy-video">
+										<img src="/img/reviews/video-screen-big.jpg" alt="1">
+										<button class="play-btn play-btn--big"></button>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="slider-arrow slider-arrow--prev">
+							<span class="i i-left"></span>
+						</div>
+						<div class="slider-arrow slider-arrow--next">
+							<span class="i i-right"></span>
+						</div>
+					</div>
+					<div class="slider-nav">
+						<div class="slider-nav__title">Смотрите видео:</div>
+						<div class="slider-nav__tabs">
+							<button class="slider-nav__tab button button--outline">Сразу после</button>
+							<button class="slider-nav__tab button button--outline">Через год</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="grid-4 grid-5_l grid-12_m video-aside">
+				<aside class="video-aside__content">
+					<div class="bordered-block bordered-block--pink">
+						<div class="h3 cases-form__title">Узнайте какое решение подходит в&nbsp;вашем случае</div>
+						<form action="#" class="vertical-form">
+							<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text input-text--round" maxlength="18">
+							<button type="submit" class="button">Записаться</button>
+						</form>
+						<ul class="cases-form__triggers checked-pink-list">
+							<li>Бесплатная консультация имплантолога и ортопеда.</li>
+							<li>Компьютерная томография и&nbsp;ортопанотграмма 0 руб.</li>
+						</ul>
+					</div>
+
+					<div class="review-doctor-slider swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="#" class="review-doctor">
+									<img src="/img/reviews/doctor.jpg" alt="1" class="review-doctor__photo">
+									<div class="review-doctor__content">
+										<div class="review-doctor__name">Копылов Иван</div>
+										<div class="review-doctor__spec">Челюстно-лицевой хирург, имплантолог</div>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="#" class="review-doctor">
+									<img src="/img/reviews/doctor.jpg" alt="1" class="review-doctor__photo">
+									<div class="review-doctor__content">
+										<div class="review-doctor__name">Копылов Иван</div>
+										<div class="review-doctor__spec">Челюстно-лицевой хирург, имплантолог</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="slider-arrow-mini slider-arrow--prev">
+							<span class="i i-left"></span>
+						</div>
+						<div class="slider-arrow-mini slider-arrow--next">
+							<span class="i i-right"></span>
+						</div>
+					</div>
+
+				</aside>
+			</div>
+
+		</div>
+
 	</div>
 </section>
 
@@ -169,7 +256,7 @@
 	<div class="container">
 		<div class="h1 sec-title">Как изменился пациент</div>
 
-		<div class="how-change-slider__wrapper">
+		<div class="swiper-slider__wrapper how-change-slider__wrapper">
 			<div class="how-change-slider swiper-container">
 				<div class="swiper-wrapper">
 					<div class="how-change-slider__slide grid-3 grid-4_m grid-6_s swiper-slide">
@@ -209,10 +296,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="slider-arrow slider-arrow--prev how-change-slider__prev">
+			<div class="slider-arrow slider-arrow--prev">
 				<span class="i i-left"></span>
 			</div>
-			<div class="slider-arrow slider-arrow--next how-change-slider__next">
+			<div class="slider-arrow slider-arrow--next">
 				<span class="i i-right"></span>
 			</div>
 		</div>
@@ -232,7 +319,7 @@
 				<div class="review-thanks__text">После очередной коррекции протеза и профилактического осмотра после проведения базальной имплантации зубов: «Хочу поделиться своим опытом общения с компанией «Новая улыбка» (стоматология Smile-at-Once). Как известно, без зубов плохо, а вот с зубами хорошо. Поэтому я обратился в эту компанию и получил массу удовольствия от общения с ними. Все условия, которые предлагаются, абсолютно открыты, спокойно рассказывают обо всех проблемах, которые есть и как их лучше решить. Оплата и все остальные процедуры по оформлению абсолютно прозрачны. Мне очень понравилось что с хирургом, что с ортопедом, поэтому я могу всем рекомендовать обращаться в эту компанию – получите массу удовольствия и приятную улыбку».</div>
 			</div>
 			<div class="grid-6 grid-12_m">
-				<div class="photo-stack-slider__wrapper">
+				<div class="swiper-slider__wrapper photo-stack-slider__wrapper">
 					<div class="photo-stack-slider swiper-container">
 						<div class="swiper-wrapper">
 							<div class="photo-stack-slider__slide swiper-slide">
@@ -245,10 +332,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="slider-arrow slider-arrow--prev photo-stack-slider__prev">
+					<div class="slider-arrow slider-arrow--prev">
 						<span class="i i-left"></span>
 					</div>
-					<div class="slider-arrow slider-arrow--next photo-stack-slider__next">
+					<div class="slider-arrow slider-arrow--next">
 						<span class="i i-right"></span>
 					</div>
 				</div>
@@ -287,7 +374,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -301,7 +388,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -315,7 +402,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -329,7 +416,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -343,7 +430,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -357,7 +444,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>

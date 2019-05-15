@@ -1,0 +1,33 @@
+.video-screen{
+	display: block;
+	position: relative;
+
+	&:hover{
+		.play-btn{
+			background: $green;
+
+			&:before{
+				border-color: $green;
+			}
+		}
+	}
+
+	img{
+		display: block;
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
+	}
+
+	.play-btn{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		z-index: 2;
+	}
+}

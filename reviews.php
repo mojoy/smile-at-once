@@ -92,7 +92,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -131,7 +131,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -171,7 +171,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -210,7 +210,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -224,7 +224,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -263,7 +263,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -303,7 +303,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>
@@ -342,7 +342,7 @@
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--video">
 					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="review-intro__screen">
+					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
 					</a>

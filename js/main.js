@@ -541,17 +541,22 @@ Reviews maps END
 Review thanks slider BEGIN
 ***********************/
 document.addEventListener('DOMContentLoaded',function () {
-	var reviewThanksSlider = new Swiper ('.photo-stack-slider', {
+	var photoStackSlider = new Swiper ('.photo-stack-slider', {
 		slidesPerView: 1,
 		loop: false,
 		threshold: 5,
 		grabCursor: true,
-		navigation: {
-			nextEl: '.photo-stack-slider__next',
-			prevEl: '.photo-stack-slider__prev'
-		},
 		lazy: {
 			preloaderClass: 'slide-loading'
+		},
+		on: {
+			init: function () {
+				var thisSliderWrapper = this.el.parentElement;
+				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+				this.params.navigation.nextEl = thisBtnNext;
+				this.params.navigation.prevEl = thisBtnPrev;
+			}
 		}
 	});
 });
@@ -572,15 +577,97 @@ document.addEventListener('DOMContentLoaded',function () {
 		preloadImages: false,
 		watchSlidesVisibility: true,
 		watchOverflow: true,
-		navigation: {
-			nextEl: '.how-change-slider__next',
-			prevEl: '.how-change-slider__prev'
-		},
 		lazy: {
 			preloaderClass: 'slide-loading'
+		},
+		on: {
+			init: function () {
+				var thisSliderWrapper = this.el.parentElement;
+				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+				this.params.navigation.nextEl = thisBtnNext;
+				this.params.navigation.prevEl = thisBtnPrev;
+			}
 		}
 	});
 });
 /***********************
  how-change-slider END
+***********************/
+
+
+/***********************
+Video-slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var videoSlider = new Swiper ('.video-slider', {
+		slidesPerView: 1,
+		loop: false,
+		threshold: 5,
+		grabCursor: true,
+		watchOverflow: true,
+		on: {
+			init: function () {
+				var thisSliderWrapper = this.el.parentElement;
+				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+				this.params.navigation.nextEl = thisBtnNext;
+				this.params.navigation.prevEl = thisBtnPrev;
+			},
+			slideChange: function () {
+				var index = this.activeIndex;
+				var thisWrapper = $(this.$el).parents('.swiper-with-nav');
+				selectTabSlider(thisWrapper,index);
+			}
+		}
+	});
+
+	$('.slider-nav__tab').on('click',function (e) {
+		e.preventDefault();
+		var self = $(this);
+		var thisWrapper = self.parents('.swiper-with-nav');
+		var thisSlider = thisWrapper.find('.swiper-container').get(0).swiper;
+		var index = self.index();
+		thisSlider.slideTo(index);
+		selectTabSlider(thisWrapper,index);
+	});
+
+	function selectTabSlider(wrapper,index) {
+		var thisNavTabs = wrapper.find('.slider-nav__tab');
+		thisNavTabs.removeClass('active');
+		thisNavTabs.eq(index).addClass('active');
+	}
+
+	$('.swiper-with-nav').each(function () {
+		selectTabSlider($(this),0);
+	})
+});
+/***********************
+Video-slider END
+***********************/
+
+
+/***********************
+ review-doctor-slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var reviewDoctorSlider = new Swiper ('.review-doctor-slider', {
+		slidesPerView: 1,
+		loop: false,
+		threshold: 5,
+		grabCursor: true,
+		watchOverflow: true,
+		on: {
+			init: function () {
+				var thisSliderWrapper = this.el.parentElement;
+				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+				this.params.navigation.nextEl = thisBtnNext;
+				this.params.navigation.prevEl = thisBtnPrev;
+			}
+		}
+	});
+});
+/***********************
+ review-doctor-slider END
 ***********************/

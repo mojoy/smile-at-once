@@ -1,11 +1,12 @@
 //s-review-begin
 .s-review-begin{
-	background: url("../img/bg-rombs.png") center top no-repeat #eefafc;
+	background: url("../img/bg-rombs.png") center 100px no-repeat #eefafc;
 	background-size: 100% auto;
 	padding: 60px 0 130px;
 	@extend %round-bottom;
 	@include res(l){
 		padding-top: 40px;
+		background-position: center top;
 	}
 
 	&+.s-triggers{
@@ -46,9 +47,11 @@
 	box-shadow: $shadow-block-big;
 	padding: 30px;
 	border-bottom: 7px solid $pink;
+	margin-bottom: 50px;
 	@include res(s){
 		text-align: center;
 		padding: 20px;
+		margin-bottom: 40px;
 	}
 	@include res(xs){
 		padding: 20px 15px;
@@ -113,9 +116,16 @@
 
 .review-thanks{
 	.photo-stack-slider__wrapper{
+		max-width: 515px;
+		margin-left: 50px;
+		margin-right: 50px;
+		@include res(l){
+			margin-left: 12px;
+			margin-right: 12px;
+		}
+
 		@include res(m){
 			margin-top: 25px;
-			max-width: 515px;
 		}
 	}
 }
@@ -145,14 +155,6 @@
 
 .photo-stack-slider__wrapper{
 	background: $bg-color;
-	position: relative;
-	margin: 0 50px;
-	@include res(l){
-		margin: 0 30px;
-	}
-	@include res(m){
-		margin: 0 10px;
-	}
 
 	&:after,&:before{
 		content: '';
@@ -200,17 +202,6 @@
 	font-size: 18px;
 	@include res(l){
 		font-size: 14px;
-		margin-left: 15px;
-		margin-right: 15px;
-	}
-
-	.swiper-container{
-		margin-left: -15px;
-		margin-right: -15px;
-		@include res(xs){
-			margin-left: -5px;
-			margin-right: -5px;
-		}
 	}
 
 	.slider-arrow{
@@ -220,6 +211,12 @@
 
 .how-change-slider{
 	padding: 10px 0;
+	margin-left: -15px;
+	margin-right: -15px;
+	@include res(xs){
+		margin-left: -5px;
+		margin-right: -5px;
+	}
 }
 
 .how-change-slider__slide{
@@ -415,3 +412,67 @@
 	}
 }
 //review-history
+
+
+//video-slider
+.video-slider{
+	border-radius: 10px;
+}
+//video-slider
+
+
+//video-review-aside
+.video-aside{
+	display: flex;
+	justify-content: flex-end;
+	@include res(m){
+		margin-top: 25px;
+		justify-content: center;
+	}
+
+	.bordered-block{
+		margin-bottom: 20px;
+	}
+}
+
+.video-aside__content{
+	max-width: 320px;
+	width: 100%;
+}
+
+
+.review-doctor-slider{
+
+}
+
+.review-doctor{
+	display: flex;
+	align-items: flex-start;
+	padding: 0 30px;
+
+	&:hover{
+		.review-doctor__name{
+			color: $green-dark;
+		}
+	}
+}
+
+.review-doctor__photo{
+	flex-shrink: 0;
+	margin-right: 15px;
+	border-radius: 10px;
+}
+
+.review-doctor__name{
+	color: $pink;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.review-doctor__spec{
+	font-size: 14px;
+	line-height: 1.3;
+}
+//video-review-aside

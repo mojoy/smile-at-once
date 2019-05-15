@@ -90,38 +90,6 @@
 	width: 400px;
 	max-width: 100%;
 }
-
-.review-intro__screen{
-	display: block;
-	position: relative;
-
-	&:hover{
-		img{
-			box-shadow: 0 7px 35px 0 transparentize(#99b0bf,0);
-		}
-	}
-
-	img{
-		display: block;
-		position: relative;
-		z-index: 1;
-		width: 100%;
-		height: auto;
-		border-radius: 10px;
-		box-shadow: $shadow-block-big;
-		transition: box-shadow 0.3s ease;
-	}
-
-	.play-btn{
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		margin: auto;
-		z-index: 2;
-	}
-}
 //review-intro--video
 
 
