@@ -159,6 +159,9 @@
 
 <section class="s-def">
 	<div class="container">
+		<!--
+		В минимальной версии следующего .sec-title нет
+		-->
 		<div class="h1 sec-title">До и после</div>
 
 		<div class="row">
