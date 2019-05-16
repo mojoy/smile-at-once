@@ -353,20 +353,43 @@
 	}
 }
 
-.review-techinfo__wrapper{
-	text-align: right;
-	@include res(l){
-		text-align: center;
+.review-history-wrapper{
+
+	&+.review-techinfo__wrapper{
+		text-align: right;
+		@include res(l){
+			text-align: center;
+		}
+
+		.review-techinfo{
+			max-width: 320px;
+			padding: 30px 25px;
+			@include res(l){
+				max-width: 100%;
+				padding-left: 15%;
+				padding-right: 15%;
+			}
+			@include res(xs){
+				padding: 30px 25px;
+			}
+		}
 	}
+}
+
+.review-techinfo__wrapper{
+	flex: 1;
+	text-align: center;
 }
 
 .review-techinfo{
 	display: inline-block;
-	max-width: 320px;
+	width: 780px;
+	max-width: 100%;
 	text-align: left;
-	@include res(l){
-		width: 500px;
-		max-width: 100%;
+	padding-left: 15%;
+	padding-right: 15%;
+	@include res(xs){
+		padding: 30px 25px;
 	}
 
 	.checked-pink-list{

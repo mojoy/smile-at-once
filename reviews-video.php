@@ -163,7 +163,10 @@
 
 		<div class="row">
 
-			<div class="grid-8 grid-12_l">
+			<!--
+			В минимальной версии можно удалить весь блок .review-history-wrapper, и правая часть сама подстроится как надо.
+			-->
+			<div class="grid-8 grid-12_l review-history-wrapper">
 				<div class="review-history row">
 					<div class="grid-6 grid-12_s">
 						<img src="/img/reviews/history-1.jpg" alt="1" class="review-history__img">

@@ -10615,26 +10615,54 @@
   line-height: 1.2;
 }
 
-.pb .review-techinfo__wrapper {
+.pb .review-history-wrapper + .review-techinfo__wrapper {
   text-align: right;
 }
 
 @media (max-width: 1024px) {
-  .pb .review-techinfo__wrapper {
+  .pb .review-history-wrapper + .review-techinfo__wrapper {
     text-align: center;
   }
 }
 
-.pb .review-techinfo {
-  display: inline-block;
+.pb .review-history-wrapper + .review-techinfo__wrapper .review-techinfo {
   max-width: 320px;
-  text-align: left;
+  padding: 30px 25px;
 }
 
 @media (max-width: 1024px) {
-  .pb .review-techinfo {
-    width: 500px;
+  .pb .review-history-wrapper + .review-techinfo__wrapper .review-techinfo {
     max-width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media (max-width: 480px) {
+  .pb .review-history-wrapper + .review-techinfo__wrapper .review-techinfo {
+    padding: 30px 25px;
+  }
+}
+
+.pb .review-techinfo__wrapper {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.pb .review-techinfo {
+  display: inline-block;
+  width: 780px;
+  max-width: 100%;
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+@media (max-width: 480px) {
+  .pb .review-techinfo {
+    padding: 30px 25px;
   }
 }
 

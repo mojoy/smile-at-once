@@ -1,7 +1,7 @@
 /***********************
  Input mask BEGIN
 ***********************/
-$(function () {
+/*$(function () {
 	var telInputs = $("input[type='tel']");
 	String.prototype.replaceAt = function(index, replacement) {
 		return this.substr(0, index) + replacement + this.substr(index + replacement.length);
@@ -29,7 +29,7 @@ $(function () {
 			$(this).get(0).value = ""
 		}
 	})
-});
+});*/
 /***********************
  Input mask END
  ***********************/
