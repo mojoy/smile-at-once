@@ -91,7 +91,7 @@
 								<a href="#" class="review-doctor">
 									<img src="/img/reviews/doctor.jpg" alt="1" class="review-doctor__photo">
 									<div class="review-doctor__content">
-										<div class="review-doctor__name">Копылов Иван</div>
+										<div class="review-doctor__name">Инокентий Инокентьевич</div>
 										<div class="review-doctor__spec">Челюстно-лицевой хирург, имплантолог</div>
 									</div>
 								</a>
