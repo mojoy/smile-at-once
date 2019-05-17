@@ -311,7 +311,7 @@
 		</div>
 
 		<div class="center-btn">
-			<a href="#review-send" class="button button--outline scrollto">Хочу также</a>
+			<a href="#" class="button button--outline fancy-modal" data-src="#modal-callback">Хочу также</a>
 		</div>
 	</div>
 </section>
@@ -369,6 +369,59 @@
 			</form>
 		</div>
 	</div>
+</section>
+
+
+<section class="s-steps">
+	<div class="container">
+		<div class="h1 s-steps__title">Этапы лечения</div>
+	</div>
+
+	<div class="steps-slider swiper-container">
+		<div class="swiper-wrapper">
+			<div class="step swiper-slide" style="background-image:url(/img/reviews/step-1.jpg);">
+				<div class="container">
+					<div class="step__content">
+						<img src="/img/reviews/step-1.jpg" alt="1" class="step__mobimg">
+						<div class="step__title">3D Диагностика и&nbsp;планирование операции</div>
+						<div class="step__text">Врач проводит обследование полости рта и состояние организма пациента. Делается компьютерная томография, на основе которой подбираются имплантанты, метод их установки, создается прототип будущей конструкции в системе BlueSky и Nobel Clinican. Система подсказывает врачу правильное расположение имплантов и сообщает о возможных рисках. По сути врач прорабатывает всю конструкцию заранее и в деталях рассматривает разные варианты и определяет оптимальный.</div>
+						<button class="button button--outline">Следующий шаг <span class="i i-ar-right"></span></button>
+					</div>
+				</div>
+			</div>
+			<div class="step swiper-slide" style="background-image:url(/img/reviews/step-1.jpg);">
+				<div class="container">
+					<div class="step__content">
+						<img src="/img/reviews/step-1.jpg" alt="1" class="step__mobimg">
+						<div class="step__title">Установка имплантов</div>
+						<div class="step__text">В зависимости от клинической картины имплантаты могут устанавливаться одномоментно в лунку удаленного зуба, лоскутно, а также методом прокола. Главная особенность методики - работа со всеми отделами костной ткани, в особенности с самыми твердыми базальным и кортикальной пластиной.<br><br>Снимаются слепки под будущий протез.</div>
+						<button class="button button--outline">Следующий шаг <span class="i i-ar-right"></span></button>
+					</div>
+				</div>
+			</div>
+			<div class="step swiper-slide" style="background-image:url(/img/reviews/step-1.jpg);">
+				<div class="container">
+					<div class="step__content">
+						<img src="/img/reviews/step-1.jpg" alt="1" class="step__mobimg">
+						<div class="step__title">Установка протезов</div>
+						<div class="step__text">Устанавливается облегченный НЕСЪЕМНЫЙ металлопластмассовый протез с целью быстрого восстановления жевательной функции и коррекции прикуса в процессе эксплуатации. Благодаря винтовой фиксации в случае малейших признаков осложнения врач может легко получить доступ к тканям не ломая протез и не травмируя импланты, в отличие от методики однофазной имплантации, где для снятия протеза необходимо распиливать всю конструкцию.<br><br>Через год и более этот протез можно заменить на протез из металлокерамики или диоксида циркония.</div>
+						<button class="button button--outline">Следующий шаг <span class="i i-ar-right"></span></button>
+					</div>
+				</div>
+			</div>
+			<div class="step swiper-slide" style="background-image:url(/img/reviews/step-1.jpg);">
+				<div class="container">
+					<div class="step__content">
+						<img src="/img/reviews/step-1.jpg" alt="1" class="step__mobimg">
+						<div class="step__title">Новая жизнь с улыбкой!</div>
+						<div class="step__text">Жевательная и эстетическая функции возвращаются сразу после лечения. В течение первого года после имплантации восстанавливаются естественные процессы регенерации костных клеток, возвращается тонус лицевых мышц, нормализуется питание.<br><br>Подход SMILE-AT-ONCE - это не только способ протезирования зубов, это поднятие самооценки, улучшение эмоционального состояния, получение удовольствия от здоровой еды и полноценной жизни!</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-pagination-numbers"></div>
+	</div>
+
 </section>
 
 

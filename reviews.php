@@ -117,15 +117,23 @@
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--text">
-					<a href="#" class="review-intro__text">
+					<a href="#" class="review-intro__text fancy-modal" data-src="#modal-review-ID_1">
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
 					</a>
 					<footer class="review-intro__footer">
 						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
 						<div class="review-intro__type review-intro__type--text">Текстовые отзывы</div>
-						<a href="#" class="review-intro__more">Читать</a>
+						<a href="#" class="review-intro__more fancy-modal" data-src="#modal-review-ID_1">Читать</a>
 					</footer>
+					<div class="modal modal-review" id="modal-review-ID_1">
+						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
+						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
+						<footer class="review-intro__footer">
+							<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+							<div class="review-intro__type review-intro__type--text">Текстовые отзывы</div>
+						</footer>
+					</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
@@ -144,7 +152,7 @@
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--social">
-					<a href="#" class="review-intro__text">
+					<a href="#" class="review-intro__text fancy-modal" data-src="#modal-review-ID_2">
 						<img src="/img/reviews/facebook.png" alt="facebook" class="review-intro__logo">
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
@@ -152,8 +160,17 @@
 					<footer class="review-intro__footer">
 						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
 						<div class="review-intro__type review-intro__type--social">Социальные сети</div>
-						<a href="#" class="review-intro__more">Подробнее</a>
+						<a href="#" class="review-intro__more fancy-modal" data-src="#modal-review-ID_2">Подробнее</a>
 					</footer>
+					<div class="modal modal-review" id="modal-review-ID_2">
+						<img src="/img/reviews/facebook.png" alt="facebook" class="review-intro__logo">
+						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
+						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
+						<footer class="review-intro__footer">
+							<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+							<div class="review-intro__type review-intro__type--social">Социальные сети</div>
+						</footer>
+					</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
@@ -196,68 +213,23 @@
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--text">
-					<a href="#" class="review-intro__text">
+					<a href="#" class="review-intro__text fancy-modal" data-src="#modal-review-ID_1">
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
 					</a>
 					<footer class="review-intro__footer">
 						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
 						<div class="review-intro__type review-intro__type--text">Текстовые отзывы</div>
-						<a href="#" class="review-intro__more">Читать</a>
+						<a href="#" class="review-intro__more fancy-modal" data-src="#modal-review-ID_1">Читать</a>
 					</footer>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--video">
-					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="video-screen">
-						<img src="/img/reviews/video-screen.jpg" alt="1">
-						<button class="play-btn"></button>
-					</a>
-					<footer class="review-intro__footer">
-						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
-						<div class="review-intro__type review-intro__type--video">Видеоотзыв</div>
-						<a href="/reviews-video.php" class="review-intro__more">Стоимость и сроки</a>
-					</footer>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--video">
-					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="video-screen">
-						<img src="/img/reviews/video-screen.jpg" alt="1">
-						<button class="play-btn"></button>
-					</a>
-					<footer class="review-intro__footer">
-						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
-						<div class="review-intro__type review-intro__type--video">Видеоотзыв</div>
-						<a href="/reviews-video.php" class="review-intro__more">Стоимость и сроки</a>
-					</footer>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--selfie">
-					<a href="#" class="review-intro__photo">
-						<img src="/img/reviews/selfi.jpg" alt="1">
-					</a>
-					<footer class="review-intro__footer">
-						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
-						<div class="review-intro__type review-intro__type--selfie">Селфи отзыв</div>
-						<a href="#" class="review-intro__more">Подробнее</a>
-					</footer>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--text">
-					<a href="#" class="review-intro__text">
+					<div class="modal modal-review" id="modal-review-ID_1">
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
-					</a>
-					<footer class="review-intro__footer">
-						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
-						<div class="review-intro__type review-intro__type--text">Текстовые отзывы</div>
-						<a href="#" class="review-intro__more">Читать</a>
-					</footer>
+						<footer class="review-intro__footer">
+							<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+							<div class="review-intro__type review-intro__type--text">Текстовые отзывы</div>
+						</footer>
+					</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
@@ -276,7 +248,7 @@
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
 				<div class="review-intro review-intro--social">
-					<a href="#" class="review-intro__text">
+					<a href="#" class="review-intro__text fancy-modal" data-src="#modal-review-ID_2">
 						<img src="/img/reviews/facebook.png" alt="facebook" class="review-intro__logo">
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
 						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
@@ -284,8 +256,17 @@
 					<footer class="review-intro__footer">
 						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
 						<div class="review-intro__type review-intro__type--social">Социальные сети</div>
-						<a href="#" class="review-intro__more">Подробнее</a>
+						<a href="#" class="review-intro__more fancy-modal" data-src="#modal-review-ID_2">Подробнее</a>
 					</footer>
+					<div class="modal modal-review" id="modal-review-ID_2">
+						<img src="/img/reviews/facebook.png" alt="facebook" class="review-intro__logo">
+						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
+						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
+						<footer class="review-intro__footer">
+							<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+							<div class="review-intro__type review-intro__type--social">Социальные сети</div>
+						</footer>
+					</div>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
@@ -297,59 +278,6 @@
 						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
 						<div class="review-intro__type review-intro__type--hand">Рукописный отзыв</div>
 						<a href="/img/reviews/handwritten.jpg" class="review-intro__more fancy">Смотреть</a>
-					</footer>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--video">
-					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="video-screen">
-						<img src="/img/reviews/video-screen.jpg" alt="1">
-						<button class="play-btn"></button>
-					</a>
-					<footer class="review-intro__footer">
-						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
-						<div class="review-intro__type review-intro__type--video">Видеоотзыв</div>
-						<a href="/reviews-video.php" class="review-intro__more">Стоимость и сроки</a>
-					</footer>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--selfie">
-					<a href="#" class="review-intro__photo">
-						<img src="/img/reviews/selfi.jpg" alt="1">
-					</a>
-					<footer class="review-intro__footer">
-						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
-						<div class="review-intro__type review-intro__type--selfie">Селфи отзыв</div>
-						<a href="#" class="review-intro__more">Подробнее</a>
-					</footer>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--text">
-					<a href="#" class="review-intro__text">
-						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
-						У меня разломался зуб и одна часть отвалилась и выпала вообще. Я думала что зуб уже не спасти и придется его выбывать целиком. В клинике врач Намдаков Николай Владимирович посмотрел и предложил мне поставить коронку на уцелевший кусок зуба. Я с радостью согласилась, так как останется хотя бы часть родного зуба. Мне поставили метало-керамическую коронку, которую изготовили специально для меня по моему слепку от зубов. Я очень довольна результатом. Спасибо клинике Смайл и доктору Намдакову.
-					</a>
-					<footer class="review-intro__footer">
-						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
-						<div class="review-intro__type review-intro__type--text">Текстовые отзывы</div>
-						<a href="#" class="review-intro__more">Читать</a>
-					</footer>
-				</div>
-			</div>
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--video">
-					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
-					<a href="/reviews-video.php" class="video-screen">
-						<img src="/img/reviews/video-screen.jpg" alt="1">
-						<button class="play-btn"></button>
-					</a>
-					<footer class="review-intro__footer">
-						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
-						<div class="review-intro__type review-intro__type--video">Видеоотзыв</div>
-						<a href="/reviews-video.php" class="review-intro__more">Стоимость и сроки</a>
 					</footer>
 				</div>
 			</div>
@@ -357,6 +285,7 @@
 
 		<div class="pagination">
 			<div class="pagination__summary">Всего отзывов 765</div>
+			<!--Если будут загружатсья аяксом отзывы, то нужно после аякса инициализировать всплывашки в загруженных отзывах с помощью функции init_fancy()-->
 			<button class="big-gray-btn pagination__load-more">Показать еще</button>
 			<div class="pagination__nav">
 				<a href="#" class="pagination__nav-btn disabled">В начало</a>

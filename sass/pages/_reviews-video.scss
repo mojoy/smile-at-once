@@ -500,3 +500,100 @@
 	line-height: 1.3;
 }
 //video-review-aside
+
+
+//s-steps
+.s-steps{
+
+}
+
+.s-steps__title{
+	position: absolute;
+	z-index: 2;
+	padding-top: 115px;
+	@include res(xl){
+		padding-top: 20px;
+	}
+	@include res(m){
+		padding-top: 40px;
+		position: relative;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+
+.step{
+	background-position: center top;
+	background-size: cover;
+	min-height: 750px;
+	padding: 200px 0 70px 0;
+	@include res(xl){
+		min-height: 640px;
+		padding: 90px 0 70px 0;
+	}
+	@include res(m){
+		min-height: inherit;
+		background-image: none !important;
+		padding: 15px 0 80px 0;
+	}
+}
+
+.step__content{
+	max-width: 400px;
+	@include res(l){
+		max-width: 35%;
+	}
+	@include res(m){
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+		max-width: 100%;
+		background: #FFF;
+		border-radius: 20px;
+		overflow: hidden;
+		box-shadow: $shadow-block;
+		padding: 0 20px 20px 20px;
+	}
+}
+
+.step__title{
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 1.1;
+	margin-bottom: 10px;
+	@include res(xl){
+		font-size: 32px;
+	}
+	@include res(l){
+		font-size: 28px;
+	}
+	@include res(s){
+		font-size: 24px;
+	}
+	@include res(xs){
+		font-size: 20px;
+	}
+}
+
+.step__text{
+	margin-bottom: 30px;
+	@include res(l){
+		font-size: 14px;
+	}
+	@include res(xs){
+		margin-bottom: 15px;
+	}
+}
+
+.step__mobimg{
+	display: none;
+	position: relative;
+	width: calc(100% + 40px);
+	left: -20px;
+	height: auto;
+	margin-bottom: 15px;
+	@include res(m){
+		display: block;
+	}
+}
+//s-steps

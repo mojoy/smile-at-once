@@ -649,7 +649,7 @@ Video-slider END
 
 /***********************
  review-doctor-slider BEGIN
-***********************/
+ ***********************/
 document.addEventListener('DOMContentLoaded',function () {
 	var reviewDoctorSlider = new Swiper ('.review-doctor-slider', {
 		slidesPerView: 1,
@@ -670,4 +670,43 @@ document.addEventListener('DOMContentLoaded',function () {
 });
 /***********************
  review-doctor-slider END
-***********************/
+ ***********************/
+
+
+/***********************
+ steps-slider BEGIN
+ ***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var stepsSlider = new Swiper ('.steps-slider', {
+		slidesPerView: 1,
+		loop: false,
+		threshold: 5,
+		grabCursor: true,
+		watchOverflow: true,
+		autoHeight: true,
+		pagination: {
+			el: '.swiper-pagination-numbers',
+			type: 'bullets',
+			bulletClass: 'swiper-pagination-number',
+			clickable: true,
+			renderBullet: function (index, className) {
+				return '<span class="' + className + '"><span>' + (index + 1) + '</span></span>';
+			}
+		},
+		on: {
+			slideChange: function () {
+				var thisBullet = $(this.pagination.bullets).eq(this.activeIndex);
+				thisBullet.prevAll('.swiper-pagination-number').addClass('active');
+				thisBullet.nextAll('.swiper-pagination-number').removeClass('active');
+			}
+		}
+	});
+
+	$('.step .button--outline').on('click',function (e) {
+		e.preventDefault();
+		stepsSlider.slideNext();
+	});
+});
+/***********************
+ steps-slider END
+ ***********************/
