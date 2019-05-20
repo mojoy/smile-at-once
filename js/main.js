@@ -657,6 +657,7 @@ document.addEventListener('DOMContentLoaded',function () {
 		threshold: 5,
 		grabCursor: true,
 		watchOverflow: true,
+		autoHeight: true,
 		on: {
 			init: function () {
 				var thisSliderWrapper = this.el.parentElement;
