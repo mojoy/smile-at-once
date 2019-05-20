@@ -597,3 +597,41 @@
 	}
 }
 //s-steps
+
+
+//sendreview
+.s-sendreview{
+	background: url("../../img/reviews/sendreview-bg.jpg") center top no-repeat;
+	background-size: cover;
+	height: 795px;
+	text-align: center;
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 75px;
+	@include res(xl){
+		height: 600px;
+	}
+	@include res(s){
+		height: 400px;
+		padding-bottom: 40px;
+	}
+
+	.h2{
+		margin-bottom: 0.5em;
+		@include res(xxs){
+			font-size: 20px;
+		}
+	}
+}
+
+
+.modal-sendreview{
+	width: 1260px;
+
+	.review-form__ratings{
+		@include res(s){
+			display: none;
+		}
+	}
+}
+//sendreview

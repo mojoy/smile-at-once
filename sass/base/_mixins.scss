@@ -10,7 +10,7 @@ $cross_size: 14px;
 $cross_weight: 2px;
 $cross_color: #000;
 $cross-color--hover: $pink;
-$cross-bg-color: transparent;
+$cross-bg-color: $bg-color;
 $cross-bg-color--hover: #FFF;
 
 @mixin cross() {

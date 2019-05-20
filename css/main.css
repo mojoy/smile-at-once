@@ -3449,7 +3449,7 @@
   right: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: transparent;
+  background: #f8fbfc;
   width: 24px;
   height: 24px;
   min-width: 24px;
@@ -11031,5 +11031,52 @@
 @media (max-width: 768px) {
   .pb .step__mobimg {
     display: block;
+  }
+}
+
+.pb .s-sendreview {
+  background: url("../../img/reviews/sendreview-bg.jpg") center top no-repeat;
+  background-size: cover;
+  height: 795px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-bottom: 75px;
+}
+
+@media (max-width: 1400px) {
+  .pb .s-sendreview {
+    height: 600px;
+  }
+}
+
+@media (max-width: 680px) {
+  .pb .s-sendreview {
+    height: 400px;
+    padding-bottom: 40px;
+  }
+}
+
+.pb .s-sendreview .h2 {
+  margin-bottom: 0.5em;
+}
+
+@media (max-width: 375px) {
+  .pb .s-sendreview .h2 {
+    font-size: 20px;
+  }
+}
+
+.pb .modal-sendreview {
+  width: 1260px;
+}
+
+@media (max-width: 680px) {
+  .pb .modal-sendreview .review-form__ratings {
+    display: none;
   }
 }

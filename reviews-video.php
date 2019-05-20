@@ -814,4 +814,84 @@
 </section>
 
 
+<section class="s-sendreview">
+	<div class="container">
+		<div class="h2">Вы наш клиент? — Поделитесь своими впечатлениями</div>
+		<a href="#" class="button fancy-modal" data-src="#modal-sendreview">Оставить отзыв</a>
+	</div>
+
+	<div class="modal modal-sendreview bordered-block bordered-block--pink" id="modal-sendreview">
+		<form action="#" class="review-form">
+			<div class="h2 review-form__title">Поставьте свою оценку клинике</div>
+			<div class="row review-form__ratings">
+				<div class="grid-4 grid-6_s grid-12_xs">
+					<!-- Рейтинг из звезд записываетсся в соседний скрытый инпут-->
+					<div class="stars">
+						<div class="stars__title">Компетентность врачей</div>
+						<div class="stars-rating"></div>
+						<input type="hidden" name="rating_1">
+					</div>
+					<div class="stars">
+						<div class="stars__title">Оборудование</div>
+						<div class="stars-rating"></div>
+						<input type="hidden" name="rating_2">
+					</div>
+					<div class="stars">
+						<div class="stars__title">Чистота</div>
+						<div class="stars-rating"></div>
+						<input type="hidden" name="rating_3">
+					</div>
+				</div>
+				<div class="grid-4 grid-6_s grid-12_xs">
+					<div class="stars">
+						<div class="stars__title">Сервис</div>
+						<div class="stars-rating"></div>
+						<input type="hidden" name="rating_4">
+					</div>
+					<div class="stars">
+						<div class="stars__title">Интерьер</div>
+						<div class="stars-rating"></div>
+						<input type="hidden" name="rating_5">
+					</div>
+					<div class="stars">
+						<div class="stars__title">Результат лечения</div>
+						<div class="stars-rating"></div>
+						<input type="hidden" name="rating_6">
+					</div>
+				</div>
+				<div class="grid-4 grid-6_s grid-12_xs">
+					<div class="stars">
+						<div class="stars__title">Цена/качество</div>
+						<div class="stars-rating"></div>
+						<input type="hidden" name="rating_7">
+					</div>
+					<div class="stars">
+						<div class="stars__title">Будете нас рекомендовать?</div>
+						<div class="stars-rating"></div>
+						<input type="hidden" name="rating_8">
+					</div>
+				</div>
+			</div>
+			<div class="h3 review-form__title">Напишите отзыв своими словами</div>
+			<textarea name="user_review" placeholder="Ваш отзыв" class="input-text"></textarea>
+			<div class="row">
+				<div class="grid-4 grid-12_m">
+					<input type="text" name="user_name" placeholder="Введите имя" class="input-text">
+				</div>
+				<div class="grid-4 grid-12_m">
+					<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text danger">
+				</div>
+				<div class="grid-4 grid-12_m">
+					<input type="email" name="user_email" placeholder="Введите e-mail" class="input-text">
+				</div>
+			</div>
+			<div class="review-form__footer">
+				<span>Нажимая кнопку «Отправить», я даю согласие на обработку персональных данных и соглашаюсь с условиями политики конфиденциальности</span>
+				<button type="submit" class="button">Отправить</button>
+			</div>
+		</form>
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>
