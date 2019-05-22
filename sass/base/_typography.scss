@@ -218,6 +218,14 @@ h5,.h5{
 			color: $pink;
 			font-size: 14px;
 		}
+
+		a{
+			transition: color 0.3s ease;
+
+			&:hover{
+				color: $black;
+			}
+		}
 	}
 }
 

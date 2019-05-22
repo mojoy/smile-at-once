@@ -72,13 +72,17 @@
 	}
 }
 
+.review-cite__left{
+	position: relative;
+	@include res(s){
+		margin-bottom: 20px;
+	}
+}
+
 .review-cite__after{
 	max-width: 100%;
 	height: auto;
 	border-radius: 0 0 50% 50% / 0 0 15% 15%;
-	@include res(s){
-		margin-bottom: 20px;
-	}
 }
 
 .review-cite__text{
@@ -100,6 +104,23 @@
 	max-width: 100%;
 	height: auto;
 	border-radius: 20px;
+	@include res(s){
+		display: none;
+	}
+
+	&--mob{
+		position: absolute;
+		bottom: 0;
+		right: 10%;
+		max-width: 45%;
+		display: none;
+		@include res(s){
+			display: block;
+		}
+		@include res(xs){
+			right: 0;
+		}
+	}
 }
 //s-review-begin
 
@@ -269,7 +290,7 @@
 	height: auto;
 	border-radius: 20px;
 	@include res(s){
-		margin-bottom: 20px;
+		display: none;
 	}
 }
 
@@ -331,6 +352,9 @@
 	margin-bottom: 10px;
 	color: $gray-text;
 	transition: all 0.3s ease;
+	@include res(s){
+		display: none;
+	}
 
 	&:hover{
 		color: $pink;
@@ -352,6 +376,35 @@
 		line-height: 1.2;
 	}
 }
+
+.review-history-mob{
+	display: none;
+	margin-left: -3px;
+	margin-right: -3px;
+	margin-bottom: 15px;
+	@include res(s){
+		display: flex;
+	}
+}
+
+.review-history-mob__block{
+	flex: 1;
+	padding: 3px;
+	text-align: center;
+
+	.link-dot{
+		font-size: 14px;
+	}
+}
+
+.review-history-mob__img{
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	margin-bottom: 4px;
+}
+
 
 .review-history-wrapper{
 
@@ -454,7 +507,7 @@
 	}
 
 	.bordered-block{
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 }
 
@@ -627,11 +680,5 @@
 
 .modal-sendreview{
 	width: 1260px;
-
-	.review-form__ratings{
-		@include res(s){
-			display: none;
-		}
-	}
 }
 //sendreview

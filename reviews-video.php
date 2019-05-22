@@ -13,8 +13,9 @@
 
 		<div class="review-cite">
 			<div class="row">
-				<div class="grid-4 grid-12_s">
+				<div class="grid-4 grid-12_s review-cite__left">
 					<img src="/img/reviews/cite-after.jpg" alt="1" class="review-cite__after">
+					<img src="/img/reviews/cite-before.jpg" alt="1" class="review-cite__before review-cite__before--mob">
 				</div>
 				<div class="grid-8 grid-12_s">
 					<div class="review-cite__text">После очередной коррекции протеза и профилактического осмотра после проведения базальной имплантации зубов: «Хочу поделиться своим опытом общения с компанией «Новая улыбка» (стоматология Smile-at-Once). Как известно, без зубов плохо, а вот с зубами хорошо. Поэтому я обратился в эту компанию и получил массу удовольствия от общения с ними. Все условия, которые предлагаются, абсолютно открыты, спокойно рассказывают обо всех проблемах, которые есть и как их лучше решить.</div>
@@ -170,6 +171,26 @@
 			В минимальной версии можно удалить весь блок .review-history-wrapper, и правая часть сама подстроится как надо.
 			-->
 			<div class="grid-8 grid-12_l review-history-wrapper">
+				<div class="review-history-mob">
+					<div class="review-history-mob__block">
+						<img src="/img/reviews/history-1.jpg" alt="1" class="review-history-mob__img">
+						<a href="/img/reviews/snimok.jpg" class="fancy link-dot">
+							<span>Смотреть КТ</span>
+						</a>
+					</div>
+					<div class="review-history-mob__block">
+						<img src="/img/reviews/history-1.jpg" alt="1" class="review-history-mob__img">
+						<a href="/img/reviews/snimok.jpg" class="fancy link-dot">
+							<span>Смотреть КТ</span>
+						</a>
+					</div>
+					<div class="review-history-mob__block">
+						<img src="/img/reviews/history-1.jpg" alt="1" class="review-history-mob__img">
+						<a href="/img/reviews/snimok.jpg" class="fancy link-dot">
+							<span>Смотреть КТ</span>
+						</a>
+					</div>
+				</div>
 				<div class="review-history row">
 					<div class="grid-6 grid-12_s">
 						<img src="/img/reviews/history-1.jpg" alt="1" class="review-history__img">
@@ -229,12 +250,12 @@
 				<div class="bordered-block bordered-block--pink review-techinfo">
 					<div class="h3 cases-form__title">Возможные технологии</div>
 					<ul class="checked-pink-list">
-						<li>Одноэтапная имплантация и с немедленной нагрузкой.</li>
-						<li>Базальная имплантация зубов.</li>
-						<li>Зубные протезы для верхней че на имплантах.</li>
-						<li>Для нижней челюсти: особенности и варианты.</li>
-						<li>При парадонтите и парадонтозе.</li>
-						<li>Зубы за 1 день - Трансфармация улыбки.</li>
+						<li><a href="#">Одноэтапная имплантация и с немедленной нагрузкой.</a></li>
+						<li><a href="#">Базальная имплантация зубов.</a></li>
+						<li><a href="#">Зубные протезы для верхней че на имплантах.</a></li>
+						<li><a href="#">Для нижней челюсти: особенности и варианты.</a></li>
+						<li><a href="#">При парадонтите и парадонтозе.</a></li>
+						<li><a href="#">Зубы за 1 день - Трансфармация улыбки.</a></li>
 					</ul>
 					<div class="review-techinfo__stats">
 						<div class="review-techinfo__stat">

@@ -66,7 +66,8 @@ $.fancybox.defaults.i18n =
 function init_fancy() {
 	$('.fancy').fancybox({
 		buttons: ['close'],
-		baseClass: "pb"
+		baseClass: "pb",
+		smallBtn: true
 	});
 	$('.fancy-modal').fancybox({
 		touch: false,
