@@ -712,3 +712,29 @@ document.addEventListener('DOMContentLoaded',function () {
 /***********************
  steps-slider END
  ***********************/
+
+
+/***********************
+Pop messages BEGIN
+***********************/
+function openPopMessage(id) {
+	$(id).addClass('active');
+	return true;
+}
+
+function closePopMessage(id) {
+	$(id).removeClass('active');
+	return true;
+}
+
+$(function($){
+	$('.pop-message__close').on('click',function (e) {
+		e.preventDefault();
+		var thisPopMessageId = $(this).parents('.pop-message').attr('id');
+		closePopMessage('#'+thisPopMessageId);
+		console.log(thisPopMessageId);
+	});
+});
+/***********************
+Pop messages END
+***********************/

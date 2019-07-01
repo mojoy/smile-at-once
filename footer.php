@@ -308,6 +308,22 @@
 </div>
 <!-- Модальные окна -->
 
+
+<!--Всплывающие сообщения-->
+<div class="pop-message" id="example-ID">
+	<a href="#" target="_blank" class="pop-message__link">
+		<figure style="background: #229fa5">
+			<img src="/img/pop-messages/smile.png" alt="1">
+		</figure>
+		<div>
+			<div class="h5">Трансформация БЕСПЛАТНО улыбки  улыбки акции</div>
+			<small>Старт социальной акции Трансформация улыбки БЕСПЛАТНО</small>
+			<span class="button">Подробнее</span>
+		</div>
+	</a>
+	<div class="pop-message__close" title="Скрыть"></div>
+</div>
+<!--Всплывающие сообщения-->
 </footer>
 
 
