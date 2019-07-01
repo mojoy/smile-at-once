@@ -50,6 +50,12 @@
 			<a href="#"><img src="/img/header/prize_2.png" alt="2" title="Инновационный Центр стоматологической ассоциации РФ"></a>
 			<a href="#"><img src="/img/header/prize_3.png" alt="3" title="Лучшие стоматологии РФ 2018"></a>
 		</div>-->
+		<div class="top-panel__socials">
+			<a href="#" title="Вконтакте" target="_blank"><span class="i i-vk"></span></a>
+			<a href="#" title="Facebook" target="_blank"><span class="i i-fb"></span></a>
+			<a href="#" title="Instagram" target="_blank"><span class="i i-ig"></span></a>
+			<a href="#" title="Youtube" target="_blank"><span class="i i-youtube"></span></a>
+		</div>
 		<div class="top-panel__links">
 			<a href="#" class="top-panel__link"><span class="i i-shield"></span>О клинике</a>
 			<a href="#" class="top-panel__link"><span class="i i-pin"></span>Адреса клиник</a>
@@ -969,6 +975,12 @@
 		<div class="top-panel__links">
 			<a href="#" class="top-panel__link"><span class="i i-shield"></span>О клинике</a>
 			<a href="#" class="top-panel__link"><span class="i i-pin"></span>Адреса клиник</a>
+		</div>
+		<div class="top-panel__socials">
+			<a href="#" title="Вконтакте" target="_blank"><span class="i i-vk"></span></a>
+			<a href="#" title="Facebook" target="_blank"><span class="i i-fb"></span></a>
+			<a href="#" title="Instagram" target="_blank"><span class="i i-ig"></span></a>
+			<a href="#" title="Youtube" target="_blank"><span class="i i-youtube"></span></a>
 		</div>
 	</div>
 </div>

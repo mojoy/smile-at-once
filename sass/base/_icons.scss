@@ -23,6 +23,18 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-fb:before {
+	content: "\e90d";
+}
+.i-vk:before {
+	content: "\e90e";
+}
+.i-youtube:before {
+	content: "\e90f";
+}
+.i-ig:before {
+	content: "\e910";
+}
 .i-clock:before {
 	content: "\e90b";
 }

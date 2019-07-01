@@ -145,6 +145,18 @@ body.stopped{
 
 .mob-panel__footer{
 	padding: 0 15px 20px 15px;
+
+	.top-panel__socials{
+		margin-top: 15px;
+		
+		a{
+			color: #FFF;
+
+			&:hover{
+				color: $pink;
+			}
+		}
+	}
 }
 
 .mob-panel__callback{
