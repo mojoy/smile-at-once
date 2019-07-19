@@ -361,6 +361,7 @@ document.addEventListener('DOMContentLoaded',function () {
 		threshold: 5,
 		grabCursor: true,
 		preloadImages: false,
+		autoHeight: true,
 		lazy: {
 			preloaderClass: 'slide-loading'
 		},
