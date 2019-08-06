@@ -307,7 +307,7 @@
 						</a>
 						<div class="how-change-slider__note">Сразу после</div>
 					</div>
-					<!--<div class="how-change-slider__slide grid-3 grid-4_m grid-6_s swiper-slide">
+					<div class="how-change-slider__slide grid-3 grid-4_m grid-6_s swiper-slide">
 						<a href="/img/reviews/how-1.jpg" class="fancy">
 							<div class="slide-loading"></div>
 							<img src="/img/reviews/how-slider-place.png" data-src="/img/reviews/how-1.jpg" alt="1" class="swiper-lazy how-change-slider__img">
@@ -320,7 +320,7 @@
 							<img src="/img/reviews/how-slider-place.png" data-src="/img/reviews/how-1.jpg" alt="1" class="swiper-lazy how-change-slider__img">
 						</a>
 						<div class="how-change-slider__note">Сразу после</div>
-					</div>-->
+					</div>
 				</div>
 			</div>
 			<div class="slider-arrow slider-arrow--prev">
