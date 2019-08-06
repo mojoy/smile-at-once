@@ -592,6 +592,11 @@ document.addEventListener('DOMContentLoaded',function () {
 				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
 				this.params.navigation.nextEl = thisBtnNext;
 				this.params.navigation.prevEl = thisBtnPrev;
+				if (this.isLocked){
+					this.$wrapperEl.addClass('centered')
+				} else {
+					this.$wrapperEl.removeClass('centered')
+				}
 			}
 		}
 	});

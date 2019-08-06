@@ -247,7 +247,7 @@
 		margin-right: -5px;
 	}
 
-	.swiper-wrapper{
+	.swiper-wrapper.centered{
 		justify-content: center;
 		@include res(s){
 			justify-content: flex-start;
