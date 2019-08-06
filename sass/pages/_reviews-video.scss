@@ -146,7 +146,15 @@
 		}
 
 		@include res(m){
-			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+	}
+
+	.grid-6{
+		&:first-child{
+			@include res(m){
+				order: 2;
+			}
 		}
 	}
 }
