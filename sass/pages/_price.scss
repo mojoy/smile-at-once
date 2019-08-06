@@ -1,0 +1,83 @@
+//layout
+.s-price{
+	padding: 60px 0;
+	@include res(l){
+		padding: 40px 0;
+	}
+
+	.container{
+		display: flex;
+		align-items: stretch;
+		@include res(l){
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}
+
+.s-price__main{
+	flex: 1;
+	margin-right: 30px;
+	height: 4000px;
+	@include res(l){
+		margin-bottom: 40px;
+		margin-right: 0;
+	}
+}
+
+.s-price__aside{
+	width: 300px;
+	flex-shrink: 0;
+}
+
+.aside-sticky{
+	position: sticky;
+	top: 70px;
+}
+//layout
+
+
+//aside-triggers
+.aside-triggers{
+
+}
+//aside-triggers
+
+
+//price-header
+.price-header{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+	@include res(l){
+		flex-direction: column;
+	}
+}
+
+.price-header__actions{
+	margin-left: auto;
+	text-align: center;
+	@include res(l){
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.button{
+		margin: 10px 0 10px 10px;
+		@include res(l){
+			font-size: 12px;
+			padding: 8px 12px;
+			margin: 0 4px 4px 4px;
+		}
+	}
+}
+
+.price-header-descr{
+	font-size: 18px;
+	max-width: 600px;
+	@include res(l){
+		font-size: 16px;
+	}
+}
+//price-header

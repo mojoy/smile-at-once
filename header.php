@@ -27,10 +27,10 @@
 	<meta property="og:image" content="/img/og.jpg">
 	<!-- og -->
 
-	<!--<link href="css/all-prev.css" rel="stylesheet">
+	<link href="css/all-prev.css" rel="stylesheet">
 	<link href="css/all.css" rel="stylesheet">
 	<link href="css/all_doctors_dev.css" rel="stylesheet">
-	<link href="css/animate.min.css" rel="stylesheet">-->
+	<link href="css/animate.min.css" rel="stylesheet">
 	<link href="css/main.css?v=10" rel="stylesheet">
 </head>
 
@@ -89,7 +89,7 @@
 						<a href="#">Цены</a>
 						<div class="main-nav__sub">
 							<ul class="main-nav__sub-menu">
-								<li><a title="Все цены" href="/ceni/">Все цены</a></li>
+								<li><a title="Все цены" href="/price.php">Все цены</a></li>
 								<li><a title="Акции" href="/akcii/">Акции</a></li>
 								<li><a title="Годовое сопровождение" href="/lechenie_zubov_godovie_programmi.html">Годовое сопровождение</a></li>
 								<li><a title="Кредит и рассрочка" href="/lechenie-zubov-v-kredit.html">Кредит и рассрочка</a></li>
@@ -932,7 +932,7 @@
 			<a href="#">Цены</a>
 			<div class="i i-down"></div>
 			<ul>
-				<li><a title="Все цены" href="/ceni/">Все цены</a></li>
+				<li><a title="Все цены" href="/price.php">Все цены</a></li>
 				<li><a title="Акции" href="/akcii/">Акции</a></li>
 				<li><a title="Годовое сопровождение" href="/lechenie_zubov_godovie_programmi.html">Годовое сопровождение</a></li>
 				<li><a title="Кредит и рассрочка" href="/lechenie-zubov-v-kredit.html">Кредит и рассрочка</a></li>
@@ -967,7 +967,7 @@
 				<li><a href="#">Жиленко Евгений Александрович</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Отзывы</a></li>
+		<li><a href="/reviews.php">Отзывы</a></li>
 		<li><a href="#">Пациентам из других городов</a></li>
 	</ul>
 

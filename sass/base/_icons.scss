@@ -23,6 +23,12 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-minus:before {
+	content: "\e912";
+}
+.i-plus:before {
+	content: "\e911";
+}
 .i-fb:before {
 	content: "\e90d";
 }

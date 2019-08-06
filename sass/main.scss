@@ -17,6 +17,7 @@
 @import 'base/forms';
 @import 'base/buttons';
 @import 'base/modals';
+@import 'base/layout';
 
 @import 'modules/top-panel';
 @import 'modules/main-nav';
@@ -45,4 +46,5 @@
 @import 'pages/home';
 @import 'pages/reviews';
 @import 'pages/reviews-video';
+@import 'pages/price';
 }

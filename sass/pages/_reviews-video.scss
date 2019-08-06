@@ -246,6 +246,13 @@
 		margin-left: -5px;
 		margin-right: -5px;
 	}
+
+	.swiper-wrapper{
+		justify-content: center;
+		@include res(s){
+			justify-content: flex-start;
+		}
+	}
 }
 
 .how-change-slider__slide{

@@ -579,6 +579,9 @@ document.addEventListener('DOMContentLoaded',function () {
 		preloadImages: false,
 		watchSlidesVisibility: true,
 		watchOverflow: true,
+		// centeredSlides: true,
+		// slidesPerGroup: 4,
+		// centerInsufficientSlides: true,
 		lazy: {
 			preloaderClass: 'slide-loading'
 		},
