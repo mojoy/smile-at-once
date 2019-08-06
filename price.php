@@ -26,15 +26,46 @@
 <!--aside-->
 <aside class="s-price__aside">
 	<div class="aside-sticky">
-
 		<div class="aside-triggers">
-			<a href="#modal-callback" class="pop-up fancy-modal" title="Бесплатная консультация нескольких врачей">
+			<a href="#modal-callback" class="pop-up fancy-modal aside-triggers__img" title="Бесплатная консультация нескольких врачей">
 				<img src="/img/price/aside-doctors.jpg" title="Бесплатная консультация нескольких врачей" alt="Бесплатная консультация нескольких врачей">
 			</a>
-			<div class="adds-row">
-				<strong class="adds-ttl">Диагностика и консультация<span>Бесплатно!</span></strong>                             <span class="adds-text2">Включая КТ и ОПТГ</span>                             <a href="#modal-callback" class="pop-up adds-btn fancy-modal" title="ЗАПИСАТЬСЯ">ЗАПИСАТЬСЯ</a>
+			<div class="aside-triggers__top">
+				<strong>
+					Диагностика и консультация
+					<span>Бесплатно!</span>
+				</strong>
+				<em>Включая КТ и ОПТГ</em>
+				<a href="#modal-callback" class="pop-up fancy-modal button button--small" title="ЗАПИСАТЬСЯ">ЗАПИСАТЬСЯ</a>
 			</div>
-			<span class="adds-ul">                             <a href="/regions.html" title="Дистанционная консультация" class="adds-li adds-row adds-li1">                                 <span>Дистанционная консультация</span> для пациентов из других городов                             </a>                             <a href="/otzivi_o_stomatologii/" title="Видео до и после лечения" class="adds-li adds-row adds-li2">                                 <span>Видео до и после лечения</span> Более 900 отзывов о нашей работе                             </a>                             <a href="/nagrady-i-dostizheniya.html" title="Федеральные награды" class="adds-li adds-row adds-li3">                                 <span>Федеральные награды</span> 12 наград и премий за успехи                           </a>                         </span></div>
+			<a href="/regions.html" title="Дистанционная консультация" class="aside-triggers-item">
+				<span class="aside-triggers-item__img">
+					<img src="/img/price/aside-ic-1.png" alt="1">
+				</span>
+				<div>
+					<strong>Дистанционная консультация</strong>
+					для пациентов из других городов
+				</div>
+			</a>
+			<a href="/otzivi_o_stomatologii/" title="Видео до и после лечения" class="aside-triggers-item">
+				<span class="aside-triggers-item__img">
+					<img src="/img/price/aside-ic-2.png" alt="2">
+				</span>
+				<div>
+					<strong>Видео до и после лечения</strong>
+					Более 900 отзывов о нашей работе
+				</div>
+			</a>
+			<a href="/nagrady-i-dostizheniya.html" title="Федеральные награды" class="aside-triggers-item">
+				<span class="aside-triggers-item__img">
+					<img src="/img/price/aside-ic-3.png" alt="3">
+				</span>
+				<div>
+					<strong>Федеральные награды</strong>
+					12 наград и премий за успехи
+				</div>
+			</a>
+		</div>
 	</div>
 </aside>
 <!--aside-->

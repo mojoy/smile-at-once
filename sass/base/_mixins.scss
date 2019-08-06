@@ -28,6 +28,8 @@ $cross-bg-color--hover: #FFF;
 
 	&:hover,&:active,&:focus {
 		background: $cross-bg-color--hover;
+		transform: none;
+		box-shadow: none;
 	}
 
 	&:before, &:after {
