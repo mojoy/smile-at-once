@@ -4,3 +4,5 @@
 //@prepros-append vendors/waypoints.js
 //@prepros-append vendors/swiper.min.js
 //@prepros-append vendors/jquery.star-rating-svg.min.js
+//@prepros-append vendors/popper.min.js
+//@prepros-append vendors/tippy.min.js

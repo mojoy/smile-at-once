@@ -744,3 +744,73 @@ $(function($){
 /***********************
 Pop messages END
 ***********************/
+
+
+/***********************
+price BEGIN
+***********************/
+$(function($){
+	//tip
+	var tippyOptions = {
+		content: function (reference) {
+			var id = reference.getAttribute('data-tip');
+			var container = document.createElement('div');
+			var linkedTemplate = document.getElementById(id);
+			var node = document.importNode(linkedTemplate.content, true);
+			container.appendChild(node);
+			return container
+		},
+		animation: 'shift-away',
+		animateFill: false,
+		arrow: false,
+		placement: 'bottom',
+		theme: 'sao',
+		maxWidth: 440,
+		interactive: true,
+		trigger: 'click',
+		zIndex: 99
+	};
+
+	if (document.querySelectorAll('[data-tip]').length > 0){
+		tippy.group(tippy('[data-tip]', tippyOptions))
+	}
+	//tip
+
+
+	$('.border-drop__header').on('click',function (e) {
+		e.preventDefault();
+		var thisDrop = $(this).parent('.border-drop');
+		var thisDropContent = thisDrop.find('.border-drop__content');
+		thisDropContent.slideToggle();
+		thisDrop.toggleClass('opened');
+	});
+
+	$('.price-root__header').on('click',function (e) {
+		e.preventDefault();
+		var thisDrop = $(this).parent('.price-root');
+		var thisDropContent = thisDrop.find('.price-root__hidden');
+		thisDropContent.slideToggle();
+		thisDrop.toggleClass('opened');
+	});
+
+	$('.checked-drop__header').on('click',function (e) {
+		e.preventDefault();
+		var thisDrop = $(this).parent('.checked-drop');
+		var thisDropContent = thisDrop.find('.checked-drop__content');
+		thisDropContent.slideToggle();
+		thisDrop.toggleClass('opened');
+	});
+
+	function openAllPrices() {
+		$('.checked-drop__content,.price-root__hidden,.border-drop__content').show();
+		$('.checked-drop,.price-root,.border-drop').addClass('opened');
+	}
+
+	$('.js-open-all-prices').on('click',function (e) {
+		e.preventDefault();
+		openAllPrices();
+	})
+});
+/***********************
+price END
+***********************/
