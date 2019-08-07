@@ -31,7 +31,7 @@
 	<link href="css/all.css" rel="stylesheet">
 	<link href="css/all_doctors_dev.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
-	<link href="css/main.css?v=10" rel="stylesheet">
+	<link href="css/main.css?v=11" rel="stylesheet">
 </head>
 
 <body>
