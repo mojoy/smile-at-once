@@ -18,7 +18,9 @@
 
 	li{
 		position: relative;
-		margin-right: 26px;
+		//margin-right: 26px;
+		margin: 0 26px 0 0 !important;
+		padding: 0 !important;
 
 		&:after{
 			content: '>';

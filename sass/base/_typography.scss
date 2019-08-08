@@ -229,6 +229,37 @@ h5,.h5{
 	}
 }
 
+.checked-green-list{
+	list-style: none;
+
+	li{
+		display: block;
+		position: relative;
+		padding-left: 25px;
+		line-height: 1.2;
+		margin-bottom: 0.4em;
+
+		&:before{
+			content: '\e909';
+			font-family: $font-icon;
+			position: absolute;
+			z-index: 2;
+			top: 0.2em;
+			left: 3px;
+			color: $green;
+			font-size: 14px;
+		}
+
+		a{
+			transition: color 0.3s ease;
+
+			&:hover{
+				color: $black;
+			}
+		}
+	}
+}
+
 
 .round-bottom{
 	position: relative;
@@ -250,3 +281,22 @@ h5,.h5{
 		background-size: 100% 100%;
 	}
 }
+
+
+//user-content
+.user-content{
+
+	h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
+		margin-bottom: 15px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	p,ul,li,img,table{
+		margin-bottom: 15px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+//user-content

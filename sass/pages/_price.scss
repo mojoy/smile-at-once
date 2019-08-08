@@ -401,6 +401,33 @@
 .border-drop__content{
 	display: none;
 }
+
+.border-drops--list{
+	counter-reset: borderdrops;
+
+	.border-drop{
+		counter-increment: borderdrops;
+	}
+
+	.border-drop__header{
+		padding-left: 50px;
+		font-size: 22px;
+		font-weight: normal;
+		@include res(m){
+			font-size: 18px;
+			padding-left: 40px;
+		}
+		@include res(xs){
+			font-size: 16px;
+		}
+
+		&:before{
+			content: counter(borderdrops)'.';
+			position: absolute;
+			left: 15px;
+		}
+	}
+}
 //border-drop
 
 
