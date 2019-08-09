@@ -125,3 +125,38 @@
 	color: $black;
 	font-size: 18px;
 }
+
+.consult-block__content{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	@include res(m){
+		display: block;
+	}
+}
+
+.consult-block--mini{
+	align-items: center;
+	padding-right: 15px;
+
+	.consult-block__center{
+		flex: 1;
+		width: auto;
+	}
+
+	.consult-block__descr{
+		font-size: 20px;
+		margin-bottom: 0;
+		@include res(xl){
+			font-size: 18px;
+		}
+	}
+
+	.consult-block__btn{
+		margin-left: auto;
+		@include res(xl){
+			padding: 10px;
+			font-size: 14px;
+		}
+	}
+}

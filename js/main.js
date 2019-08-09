@@ -814,3 +814,65 @@ $(function($){
 /***********************
 price END
 ***********************/
+
+
+/***********************
+Price video slider BEGIN
+***********************/
+document.addEventListener('DOMContentLoaded',function () {
+	var priceVideoSlider = new Swiper ('.price-faq-slider-thumbs', {
+		slidesPerView: 'auto',
+		loop: false,
+		threshold: 5,
+		grabCursor: true,
+		watchOverflow: true,
+		autoHeight: true,
+		on: {
+			init: function () {
+				var thisSliderWrapper = this.el.parentElement;
+				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+				this.params.navigation.nextEl = thisBtnNext;
+				this.params.navigation.prevEl = thisBtnPrev;
+			}
+		}
+	});
+});
+/***********************
+Price video slider END
+***********************/
+
+
+/***********************
+Price video right nav BEGIN
+***********************/
+$(function($){
+	$('.video-nav-block').on('click',function (e) {
+		e.preventDefault();
+		var index = $(this).index();
+		var thisNavItems = $(this).parent('.video-nav-blocks').find('.video-nav-block');
+		var thisVideoBlocks = $(this).parents('.price-faq').find('.price-faq-right-nav__item');
+		thisNavItems.removeClass('active').eq(index).addClass('active');
+		thisVideoBlocks.removeClass('active').eq(index).addClass('active');
+	})
+});
+/***********************
+Price video right nav END
+***********************/
+
+
+/***********************
+price video drops BEGIN
+***********************/
+$(function($){
+	$('.price-video-drop__header').on('click',function (e) {
+		e.preventDefault();
+		var thisDrop = $(this).parent('.price-video-drop');
+		var thisDropContent = thisDrop.find('.price-video-drop__content');
+		thisDropContent.slideToggle();
+		thisDrop.toggleClass('opened');
+	});
+});
+/***********************
+price video drops END
+***********************/

@@ -104,7 +104,7 @@ button::-moz-focus-inner {
 	width: 10em;
 	height: 10em;
 	background: $pink;
-	border-radius: 1.5em;
+	border-radius: 2em;
 	transform: rotate(45deg);
 	border: none;
 	transition: background 0.3s ease;
@@ -139,13 +139,20 @@ button::-moz-focus-inner {
 	&:before{
 		content: '';
 		position: absolute;
-		top: -1em;
-		left: -1em;
-		right: -1em;
-		bottom: -1em;
+		top: -1.2em;
+		left: -1.2em;
+		right: -1.2em;
+		bottom: -1.2em;
 		border: 1px solid $pink;
-		border-radius: 1.5em;
+		border-radius: 2.5em;
 		transition: border 0.3s ease;
+	}
+
+	&--medium{
+		font-size: 5px;
+		@include res(xs){
+			//font-size: 4px;
+		}
 	}
 
 	&--big{

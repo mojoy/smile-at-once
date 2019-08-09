@@ -275,6 +275,306 @@
 		</div>
 	</div>
 
+
+	<!--faq-video-1-->
+	<div class="price-faq price-faq-slider">
+		<div class="h2 price-details-main__title">Ответы на часто задаваемые вопросы от генерального директора All-on-4, All-on-6, Trefoil и «базальный комплекс»</div>
+
+		<div class="row price-faq-slider__top">
+			<div class="grid-8 grid-12_m price-faq-slider__main">
+				<div class="price-faq-slider__main-item">
+					<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+						<img src="/img/price/faq-video.jpg" alt="1">
+						<button class="play-btn play-btn--medium"></button>
+					</a>
+				</div>
+			</div>
+			<div class="grid-4 grid-12_m price-faq-slider__consult">
+				<div class="consult-bordered-block bordered-block bordered-block--pink bordered-block--small">
+					<div class="h3">Задайте свой вопрос</div>
+					<ul class="checked-pink-list">
+						<li>Дадим грамотную консультацию</li>
+						<li>Поможем определиться с лечением</li>
+					</ul>
+					<button class="button fancy-modal" data-src="#modal-consult">задать вопрос</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-slider__wrapper">
+			<div class="swiper-container price-faq-slider-thumbs">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide price-faq-slider-thumb">
+						<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+							<img src="/img/price/faq-video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+					</div>
+					<div class="swiper-slide price-faq-slider-thumb">
+						<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+							<img src="/img/price/faq-video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+					</div>
+					<div class="swiper-slide price-faq-slider-thumb">
+						<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+							<img src="/img/price/faq-video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+					</div>
+					<div class="swiper-slide price-faq-slider-thumb">
+						<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+							<img src="/img/price/faq-video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="slider-arrow slider-arrow--prev">
+				<span class="i i-left"></span>
+			</div>
+			<div class="slider-arrow slider-arrow--next">
+				<span class="i i-right"></span>
+			</div>
+		</div>
+
+	</div>
+	<!--faq-video-1-->
+
+	<!--faq-video-2-->
+	<div class="price-faq">
+		<div class="h2 price-details-main__title">Ответы на часто задаваемые вопросы от генерального директора All-on-4, All-on-6, Trefoil и «базальный комплекс»</div>
+
+		<div class="row price-faq-right-nav">
+			<div class="grid-8 grid-12_m">
+				<div class="price-faq-right-nav__main">
+					<div class="price-faq-right-nav__item active">
+						<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+							<img src="/img/price/faq-video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+						<div class="user-content">
+							<div class="h3">Узнайте всё о протезировании All-on-4 за 2 минуты</div>
+							<p>Стоматология инновационных технологий Smile-at-Once® – это единственный стоматологический центр в России, врачи которого специализируются на всех известных технологиях имплантации с немедленной нагрузкой протезами, на лучших мировых системах имплантов Nobel Biocare, Straumann, Oneway Biomed.</p>
+							<p>Данные компании подарили миру дентальную имплантологию и имеют научно-доказанную практическую базу данных об эффективности применения своей проукции и методик в долгосрочной перспективе более 50 лет. Сегодня, на этих системах имплантов практикуют имплантологи всего мира. По данным на 2015 год в мире было установлено более 30 000 000 имплантов.</p>
+						</div>
+					</div>
+					<div class="price-faq-right-nav__item">
+						<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+							<img src="/img/price/faq-video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+						<div class="user-content">
+							<div class="h3">2-е видео</div>
+							<p>Стоматология инновационных технологий Smile-at-Once® – это единственный стоматологический центр в России, врачи которого специализируются на всех известных технологиях имплантации с немедленной нагрузкой протезами, на лучших мировых системах имплантов Nobel Biocare, Straumann, Oneway Biomed.</p>
+						</div>
+					</div>
+					<div class="price-faq-right-nav__item">
+						<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+							<img src="/img/price/faq-video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+						<div class="user-content">
+							<div class="h3">3-е видео</div>
+							<p>Стоматология инновационных технологий Smile-at-Once® – это единственный стоматологический центр в России, врачи которого специализируются на всех известных технологиях имплантации с немедленной нагрузкой протезами, на лучших мировых системах имплантов Nobel Biocare, Straumann, Oneway Biomed.</p>
+						</div>
+					</div>
+					<div class="price-faq-right-nav__item">
+						<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+							<img src="/img/price/faq-video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+						<div class="user-content">
+							<div class="h3">4-е видео</div>
+							<p>Стоматология инновационных технологий Smile-at-Once® – это единственный стоматологический центр в России, врачи которого специализируются на всех известных технологиях имплантации с немедленной нагрузкой протезами, на лучших мировых системах имплантов Nobel Biocare, Straumann, Oneway Biomed.</p>
+						</div>
+					</div>
+					<div class="price-faq-right-nav__item">
+						<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+							<img src="/img/price/faq-video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+						<div class="user-content">
+							<div class="h3">5-е видео</div>
+							<p>Стоматология инновационных технологий Smile-at-Once® – это единственный стоматологический центр в России, врачи которого специализируются на всех известных технологиях имплантации с немедленной нагрузкой протезами, на лучших мировых системах имплантов Nobel Biocare, Straumann, Oneway Biomed.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-12_m price-faq-right-nav__nav">
+				<div class="video-nav-blocks">
+					<div class="video-nav-block active">
+						<div class="video-nav-block__btn">
+							<button class="play-btn"></button>
+						</div>
+						<span>Узнайте всё о протезировании All-on-4 за 2 минуты</span>
+					</div>
+					<div class="video-nav-block">
+						<div class="video-nav-block__btn">
+							<button class="play-btn"></button>
+						</div>
+						<span>2-е видео</span>
+					</div>
+					<div class="video-nav-block">
+						<div class="video-nav-block__btn">
+							<button class="play-btn"></button>
+						</div>
+						<span>3-е видео</span>
+					</div>
+					<div class="video-nav-block">
+						<div class="video-nav-block__btn">
+							<button class="play-btn"></button>
+						</div>
+						<span>4-е видео</span>
+					</div>
+					<div class="video-nav-block">
+						<div class="video-nav-block__btn">
+							<button class="play-btn"></button>
+						</div>
+						<span>5-е видео</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="consult-block consult-block--mini">
+			<div class="consult-block__img">
+				<img src="" data-lazy="/img/home/consult-img-1.png" alt="1">
+			</div>
+			<div class="consult-block__content">
+				<div class="consult-block__center">
+					<div class="h2">Задайте вопрос!</div>
+					<div class="consult-block__descr">Дадим грамотную консультацию и&nbsp;поможем определиться с&nbsp;лечением</div>
+				</div>
+				<button class="button consult-block__btn fancy-modal" data-src="#modal-consult">Консультация врача</button>
+			</div>
+		</div>
+	</div>
+	<!--faq-video-2-->
+
+	<!--faq-video-3-->
+	<div class="price-faq">
+		<div class="h2 price-details-main__title">Ответы на часто задаваемые вопросы от генерального директора All-on-4, All-on-6, Trefoil и «базальный комплекс»</div>
+
+		<div class="price-video-drops">
+			<div class="price-video-drop">
+				<div class="price-video-drop__header">
+					<div class="price-video-drop__play">
+						<button class="play-btn"></button>
+					</div>
+					<span>Узнайте всё о протезировании All-on-4 за 2 минуты</span>
+				</div>
+				<div class="price-video-drop__content">
+					<div class="row">
+						<div class="grid-6 grid-12_m">
+							<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+								<img src="/img/price/faq-video.jpg" alt="1">
+								<button class="play-btn"></button>
+							</a>
+						</div>
+						<div class="grid-6 grid-12_m">
+							<div class="user-content">
+								<div class="h3">Узнайте всё о протезировании All-on-4 за 2 минуты</div>
+								<p>Стоматология инновационных технологий Smile-at-Once® – это единственный стоматологический центр в России, врачи которого специализируются на всех известных технологиях имплантации с немедленной нагрузкой протезами, на лучших мировых системах имплантов Nobel Biocare, Straumann, Oneway Biomed.</p>
+								<p>Данные компании подарили миру дентальную имплантологию и имеют научно-доказанную практическую базу данных об эффективности применения своей проукции и методик в долгосрочной перспективе более 50 лет. Сегодня, на этих системах имплантов практикуют имплантологи всего мира. По данным на 2015 год в мире было установлено более 30 000 000 имплантов.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-video-drop">
+				<div class="price-video-drop__header">
+					<div class="price-video-drop__play">
+						<button class="play-btn"></button>
+					</div>
+					<span>Короткий заголовок</span>
+				</div>
+				<div class="price-video-drop__content">
+					<div class="row">
+						<div class="grid-6 grid-12_m">
+							<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+								<img src="/img/price/faq-video.jpg" alt="1">
+								<button class="play-btn"></button>
+							</a>
+						</div>
+						<div class="grid-6 grid-12_m">
+							<div class="user-content">
+								<div class="h3">Узнайте всё о протезировании All-on-4 за 2 минуты</div>
+								<p>Стоматология инновационных технологий Smile-at-Once® – это единственный стоматологический центр в России, врачи которого специализируются на всех известных технологиях имплантации с немедленной нагрузкой протезами, на лучших мировых системах имплантов Nobel Biocare, Straumann, Oneway Biomed.</p>
+								<p>Данные компании подарили миру дентальную имплантологию и имеют научно-доказанную практическую базу данных об эффективности применения своей проукции и методик в долгосрочной перспективе более 50 лет. Сегодня, на этих системах имплантов практикуют имплантологи всего мира. По данным на 2015 год в мире было установлено более 30 000 000 имплантов.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-video-drop">
+				<div class="price-video-drop__header">
+					<div class="price-video-drop__play">
+						<button class="play-btn"></button>
+					</div>
+					<span>Узнайте всё о протезировании All-on-4 за 2 минуты</span>
+				</div>
+				<div class="price-video-drop__content">
+					<div class="row">
+						<div class="grid-6 grid-12_m">
+							<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+								<img src="/img/price/faq-video.jpg" alt="1">
+								<button class="play-btn"></button>
+							</a>
+						</div>
+						<div class="grid-6 grid-12_m">
+							<div class="user-content">
+								<div class="h3">Узнайте всё о протезировании All-on-4 за 2 минуты</div>
+								<p>Стоматология инновационных технологий Smile-at-Once® – это единственный стоматологический центр в России, врачи которого специализируются на всех известных технологиях имплантации с немедленной нагрузкой протезами, на лучших мировых системах имплантов Nobel Biocare, Straumann, Oneway Biomed.</p>
+								<p>Данные компании подарили миру дентальную имплантологию и имеют научно-доказанную практическую базу данных об эффективности применения своей проукции и методик в долгосрочной перспективе более 50 лет. Сегодня, на этих системах имплантов практикуют имплантологи всего мира. По данным на 2015 год в мире было установлено более 30 000 000 имплантов.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-video-drop">
+				<div class="price-video-drop__header">
+					<div class="price-video-drop__play">
+						<button class="play-btn"></button>
+					</div>
+					<span>Узнайте всё о протезировании All-on-4 за 2 минуты</span>
+				</div>
+				<div class="price-video-drop__content">
+					<div class="row">
+						<div class="grid-6 grid-12_m">
+							<a href="https://www.youtube.com/watch?v=pZYagxwMhaw" class="video-screen fancy-video">
+								<img src="/img/price/faq-video.jpg" alt="1">
+								<button class="play-btn"></button>
+							</a>
+						</div>
+						<div class="grid-6 grid-12_m">
+							<div class="user-content">
+								<div class="h3">Узнайте всё о протезировании All-on-4 за 2 минуты</div>
+								<p>Стоматология инновационных технологий Smile-at-Once® – это единственный стоматологический центр в России, врачи которого специализируются на всех известных технологиях имплантации с немедленной нагрузкой протезами, на лучших мировых системах имплантов Nobel Biocare, Straumann, Oneway Biomed.</p>
+								<p>Данные компании подарили миру дентальную имплантологию и имеют научно-доказанную практическую базу данных об эффективности применения своей проукции и методик в долгосрочной перспективе более 50 лет. Сегодня, на этих системах имплантов практикуют имплантологи всего мира. По данным на 2015 год в мире было установлено более 30 000 000 имплантов.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="consult-block consult-block--mini">
+			<div class="consult-block__img">
+				<img src="" data-lazy="/img/home/consult-img-1.png" alt="1">
+			</div>
+			<div class="consult-block__content">
+				<div class="consult-block__center">
+					<div class="h2">Задайте вопрос!</div>
+					<div class="consult-block__descr">Дадим грамотную консультацию и&nbsp;поможем определиться с&nbsp;лечением</div>
+				</div>
+				<button class="button consult-block__btn fancy-modal" data-src="#modal-consult">Консультация врача</button>
+			</div>
+		</div>
+	</div>
+	<!--faq-video-3-->
+
+
 	<div class="price-footer">
 		<div class="price-seo user-content">
 			<div class="h1">Seo текст</div>
