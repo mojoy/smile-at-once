@@ -12804,7 +12804,7 @@
 
 .pb .price-item {
   padding: 15px 45px;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #cedae1;
 }
 
 @media (max-width: 768px) {
@@ -13118,6 +13118,14 @@
   box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5);
   text-align: left;
   padding: 10px;
+}
+
+.pb .checked-drop {
+  border-bottom: 2px solid #FFF;
+}
+
+.pb .checked-drop:last-child {
+  border-bottom: none;
 }
 
 .pb .checked-drop.opened .checked-drop__header:after {

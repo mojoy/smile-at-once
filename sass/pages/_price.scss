@@ -434,7 +434,7 @@
 //price-item
 .price-item{
 	padding: 15px 45px;
-	border-bottom: 1px solid #FFF;
+	border-bottom: 1px solid $gray-border;
 	@include res(m){
 		padding: 15px 15px 15px 25px;
 	}
@@ -681,6 +681,12 @@
 }
 
 .checked-drop{
+	border-bottom: 2px solid #FFF;
+
+	&:last-child{
+		border-bottom: none;
+	}
+
 	&.opened{
 		.checked-drop__header{
 			&:after{
