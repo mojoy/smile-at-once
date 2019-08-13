@@ -163,6 +163,18 @@
 													<span>Гарантия: пожизненная</span>
 													<span>Питание и эстетика: сразу</span>
 												</div>
+												<div class="price-item__triggers--mob">
+													<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+													<template id="price-params-ID">
+														<div class="price-item__triggers-moblist">
+															<span>Протез: несъемный</span>
+															<span>Приемов: 3</span>
+															<span>Смена протеза: min через год</span>
+															<span>Гарантия: пожизненная</span>
+															<span>Питание и эстетика: сразу</span>
+														</div>
+													</template>
+												</div>
 												<div class="price-item__links">
 													<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 													<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -192,6 +204,18 @@
 													<span>Гарантия: пожизненная</span>
 													<span>Питание и эстетика: сразу</span>
 												</div>
+												<div class="price-item__triggers--mob">
+													<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+													<template id="price-params-ID">
+														<div class="price-item__triggers-moblist">
+															<span>Протез: несъемный</span>
+															<span>Приемов: 3</span>
+															<span>Смена протеза: min через год</span>
+															<span>Гарантия: пожизненная</span>
+															<span>Питание и эстетика: сразу</span>
+														</div>
+													</template>
+												</div>
 												<div class="price-item__links">
 													<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 													<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -220,6 +244,18 @@
 													<span>Смена протеза: min через год</span>
 													<span>Гарантия: пожизненная</span>
 													<span>Питание и эстетика: сразу</span>
+												</div>
+												<div class="price-item__triggers--mob">
+													<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+													<template id="price-params-ID">
+														<div class="price-item__triggers-moblist">
+															<span>Протез: несъемный</span>
+															<span>Приемов: 3</span>
+															<span>Смена протеза: min через год</span>
+															<span>Гарантия: пожизненная</span>
+															<span>Питание и эстетика: сразу</span>
+														</div>
+													</template>
 												</div>
 												<div class="price-item__links">
 													<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -262,6 +298,18 @@
 													<span>Гарантия: пожизненная</span>
 													<span>Питание и эстетика: сразу</span>
 												</div>
+												<div class="price-item__triggers--mob">
+													<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+													<template id="price-params-ID">
+														<div class="price-item__triggers-moblist">
+															<span>Протез: несъемный</span>
+															<span>Приемов: 3</span>
+															<span>Смена протеза: min через год</span>
+															<span>Гарантия: пожизненная</span>
+															<span>Питание и эстетика: сразу</span>
+														</div>
+													</template>
+												</div>
 												<div class="price-item__links">
 													<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 													<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -297,6 +345,18 @@
 													<span>Гарантия: пожизненная</span>
 													<span>Питание и эстетика: сразу</span>
 												</div>
+												<div class="price-item__triggers--mob">
+													<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+													<template id="price-params-ID">
+														<div class="price-item__triggers-moblist">
+															<span>Протез: несъемный</span>
+															<span>Приемов: 3</span>
+															<span>Смена протеза: min через год</span>
+															<span>Гарантия: пожизненная</span>
+															<span>Питание и эстетика: сразу</span>
+														</div>
+													</template>
+												</div>
 												<div class="price-item__links">
 													<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 													<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -325,6 +385,18 @@
 													<span>Смена протеза: min через год</span>
 													<span>Гарантия: пожизненная</span>
 													<span>Питание и эстетика: сразу</span>
+												</div>
+												<div class="price-item__triggers--mob">
+													<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+													<template id="price-params-ID">
+														<div class="price-item__triggers-moblist">
+															<span>Протез: несъемный</span>
+															<span>Приемов: 3</span>
+															<span>Смена протеза: min через год</span>
+															<span>Гарантия: пожизненная</span>
+															<span>Питание и эстетика: сразу</span>
+														</div>
+													</template>
 												</div>
 												<div class="price-item__links">
 													<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -370,6 +442,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -405,6 +489,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -433,6 +529,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -475,6 +583,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -510,6 +630,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -538,6 +670,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -580,6 +724,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -615,6 +771,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -643,6 +811,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -685,6 +865,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -720,6 +912,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -748,6 +952,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -902,6 +1118,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -937,6 +1165,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -965,6 +1205,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -1022,6 +1274,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1057,6 +1321,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1085,6 +1361,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -1142,6 +1430,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1177,6 +1477,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1205,6 +1517,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -1262,6 +1586,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1297,6 +1633,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1325,6 +1673,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -1382,6 +1742,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1417,6 +1789,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1445,6 +1829,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -1502,6 +1898,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1537,6 +1945,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1565,6 +1985,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -1622,6 +2054,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1657,6 +2101,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1685,6 +2141,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -1738,6 +2206,18 @@
 							<span>Гарантия: пожизненная</span>
 							<span>Питание и эстетика: сразу</span>
 						</div>
+						<div class="price-item__triggers--mob">
+							<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+							<template id="price-params-ID">
+								<div class="price-item__triggers-moblist">
+									<span>Протез: несъемный</span>
+									<span>Приемов: 3</span>
+									<span>Смена протеза: min через год</span>
+									<span>Гарантия: пожизненная</span>
+									<span>Питание и эстетика: сразу</span>
+								</div>
+							</template>
+						</div>
 						<div class="price-item__links">
 							<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 							<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1773,6 +2253,18 @@
 							<span>Гарантия: пожизненная</span>
 							<span>Питание и эстетика: сразу</span>
 						</div>
+						<div class="price-item__triggers--mob">
+							<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+							<template id="price-params-ID">
+								<div class="price-item__triggers-moblist">
+									<span>Протез: несъемный</span>
+									<span>Приемов: 3</span>
+									<span>Смена протеза: min через год</span>
+									<span>Гарантия: пожизненная</span>
+									<span>Питание и эстетика: сразу</span>
+								</div>
+							</template>
+						</div>
 						<div class="price-item__links">
 							<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 							<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1801,6 +2293,18 @@
 							<span>Смена протеза: min через год</span>
 							<span>Гарантия: пожизненная</span>
 							<span>Питание и эстетика: сразу</span>
+						</div>
+						<div class="price-item__triggers--mob">
+							<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+							<template id="price-params-ID">
+								<div class="price-item__triggers-moblist">
+									<span>Протез: несъемный</span>
+									<span>Приемов: 3</span>
+									<span>Смена протеза: min через год</span>
+									<span>Гарантия: пожизненная</span>
+									<span>Питание и эстетика: сразу</span>
+								</div>
+							</template>
 						</div>
 						<div class="price-item__links">
 							<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
@@ -1855,6 +2359,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1890,6 +2406,18 @@
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
 									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
+									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
 										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
@@ -1918,6 +2446,18 @@
 										<span>Смена протеза: min через год</span>
 										<span>Гарантия: пожизненная</span>
 										<span>Питание и эстетика: сразу</span>
+									</div>
+									<div class="price-item__triggers--mob">
+										<div class="price-item__triggers-moblink" data-tip="price-params-ID">Характеристики</div>
+										<template id="price-params-ID">
+											<div class="price-item__triggers-moblist">
+												<span>Протез: несъемный</span>
+												<span>Приемов: 3</span>
+												<span>Смена протеза: min через год</span>
+												<span>Гарантия: пожизненная</span>
+												<span>Питание и эстетика: сразу</span>
+											</div>
+										</template>
 									</div>
 									<div class="price-item__links">
 										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>

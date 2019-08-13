@@ -8936,6 +8936,8 @@
     display: block;
     padding: 2px 0;
     border-bottom: 2px dotted #cedae1; }
+    .pb .price-item__triggers-moblist span:last-child {
+      border-bottom: none; }
   .pb .price-item__links {
     display: -webkit-flex;
     display: -ms-flexbox;
