@@ -628,11 +628,7 @@
 	border-bottom: 2px dotted $gray-border;
 	padding: 10px 0 8px 0;
 	@include res(s){
-		flex-wrap: nowrap;
-		overflow: auto;
-	}
-	@include res(xs){
-		padding: 5px 0;
+		display: none;
 	}
 
 	span{
@@ -643,14 +639,38 @@
 		font-size: 14px;
 		line-height: 1.2;
 		white-space: nowrap;
-		@include res(xs){
-			font-size: 10px;
-			margin: 0 15px 2px 0;
-		}
 
 		&:last-child{
 			margin-right: 0;
 		}
+	}
+}
+
+.price-item__triggers--mob{
+	display: none;
+	@include res(s){
+		display: block;
+	}
+}
+
+.price-item__triggers-moblink{
+	display: inline-block;
+	color: $gray-text;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px dotted currentColor;
+
+	&:focus{
+		outline: none;
+	}
+}
+
+.price-item__triggers-moblist{
+	span{
+		display: block;
+		padding: 2px 0;
+		border-bottom: 2px dotted $gray-border;
 	}
 }
 

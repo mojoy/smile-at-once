@@ -8907,13 +8907,7 @@
     padding: 10px 0 8px 0; }
     @media (max-width: 680px) {
       .pb .price-item__triggers {
-        -webkit-flex-wrap: nowrap;
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-        overflow: auto; } }
-    @media (max-width: 480px) {
-      .pb .price-item__triggers {
-        padding: 5px 0; } }
+        display: none; } }
     .pb .price-item__triggers span {
       display: inline-block;
       vertical-align: top;
@@ -8922,12 +8916,26 @@
       font-size: 14px;
       line-height: 1.2;
       white-space: nowrap; }
-      @media (max-width: 480px) {
-        .pb .price-item__triggers span {
-          font-size: 10px;
-          margin: 0 15px 2px 0; } }
       .pb .price-item__triggers span:last-child {
         margin-right: 0; }
+  .pb .price-item__triggers--mob {
+    display: none; }
+    @media (max-width: 680px) {
+      .pb .price-item__triggers--mob {
+        display: block; } }
+  .pb .price-item__triggers-moblink {
+    display: inline-block;
+    color: #7b90a1;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px dotted currentColor; }
+    .pb .price-item__triggers-moblink:focus {
+      outline: none; }
+  .pb .price-item__triggers-moblist span {
+    display: block;
+    padding: 2px 0;
+    border-bottom: 2px dotted #cedae1; }
   .pb .price-item__links {
     display: -webkit-flex;
     display: -ms-flexbox;
