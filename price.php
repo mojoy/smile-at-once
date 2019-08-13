@@ -1696,111 +1696,104 @@
 			</div>
 			<div class="price-root__hidden">
 				<div class="price-root__main">
-					<div class="border-drops">
-						<div class="border-drop">
-							<div class="border-drop__header">Базальная имплантация</div>
-							<div class="border-drop__content">
-								<div class="price-item">
-									<div class="price-item__top">
-										<div class="price-item__top-left">
-											<div class="price-item__title">С адаптационным протезом</div>
-											<div class="price-item__descr">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
-										</div>
-										<div class="price-item__top-info">
-											<figure class="price-item__info" data-tip="price-ID">i</figure>
-											<template id="price-ID">
-												Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом.<br>
-												Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.
-											</template>
-										</div>
-										<div class="price-item__top-logo">
-											<img src="/img/price/nobel.png" alt="1">
-										</div>
-										<div class="price-item__top-right">
-											<div class="price-item__price">600 000 <small>руб</small></div>
-											<div class="price-item__price-old">850 000 руб</div>
-											<div class="price-item__label">Акция до 22.09.2019</div>
-											<div class="price-item__label price-item__label--gray">Поэтапная оплата 70/30</div>
-										</div>
-									</div>
-									<div class="price-item__triggers">
-										<span>Протез: несъемный</span>
-										<span>Приемов: 3</span>
-										<span>Смена протеза: min через год</span>
-										<span>Гарантия: пожизненная</span>
-										<span>Питание и эстетика: сразу</span>
-									</div>
-									<div class="price-item__links">
-										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
-										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
-										<a href="#" class="link-arrow">Подробнее об услуге <span class="i i-ar-right"></span></a>
-									</div>
-								</div>
-								<div class="price-item">
-									<div class="price-item__top">
-										<div class="price-item__top-left">
-											<div class="price-item__title">С адаптационным протезом</div>
-											<div class="price-item__descr">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
-										</div>
-										<div class="price-item__top-info">
-											<figure class="price-item__info" data-tip="price-ID2">i</figure>
-											<template id="price-ID2">
-												Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом.
-											</template>
-										</div>
-										<div class="price-item__top-logo">
-											<img src="/img/price/straumann.png" alt="1">
-										</div>
-										<div class="price-item__top-right">
-											<div class="price-item__price">600 000 <small>руб</small></div>
-											<div class="price-item__price-old">850 000 руб</div>
-											<div class="price-item__label">Акция до 22.09.2019</div>
-											<div class="price-item__label price-item__label--gray">Поэтапная оплата 70/30</div>
-										</div>
-									</div>
-									<div class="price-item__triggers">
-										<span>Протез: несъемный</span>
-										<span>Приемов: 3</span>
-										<span>Смена протеза: min через год</span>
-										<span>Гарантия: пожизненная</span>
-										<span>Питание и эстетика: сразу</span>
-									</div>
-									<div class="price-item__links">
-										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
-										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
-										<a href="#" class="link-arrow">Подробнее об услуге <span class="i i-ar-right"></span></a>
-									</div>
-								</div>
-								<div class="price-item">
-									<div class="price-item__top">
-										<div class="price-item__top-left">
-											<div class="price-item__title">С 2 имплантами Zygoma с немедленной нагрузкой имплантов с постоянным протезом</div>
-											<div class="price-item__descr">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
-										</div>
-										<div class="price-item__top-info">
-
-										</div>
-										<div class="price-item__top-logo">
-											<img src="/img/price/osstem.png" alt="1">
-										</div>
-										<div class="price-item__top-right">
-											<div class="price-item__price">600 000 <small>руб</small></div>
-										</div>
-									</div>
-									<div class="price-item__triggers">
-										<span>Протез: несъемный</span>
-										<span>Приемов: 3</span>
-										<span>Смена протеза: min через год</span>
-										<span>Гарантия: пожизненная</span>
-										<span>Питание и эстетика: сразу</span>
-									</div>
-									<div class="price-item__links">
-										<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
-										<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
-										<a href="#" class="link-arrow">Подробнее об услуге <span class="i i-ar-right"></span></a>
-									</div>
-								</div>
+					<div class="price-item">
+						<div class="price-item__top">
+							<div class="price-item__top-left">
+								<div class="price-item__title">С адаптационным протезом</div>
+								<div class="price-item__descr">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
 							</div>
+							<div class="price-item__top-info">
+								<figure class="price-item__info" data-tip="price-ID">i</figure>
+								<template id="price-ID">
+									Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом.<br>
+									Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.
+								</template>
+							</div>
+							<div class="price-item__top-logo">
+								<img src="/img/price/nobel.png" alt="1">
+							</div>
+							<div class="price-item__top-right">
+								<div class="price-item__price">600 000 <small>руб</small></div>
+								<div class="price-item__price-old">850 000 руб</div>
+								<div class="price-item__label">Акция до 22.09.2019</div>
+								<div class="price-item__label price-item__label--gray">Поэтапная оплата 70/30</div>
+							</div>
+						</div>
+						<div class="price-item__triggers">
+							<span>Протез: несъемный</span>
+							<span>Приемов: 3</span>
+							<span>Смена протеза: min через год</span>
+							<span>Гарантия: пожизненная</span>
+							<span>Питание и эстетика: сразу</span>
+						</div>
+						<div class="price-item__links">
+							<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
+							<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
+							<a href="#" class="link-arrow">Подробнее об услуге <span class="i i-ar-right"></span></a>
+						</div>
+					</div>
+					<div class="price-item">
+						<div class="price-item__top">
+							<div class="price-item__top-left">
+								<div class="price-item__title">С адаптационным протезом</div>
+								<div class="price-item__descr"></div>
+							</div>
+							<div class="price-item__top-info">
+								<figure class="price-item__info" data-tip="price-ID2">i</figure>
+								<template id="price-ID2">
+									Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом.
+								</template>
+							</div>
+							<div class="price-item__top-logo">
+								<img src="/img/price/straumann.png" alt="1">
+							</div>
+							<div class="price-item__top-right">
+								<div class="price-item__price">600 000 <small>руб</small></div>
+								<div class="price-item__price-old">850 000 руб</div>
+								<div class="price-item__label">Акция до 22.09.2019</div>
+								<div class="price-item__label price-item__label--gray">Поэтапная оплата 70/30</div>
+							</div>
+						</div>
+						<div class="price-item__triggers">
+							<span>Протез: несъемный</span>
+							<span>Приемов: 3</span>
+							<span>Смена протеза: min через год</span>
+							<span>Гарантия: пожизненная</span>
+							<span>Питание и эстетика: сразу</span>
+						</div>
+						<div class="price-item__links">
+							<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
+							<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
+							<a href="#" class="link-arrow">Подробнее об услуге <span class="i i-ar-right"></span></a>
+						</div>
+					</div>
+					<div class="price-item">
+						<div class="price-item__top">
+							<div class="price-item__top-left">
+								<div class="price-item__title">С 2 имплантами Zygoma с немедленной нагрузкой имплантов с постоянным протезом</div>
+								<div class="price-item__descr">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
+							</div>
+							<div class="price-item__top-info">
+
+							</div>
+							<div class="price-item__top-logo">
+								<img src="/img/price/osstem.png" alt="1">
+							</div>
+							<div class="price-item__top-right">
+								<div class="price-item__price">600 000 <small>руб</small></div>
+							</div>
+						</div>
+						<div class="price-item__triggers">
+							<span>Протез: несъемный</span>
+							<span>Приемов: 3</span>
+							<span>Смена протеза: min через год</span>
+							<span>Гарантия: пожизненная</span>
+							<span>Питание и эстетика: сразу</span>
+						</div>
+						<div class="price-item__links">
+							<a href="#modal-callback" class="link-arrow fancy-modal">Бесплатная консультация <span class="i i-ar-right"></span></a>
+							<a href="/price-details.php" class="link-arrow">Что входит в стомость? <span class="i i-ar-right"></span></a>
+							<a href="#" class="link-arrow">Подробнее об услуге <span class="i i-ar-right"></span></a>
 						</div>
 					</div>
 				</div>

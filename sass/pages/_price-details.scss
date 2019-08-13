@@ -96,6 +96,9 @@
 
 .price-details-main__title{
 	margin-bottom: 0.5em;
+	@include res(xs){
+		margin-bottom: 30px;
+	}
 }
 
 .price-include{
@@ -155,6 +158,11 @@
 	@include res(xl){
 		padding: 30px 25px;
 	}
+	@include res(m){
+		background: $bg-color;
+		box-shadow: $shadow-block-big;
+		margin-bottom: 20px;
+	}
 
 	&:hover{
 		background: $bg-color;
@@ -168,6 +176,9 @@
 	&:before{
 		opacity: 0;
 		transition: opacity 0.3s ease;
+		@include res(m){
+			opacity: 1;
+		}
 	}
 
 	.h3{
@@ -226,7 +237,7 @@
 	display: flex;
 	@include res(m){
 		order: -1;
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 		justify-content: center;
 	}
 }
@@ -342,6 +353,7 @@
 	cursor: pointer;
 	min-height: 60px;
 	transition: box-shadow 0.3s ease;
+	box-shadow: $shadow-block;
 	@include res(s){
 		padding: 5px 10px 5px 40px;
 	}
