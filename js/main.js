@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded',function () {
 	var casesThumbs = new Swiper ('.cases-thumbs', {
 		slidesPerView: 'auto',
 		centeredSlides: true,
-		loop: true,
+		// loop: true,
 		slideToClickedSlide: true,
 		watchSlidesVisibility: true,
 		preloadImages: false,
@@ -754,11 +754,8 @@ $(function($){
 	var tippyOptions = {
 		content: function (reference) {
 			var id = reference.getAttribute('data-tip');
-			var container = document.createElement('div');
-			var linkedTemplate = document.getElementById(id);
-			var node = document.importNode(linkedTemplate.content, true);
-			container.appendChild(node);
-			return container
+			var template = document.getElementById(id);
+			return template.innerHTML;
 		},
 		animation: 'shift-away',
 		animateFill: false,

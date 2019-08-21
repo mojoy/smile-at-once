@@ -272,7 +272,7 @@
 			<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text danger">
 			<button type="submit" class="button">Отправить</button>
 			<label class="style-check-ios style-check-ios--small">
-				<input type="checkbox" name="user_policy" value="yes"checked="">
+				<input type="checkbox" name="user_policy" value="yes" checked="">
 				<span>Соглашаюсь на&nbsp;обработку персональных данных и&nbsp;с&nbsp;условиями политики конфиденциальности</span>
 			</label>
 		</form>
@@ -289,7 +289,7 @@
 			<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text danger">
 			<button type="submit" class="button">Отправить</button>
 			<label class="style-check-ios style-check-ios--small">
-				<input type="checkbox" name="user_policy" value="yes"checked="">
+				<input type="checkbox" name="user_policy" value="yes" checked="">
 				<span>Соглашаюсь на&nbsp;обработку персональных данных и&nbsp;с&nbsp;условиями политики конфиденциальности</span>
 			</label>
 		</form>

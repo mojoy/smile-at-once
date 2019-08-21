@@ -1441,7 +1441,7 @@
 			<div class="grid-2 grid-4_l grid-6_s rating-block-wrapper">
 				<a href="#" class="rating-block">
 					<header class="rating-block__header">
-						<img src="" data-lazy="/img/home/rating-6.png" alt="1">
+						<img src="" data-lazy="/img/home/rating-7.svg" alt="1">
 					</header>
 					<main class="rating-block__num">4.9</main>
 					<footer class="rating-block__descr">из возможных 5</footer>

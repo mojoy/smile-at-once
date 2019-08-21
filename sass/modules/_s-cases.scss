@@ -26,6 +26,21 @@
 	user-select: none;
 	z-index: 2;
 
+
+}
+
+.cases-thumbs__nav{
+	width: 128px;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	margin: auto;
+	@include res(l){
+		width: 90px;
+	}
+
 	&:after{
 		content: '';
 		position: absolute;
@@ -45,24 +60,11 @@
 	}
 }
 
-.cases-thumbs__nav{
-	width: 128px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	margin: auto;
-	@include res(l){
-		width: 90px;
-	}
-}
-
 .cases-thumbs__item{
 	position: relative;
 	width: 128px;
 	cursor: pointer;
-	padding: 10px;
+	flex-shrink: 0;
 	@include res(l){
 		width: 90px;
 	}
@@ -81,7 +83,8 @@
 			z-index: 2;
 			border-radius: 10px;
 			display: block;
-			width: 100%;
+			width: calc(100% - 20px);
+			left: 10px;
 			height: auto;
 			opacity: 0;
 			transition: opacity 0.3s ease;
@@ -91,7 +94,7 @@
 		&.cases-thumbs__bw{
 			position: absolute;
 			z-index: 1;
-			top: 10px;
+			top: 0;
 			left: 10px;
 			filter: grayscale(100%);
 			width: calc(100% - 20px);
@@ -126,6 +129,10 @@
 .cases{
 	flex: 1 1 auto;
 	position: relative;
+	width: calc(100% - 320px);
+	@include res(m){
+		width: 100%;
+	}
 }
 
 .case{

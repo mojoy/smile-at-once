@@ -167,7 +167,7 @@
 }
 
 .main-nav__sub{
-	display: flex;
+	display: block;
 	position: absolute;
 	top: calc(100% + 8px);
 	left: 0;
@@ -180,9 +180,11 @@
 	transition: all 0.2s ease;
 	transform: translate3d(0,-10px,0);
 	z-index: 10;
+	white-space: nowrap;
 }
 
 .main-nav__sub-menu{
+	flex-shrink: 0;
 
 	li{
 		display: block;
@@ -209,6 +211,8 @@
 
 //main-nav__sub-doctors
 .main-nav__sub-doctors{
+	display: inline-block;
+	vertical-align: top;
 	padding: 10px 0;
 	@media (max-height: 700px) {
 		padding: 4px 0;
