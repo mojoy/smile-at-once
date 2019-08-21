@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded',function () {
 	var casesThumbs = new Swiper ('.cases-thumbs', {
 		slidesPerView: 'auto',
 		centeredSlides: true,
-		// loop: true,
+		loop: true,
 		slideToClickedSlide: true,
 		watchSlidesVisibility: true,
 		preloadImages: false,
