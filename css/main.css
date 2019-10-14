@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: 'smileicons';
-  src: url("../fonts/smileicons.ttf?2dr8q4") format("truetype"), url("../fonts/smileicons.woff?2dr8q4") format("woff"), url("../fonts/smileicons.svg?2dr8q4#smileicons") format("svg");
+  src: url("../fonts/smileicons.ttf?2dr8q42") format("truetype"), url("../fonts/smileicons.woff?2dr8q42") format("woff"), url("../fonts/smileicons.svg?2dr8q42#smileicons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -53,6 +53,10 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.i-dzen:before {
+  content: "\e913";
 }
 
 .i-minus:before {

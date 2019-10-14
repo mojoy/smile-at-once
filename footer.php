@@ -21,6 +21,7 @@
 			</a>
 		</div>
 		<div class="social-links">
+			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/dzen.svg" alt="1"></a>
 			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/vk.svg" alt="1"></a>
 			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/facebook.svg" alt="2"></a>
 			<a href="#" target="_blank" class="social-links__item"><img src="/img/footer/insta.svg" alt="3"></a>
