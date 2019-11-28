@@ -197,7 +197,7 @@
 				<div class="grid-2 grid-3_l grid-6_s">
 					<ul class="footer-list">
 						<li><a href="#">О клинике</a></li>
-						<li><a href="#">Врачи</a></li>
+						<li><a href="/doctors.php">Врачи</a></li>
 						<li><a href="#" class="current">Членство в Ассоциациях</a></li>
 						<li><a href="#">Награды и достижения</a></li>
 						<li><a href="#">Правовая информация</a></li>

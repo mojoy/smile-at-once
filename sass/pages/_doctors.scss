@@ -1,0 +1,76 @@
+//s-doctors-title
+.s-doctors-title{
+	text-align: center;
+	padding-top: 70px;
+	@include res(l){
+		padding-top: 40px;
+	}
+}
+//s-doctors-title
+
+
+//promo-banner-prize
+.promo-banner-prize{
+	min-height: auto;
+	@include res(s){
+		flex-direction: row;
+	}
+}
+
+.promo-banner-prize__imgwrap{
+	width: 33%;
+	padding: 0 15px;
+	text-align: center;
+	align-self: flex-start;
+	@include res(l){
+		width: 115px;
+		flex-shrink: 0;
+	}
+	@include res(xs){
+		width: 60px;
+		padding: 0 5px 0 0;
+	}
+}
+
+.promo-banner-prize__img{
+	max-width: 100%;
+	height: auto;
+}
+
+.promo-banner-prize__content{
+	position: relative;
+	z-index: 2;
+	padding: 30px 30px 30px 0;
+	@include res(l){
+
+	}
+	@include res(xs){
+		padding: 15px 15px 20px 0;
+	}
+
+	.h2{
+		margin-bottom: 0.3em;
+	}
+}
+
+.promo-banner-prize__text{
+	font-size: 22px;
+	line-height: 1.2;
+	@include res(l){
+		font-size: 18px;
+	}
+	@include res(xs){
+		font-size: 16px;
+	}
+}
+
+.promo-banner-prize__btn{
+	margin-top: 25px;
+	width: 250px;
+	max-width: 100%;
+	@include res(xs){
+		width: 200px;
+		margin-top: 15px;
+	}
+}
+//promo-banner-prize

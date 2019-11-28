@@ -102,7 +102,7 @@
 					</li>
 					<li><a href="#" class="current">До и после</a></li>
 					<li class="main-nav__has-sub">
-						<a href="#">Врачи</a>
+						<a href="/doctors.php">Врачи</a>
 						<div class="main-nav__sub">
 							<ul class="main-nav__sub-doctors">
 								<li>
