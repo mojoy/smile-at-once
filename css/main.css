@@ -3859,9 +3859,27 @@
   transform: translate3d(0, 2px, 0);
 }
 
+.pb .button .i {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.pb .button--medium {
+  padding: 11px 20px;
+  font-size: 16px;
+}
+
+.pb .button--medium .i {
+  margin-left: 5px;
+}
+
 .pb .button--small {
   padding: 8px 15px;
   font-size: 14px;
+}
+
+.pb .button--small .i {
+  margin-left: 5px;
 }
 
 .pb button::-moz-focus-inner {
@@ -3904,11 +3922,6 @@
   box-shadow: none;
   -webkit-transform: none;
   transform: none;
-}
-
-.pb .button--outline .i {
-  font-size: 14px;
-  margin-left: 20px;
 }
 
 .pb .play-btn {
@@ -4305,6 +4318,17 @@
     font-size: 14px;
     width: 14px;
     height: 14px;
+  }
+}
+
+.pb .s-header-title {
+  text-align: center;
+  padding-top: 70px;
+}
+
+@media (max-width: 1024px) {
+  .pb .s-header-title {
+    padding-top: 40px;
   }
 }
 
@@ -6696,6 +6720,7 @@
   position: relative;
   text-align: center;
   padding: 12px;
+  width: 100%;
 }
 
 .pb .prize-block:hover:before {
@@ -14109,4 +14134,96 @@
     width: 200px;
     margin-top: 15px;
   }
+}
+
+.pb .s-doctors .doctor-preview {
+  margin-bottom: 30px;
+}
+
+.pb .s-doctors .promo-banner {
+  margin-bottom: 30px;
+}
+
+.pb .doctor-preview {
+  background: #FFF;
+  border-radius: 20px;
+  box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5);
+  overflow: hidden;
+}
+
+.pb .doctor-preview__content {
+  padding: 25px 30px 10px 30px;
+}
+
+@media (max-width: 768px) {
+  .pb .doctor-preview__content {
+    padding: 15px 15px 10px 15px;
+  }
+}
+
+.pb .doctor-preview__name {
+  margin-bottom: 0.5em;
+}
+
+.pb .doctor-preview__descr {
+  color: #7b90a1;
+  font-size: 18px;
+  line-height: 1.2;
+  min-height: 2.4em;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .pb .doctor-preview__descr {
+    font-size: 16px;
+  }
+}
+
+.pb .doctor-preview__actions {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.pb .doctor-preview__xp {
+  display: inline-block;
+  border-radius: 15px;
+  background: #72dbd4;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  padding: 2px 10px;
+}
+
+.pb .doctor-preview__photo {
+  background: url("../img/doctors/preview-bg.jpg") center top no-repeat;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  height: 320px;
+}
+
+.pb .doctor-preview__photo img {
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  max-width: 90%;
+  height: auto;
 }

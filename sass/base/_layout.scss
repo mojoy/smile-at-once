@@ -1,0 +1,7 @@
+.s-header-title{
+	text-align: center;
+	padding-top: 70px;
+	@include res(l){
+		padding-top: 40px;
+	}
+}

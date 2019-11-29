@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<section class="s-doctors-title">
+<section class="s-header-title">
 	<div class="container">
 		<h1 class="h1">Команда врачей профессионалов высокого уровня</h1>
 	</div>
@@ -14,121 +14,77 @@
 				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/1.png" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/1_1.png" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/1.png" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/1.png" alt="1" class="swiper-lazy">
 					</header>
-					<div class="prize-block__name">Статус лучшая стоматология страны 2018</div>
-					<div class="prize-block__descr">Медаль лучшие стоматологии РФ 2018</div>
+					<div class="prize-block__name">European Federation of Periodontology</div>
+					<div class="prize-block__descr"></div>
 				</a>
 			</div>
 			<div class="swiper-slide">
 				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/2.png" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/2_1.jpg" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/2.png" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/2.png" alt="1" class="swiper-lazy">
 					</header>
-					<div class="prize-block__name">Права потребителей и качество обслуживания</div>
-					<div class="prize-block__descr">Награда Права потребителей и качество обслуживания</div>
+					<div class="prize-block__name">Clinical Masters in Implant Regeneration</div>
+					<div class="prize-block__descr"></div>
 				</a>
 			</div>
 			<div class="swiper-slide">
 				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/3.png" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/3_1.jpg" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/3.png" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/3.png" alt="1" class="swiper-lazy">
 					</header>
-					<div class="prize-block__name">ТОП-100 лучших стоматологий России</div>
-					<div class="prize-block__descr">Сертификат STARTSMILE</div>
+					<div class="prize-block__name">Clinical Masters in Esthetic and Restorative Dentistry</div>
+					<div class="prize-block__descr"></div>
 				</a>
 			</div>
 			<div class="swiper-slide">
 				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/4.jpg" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/4_1.jpg" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/4.png" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/4.png" alt="1" class="swiper-lazy">
 					</header>
-					<div class="prize-block__name">Инновационный центр СтАР</div>
-					<div class="prize-block__descr">Диплом Стоматологической Ассоциации России</div>
+					<div class="prize-block__name">Digital Dentistry Society</div>
+					<div class="prize-block__descr"></div>
 				</a>
 			</div>
 			<div class="swiper-slide">
 				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/5.jpg" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/5_1.jpg" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/5.png" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/5.png" alt="1" class="swiper-lazy">
 					</header>
-					<div class="prize-block__name">Международная премия «Грация»</div>
-					<div class="prize-block__descr">«Лучшая стоматологическая клиника. Доверие и репутация» «Лучшая сеть стоматологических клиник»</div>
+					<div class="prize-block__name">Straumann</div>
+					<div class="prize-block__descr"></div>
 				</a>
 			</div>
 			<div class="swiper-slide">
 				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/6.png" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/6_1.png" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/6.png" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/6.png" alt="1" class="swiper-lazy">
 					</header>
-					<div class="prize-block__name">Премия «Время инноваций»</div>
-					<div class="prize-block__descr">«Лучшая стоматологическая клиника. Доверие и репутация» «Лучшая сеть стоматологических клиник»</div>
+					<div class="prize-block__name">International Implant Foundation</div>
+					<div class="prize-block__descr"></div>
 				</a>
 			</div>
 			<div class="swiper-slide">
 				<a href="#" class="prize-block">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/7.png" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/7_1.jpg" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/7.png" alt="1" class="swiper-lazy">
+						<img src="/img/prizes/placeholder.png" data-src="/img/doctors/serts/7.png" alt="1" class="swiper-lazy">
 					</header>
-					<div class="prize-block__name">ТОП-100 лучших предприятий и организаций страны</div>
-					<div class="prize-block__descr">Награда 100 лучших предприятий и организаций</div>
-				</a>
-			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
-					<header class="prize-block__header">
-						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/8.png" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/8_1.jpg" alt="1" class="swiper-lazy">
-					</header>
-					<div class="prize-block__name">100 лучших медицинских организаций</div>
-					<div class="prize-block__descr">Награда 100 лучших медицинских организаций</div>
-				</a>
-			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
-					<header class="prize-block__header">
-						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/9.png" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/9_1.jpg" alt="1" class="swiper-lazy">
-					</header>
-					<div class="prize-block__name">ISO ООО "Стоматология новая улыбка"</div>
-					<div class="prize-block__descr">Сертификат соответствия</div>
-				</a>
-			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
-					<header class="prize-block__header">
-						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/10.png" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/10_1.jpg" alt="1" class="swiper-lazy">
-					</header>
-					<div class="prize-block__name">Высокое качество "Стоматология новая улыбка"</div>
-					<div class="prize-block__descr">Сертификат соответствия</div>
-				</a>
-			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
-					<header class="prize-block__header">
-						<div class="slide-loading"></div>
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/11.png" alt="1" class="swiper-lazy">
-						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/11_1.jpg" alt="1" class="swiper-lazy">
-					</header>
-					<div class="prize-block__name">Инновация года ООО "Стоматология новая улыбка"</div>
-					<div class="prize-block__descr">Сертификат соответствия</div>
+					<div class="prize-block__name">American Academy of Periodontology</div>
+					<div class="prize-block__descr"></div>
 				</a>
 			</div>
 		</div>
@@ -143,15 +99,105 @@
 </section>
 
 
-<section class="s-doctors s-def-bottom">
+<section class="s-doctors s-def">
 	<div class="container">
 		<div class="row">
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</div>
+						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 137</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/1.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 100</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/2.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 100</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/3.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</div>
+						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 137</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/1.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 100</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/2.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 100</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/3.png" alt="">
+					</div>
+				</div>
+			</div>
 
 			<div class="grid-12">
 				<div class="promo-banner promo-banner--pink promo-banner-prize">
@@ -166,12 +212,102 @@
 				</div>
 			</div>
 
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
-			<div class="grid-4">1</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</div>
+						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 137</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/1.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 100</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/2.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 100</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/3.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</div>
+						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 137</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/1.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 100</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/2.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="doctor-preview">
+					<div class="doctor-preview__content">
+						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<div class="doctor-preview__actions">
+							<a href="#" class="link-dot">Отзывы 100</a>
+							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+						</div>
+						<div class="doctor-preview__xp">Стаж 15 лет</div>
+					</div>
+					<div class="doctor-preview__photo">
+						<img src="/img/doctors/preview/3.png" alt="">
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
