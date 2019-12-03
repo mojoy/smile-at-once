@@ -132,7 +132,7 @@
 	justify-content: center;
 	position: relative;
 	flex-wrap: wrap;
-	padding-top: 80px;
+	padding-top: 65px;
 	@include res(l){
 		padding-top: 20px;
 	}
@@ -735,7 +735,7 @@
 }
 
 .ratings-row{
-	padding-top: 40px;
+	padding-top: 15px;
 	@include res(xs){
 		padding-top: 0;
 	}

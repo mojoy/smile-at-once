@@ -105,97 +105,97 @@
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</div>
+						<a href="/doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
 						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 137</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/1.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<a href="doctor.php" class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</a>
 						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/2.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<a href="doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
 						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/3.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</div>
+						<a href="/doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
 						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 137</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/1.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<a href="doctor.php" class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</a>
 						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/2.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<a href="doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
 						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/3.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 
@@ -215,99 +215,100 @@
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</div>
+						<a href="/doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
 						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 137</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/1.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<a href="doctor.php" class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</a>
 						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/2.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<a href="doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
 						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/3.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</div>
+						<a href="/doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
 						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 137</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/1.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<a href="doctor.php" class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</a>
 						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/2.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<div class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</div>
+						<a href="doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
 						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
-							<a href="#" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
+							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
 						<div class="doctor-preview__xp">Стаж 15 лет</div>
 					</div>
-					<div class="doctor-preview__photo">
+					<a href="doctor.php" class="doctor-preview__photo">
 						<img src="/img/doctors/preview/3.png" alt="">
-					</div>
+					</a>
 				</div>
 			</div>
+
 		</div>
 	</div>
 </section>

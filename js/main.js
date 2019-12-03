@@ -873,3 +873,150 @@ $(function($){
 /***********************
 price video drops END
 ***********************/
+
+
+/***********************
+revnew BEGIN
+***********************/
+$(function($){
+	var revnewNav = new Swiper('.revnew-nav', {
+		speed: 600,
+		slidesPerView: 'auto',
+		centeredSlides: true,
+		slideToClickedSlide: true,
+		watchOverflow: true,
+		threshold: 2,
+		on: {
+			init: function () {
+				var thisSliderWrapper = this.el.parentElement;
+				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+				this.params.navigation.nextEl = thisBtnNext;
+				this.params.navigation.prevEl = thisBtnPrev;
+			}
+		}
+	});
+
+	var revnewItems = new Swiper('.revnew-list', {
+		speed: 600,
+		slidesPerView: 'auto',
+		watchOverflow: true,
+		preloadImages: false,
+		lazy: true,
+		threshold: 10
+	});
+
+	revnewNav.controller.control = revnewItems;
+	revnewItems.controller.control = revnewNav;
+});
+/***********************
+revnew END
+***********************/
+
+
+/***********************
+sert slider BEGIN
+***********************/
+$(function($){
+	var sertsSlider = new Swiper('.serts-slider', {
+		speed: 600,
+		slidesPerView: 'auto',
+		watchOverflow: true,
+		watchSlidesVisibility: true,
+		on: {
+			init: function () {
+				var thisSliderWrapper = this.el.parentElement;
+				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+				this.params.navigation.nextEl = thisBtnNext;
+				this.params.navigation.prevEl = thisBtnPrev;
+				if (this.isLocked){
+					this.$wrapperEl.addClass('centered')
+				} else {
+					this.$wrapperEl.removeClass('centered')
+				}
+			}
+		}
+	});
+});
+/***********************
+sert slider END
+***********************/
+
+
+/***********************
+doctor portfolio slider BEGIN
+***********************/
+$(function($){
+	$('.portfolio-ba').twentytwenty({
+		no_overlay: true,
+		move_slider_on_hover: true
+	});
+
+	var portfolioSlider = new Swiper('.portfolio-slider', {
+		speed: 600,
+		slidesPerView: 3,
+		watchOverflow: true,
+		preloadImages: true,
+		watchSlidesVisibility: true,
+		spaceBetween: 50,
+		allowTouchMove: false,
+		lazy: true,
+		on: {
+			init: function () {
+				var thisSliderWrapper = this.el.parentElement;
+				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+				this.params.navigation.nextEl = thisBtnNext;
+				this.params.navigation.prevEl = thisBtnPrev;
+				var self = this
+				setTimeout(function () {
+					if (self.isLocked){
+						self.$wrapperEl.addClass('centered')
+					} else {
+						self.$wrapperEl.removeClass('centered')
+					}
+				},500)
+			},
+			lazyImageReady: function (item,imageEl) {
+				$(window).trigger("resize.twentytwenty");
+			}
+		},
+		breakpoints: {
+			1024: {
+				spaceBetween: 20
+			},
+			640: {
+				slidesPerView: 2
+			},
+			480: {
+				slidesPerView: 1,
+				spaceBetween: 10
+			}
+		}
+	});
+
+
+
+});
+/***********************
+doctor portfolio slider END
+***********************/
+
+
+/***********************
+doctor minivides toggle BEGIN
+***********************/
+$(function($){
+	$('.js-minivideos-show').on('click',function () {
+		$('.doctor-faq-minivideos__hidden').slideToggle();
+		if ($(this).text() === "Показать еще") {
+			$(this).text("Свернуть");
+		} else {
+			$(this).text("Показать еще");
+		}
+	})
+});
+/***********************
+doctor minivides toggle END
+***********************/

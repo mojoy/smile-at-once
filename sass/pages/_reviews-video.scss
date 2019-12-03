@@ -1,6 +1,6 @@
 //s-review-begin
 .s-review-begin{
-	background: url("../img/bg-rombs.png") center 100px no-repeat #eefafc;
+	background: url("../img/bg-rombs.png") center 100px no-repeat $green-bg;
 	background-size: 100% auto;
 	padding: 60px 0 130px;
 	@extend %round-bottom;

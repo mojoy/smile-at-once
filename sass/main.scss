@@ -10,6 +10,7 @@
 @import 'vendors/swiper';
 @import 'vendors/star-rating-svg';
 @import 'vendors/tippy';
+@import 'vendors/twentytwenty-no-compass';
 
 @import 'base/reset';
 
@@ -43,6 +44,7 @@
 @import 'modules/s-order';
 @import 'modules/video-screen';
 @import 'modules/pop-message';
+@import 'modules/s-revnew';
 
 @import 'pages/home';
 @import 'pages/reviews';
@@ -50,4 +52,5 @@
 @import 'pages/price';
 @import 'pages/price-details';
 @import 'pages/doctors';
+@import 'pages/doctor';
 }

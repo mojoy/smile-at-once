@@ -6,3 +6,5 @@
 //@prepros-append vendors/jquery.star-rating-svg.min.js
 //@prepros-append vendors/popper.min.js
 //@prepros-append vendors/tippy.min.js
+//@prepros-append vendors/jquery.event.move.js
+//@prepros-append vendors/jquery.twentytwenty.js

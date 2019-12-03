@@ -28,7 +28,7 @@
 	<!-- og -->
 
 <!--	<link href="css/all-prev.css" rel="stylesheet">-->
-	<link href="css/all.css" rel="stylesheet">
+	<!--<link href="css/all.css" rel="stylesheet">-->
 <!--	<link href="css/all_doctors_dev.css" rel="stylesheet">-->
 <!--	<link href="css/animate.min.css" rel="stylesheet">-->
 	<link href="css/main.css?v=20" rel="stylesheet">
