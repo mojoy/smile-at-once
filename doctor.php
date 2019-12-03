@@ -54,17 +54,17 @@
 <section class="s-doctor-nav">
 	<div class="container">
 		<nav class="doctor-nav">
-			<a href="#">Отзывы</a>
-			<a href="#">Специализация</a>
-			<a href="#">Образование</a>
-			<a href="#">Портфолио</a>
-			<a href="#">Экспертные ответы на вопросы</a>
+			<a href="#reviews" class="scrollto">Отзывы</a>
+			<a href="#spec" class="scrollto">Специализация</a>
+			<a href="#education" class="scrollto">Образование</a>
+			<a href="#portfolio" class="scrollto">Портфолио</a>
+			<a href="#faq" class="scrollto">Экспертные ответы на вопросы</a>
 		</nav>
 	</div>
 </section>
 
 
-<section class="s-doctor-services s-def">
+<section class="s-doctor-services s-def" id="spec">
 	<div class="container">
 		<div class="h1 sec-title">Основные направления деятельности</div>
 
@@ -311,7 +311,7 @@
 </section>
 
 
-<section class="s-doctor-portfolio s-def">
+<section class="s-doctor-portfolio s-def" id="portfolio">
 	<div class="container">
 		<div class="h1 sec-title">Портфолио врача</div>
 		<div class="swiper-slider__wrapper">
@@ -374,7 +374,7 @@
 </section>
 
 
-<section class="s-doctor-history round-bottom s-def">
+<section class="s-doctor-history round-bottom s-def" id="education">
 	<div class="container">
 		<div class="user-content">
 			<div class="h1">Образование</div>
@@ -501,7 +501,7 @@
 </section>
 
 
-<section class="s-doctor-faq s-def">
+<section class="s-doctor-faq s-def" id="faq">
 	<div class="container">
 		<div class="h1 sec-title">Экспертные ответы на часто задаваемые вопросы пациентов</div>
 
@@ -704,7 +704,7 @@
 </section>
 
 
-<section class="s-doctor-reviews s-def-top">
+<section class="s-doctor-reviews s-def-top" id="reviews">
 	<div class="container">
 		<div class="h1 sec-title">Отзывы пациентов</div>
 		<div class="sec-title-descr">

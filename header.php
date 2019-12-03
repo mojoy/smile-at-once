@@ -944,7 +944,7 @@
 		</li>
 		<li><a href="#" class="current">До и после</a></li>
 		<li class="has-sub">
-			<a href="#">Врачи</a>
+			<a href="/doctors.php">Врачи</a>
 			<div class="i i-down"></div>
 			<ul>
 				<li><a href="#">Намдаков Николай Владимирович</a></li>
