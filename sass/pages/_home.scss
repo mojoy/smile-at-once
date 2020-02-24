@@ -379,6 +379,16 @@
 			display: none;
 		}
 	}
+
+	&--os{
+		padding-top: 6%;
+
+		.facts-panels{
+			@include res(m){
+				display: flex;
+			}
+		}
+	}
 }
 
 .facts-rombs{

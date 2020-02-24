@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'smileicons';
 	src:
-		url('../fonts/smileicons.ttf?2dr8q42') format('truetype'),
-		url('../fonts/smileicons.woff?2dr8q42') format('woff'),
-		url('../fonts/smileicons.svg?2dr8q42#smileicons') format('svg');
+		url('../fonts/smileicons.ttf?r6pot5') format('truetype'),
+		url('../fonts/smileicons.woff?r6pot5') format('woff'),
+		url('../fonts/smileicons.svg?r6pot5#smileicons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-pin-fill:before {
+	content: "\e914";
+}
 .i-dzen:before {
 	content: "\e913";
 }

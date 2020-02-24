@@ -879,35 +879,37 @@ price video drops END
 revnew BEGIN
 ***********************/
 $(function($){
-	var revnewNav = new Swiper('.revnew-nav', {
-		speed: 600,
-		slidesPerView: 'auto',
-		centeredSlides: true,
-		slideToClickedSlide: true,
-		watchOverflow: true,
-		threshold: 2,
-		on: {
-			init: function () {
-				var thisSliderWrapper = this.el.parentElement;
-				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
-				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
-				this.params.navigation.nextEl = thisBtnNext;
-				this.params.navigation.prevEl = thisBtnPrev;
+	if ($('.revnew-nav').length) {
+		var revnewNav = new Swiper('.revnew-nav', {
+			speed: 600,
+			slidesPerView: 'auto',
+			centeredSlides: true,
+			slideToClickedSlide: true,
+			watchOverflow: true,
+			threshold: 2,
+			on: {
+				init: function () {
+					var thisSliderWrapper = this.el.parentElement;
+					var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+					var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+					this.params.navigation.nextEl = thisBtnNext;
+					this.params.navigation.prevEl = thisBtnPrev;
+				}
 			}
-		}
-	});
+		});
 
-	var revnewItems = new Swiper('.revnew-list', {
-		speed: 600,
-		slidesPerView: 'auto',
-		watchOverflow: true,
-		preloadImages: false,
-		lazy: true,
-		threshold: 10
-	});
+		var revnewItems = new Swiper('.revnew-list', {
+			speed: 600,
+			slidesPerView: 'auto',
+			watchOverflow: true,
+			preloadImages: false,
+			lazy: true,
+			threshold: 10
+		});
 
-	revnewNav.controller.control = revnewItems;
-	revnewItems.controller.control = revnewNav;
+		revnewNav.controller.control = revnewItems;
+		revnewItems.controller.control = revnewNav;
+	}
 });
 /***********************
 revnew END

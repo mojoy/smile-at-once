@@ -4,6 +4,10 @@
 	.review-intro{
 		margin-bottom: 60px;
 	}
+
+	&+.center-btn{
+		padding-top: 40px;
+	}
 }
 
 .review-intro-wrap{
@@ -26,6 +30,39 @@
 
 	&:hover{
 		color: $pink;
+	}
+}
+
+.review-intro__city{
+	display: inline-block;
+	border: 2px solid $gray-text;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: $gray-text;
+	align-self: flex-start;
+	padding: 2px 8px;
+	margin-bottom: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	@include res(xs){
+		font-size: 14px;
+	}
+
+	.i{
+		display: inline-block;
+		vertical-align: middle;
+		top: -2px;
+		position: relative;
+		margin-right: 3px;
+		font-size: 20px;
+		@include res(xs){
+			font-size: 14px;
+		}
 	}
 }
 

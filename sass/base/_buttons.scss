@@ -26,6 +26,9 @@
 		font-size: 16px;
 		padding: 13px 20px 11px;
 	}
+	@include res(xs){
+		font-size: 14px;
+	}
 
 	&:focus {
 		background: linear-gradient(to bottom, #f85e76, #e12e5e);

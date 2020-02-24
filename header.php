@@ -282,7 +282,7 @@
 						</div>
 					</li>
 					<li><a href="/reviews.php ">Отзывы</a></li>
-					<li><a href="#">Пациентам из других городов</a></li>
+					<li><a href="/other-cities.php">Пациентам из других городов</a></li>
 				</ul>
 				<div class="main-nav-callback">
 					<button class="main-nav-callback__btn">
@@ -969,7 +969,7 @@
 			</ul>
 		</li>
 		<li><a href="/reviews.php">Отзывы</a></li>
-		<li><a href="#">Пациентам из других городов</a></li>
+		<li><a href="/other-cities.php">Пациентам из других городов</a></li>
 	</ul>
 
 	<div class="mob-panel__footer">
