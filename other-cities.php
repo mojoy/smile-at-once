@@ -253,7 +253,6 @@
 				<div class="order-vertical bordered-block bordered-block--pink">
 					<div class="order-vertical__title">Получите консультацию врача и&nbsp;3D&nbsp;диагностику<br><mark>бесплатно!</mark></div>
 					<form class="vertical-form">
-						<input type="hidden" value="Заказ консультации и книги" name="form_subject">
 						<input type="text" name="user_name" placeholder="Введите имя" class="input-text" >
 						<input type="email" name="user_email" placeholder="Введите e-mail*" class="input-text" data-req="true">
 						<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text" data-req="true">
