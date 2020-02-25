@@ -585,6 +585,8 @@
 
 	img{
 		display: block;
+		user-select: none;
+		pointer-events: none;
 
 		&:nth-child(2){
 			position: absolute;

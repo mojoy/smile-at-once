@@ -133,6 +133,12 @@
 	position: relative;
 	flex-wrap: wrap;
 	padding-top: 65px;
+	@include res(xl){
+		width: 1100px;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	@include res(l){
 		padding-top: 20px;
 	}
@@ -263,6 +269,54 @@
 			font-size: 20px;
 			margin-right: 7px;
 		}
+	}
+}
+
+.s-regions--six{
+
+	.regions-step{
+		@include res(l){
+			&:nth-child(1){order: 1;}
+			&:nth-child(2){order: 2;}
+			&:nth-child(3){order: 4;}
+			&:nth-child(4){order: 5;}
+			&:nth-child(5){order: 6;}
+			&:nth-child(6){order: 3;}
+
+			&:nth-child(5){
+				position: absolute;
+				left: 0;
+				right: 0;
+				margin: auto;
+				top: 670px;
+				@include res(m){
+					position: relative;
+					top: initial;
+					margin: 0 0 20px 0;
+				}
+			}
+		}
+	}
+
+	.center-btn{
+		padding-top: 70px;
+		@include res(l){
+			padding-top: 170px;
+		}
+		@include res(m){
+			display: none;
+		}
+	}
+}
+
+.regions-step--new{
+	margin-top: -80px !important;
+	margin-bottom: 40px;
+	@include res(xl){
+		margin-top: -50px !important;
+	}
+	@include res(l){
+		margin-top: 50px !important;
 	}
 }
 

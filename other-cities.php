@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<section class="s-doctor-reviews s-def">
+<section class="s-def">
 	<div class="container">
 		<div class="h1 sec-title">Опыт пациентов из&nbsp;первых уст</div>
 		<div class="sec-title-descr">
@@ -99,6 +99,83 @@
 		</div>
 
 	</div>
+</section>
+
+
+<section class="s-regions s-regions--six s-def" data-lazybg="/img/home/regions-bg.png">
+	<div class="container s-regions__pc">
+		<div class="h1 sec-title">Специальные программы трансфера и&nbsp;размещения</div>
+
+		<div class="regions-steps">
+			<a href="#" class="regions-step">
+				<div class="regions-step__bg">
+					<img src="" data-lazy="/img/home/region-step-1.png" alt="1">
+				</div>
+				<strong>01</strong>
+				<div class="regions-step__descr">Дистанционная <br>консультация врача <br>онлайн</div>
+			</a>
+			<a href="#" class="regions-step">
+				<div class="regions-step__bg">
+					<img src="" data-lazy="/img/home/region-step-2.png" alt="1">
+				</div>
+				<strong>02</strong>
+				<div class="regions-step__descr">Организация <br>приезда и <br>размещения</div>
+			</a>
+			<a href="#" class="regions-step">
+				<div class="regions-step__bg">
+					<img src="" data-lazy="/img/home/region-step-3.png" alt="1">
+				</div>
+				<strong>03</strong>
+				<div class="regions-step__descr">Восстановление <br>зубов за 1-3 дня</div>
+			</a>
+			<a href="#" class="regions-step">
+				<div class="regions-step__bg">
+					<img src="" data-lazy="/img/home/region-step-4.png" alt="1">
+				</div>
+				<strong>05</strong>
+				<div class="regions-step__descr">Забота и уход <br>во время лечения</div>
+			</a>
+			<a href="#" class="regions-step">
+				<div class="regions-step__bg">
+					<img src="" data-lazy="/img/home/region-step-5.png" alt="1">
+				</div>
+				<strong>06</strong>
+				<div class="regions-step__descr">Проводы <br>домой и поддержка <br>после</div>
+			</a>
+			<a href="#" class="regions-step regions-step--new">
+				<div class="regions-step__bg">
+					<img src="" data-lazy="/img/home/region-step-6.png" alt="1">
+				</div>
+				<strong>04</strong>
+				<div class="regions-step__descr">Пациент под<br>
+					контролем и защитой<br>
+					специалиста</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="container s-regions__mob">
+		<div class="regions-banner">
+			<a href="#" class="regions-banner__link"></a>
+			<div class="regions-banner__content">
+				<div class="h2 regions-banner__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
+				<div class="regions-banner__phone">
+					<small>Для регионов</small>
+					<a href="tel:88003334628">8 800 333-46-28</a>
+				</div>
+				<div class="regions-banner__phone">
+					<small>Для Москвы и МО</small>
+					<a href="tel:84955405042">8 495 540-50-42</a>
+				</div>
+				<a href="#" class="button regions-banner__btn">Узнать больше</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="center-btn">
+		<a href="#" class="button button--outline">Узнать подробнее</a>
+	</div>
+
 </section>
 
 
@@ -265,6 +342,95 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+
+
+<section class="s-def">
+	<div class="container">
+		<div class="h1 sec-title">Селфи с пациентом</div>
+
+		<div class="row review-intro-list">
+			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
+				<div class="review-intro review-intro--selfie">
+					<div class="review-intro__city"><span class="i i-pin-fill"></span>США</div>
+					<a href="#" class="review-intro__photo">
+						<img src="/img/reviews/selfi.jpg" alt="1">
+					</a>
+					<footer class="review-intro__footer">
+						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+						<div class="review-intro__type review-intro__type--selfie">Селфи отзыв</div>
+						<a href="#" class="review-intro__more">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
+				<div class="review-intro review-intro--selfie">
+					<div class="review-intro__city"><span class="i i-pin-fill"></span>США</div>
+					<a href="#" class="review-intro__photo">
+						<img src="/img/reviews/selfi.jpg" alt="1">
+					</a>
+					<footer class="review-intro__footer">
+						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+						<div class="review-intro__type review-intro__type--selfie">Селфи отзыв</div>
+						<a href="#" class="review-intro__more">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
+				<div class="review-intro review-intro--selfie">
+					<div class="review-intro__city"><span class="i i-pin-fill"></span>США</div>
+					<a href="#" class="review-intro__photo">
+						<img src="/img/reviews/selfi.jpg" alt="1">
+					</a>
+					<footer class="review-intro__footer">
+						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+						<div class="review-intro__type review-intro__type--selfie">Селфи отзыв</div>
+						<a href="#" class="review-intro__more">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
+				<div class="review-intro review-intro--selfie">
+					<div class="review-intro__city"><span class="i i-pin-fill"></span>США</div>
+					<a href="#" class="review-intro__photo">
+						<img src="/img/reviews/selfi.jpg" alt="1">
+					</a>
+					<footer class="review-intro__footer">
+						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+						<div class="review-intro__type review-intro__type--selfie">Селфи отзыв</div>
+						<a href="#" class="review-intro__more">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
+				<div class="review-intro review-intro--selfie">
+					<div class="review-intro__city"><span class="i i-pin-fill"></span>США</div>
+					<a href="#" class="review-intro__photo">
+						<img src="/img/reviews/selfi.jpg" alt="1">
+					</a>
+					<footer class="review-intro__footer">
+						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+						<div class="review-intro__type review-intro__type--selfie">Селфи отзыв</div>
+						<a href="#" class="review-intro__more">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
+				<div class="review-intro review-intro--selfie">
+					<div class="review-intro__city"><span class="i i-pin-fill"></span>США</div>
+					<a href="#" class="review-intro__photo">
+						<img src="/img/reviews/selfi.jpg" alt="1">
+					</a>
+					<footer class="review-intro__footer">
+						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
+						<div class="review-intro__type review-intro__type--selfie">Селфи отзыв</div>
+						<a href="#" class="review-intro__more">Подробнее</a>
+					</footer>
+				</div>
+			</div>
+		</div>
+
 	</div>
 </section>
 

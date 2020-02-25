@@ -952,7 +952,7 @@ doctor portfolio slider BEGIN
 $(function($){
 	$('.portfolio-ba').twentytwenty({
 		no_overlay: true,
-		move_slider_on_hover: true
+		move_slider_on_hover: false
 	});
 
 	var portfolioSlider = new Swiper('.portfolio-slider', {
