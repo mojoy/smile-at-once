@@ -368,6 +368,37 @@ h5,.h5{
 	}
 }
 
+.checked-white-list{
+	list-style: none;
+
+	li{
+		display: block;
+		position: relative;
+		padding-left: 25px;
+		line-height: 1.2;
+		margin-bottom: 0.4em;
+
+		&:before{
+			content: '\e909';
+			font-family: $font-icon;
+			position: absolute;
+			z-index: 2;
+			top: 0.2em;
+			left: 3px;
+			color: #FFF;
+			font-size: 14px;
+		}
+
+		a{
+			transition: color 0.3s ease;
+
+			&:hover{
+				color: $black;
+			}
+		}
+	}
+}
+
 .checked-green-list{
 	list-style: none;
 

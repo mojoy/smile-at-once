@@ -2588,6 +2588,32 @@
 .pb .checked-pink-list li a:hover {
   color: #000000;
 }
+.pb .checked-white-list {
+  list-style: none;
+}
+.pb .checked-white-list li {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  line-height: 1.2;
+  margin-bottom: 0.4em;
+}
+.pb .checked-white-list li:before {
+  content: "";
+  font-family: "smileicons" !important;
+  position: absolute;
+  z-index: 2;
+  top: 0.2em;
+  left: 3px;
+  color: #FFF;
+  font-size: 14px;
+}
+.pb .checked-white-list li a {
+  transition: color 0.3s ease;
+}
+.pb .checked-white-list li a:hover {
+  color: #000000;
+}
 .pb .checked-green-list {
   list-style: none;
 }
@@ -13738,6 +13764,151 @@
 }
 .pb .doctor-faq-minivideos__hidden {
   display: none;
+}
+.pb .s-oc-header {
+  padding: 80px 0 120px 0;
+  min-height: 691px;
+  background: url("../img/other-cities/intro-bg.jpg") center top no-repeat #72dbd4;
+  background-size: cover;
+}
+.pb .oc-header__title {
+  max-width: 50%;
+  color: #FFF;
+  margin-bottom: 0.3em;
+}
+.pb .oc-header__subtitle {
+  max-width: 45%;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 300;
+  font-style: italic;
+  color: #FFF;
+  margin-bottom: 25px;
+}
+.pb .oc-header__advantages {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 50%;
+}
+.pb .oc-header__advantages img {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  margin-right: 10px;
+}
+.pb .oc-header__advantages .checked-white-list {
+  font-size: 20px;
+  color: #FFF;
+}
+.pb .oc-header__advantages .checked-white-list li {
+  margin-bottom: 2px;
+}
+.pb .oc-header-triggers {
+  position: absolute;
+  max-width: 480px;
+  width: calc(50% - 130px);
+  left: calc(50% + 110px);
+  bottom: 60px;
+  background: #FFF;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+}
+@media (max-width: 1400px) {
+  .pb .oc-header-triggers {
+    bottom: 50px;
+    padding: 15px 20px 15px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .pb .oc-header-triggers {
+    display: none;
+  }
+}
+.pb .oc-header-triggers--mob {
+  display: none;
+  position: relative;
+  left: -20px;
+  bottom: 0;
+  width: calc(100% + 40px);
+  max-width: calc(100% + 40px);
+  margin-top: 0;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  border-radius: 0;
+}
+@media (max-width: 768px) {
+  .pb .oc-header-triggers--mob {
+    display: block;
+  }
+}
+.pb .oc-header-triggers:before {
+  content: "";
+  width: 55px;
+  height: 67px;
+  background: url("../img/other-cities/bubble.png") center top no-repeat;
+  position: absolute;
+  top: -47px;
+  left: 0;
+}
+@media (max-width: 768px) {
+  .pb .oc-header-triggers:before {
+    display: none;
+  }
+}
+.pb .oc-header-trigger {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+@media (max-width: 1400px) {
+  .pb .oc-header-trigger {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .pb .oc-header-trigger {
+    margin-bottom: 10px;
+  }
+}
+.pb .oc-header-trigger:last-child {
+  margin-bottom: 0;
+}
+.pb .oc-header-trigger__img {
+  position: relative;
+  width: 50px;
+  height: 28px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  text-align: center;
+  margin-right: 10px;
+}
+.pb .oc-header-trigger__img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.pb .oc-header-trigger__text {
+  font-size: 18px;
+  line-height: 1.3;
+  font-style: italic;
+}
+@media (max-width: 1400px) {
+  .pb .oc-header-trigger__text {
+    font-size: 16px;
+  }
 }
 .pb .s-book {
   padding: 70px 0 50px 0;

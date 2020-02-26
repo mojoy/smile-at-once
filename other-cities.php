@@ -1,5 +1,55 @@
 <?php include('header.php'); ?>
 
+
+<section class="s-oc-header round-bottom">
+	<div class="container oc-header">
+
+		<h1 class="h1 oc-header__title">Восстанавливаем<br>все зубы на имплантах<br>за 1-3 дня</h1>
+		<div class="oc-header__subtitle">Ежедневно к&nbsp;нам приезжают из&nbsp;других стран и&nbsp;городов</div>
+			
+		<div class="oc-header__advantages">
+			<img src="/img/other-cities/hands.svg" alt="руки">
+			<ul class="checked-white-list">
+				<li>Более  30 решений по срокам и финансам</li>
+				<li>Организация приезда и лечения под ключ</li>
+				<li>Пожизненная гарантия на работу врачей</li>
+				<li>Бесплатное ежегодное сервисное обслуживание</li>
+			</ul>
+		</div>
+
+	</div>
+
+
+	<div class="oc-header-triggers">
+		<div class="oc-header-trigger">
+			<div class="oc-header-trigger__img">
+				<img src="/img/other-cities/oc-header-t-1.svg" alt="1">
+			</div>
+			<div class="oc-header-trigger__text">Питайтесь вкусно и&nbsp;полезно без&nbsp;ограничений</div>
+		</div>
+		<div class="oc-header-trigger">
+			<div class="oc-header-trigger__img">
+				<img src="/img/other-cities/oc-header-t-2.svg" alt="1">
+			</div>
+			<div class="oc-header-trigger__text">Красивая улыбка и&nbsp;омоложение черт лица сразу</div>
+		</div>
+		<div class="oc-header-trigger">
+			<div class="oc-header-trigger__img">
+				<img src="/img/other-cities/oc-header-t-3.svg" alt="1">
+			</div>
+			<div class="oc-header-trigger__text">Забудьте о&nbsp;неудобных съемных протезах и&nbsp;измученных деснах</div>
+		</div>
+		<div class="oc-header-trigger">
+			<div class="oc-header-trigger__img">
+				<img src="/img/other-cities/oc-header-t-4.svg" alt="1">
+			</div>
+			<div class="oc-header-trigger__text">Не терпите зубную боль и&nbsp;дискомфорт во&nbsp;рту</div>
+		</div>
+	</div>
+
+</section>
+
+
 <section class="s-def">
 	<div class="container">
 		<div class="h1 sec-title">Опыт пациентов из&nbsp;первых уст</div>
