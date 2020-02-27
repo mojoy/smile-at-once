@@ -152,6 +152,54 @@
 </section>
 
 
+<section class="s-implant-pluses s-def">
+	<div class="container">
+		<div class="h1 sec-title">Преимущества имплантации с&nbsp;немедленной нагрузкой несъемным протезом</div>
+		<div class="sec-title-descr">Самое современное и эффективное решение проблемы отсутствия зубов</div>
+
+		<div class="implant-pluses">
+			<div class="implant-plus">
+				<figure><img data-lazy="/img/other-cities/imp-pluses/1.png" alt=""></figure>
+				<div>Позволяет навсегда отказаться от съемных протезов и клея Корега</div>
+			</div>
+			<div class="implant-plus">
+				<figure><img data-lazy="/img/other-cities/imp-pluses/2.png" alt=""></figure>
+				<div>В полной мере восстанавливает функцию жевания, буквально за 3-7 дней</div>
+			</div>
+			<div class="implant-plus">
+				<figure><img data-lazy="/img/other-cities/imp-pluses/3.png" alt=""></figure>
+				<div>Возвращает четкую дикцию, позволяет легко общаться</div>
+			</div>
+			<div class="implant-plus">
+				<figure><img data-lazy="/img/other-cities/imp-pluses/4.png" alt=""></figure>
+				<div>Преображает овал лица и линии улыбки</div>
+			</div>
+			<div class="implant-plus">
+				<figure><img data-lazy="/img/other-cities/imp-pluses/5.png" alt=""></figure>
+				<div>Улучшает вкусовые ощущения и пищеварение. Не покрывает неба и не вызывает рвотный рефлекс</div>
+			</div>
+			<div class="implant-plus">
+				<figure><img data-lazy="/img/other-cities/imp-pluses/6.png" alt=""></figure>
+				<div>Облегчает гигиену благодаря уходу как за своими зубами</div>
+			</div>
+			<div class="implant-plus">
+				<figure><img data-lazy="/img/other-cities/imp-pluses/7.png" alt=""></figure>
+				<div>Выглядит и ощущается как свои  собственные зубы</div>
+			</div>
+			<div class="implant-plus">
+				<figure><img data-lazy="/img/other-cities/imp-pluses/8.png" alt=""></figure>
+				<div>Менее травматический и самый предсказуемый метод восстановления зубов</div>
+			</div>
+			<div class="implant-plus">
+				<figure><img data-lazy="/img/other-cities/imp-pluses/9.png" alt=""></figure>
+				<div>Подходит пожилым, людям с сахарным диабетом и острым пародонтитом</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
 <section class="s-regions s-regions--six s-def" data-lazybg="/img/home/regions-bg.png">
 	<div class="container s-regions__pc">
 		<div class="h1 sec-title">Специальные программы трансфера и&nbsp;размещения</div>
