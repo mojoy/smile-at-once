@@ -49,7 +49,7 @@
 			</ul>
 		</div>
 
-		<a href="#" class="button oc-header__button">Консультация<img src="/img/other-cities/head-btn.png" alt="1"></a>
+		<a href="#" class="button oc-header__button fancy-modal" data-src="#modal-consult">Консультация<img src="/img/other-cities/head-btn.png" alt="1"></a>
 
 	</div>
 </section>
