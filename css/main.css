@@ -13766,15 +13766,26 @@
   display: none;
 }
 .pb .s-oc-header {
-  padding: 80px 0 120px 0;
-  min-height: 691px;
+  padding: 70px 0 120px 0;
+  min-height: 686px;
   background: url("../img/other-cities/intro-bg.jpg") center top no-repeat #72dbd4;
   background-size: cover;
+}
+@media (max-width: 768px) {
+  .pb .s-oc-header {
+    background: #72dbd4;
+    padding-top: 40px;
+  }
 }
 .pb .oc-header__title {
   max-width: 50%;
   color: #FFF;
   margin-bottom: 0.3em;
+}
+@media (max-width: 768px) {
+  .pb .oc-header__title {
+    max-width: 100%;
+  }
 }
 .pb .oc-header__subtitle {
   max-width: 45%;
@@ -13785,6 +13796,12 @@
   color: #FFF;
   margin-bottom: 25px;
 }
+@media (max-width: 768px) {
+  .pb .oc-header__subtitle {
+    max-width: 100%;
+    font-size: 20px;
+  }
+}
 .pb .oc-header__advantages {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -13793,6 +13810,12 @@
       -ms-flex-align: start;
           align-items: flex-start;
   max-width: 50%;
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .pb .oc-header__advantages {
+    max-width: 100%;
+  }
 }
 .pb .oc-header__advantages img {
   -webkit-flex-shrink: 0;
@@ -13800,12 +13823,40 @@
           flex-shrink: 0;
   margin-right: 10px;
 }
+@media (max-width: 768px) {
+  .pb .oc-header__advantages img {
+    width: 30px;
+  }
+}
 .pb .oc-header__advantages .checked-white-list {
   font-size: 20px;
   color: #FFF;
 }
+@media (max-width: 768px) {
+  .pb .oc-header__advantages .checked-white-list {
+    font-size: 16px;
+  }
+}
 .pb .oc-header__advantages .checked-white-list li {
   margin-bottom: 2px;
+}
+.pb .oc-header__button {
+  padding-right: 100px;
+}
+.pb .oc-header__button img {
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+}
+.pb .oc-header__mobimg {
+  display: none;
+}
+@media (max-width: 768px) {
+  .pb .oc-header__mobimg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 .pb .oc-header-triggers {
   position: absolute;
@@ -13825,7 +13876,15 @@
 }
 @media (max-width: 768px) {
   .pb .oc-header-triggers {
-    display: none;
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+    border-radius: 0;
   }
 }
 .pb .oc-header-triggers--mob {

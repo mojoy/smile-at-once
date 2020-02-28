@@ -1,15 +1,22 @@
 //oc-header
 .s-oc-header{
-	padding: 80px 0 120px 0;
-	min-height: 691px;
+	padding: 70px 0 120px 0;
+	min-height: 686px;
 	background: url("../img/other-cities/intro-bg.jpg") center top no-repeat $green;
 	background-size: cover;
+	@include res(m){
+		background: $green;
+		padding-top: 40px;
+	}
 }
 
 .oc-header__title{
 	max-width: 50%;
 	color: #FFF;
 	margin-bottom: 0.3em;
+	@include res(m){
+		max-width: 100%;
+	}
 }
 
 .oc-header__subtitle{
@@ -20,25 +27,59 @@
 	font-style: italic;
 	color: #FFF;
 	margin-bottom: 25px;
+	@include res(m){
+		max-width: 100%;
+		font-size: 20px;
+	}
 }
 
 .oc-header__advantages{
 	display: flex;
 	align-items: flex-start;
 	max-width: 50%;
+	margin-bottom: 40px;
+	@include res(m){
+		max-width: 100%;
+	}
 
 	img{
 		flex-shrink: 0;
 		margin-right: 10px;
+		@include res(m){
+			width: 30px;
+		}
 	}
 
 	.checked-white-list{
 		font-size: 20px;
 		color: #FFF;
+		@include res(m){
+			font-size: 16px;
+		}
 
 		li{
 			margin-bottom: 2px;
 		}
+	}
+}
+
+.oc-header__button{
+	padding-right: 100px;
+
+	img{
+		position: absolute;
+		bottom: -4px;
+		right: 0;
+	}
+}
+
+.oc-header__mobimg{
+	display: none;
+
+	@include res(m){
+		display: block;
+		width: 100%;
+		height: auto;
 	}
 }
 
@@ -57,7 +98,15 @@
 		padding: 15px 20px 15px 20px;
 	}
 	@include res(m){
-		display: none;
+		display: block;
+		position: relative;
+		left: 0;
+		right: 0;
+		width: 100%;
+		bottom: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+		border-radius: 0;
 	}
 
 	&--mob{

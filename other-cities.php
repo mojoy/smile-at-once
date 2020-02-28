@@ -6,19 +6,10 @@
 
 		<h1 class="h1 oc-header__title">Восстанавливаем<br>все зубы на имплантах<br>за 1-3 дня</h1>
 		<div class="oc-header__subtitle">Ежедневно к&nbsp;нам приезжают из&nbsp;других стран и&nbsp;городов</div>
-			
-		<div class="oc-header__advantages">
-			<img src="/img/other-cities/hands.svg" alt="руки">
-			<ul class="checked-white-list">
-				<li>Более  30 решений по срокам и финансам</li>
-				<li>Организация приезда и лечения под ключ</li>
-				<li>Пожизненная гарантия на работу врачей</li>
-				<li>Бесплатное ежегодное сервисное обслуживание</li>
-			</ul>
-		</div>
 
 	</div>
 
+	<img src="/img/other-cities/intro-bg-mob.jpg" alt="1" class="oc-header__mobimg">
 
 	<div class="oc-header-triggers">
 		<div class="oc-header-trigger">
@@ -47,6 +38,20 @@
 		</div>
 	</div>
 
+	<div class="container oc-header">
+		<div class="oc-header__advantages">
+			<img src="/img/other-cities/hands.svg" alt="руки">
+			<ul class="checked-white-list">
+				<li>Более 30 решений по срокам и финансам</li>
+				<li>Организация приезда и лечения под ключ</li>
+				<li>Пожизненная гарантия на работу врачей</li>
+				<li>Бесплатное ежегодное сервисное обслуживание</li>
+			</ul>
+		</div>
+
+		<a href="#" class="button oc-header__button">Консультация<img src="/img/other-cities/head-btn.png" alt="1"></a>
+
+	</div>
 </section>
 
 
