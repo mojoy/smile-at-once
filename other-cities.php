@@ -52,6 +52,21 @@
 		<a href="#" class="button oc-header__button fancy-modal" data-src="#modal-consult">Консультация<img src="/img/other-cities/head-btn.png" alt="1"></a>
 
 	</div>
+
+</section>
+
+
+<section>
+	<div class="container">
+		<div class="oc-nav bordered-block bordered-block--small bordered-block--pink">
+			<a href="#solutions" class="link-dot scrollto">Решение</a>
+			<a href="#preims" class="link-dot scrollto">Преимущества</a>
+			<a href="#tariffs" class="link-dot scrollto">Тарифы</a>
+			<a href="#steps" class="link-dot scrollto">Этапы лечения</a>
+			<a href="#faq" class="link-dot scrollto">Частые вопросы</a>
+			<a href="#cases" class="link-dot scrollto">Портфолио врачей</a>
+		</div>
+	</div>
 </section>
 
 
@@ -157,7 +172,172 @@
 </section>
 
 
-<section class="s-implant-pluses s-def">
+<section class="s-oc-why s-def">
+	<div class="container">
+		<div class="h1 sec-title">Почему лечение в&nbsp;Москве эффективно и&nbsp;выгодно?</div>
+
+		<div class="row">
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="oc-why bordered-block">
+					<div class="oc-why__imgwrap">
+						<img src="/img/other-cities/why-1.jpg" alt="1" class="oc-why__img">
+					</div>
+					<div class="oc-why__title">Значительно дешевле и&nbsp;быстрее</div>
+					<div class="oc-why__overlay">
+						<div class="oc-why__text">Smile-at-Once официальный клинический партнер Nobel Biocare и Straumann. Член International Implant Foundation и International Team for Implantology. Единственный стоматологический центр в России, где применяются все известные технологии имплантации с немедленной нагрузкой, а не какая-то одна.</div>
+						<a href="#" class="oc-why__link">Подробнее <span class="i i-ar-right"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="oc-why bordered-block">
+					<div class="oc-why__imgwrap">
+						<img src="/img/other-cities/why-2.jpg" alt="1" class="oc-why__img">
+					</div>
+					<div class="oc-why__title">Высокая квалификация врачей</div>
+					<div class="oc-why__overlay">
+						<div class="oc-why__text">Smile-at-Once официальный клинический партнер Nobel Biocare и Straumann. Член International Implant Foundation и International Team for Implantology. Единственный стоматологический центр в России, где применяются все известные технологии имплантации с немедленной нагрузкой, а не какая-то одна.</div>
+						<a href="#" class="oc-why__link">Подробнее <span class="i i-ar-right"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="oc-why bordered-block">
+					<div class="oc-why__imgwrap">
+						<img src="/img/other-cities/why-3.jpg" alt="1" class="oc-why__img">
+					</div>
+					<div class="oc-why__title">ХХХХХХ ХХХХ ХХХХХ</div>
+					<div class="oc-why__overlay">
+						<div class="oc-why__text">Smile-at-Once официальный клинический партнер Nobel Biocare и Straumann. Член International Implant Foundation и International Team for Implantology. Единственный стоматологический центр в России, где применяются все известные технологии имплантации с немедленной нагрузкой, а не какая-то одна.</div>
+						<a href="#" class="oc-why__link">Подробнее <span class="i i-ar-right"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="oc-why bordered-block">
+					<div class="oc-why__imgwrap">
+						<img src="/img/other-cities/why-4.jpg" alt="1" class="oc-why__img">
+					</div>
+					<div class="oc-why__title">Инновационные технологии</div>
+					<div class="oc-why__overlay">
+						<div class="oc-why__text">Smile-at-Once официальный клинический партнер Nobel Biocare и Straumann. Член International Implant Foundation и International Team for Implantology. Единственный стоматологический центр в России, где применяются все известные технологии имплантации с немедленной нагрузкой, а не какая-то одна.</div>
+						<a href="#" class="oc-why__link">Подробнее <span class="i i-ar-right"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="oc-why bordered-block">
+					<div class="oc-why__imgwrap">
+						<img src="/img/other-cities/why-5.jpg" alt="1" class="oc-why__img">
+					</div>
+					<div class="oc-why__title">Сервис<br>и&nbsp;забота</div>
+					<div class="oc-why__overlay">
+						<div class="oc-why__text">Smile-at-Once официальный клинический партнер Nobel Biocare и Straumann. Член International Implant Foundation и International Team for Implantology. Единственный стоматологический центр в России, где применяются все известные технологии имплантации с немедленной нагрузкой, а не какая-то одна.</div>
+						<a href="#" class="oc-why__link">Подробнее <span class="i i-ar-right"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-4 grid-6_l grid-12_s">
+				<div class="oc-why bordered-block oc-why--6">
+					<div class="oc-why__imgwrap">
+						<img src="/img/other-cities/why-6.jpg" alt="1" class="oc-why__img">
+					</div>
+					<div class="oc-why__title">Гарантированный результат</div>
+					<div class="oc-why__overlay">
+						<div class="oc-why__text">Smile-at-Once официальный клинический партнер Nobel Biocare и Straumann. Член International Implant Foundation и International Team for Implantology. Единственный стоматологический центр в России, где применяются все известные технологии имплантации с немедленной нагрузкой, а не какая-то одна.</div>
+						<a href="#" class="oc-why__link">Подробнее <span class="i i-ar-right"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<section class="s-oc-trust s-def">
+	<div class="container">
+		<div class="h1 sec-title">Почему нам стоит верить?</div>
+
+		<div class="row">
+			<div class="grid-3 grid-6_l grid-12_s">
+				<div class="oc-trust">
+					<div class="oc-trust__header">
+						<div class="oc-trust__icon">
+							<img src="/img/other-cities/trust-1.png" alt="">
+						</div>
+						<div class="h3">17 наград</div>
+					</div>
+					<div class="oc-trust__text">за достижение и&nbsp;вклад в&nbsp;развитие российской стоматологии</div>
+					<a href="#" class="link-arrow">Подробнее <span class="i i-ar-right"></span></a>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_l grid-12_s">
+				<div class="oc-trust">
+					<div class="oc-trust__header">
+						<div class="oc-trust__icon">
+							<img src="/img/other-cities/trust-2.png" alt="">
+						</div>
+						<div class="h3">Более 1000 фото-отчетов</div>
+					</div>
+					<div class="oc-trust__text">отзывы пациентов с&nbsp;фото до&nbsp;и&nbsp;после лечения, в&nbsp;том числе из-за рубежа</div>
+					<a href="#" class="link-arrow">Подробнее <span class="i i-ar-right"></span></a>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_l grid-12_s">
+				<div class="oc-trust">
+					<div class="oc-trust__header">
+						<div class="oc-trust__icon">
+							<img src="/img/other-cities/trust-3.png" alt="">
+						</div>
+						<div class="h3">Посмотрите как проходит лечение</div>
+					</div>
+					<div class="oc-trust__text">только у&nbsp;нас вы можете посмотреть видео на&nbsp;всех этапах лечения с&nbsp;реальными пациентами, благодаря проекту "Трансформация улыбки"</div>
+					<a href="#" class="link-arrow">Подробнее <span class="i i-ar-right"></span></a>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_l grid-12_s">
+				<div class="oc-trust">
+					<div class="oc-trust__header">
+						<div class="oc-trust__icon">
+							<img src="/img/other-cities/trust-4.png" alt="">
+						</div>
+						<div class="h3">Общайтесь лично с&nbsp;пациентами</div>
+					</div>
+					<div class="oc-trust__text">которые прошли лечение в&nbsp;социальных сетях или&nbsp;через клуб пациентов</div>
+					<a href="#" class="link-arrow">Подробнее <span class="i i-ar-right"></span></a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<section class="s-def-bottom">
+	<div class="container">
+		<div class="best-banner">
+			<div class="best-banner__left">
+				<img data-lazy="/img/other-cities/best-banner.png" alt="prize" class="best-banner__img">
+			</div>
+			<div class="best-banner__center">
+				<div class="h2">Лучшая стоматология Российской  Федерации</div>
+				<div class="h4">По итогам федерального рейтинга научно-исследовательского института «СтатЭксперт»</div>
+			</div>
+			<a href="#" class="button">Подробнее</a>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-oc-prices s-def" id="solutions">
+	<div class="container">
+		<div class="h1 sec-title">Решения для трансформации вашей улыбки</div>
+	</div>
+</section>
+
+
+<section class="s-implant-pluses s-def" id="preims">
 	<div class="container">
 		<div class="h1 sec-title">Преимущества имплантации с&nbsp;немедленной нагрузкой несъемным протезом</div>
 		<div class="sec-title-descr">Самое современное и эффективное решение проблемы отсутствия зубов</div>
@@ -199,6 +379,147 @@
 				<figure><img data-lazy="/img/other-cities/imp-pluses/9.png" alt=""></figure>
 				<div>Подходит пожилым, людям с сахарным диабетом и острым пародонтитом</div>
 			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<section class="s-oc-cases s-def" id="cases">
+	<div class="container">
+		<div class="h1 sec-title">Портфолио работ</div>
+
+		<div class="swiper-slider__wrapper">
+			<div class="portfolio-slider-4 swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide portfolio-slider__item">
+						<div class="portfolio-ba twentytwenty-container">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/before.jpg" alt="" class="swiper-lazy">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/after.jpg" alt="" class="swiper-lazy">
+						</div>
+						<div class="portfolio-ba-doctor">
+							<img src="/img/other-cities/cases-doctor.jpg" alt="doctor">
+							<div class="portfolio-ba-doctor__info">
+								<div class="lead">Намдаков Николай</div>
+								<div class="portfolio-ba-doctor__spec">Челюстно-лицевой хирург, имплантолог, ортопед
+								<br>Опыт: 15+ лет</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide portfolio-slider__item">
+						<div class="portfolio-ba twentytwenty-container">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/before.jpg" alt="" class="swiper-lazy">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/after.jpg" alt="" class="swiper-lazy">
+						</div>
+						<div class="portfolio-ba-doctor">
+							<img src="/img/other-cities/cases-doctor.jpg" alt="doctor">
+							<div class="portfolio-ba-doctor__info">
+								<div class="lead">Намдаков Николай</div>
+								<div class="portfolio-ba-doctor__spec">Челюстно-лицевой хирург, имплантолог, ортопед
+									<br>Опыт: 15+ лет</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide portfolio-slider__item">
+						<div class="portfolio-ba twentytwenty-container">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/before.jpg" alt="" class="swiper-lazy">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/after.jpg" alt="" class="swiper-lazy">
+						</div>
+						<div class="portfolio-ba-doctor">
+							<img src="/img/other-cities/cases-doctor.jpg" alt="doctor">
+							<div class="portfolio-ba-doctor__info">
+								<div class="lead">Намдаков Николай</div>
+								<div class="portfolio-ba-doctor__spec">Челюстно-лицевой хирург, имплантолог, ортопед
+									<br>Опыт: 15+ лет</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide portfolio-slider__item">
+						<div class="portfolio-ba twentytwenty-container">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/before.jpg" alt="" class="swiper-lazy">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/after.jpg" alt="" class="swiper-lazy">
+						</div>
+						<div class="portfolio-ba-doctor">
+							<img src="/img/other-cities/cases-doctor.jpg" alt="doctor">
+							<div class="portfolio-ba-doctor__info">
+								<div class="lead">Намдаков Николай</div>
+								<div class="portfolio-ba-doctor__spec">Челюстно-лицевой хирург, имплантолог, ортопед
+									<br>Опыт: 15+ лет</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide portfolio-slider__item">
+						<div class="portfolio-ba twentytwenty-container">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/before.jpg" alt="" class="swiper-lazy">
+							<img src="/img/doctor/ba-thumb.png" data-src="/img/doctor/after.jpg" alt="" class="swiper-lazy">
+						</div>
+						<div class="portfolio-ba-doctor">
+							<img src="/img/other-cities/cases-doctor.jpg" alt="doctor">
+							<div class="portfolio-ba-doctor__info">
+								<div class="lead">Намдаков Николай</div>
+								<div class="portfolio-ba-doctor__spec">Челюстно-лицевой хирург, имплантолог, ортопед
+									<br>Опыт: 15+ лет</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider-arrow slider-arrow--prev">
+				<span class="i i-left"></span>
+			</div>
+			<div class="slider-arrow slider-arrow--next">
+				<span class="i i-right"></span>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<section class="s-oc-steps s-def">
+	<div class="container">
+		<div class="h1 sec-title">Сделайте 3&nbsp;шага к&nbsp;своей идеальной улыбке</div>
+
+		<div class="row">
+			<div class="grid-4 grid-12_m">
+				<div class="oc-step">
+					<img src="/img/other-cities/oc-step-1.jpg" alt="1">
+					<div class="lead">Шаг 1</div>
+					<div class="h3">Бесплантная дистанционная консультация</div>
+					<ul class="checked-black-list">
+						<li>Вам нужно будет отправить снимок.</li>
+						<li>Рассказать о своей проблеме.</li>
+						<li>Служба поддержки все организует.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid-4 grid-12_m">
+				<div class="oc-step">
+					<img src="/img/other-cities/oc-step-2.jpg" alt="1">
+					<div class="lead">Шаг 2</div>
+					<div class="h3">Предварительный план лечения</div>
+					<ul class="checked-black-list">
+						<li>Наш врач рассмотрит снимок.</li>
+						<li>Запишет на видео подробную консультацию или свяжется с пациентом любым удобным способом для онлайн консультации: skype, WhatsApp, Viber, электронная почта, телефон.</li>
+						<li>В видео врач расскажет диагноз, предложит варианты решения проблемы, вы сможете обсудить все детали.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="grid-4 grid-12_m">
+				<div class="oc-step">
+					<img src="/img/other-cities/oc-step-3.jpg" alt="1">
+					<div class="lead">Шаг 3</div>
+					<div class="h3">Планирование лечения и подготовка к&nbsp;поездке</div>
+					<ul class="checked-black-list">
+						<li>Наша служба поддердки совершенно бесплатно поможет вам подобрать даты лечения.</li>
+						<li>Решат ваши вопросы с размещением, помогут разобраться с финансовыми вопросами и подготовят вас к операции.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="center-btn">
+			<a href="#" class="button">Отправить снимок</a>
 		</div>
 
 	</div>
@@ -282,7 +603,14 @@
 </section>
 
 
-<section class="s-steps">
+<section class="s-oc-prices s-def" id="tariffs">
+	<div class="container">
+		<div class="h1 sec-title">Выгодные тарифы для наших пациентов</div>
+	</div>
+</section>
+
+
+<section class="s-steps" id="steps">
 	<div class="container">
 		<div class="h1 s-steps__title">Этапы лечения</div>
 	</div>
@@ -419,6 +747,34 @@
 </section>
 
 
+<section class="s-def">
+	<div class="container">
+		<div class="consult-block">
+			<div class="consult-block__img">
+				<img src="" data-lazy="/img/doctor/namdakov-konsult.png" alt="1">
+			</div>
+			<div class="consult-block__center">
+				<div class="h2">Задайте вопрос!</div>
+				<div class="consult-block__descr">Консультация врача по&nbsp;всем каналам связи</div>
+				<div class="consult-block__name consult-block__name--white">Намдаков Николай, <div class="lead">стаж 15 лет</div></div>
+				<div class="consult-block__socials">
+					<a href="#"><img src="/img/other-cities/soc-viber.png" alt=""></a>
+					<a href="#"><img src="/img/other-cities/soc-wa.png" alt=""></a>
+					<a href="#"><img src="/img/other-cities/soc-skype.png" alt=""></a>
+					<a href="#"><img src="/img/other-cities/soc-tg.png" alt=""></a>
+					<a href="#"><img src="/img/other-cities/soc-mail.png" alt=""></a>
+				</div>
+				<div class="consult-block__phone">
+					<small>Для регионов</small>
+					<a href="tel:88003334628">8 800 333-46-28</a>
+				</div>
+			</div>
+			<button class="button consult-block__btn fancy-modal" data-src="#modal-consult">Консультация врача</button>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-book" data-lazybg="/img/other-cities/book-bg.jpg">
 	<div class="container">
 		<div class="h1">С чего начать и&nbsp;как подготовиться к&nbsp;лечению?</div>
@@ -445,6 +801,107 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+
+
+<section class="s-oc-faq s-def" id="faq">
+	<div class="container">
+		<div class="h1 sec-title">Часто задаваемые вопросы</div>
+		<div class="sec-title-descr">На вопросы отвечает Терапевт, Пародонтолог:</div>
+		<div class="oc-faq-doctor">
+			<img src="/img/other-cities/oc-faq-doctor.jpg" alt="1">
+			<div class="oc-faq-doctor__info">
+				<div class="lead">Орлова Елена</div>
+				<div>Опыт: 29+ лет</div>
+			</div>
+		</div>
+
+		<div class="oc-faq">
+			<div class="border-drops border-drops--list">
+				<div class="border-drop">
+					<div class="border-drop__header">Лечение и/или альтернативные варианты восстановления зубов-антагонистов</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-drop">
+					<div class="border-drop__header">Костная пластика</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-drop">
+					<div class="border-drop__header">Комплексная гигиена полости рта перед имплантацией</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-drop">
+					<div class="border-drop__header">Комплексная гигиена полости рта перед имплантацией</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-drop">
+					<div class="border-drop__header">Комплексная гигиена полости рта перед имплантацией</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-drop">
+					<div class="border-drop__header">Комплексная гигиена полости рта перед имплантацией</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-drop">
+					<div class="border-drop__header">Комплексная гигиена полости рта перед имплантацией</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-drop">
+					<div class="border-drop__header">Комплексная гигиена полости рта перед имплантацией</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-drop">
+					<div class="border-drop__header">Комплексная гигиена полости рта перед имплантацией</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+				<div class="border-drop">
+					<div class="border-drop__header">Комплексная гигиена полости рта перед имплантацией</div>
+					<div class="border-drop__content">
+						<div class="price-include user-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 </section>
 

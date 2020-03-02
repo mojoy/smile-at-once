@@ -998,6 +998,50 @@ $(function($){
 		}
 	});
 
+	var portfolioSlider4 = new Swiper('.portfolio-slider-4', {
+		speed: 600,
+		slidesPerView: 4,
+		watchOverflow: true,
+		preloadImages: true,
+		watchSlidesVisibility: true,
+		spaceBetween: 40,
+		allowTouchMove: false,
+		lazy: true,
+		on: {
+			init: function () {
+				var thisSliderWrapper = this.el.parentElement;
+				var thisBtnNext = thisSliderWrapper.querySelector('.slider-arrow--next');
+				var thisBtnPrev = thisSliderWrapper.querySelector('.slider-arrow--prev');
+				this.params.navigation.nextEl = thisBtnNext;
+				this.params.navigation.prevEl = thisBtnPrev;
+				var self = this
+				setTimeout(function () {
+					if (self.isLocked){
+						self.$wrapperEl.addClass('centered')
+					} else {
+						self.$wrapperEl.removeClass('centered')
+					}
+				},500)
+			},
+			lazyImageReady: function (item,imageEl) {
+				$(window).trigger("resize.twentytwenty");
+			}
+		},
+		breakpoints: {
+			1024: {
+				slidesPerView: 3,
+				spaceBetween: 20
+			},
+			640: {
+				slidesPerView: 2
+			},
+			480: {
+				slidesPerView: 1,
+				spaceBetween: 10
+			}
+		}
+	});
+
 
 
 });

@@ -121,9 +121,39 @@
 	}
 }
 
+.consult-block__socials{
+	display: inline-flex;
+	align-items: center;
+	vertical-align: bottom;
+	padding-bottom: 5px;
+	margin-right: 30px;
+	@include res(m){
+		margin: 0 15px 10px 15px;
+	}
+
+	a{
+		margin-right: 15px;
+	}
+}
+
 .consult-block__name{
 	color: $black;
 	font-size: 18px;
+	
+	&--white{
+		color: #FFF;
+		margin-bottom: 10px;
+		@include res(m){
+			display: none;
+		}
+
+		.lead{
+			display: inline-block;
+			padding: 4px 10px;
+			background: $green-dark;
+			border-radius: 15px;
+		}
+	}
 }
 
 .consult-block__content{
