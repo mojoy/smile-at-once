@@ -1066,3 +1066,21 @@ $(function($){
 /***********************
 doctor minivides toggle END
 ***********************/
+
+
+/***********************
+ oc-solution-tip BEGIN
+***********************/
+$(function($){
+	$('.oc-solution-tip').on('click',function (e) {
+		$('.oc-solution-tip__pop').toggleClass('visible');
+		e.stopPropagation();
+	});
+
+	$(document).on('click touchstart', function () {
+		$('.oc-solution-tip__pop').removeClass('visible');
+	});
+});
+/***********************
+ oc-solution-tip END
+***********************/

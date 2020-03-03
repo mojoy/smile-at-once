@@ -62,7 +62,7 @@
 			<a href="#solutions" class="link-dot scrollto">Решение</a>
 			<a href="#preims" class="link-dot scrollto">Преимущества</a>
 			<a href="#tariffs" class="link-dot scrollto">Тарифы</a>
-			<a href="#steps" class="link-dot scrollto">Этапы лечения</a>
+			<a href="#steps" class="link-dot scrollto">Этапы л ечения</a>
 			<a href="#faq" class="link-dot scrollto">Частые вопросы</a>
 			<a href="#cases" class="link-dot scrollto">Портфолио врачей</a>
 		</div>
@@ -330,9 +330,164 @@
 </section>
 
 
-<section class="s-oc-prices s-def" id="solutions">
+<section class="s-oc-solutions s-def" id="solutions">
 	<div class="container">
 		<div class="h1 sec-title">Решения для трансформации вашей улыбки</div>
+
+
+		<div class="oc-solutions">
+
+			<div class="oc-solutions__params">
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--1">
+					<div class="h3">Количество имплантов</div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--2">
+					<div class="h3">Возможность жевать и&nbsp;улыбаться <small>*Несъемный адаптационный мостовидный протез</small></div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--3">
+					<div class="h3">Замена адаптационного протеза на&nbsp;постоянный
+						<div class="oc-solution-tip">
+							<figure>i</figure>
+							<div class="oc-solution-tip__pop">
+								XXXXXX XXXXXX XXXXX XXXXXX XXXX X XXXXXX XXX XXXXX XXXX XXXXXXXXX XXXXXX XXXXX XXXXXX XXXX
+							</div>
+						</div>
+						<small>*Период перестройки прикуса и&nbsp;остеоинтеграции</small>
+					</div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--4">
+					<div class="h3">Количество дней на&nbsp;лечение <small>*Минимальный график осмотров минимум 1&nbsp;раз в&nbsp;год</small></div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--5">
+					<div class="lead-big"><strong>ЦЕНА</strong></div>
+				</div>
+			</div>
+
+			<div class="oc-solution">
+				<div class="oc-solution__header">
+					<img src="/img/other-cities/oc-solution-1.jpg" alt="1">
+					<div class="lead">Зубы<br>за&nbsp;1&nbsp;день</div>
+				</div>
+				<div class="oc-solutions__values">
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--1">
+						<div class="oc-solution__mobile-param">Количество имплантов:</div>
+						4-6
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--2">
+						<div class="oc-solution__mobile-param">Возможность жевать и&nbsp;улыбаться :<small>*Несъемный адаптационный мостовидный протез</small></div>
+						сразу в день операции
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--3">
+						<div class="oc-solution__mobile-param">Замена адаптационного протеза на&nbsp;постоянный: <small>*Период перестройки прикуса и&nbsp;остеоинтеграции</small></div>
+						через 6 мес.</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--4">
+						<div class="oc-solution__mobile-param">Количество дней на&nbsp;лечение <small>*Минимальный график осмотров минимум 1&nbsp;раз в&nbsp;год</small></div>
+						3-5</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--5"><strong class="oc-solution__price">от 250 000 р.</strong></div>
+				</div>
+				<div class="oc-solution__footer">
+					<a href="#" class="button button--outline button--medium">Подробнее</a>
+				</div>
+			</div>
+			<div class="oc-solution">
+				<div class="oc-solution__header">
+					<img src="/img/other-cities/oc-solution-2.jpg" alt="1">
+					<div class="lead">All-on-6/<br>All-on-6</div>
+				</div>
+				<div class="oc-solutions__values">
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--1">
+						<div class="oc-solution__mobile-param">Количество имплантов:</div>
+						4-6</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--2">
+						<div class="oc-solution__mobile-param">Возможность жевать и&nbsp;улыбаться :<small>*Несъемный адаптационный мостовидный протез</small></div>
+						на 3 день после операции</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--3">
+						<div class="oc-solution__mobile-param">Замена адаптационного протеза на&nbsp;постоянный: <small>*Период перестройки прикуса и&nbsp;остеоинтеграции</small></div>
+						Min. 1 год <small>Но протез можно носить до 3 лет</small></div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--4">
+						<div class="oc-solution__mobile-param">Количество дней на&nbsp;лечение <small>*Минимальный график осмотров минимум 1&nbsp;раз в&nbsp;год</small></div>
+						7</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--5"><strong class="oc-solution__price">от 320 000 р.</strong></div>
+				</div>
+				<div class="oc-solution__footer">
+					<a href="#" class="button button--outline button--medium">Подробнее</a>
+				</div>
+			</div>
+			<div class="oc-solution">
+				<div class="oc-solution__header">
+					<img src="/img/other-cities/oc-solution-3.jpg" alt="1">
+					<div class="lead">Базальная имплантация</div>
+				</div>
+				<div class="oc-solutions__values">
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--1">
+						<div class="oc-solution__mobile-param">Количество имплантов:</div>
+						8-12</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--2">
+						<div class="oc-solution__mobile-param">Возможность жевать и&nbsp;улыбаться :<small>*Несъемный адаптационный мостовидный протез</small></div>
+						на 3 день после операции</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--3">
+						<div class="oc-solution__mobile-param">Замена адаптационного протеза на&nbsp;постоянный: <small>*Период перестройки прикуса и&nbsp;остеоинтеграции</small></div>
+						Min. 1 год <small>Но протез можно носить до 3 лет</small></div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--4">
+						<div class="oc-solution__mobile-param">Количество дней на&nbsp;лечение <small>*Минимальный график осмотров минимум 1&nbsp;раз в&nbsp;год</small></div>
+						7</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--5"><strong class="oc-solution__price">от 265 000 р.</strong></div>
+				</div>
+				<div class="oc-solution__footer">
+					<a href="#" class="button button--outline button--medium">Подробнее</a>
+				</div>
+			</div>
+			<div class="oc-solution">
+				<div class="oc-solution__header">
+					<img src="/img/other-cities/oc-solution-4.jpg" alt="1">
+					<div class="lead">Скуловая имплантация</div>
+				</div>
+				<div class="oc-solutions__values">
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--1">
+						<div class="oc-solution__mobile-param">Количество имплантов:</div>
+						4-6</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--2">
+						<div class="oc-solution__mobile-param">Возможность жевать и&nbsp;улыбаться :<small>*Несъемный адаптационный мостовидный протез</small></div>
+						на 3 день после операции</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--3">
+						<div class="oc-solution__mobile-param">Замена адаптационного протеза на&nbsp;постоянный: <small>*Период перестройки прикуса и&nbsp;остеоинтеграции</small></div>
+						Min. 1 год <small>Но протез можно носить до 3 лет</small></div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--4">
+						<div class="oc-solution__mobile-param">Количество дней на&nbsp;лечение <small>*Минимальный график осмотров минимум 1&nbsp;раз в&nbsp;год</small></div>
+						10-14</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--5"><strong class="oc-solution__price">от 485 000 р.</strong></div>
+				</div>
+				<div class="oc-solution__footer">
+					<a href="#" class="button button--outline button--medium">Подробнее</a>
+				</div>
+			</div>
+			<div class="oc-solution">
+				<div class="oc-solution__header">
+					<img src="/img/other-cities/oc-solution-5.jpg" alt="1">
+					<div class="lead">trefoil</div>
+				</div>
+				<div class="oc-solutions__values">
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--1">
+						<div class="oc-solution__mobile-param">Количество имплантов:</div>
+						3</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--2">
+						<div class="oc-solution__mobile-param">Возможность жевать и&nbsp;улыбаться :<small>*Несъемный адаптационный мостовидный протез</small></div>
+						сразу в день операции</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--3">
+						<div class="oc-solution__mobile-param">Замена адаптационного протеза на&nbsp;постоянный: <small>*Период перестройки прикуса и&nbsp;остеоинтеграции</small></div>
+						Не требуется</small></div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--4">
+						<div class="oc-solution__mobile-param">Количество дней на&nbsp;лечение <small>*Минимальный график осмотров минимум 1&nbsp;раз в&nbsp;год</small></div>
+						1-3</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--5"><strong class="oc-solution__price">от 300 000 р.</strong></div>
+				</div>
+				<div class="oc-solution__footer">
+					<a href="#" class="button button--outline button--medium">Подробнее</a>
+				</div>
+			</div>
+
+		</div>
+
 	</div>
 </section>
 
@@ -603,9 +758,206 @@
 </section>
 
 
-<section class="s-oc-prices s-def" id="tariffs">
+<section class="s-oc-tariffs s-def" id="tariffs">
 	<div class="container">
 		<div class="h1 sec-title">Выгодные тарифы для наших пациентов</div>
+
+
+		<div class="oc-solutions">
+
+			<div class="oc-solutions__params oc-solutions__params--tariffs">
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--6">
+					<div class="oc-solutions__param-title">
+						<div class="oc-solutions__param-title-icon">
+							<img src="/img/other-cities/tariff-ic-1.png" alt="1">
+						</div>
+						Встреча и трансфер до гостиницы</div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--7">
+					<div class="oc-solutions__param-title">
+						<div class="oc-solutions__param-title-icon">
+							<img src="/img/other-cities/tariff-ic-2.png" alt="1">
+						</div>
+						Стоимость гостиницы
+					</div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--8">
+					<div class="oc-solutions__param-title">
+						<div class="oc-solutions__param-title-icon">
+							<img src="/img/other-cities/tariff-ic-3.png" alt="1">
+						</div>
+						Трансфер гостиница - клиника (3&nbsp;раза)
+					</div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--9">
+					<div class="oc-solutions__param-title">
+						<div class="oc-solutions__param-title-icon">
+							<img src="/img/other-cities/tariff-ic-4.png" alt="1">
+						</div>
+						Трансфер клиника - гостиница (3&nbsp;раза)
+					</div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--10">
+					<div class="oc-solutions__param-title">
+						<div class="oc-solutions__param-title-icon">
+							<img src="/img/other-cities/tariff-ic-5.png" alt="1">
+						</div>
+						Трансфер до аэропорта или вокзала
+					</div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--11">
+					<div class="oc-solutions__param-title">
+						<div class="oc-solutions__param-title-icon">
+							<img src="/img/other-cities/tariff-ic-6.png" alt="1">
+						</div>
+						Тур с гидом по окрестностям Москвы
+					</div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--12">
+					<div class="oc-solutions__param-title">
+						<div class="oc-solutions__param-title-icon">
+							<img src="/img/other-cities/tariff-ic-7.png" alt="1">
+						</div>
+						Cестра-сиделка на период реабилитации после операции
+					</div>
+				</div>
+				<div class="oc-solutions__param oc-solution-row oc-solution-row--13">
+					<div class="lead-big"><strong>Итого</strong></div>
+				</div>
+			</div>
+
+			<div class="oc-solution oc-solution--tariff">
+				<div class="oc-solution__header oc-solution__header--econom">
+					<strong>Эконом</strong>
+					<small>7 дней</small>
+				</div>
+				<div class="oc-solutions__values">
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--6">
+						<div class="oc-solution__mobile-param">Встреча и трансфер до гостиницы:</div>
+						3 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--7">
+						<div class="oc-solution__mobile-param">Стоимость гостиницы:</div>
+						38 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--8">
+						<div class="oc-solution__mobile-param">Трансфер гостиница - клиника<br>(3 раза):</div>
+						3 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--9">
+						<div class="oc-solution__mobile-param">Трансфер клиника - гостиница<br>(3 раза):</div>
+						3 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--10">
+						<div class="oc-solution__mobile-param">Трансфер до аэропорта или вокзала:</div>
+						3 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--11">
+						<div class="oc-solution__mobile-param">Тур с гидом по окрестностям Москвы:</div>
+						—
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--12">
+						<div class="oc-solution__mobile-param">Cестра-сиделка на период реабилитации после операции:</div>
+						5 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--13">
+						<div class="oc-solution__mobile-param">Итого:</div>
+						<strong class="oc-solution__price">50 000 р.</strong>
+					</div>
+				</div>
+				<div class="oc-solution__footer">
+					<a href="#" class="button button--medium">Выбрать тариф</a>
+				</div>
+			</div>
+			<div class="oc-solution oc-solution--tariff">
+				<div class="oc-solution__header oc-solution__header--standart">
+					<strong>Стандарт</strong>
+					<small>7 дней</small>
+				</div>
+				<div class="oc-solutions__values">
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--6">
+						<div class="oc-solution__mobile-param">Встреча и трансфер до гостиницы:</div>
+						4 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--7">
+						<div class="oc-solution__mobile-param">Стоимость гостиницы:</div>
+						55 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--8">
+						<div class="oc-solution__mobile-param">Трансфер гостиница - клиника<br>(3 раза):</div>
+						4 500 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--9">
+						<div class="oc-solution__mobile-param">Трансфер клиника - гостиница<br>(3 раза):</div>
+						4 500 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--10">
+						<div class="oc-solution__mobile-param">Трансфер до аэропорта или вокзала:</div>
+						4 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--11">
+						<div class="oc-solution__mobile-param">Тур с гидом по окрестностям Москвы:</div>
+						3 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--12">
+						<div class="oc-solution__mobile-param">Cестра-сиделка на период реабилитации после операции:</div>
+						5 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--13">
+						<div class="oc-solution__mobile-param">Итого:</div>
+						<strong class="oc-solution__price">75 000 р.</strong>
+					</div>
+				</div>
+				<div class="oc-solution__footer">
+					<a href="#" class="button button--medium">Выбрать тариф</a>
+				</div>
+			</div>
+			<div class="oc-solution oc-solution--tariff">
+				<div class="oc-solution__header oc-solution__header--vip">
+					<strong>Vip</strong>
+					<small>10 дней</small>
+				</div>
+				<div class="oc-solutions__values">
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--6">
+						<div class="oc-solution__mobile-param">Встреча и трансфер до гостиницы:</div>
+						5 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--7">
+						<div class="oc-solution__mobile-param">Стоимость гостиницы:</div>
+						80 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--8">
+						<div class="oc-solution__mobile-param">Трансфер гостиница - клиника<br>(3 раза):</div>
+						6 500 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--9">
+						<div class="oc-solution__mobile-param">Трансфер клиника - гостиница<br>(3 раза):</div>
+						6 500 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--10">
+						<div class="oc-solution__mobile-param">Трансфер до аэропорта или вокзала:</div>
+						5 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--11">
+						<div class="oc-solution__mobile-param">Тур с гидом по окрестностям Москвы:</div>
+						7 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--12">
+						<div class="oc-solution__mobile-param">Cестра-сиделка на период реабилитации после операции:</div>
+						5 000 р.
+					</div>
+					<div class="oc-solutions__value oc-solution-row oc-solution-row--13">
+						<div class="oc-solution__mobile-param">Итого:</div>
+						<strong class="oc-solution__price">110 000 р.</strong>
+					</div>
+				</div>
+				<div class="oc-solution__footer">
+					<a href="#" class="button button--medium">Выбрать тариф</a>
+				</div>
+			</div>
+
+		</div>
+
 	</div>
 </section>
 

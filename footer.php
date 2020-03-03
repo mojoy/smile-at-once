@@ -331,8 +331,8 @@
 <script src="js/header_footer.js?v=1" type="text/javascript" ></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/assets.js?v=2" type="text/javascript" ></script>
-<script src="js/main.js?v=6" type="text/javascript" ></script>
+<script src="js/assets.js?v=3" type="text/javascript" ></script>
+<script src="js/main.js?v=8" type="text/javascript" ></script>
 
 
 	</body>
