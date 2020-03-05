@@ -12,10 +12,11 @@
 	}
 	@include res(m){
 		padding: 20px;
+		min-height: 320px;
 	}
 	@include res(s){
-		padding-bottom: 50%;
-		background-size: 130% auto;
+		padding-bottom: 65%;
+		background-size: 170% auto;
 		background-position: right bottom;
 	}
 }

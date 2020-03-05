@@ -107,7 +107,7 @@ $(function () {
  Прокрутка к секциям BEGIN
  ***********************/
 $(function () {
-	$('.scrollto').on('click', function () {
+	$(document).on('click','.scrollto', function () {
 		var elementClick = $(this).attr("href");
 		var destination = $(elementClick).offset().top;
 		$('html,body').stop().animate({scrollTop: destination}, 1000);
@@ -1083,4 +1083,36 @@ $(function($){
 });
 /***********************
  oc-solution-tip END
+***********************/
+
+
+/***********************
+ oc-why BEGIN
+***********************/
+$(function($){
+	var tippyOptions = {
+		content: function (reference) {
+			var id = reference.getAttribute('data-tip-why');
+			var template = document.getElementById(id);
+			return template.innerHTML;
+		},
+		animation: 'shift-away',
+		animateFill: false,
+		arrow: false,
+		placement: 'bottom',
+		theme: 'sao',
+		maxWidth: 440,
+		interactive: true,
+		trigger: 'click',
+		zIndex: 99
+	};
+
+	if (document.querySelectorAll('[data-tip-why]').length > 0){
+		if (window.matchMedia("(max-width: 1040px)").matches) {
+			tippy.group(tippy('[data-tip-why]', tippyOptions))
+		}
+	}
+});
+/***********************
+ oc-why END
 ***********************/

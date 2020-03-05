@@ -604,11 +604,17 @@
 }
 
 .portfolio-ba-doctor{
+	display: flex;
+	align-items: flex-start;
 	background: #FFF;
 	border-radius: 0 0 10px 10px;
 	padding: 15px;
-	display: flex;
-	align-items: flex-start;
+
+	&:hover{
+		.lead{
+			color: $pink;
+		}
+	}
 
 	img{
 		flex-shrink: 0;
