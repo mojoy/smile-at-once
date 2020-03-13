@@ -1192,7 +1192,7 @@
 					<div class="border-drop__content">
 						<div class="price-include user-content">
 							<p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing elit</a>. Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam. Consequatur, repellendus.</p>
-							<ul>
+							<ul class="checked-pink-list">
 								<li>Cumque debitis dolorem</li>
 								<li>eaque earum eum eveniet inventore molestias</li>
 								<li>Cumque debitis dolorem, eaque earum eum eveniet inventore molestias natus nulla obcaecati pariatur quae, quaerat quidem quod rem sed, ullam.</li>

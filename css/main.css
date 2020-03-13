@@ -2563,17 +2563,17 @@
   color: #FFF;
   font-size: 14px;
 }
-.pb .checked-pink-list, .pb .user-content ul {
+.pb .checked-pink-list {
   list-style: none;
 }
-.pb .checked-pink-list li, .pb .user-content ul li {
+.pb .checked-pink-list li {
   display: block;
   position: relative;
   padding-left: 25px;
   line-height: 1.2;
   margin-bottom: 0.4em;
 }
-.pb .checked-pink-list li:before, .pb .user-content ul li:before {
+.pb .checked-pink-list li:before {
   content: "";
   font-family: "smileicons" !important;
   position: absolute;
@@ -2583,10 +2583,10 @@
   color: #ff5274;
   font-size: 14px;
 }
-.pb .checked-pink-list li a, .pb .user-content ul li a {
+.pb .checked-pink-list li a {
   transition: color 0.3s ease;
 }
-.pb .checked-pink-list li a:hover, .pb .user-content ul li a:hover {
+.pb .checked-pink-list li a:hover {
   color: #000000;
 }
 .pb .checked-black-list {
@@ -11353,7 +11353,7 @@
     padding: 30px 25px;
   }
 }
-.pb .review-techinfo .checked-pink-list, .pb .review-techinfo .user-content ul, .pb .user-content .review-techinfo ul {
+.pb .review-techinfo .checked-pink-list {
   color: #ff5274;
   margin-bottom: 20px;
 }
