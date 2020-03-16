@@ -586,7 +586,7 @@ h5,.h5{
 		}
 	}
 
-	a{
+	a:not(.btn):not(.button){
 		@extend .link-border;
 	}
 

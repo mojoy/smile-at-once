@@ -2418,12 +2418,12 @@
   font-size: 0.6em;
   line-height: 1;
 }
-.pb .link-border, .pb .user-content a {
+.pb .link-border, .pb .user-content a:not(.btn):not(.button) {
   color: #ff5274;
   border-bottom: 1px solid rgba(255, 82, 116, 0.5);
   transition: all 0.3s ease;
 }
-.pb .link-border:hover, .pb .user-content a:hover {
+.pb .link-border:hover, .pb .user-content a:hover:not(.btn):not(.button) {
   border-bottom: 1px solid transparent;
 }
 .pb .link-arrow {
