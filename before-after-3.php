@@ -58,8 +58,8 @@
 							<div class="h3 ba-item__title">Белоснежная улыбка с помощью виниров</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -84,8 +84,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -110,8 +110,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -136,8 +136,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -162,8 +162,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -188,8 +188,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -214,8 +214,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -240,8 +240,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -266,8 +266,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -292,8 +292,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -318,8 +318,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">
@@ -344,8 +344,8 @@
 							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="" class="swiper-lazy">
-									<img src="/img/doctor/after-new.jpg" alt="" class="swiper-lazy">
+									<img src="/img/doctor/before-new.jpg" alt="">
+									<img src="/img/doctor/after-new.jpg" alt="">
 								</div>
 								<div class="ba-item__content">
 									<div class="ba-item__param">

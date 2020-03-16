@@ -955,6 +955,10 @@ $(function($){
 		move_slider_on_hover: false
 	});
 
+	$('.portfolio-ba').imagesLoaded( function() {
+		$(window).trigger("resize.twentytwenty");
+	});
+
 	var portfolioSlider = new Swiper('.portfolio-slider', {
 		speed: 600,
 		slidesPerView: 3,

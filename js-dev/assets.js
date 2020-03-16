@@ -8,3 +8,4 @@
 //@prepros-append vendors/tippy.min.js
 //@prepros-append vendors/jquery.event.move.js
 //@prepros-append vendors/jquery.twentytwenty.js
+//@prepros-append vendors/imagesloaded.pkgd.min.js
