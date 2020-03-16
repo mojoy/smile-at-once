@@ -31,7 +31,7 @@
 	<!--<link href="css/all.css" rel="stylesheet">-->
 <!--	<link href="css/all_doctors_dev.css" rel="stylesheet">-->
 <!--	<link href="css/animate.min.css" rel="stylesheet">-->
-	<link href="css/main.css?v=22" rel="stylesheet">
+	<link href="css/main.css?v=23" rel="stylesheet">
 </head>
 
 <body>
@@ -100,7 +100,7 @@
 							</ul>
 						</div>
 					</li>
-					<li><a href="#" class="current">До и после</a></li>
+					<li><a href="/before-after-4.php" class="current">До и после</a></li>
 					<li class="main-nav__has-sub">
 						<a href="/doctors.php">Врачи</a>
 						<div class="main-nav__sub">
@@ -942,7 +942,7 @@
 				<li><a title="Онлайн диагност" href="/calculator/">Онлайн диагностика</a></li>
 			</ul>
 		</li>
-		<li><a href="#" class="current">До и после</a></li>
+		<li><a href="/before-after-4.php" class="current">До и после</a></li>
 		<li class="has-sub">
 			<a href="/doctors.php">Врачи</a>
 			<div class="i i-down"></div>

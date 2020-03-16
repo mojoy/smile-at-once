@@ -1116,3 +1116,37 @@ $(function($){
 /***********************
  oc-why END
 ***********************/
+
+
+/***********************
+ba filter BEGIN
+***********************/
+$(function($){
+	$('.mob-filter-ba-opener').on('click',function (e) {
+		e.preventDefault();
+		$('.ba-filter-block').toggleClass('visible');
+	});
+});
+/***********************
+ba filter END
+***********************/
+
+
+/***********************
+Truncated blocks BEGIN
+***********************/
+$(function($){
+	$(document).on('click','.truncated-block__toggler',function (e) {
+		e.preventDefault();
+		var thisBlock = $(this).parent('.truncated-block');
+		thisBlock.toggleClass('opened');
+		if ($(this).text() === "Подробнее") {
+			$(this).text("Свернуть");
+		} else {
+			$(this).text("Подробнее");
+		}
+	})
+});
+/***********************
+Truncated blocks END
+***********************/
