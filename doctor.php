@@ -1,16 +1,18 @@
 <?php include('header.php'); ?>
 
 
-<section class="s-doctor-header">
+<section class="s-doctor-header" itemscope itemtype="http://schema.org/Person">
 	<div class="container doctor-header">
 		<div class="row">
 			<div class="grid-6 grid-12_m">
-				<h1 class="h1 doctor-header__name">Намдаков<br>Николай Владимирович</h1>
-				<div class="doctor-header__descr">Главный врач центра Smile-at-Once. Проводит комплексную имплантацию зубов с немедленной нагрузкой по протоколу «Зубы за 1 день»</div>
+				<h1 class="h1 doctor-header__name" itemprop="name">Намдаков<br>Николай Владимирович</h1>
+				<div class="doctor-header__descr" itemprop="description">Главный врач центра Smile-at-Once. Проводит комплексную имплантацию зубов с немедленной нагрузкой по протоколу «Зубы за 1 день»</div>
 				<div class="row doctor-header__params">
 					<div class="grid-6">
 						<div class="lead-big">Специализация</div>
-						<div class="doctor-header__spec">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<div class="doctor-header__spec" itemprop="jobTitle">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<div class="grid-6 grid-4_xs grid-off-2_xs">
 						<div class="lead-big">Стаж</div>
@@ -34,7 +36,7 @@
 
 			<div class="grid-6 grid-12_m">
 				<div class="doctor-header__right">
-					<img src="/img/doctor/namdakov-header.png" alt="Намдаков Николай Владимирович" class="doctor-header__photo">
+					<img src="/img/doctor/namdakov-header.png" alt="Намдаков Николай Владимирович" class="doctor-header__photo" itemprop="image">
 					<div class="doctor-header__quote">
 						<div class="doctor-header__quote-text">Я работаю с методами одноэтапной имплантации больше 10 лет. Я верю, что за ними будущее имплантологии – они проверены многочисленными клиническими исследованиями. Все мои пациенты возвращаются к полноценной и качественной жизни сразу и больше не скрывают свою улыбку.</div>
 						<div class="doctor-header__quote-info">
