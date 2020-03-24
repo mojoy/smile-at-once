@@ -89,9 +89,9 @@
 		<div class="h1 sec-title">Все отзывы <span class="reviews-title-counter">1765</span></div>
 
 		<div class="row review-intro-list">
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--video">
-					<a href="/reviews-video.php" class="review-intro__title">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
+			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap" itemscope itemtype="http://schema.org/Review">
+				<div class="review-intro review-intro--video" itemprop="itemReviewed">
+					<a href="/reviews-video.php" class="review-intro__title" itemprop="reviewAspect">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
 					<a href="/reviews-video.php" class="video-screen">
 						<img src="/img/reviews/video-screen.jpg" alt="1">
 						<button class="play-btn"></button>
@@ -101,18 +101,32 @@
 						<div class="review-intro__type review-intro__type--video">Видеоотзыв</div>
 						<a href="/reviews-video.php" class="review-intro__more">Стоимость и сроки</a>
 					</footer>
+					<meta itemprop="author" content="Алексей Вячеславович">
+					<meta itemprop="reviewBody" content="
+						текст проблемы.
+						текст решения.
+						видео отзыв по (_НАЗВАНИЕ ОТЗЫВА_) можно посмотреть на youtube канале по ссылке (ссылка не видео).
+					">
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">
-				<div class="review-intro review-intro--selfie">
-					<a href="#" class="review-intro__photo">
-						<img src="/img/reviews/selfi.jpg" alt="1">
+			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap" itemscope itemtype="http://schema.org/Review">
+				<div class="review-intro review-intro--video" itemprop="itemReviewed">
+					<a href="/reviews-video.php" class="review-intro__title" itemprop="reviewAspect">«Трансформация улыбки»: интервью Ольги Пыховой после первой коррекции протеза</a>
+					<a href="/reviews-video.php" class="video-screen">
+						<img src="/img/reviews/video-screen.jpg" alt="1">
+						<button class="play-btn"></button>
 					</a>
 					<footer class="review-intro__footer">
 						<time datetime="24-01-2019" class="review-intro__time">24.01.2019</time>
-						<div class="review-intro__type review-intro__type--selfie">Селфи отзыв</div>
-						<a href="#" class="review-intro__more">Подробнее</a>
+						<div class="review-intro__type review-intro__type--video">Видеоотзыв</div>
+						<a href="/reviews-video.php" class="review-intro__more">Стоимость и сроки</a>
 					</footer>
+					<meta itemprop="author" content="Алексей Вячеславович">
+					<meta itemprop="reviewBody" content="
+						текст проблемы.
+						текст решения.
+						видео отзыв по (_НАЗВАНИЕ ОТЗЫВА_) можно посмотреть на youtube канале по ссылке (ссылка не видео).
+					">
 				</div>
 			</div>
 			<div class="grid-4 grid-6_l grid-12_s review-intro-wrap">

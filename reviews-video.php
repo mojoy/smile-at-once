@@ -1,9 +1,9 @@
 <?php include('header.php'); ?>
 
 
-<section class="s-review-begin">
-	<div class="container">
-		<h1 class="h1">Полное восстановление зубов за 4 дня на 2 челюсти</h1>
+<section class="s-review-begin" itemscope itemtype="http://schema.org/Review">
+	<div class="container" itemprop="itemReviewed">
+		<h1 class="h1" itemprop="itemReviewed">Полное восстановление зубов за 4 дня на 2 челюсти</h1>
 
 		<div class="review-hero">
 			<span class="review-hero__name">Ольга Пыхова,</span>
@@ -60,6 +60,13 @@
 						</div>
 					</div>
 				</div>
+
+				<meta itemprop="author" content="Алексей Вячеславович">
+				<meta itemprop="reviewBody" content="
+					текст проблемы.
+					текст решения.
+				">
+
 
 			</div>
 
