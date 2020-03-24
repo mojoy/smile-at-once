@@ -50,18 +50,21 @@
 <section class="s-ba-list s-def">
 	<div class="container">
 
+
+
+
 		<div class="row">
 			<div class="grid-9 grid-12_l">
 				<div class="row ba-grid">
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Белоснежная улыбка с помощью виниров</div>
+							<div class="h3 ba-item__title" itemprop="caption">Белоснежная улыбка с помощью виниров</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -75,19 +78,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -101,19 +106,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -127,19 +134,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -153,19 +162,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -179,19 +190,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -205,19 +218,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -231,19 +246,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -257,19 +274,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -283,19 +302,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -309,19 +330,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -335,19 +358,21 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="grid-4 grid-6_l grid-12_xs">
+					<div class="grid-4 grid-6_l grid-12_xs" itemscope itemtype="http://schema.org/ImageObject">
 						<div class="ba-item">
-							<div class="h3 ba-item__title">Имплантация по технологии Proarch для восстановления зубов</div>
+							<div class="h3 ba-item__title" itemprop="caption">Имплантация по технологии Proarch для восстановления зубов</div>
 							<div class="ba-item__panel">
 								<div class="portfolio-ba twentytwenty-container">
-									<img src="/img/doctor/before-new.jpg" alt="">
-									<img src="/img/doctor/after-new.jpg" alt="">
+									<img src="/img/doctor/before-new.jpg" alt="" itemprop="thumbnail">
+									<img src="/img/doctor/after-new.jpg" alt="" itemprop="thumbnail">
 								</div>
-								<div class="ba-item__content">
+								<div class="ba-item__content" itemprop="description">
 									<div class="ba-item__param">
 										<div class="lead">Технология</div>
 										<div>All-on-4 Zygoma</div>
@@ -361,6 +386,8 @@
 										<span>Срок лечения: 3 дня</span>
 									</div>
 									<div class="button fancy-modal" data-src="#modal-ba">Детали и цены</div>
+									<meta content="2017-04-25 20:02" itemprop="datePublished">
+									<meta content="Жалобы пациента: Перосстановления; Диагноз: Отсутствие зубов, сколы на зубах" itemprop="description">
 								</div>
 							</div>
 						</div>
