@@ -28,20 +28,23 @@
 	<div class="price-details-main">
 		<div class="h2 price-details-main__title">Что включено в стоимость</div>
 		<div class="border-drops border-drops--list">
-			<div class="border-drop">
-				<div class="border-drop__header">Компьютерная томография и мультиспиральная компьютерная томография –
-					все снимки «ДО» и «ПОСЛЕ»  имплантации</div>
+			<div class="border-drop" itemscope="" itemtype="http://schema.org/Product">
+				<div class="border-drop__header" itemprop="name">Компьютерная томография и мультиспиральная компьютерная томография – все снимки «ДО» и «ПОСЛЕ»  имплантации</div>
 				<div class="border-drop__content">
 					<div class="price-include row">
 						<div class="price-include__main grid-8 grid-12_m">
-							<div class="user-content">
+							<div class="user-content" itemprop="description">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.
 							</div>
 						</div>
 						<div class="price-include__aside grid-4 grid-12_m">
-							<strong class="price-include__price">от 3 500 руб. за 1 челюсть</strong>
-							<strong class="price-include__price">от 5 000 руб. за 2 челюсти</strong>
-							<div class="price-include__note">У нас стоимость КТ входит даже в бесплатную консультацию – вы ничего не платите.</div>
+							<strong class="price-include__price" itemprop="description">от 3 500 руб. за 1 челюсть</strong>
+							<strong class="price-include__price" itemprop="description">от 5 000 руб. за 2 челюсти</strong>
+							<div class="price-include__note" itemprop="description">У нас стоимость КТ входит даже в бесплатную консультацию – вы ничего не платите.</div>
+						</div>
+						<div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="hidden">
+							<span itemprop="price" content="3500">3 500</span>
+							<meta itemprop="priceCurrency" content="RUB">
 						</div>
 						<div class="grid-12">
 							<div class="price-item__links">
@@ -52,19 +55,23 @@
 					</div>
 				</div>
 			</div>
-			<div class="border-drop">
-				<div class="border-drop__header">Анализы перед операцией</div>
+			<div class="border-drop" itemscope="" itemtype="http://schema.org/Product">
+				<div class="border-drop__header" itemprop="name">Анализы перед операцией</div>
 				<div class="border-drop__content">
 					<div class="price-include row">
 						<div class="price-include__main grid-8 grid-12_m">
-							<div class="user-content">
+							<div class="user-content" itemprop="description">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.
 							</div>
 						</div>
 						<div class="price-include__aside grid-4 grid-12_m">
-							<strong class="price-include__price">от 3 500 руб. за 1 челюсть</strong>
-							<strong class="price-include__price">от 5 000 руб. за 2 челюсти</strong>
-							<div class="price-include__note">У нас стоимость КТ входит даже в бесплатную консультацию – вы ничего не платите.</div>
+							<strong class="price-include__price" itemprop="description">от 3 500 руб. за 1 челюсть</strong>
+							<strong class="price-include__price" itemprop="description">от 5 000 руб. за 2 челюсти</strong>
+							<div class="price-include__note" itemprop="description">У нас стоимость КТ входит даже в бесплатную консультацию – вы ничего не платите.</div>
+						</div>
+						<div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="hidden">
+							<span itemprop="price" content="3500">3 500</span>
+							<meta itemprop="priceCurrency" content="RUB">
 						</div>
 						<div class="grid-12">
 							<div class="price-item__links">
@@ -75,8 +82,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="border-drop">
-				<div class="border-drop__header">Местная анастезия, которая подбирается индивидуально для пациента</div>
+			<div class="border-drop" itemscope="" itemtype="http://schema.org/Product">
+				<div class="border-drop__header" itemprop="name">Местная анастезия, которая подбирается индивидуально для пациента</div>
 				<div class="border-drop__content">
 					<div class="price-include row">
 						<div class="price-include__main grid-8 grid-12_m">
@@ -85,9 +92,13 @@
 							</div>
 						</div>
 						<div class="price-include__aside grid-4 grid-12_m">
-							<strong class="price-include__price">от 3 500 руб. за 1 челюсть</strong>
-							<strong class="price-include__price">от 5 000 руб. за 2 челюсти</strong>
-							<div class="price-include__note">У нас стоимость КТ входит даже в бесплатную консультацию – вы ничего не платите.</div>
+							<strong class="price-include__price" itemprop="description">от 3 500 руб. за 1 челюсть</strong>
+							<strong class="price-include__price" itemprop="description">от 5 000 руб. за 2 челюсти</strong>
+							<div class="price-include__note" itemprop="description">У нас стоимость КТ входит даже в бесплатную консультацию – вы ничего не платите.</div>
+						</div>
+						<div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="hidden">
+							<span itemprop="price" content="3500">3 500</span>
+							<meta itemprop="priceCurrency" content="RUB">
 						</div>
 						<div class="grid-12">
 							<div class="price-item__links">
@@ -98,8 +109,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="border-drop">
-				<div class="border-drop__header">Удаление зубов перед имплантацией</div>
+			<div class="border-drop" itemscope="" itemtype="http://schema.org/Product">
+				<div class="border-drop__header" itemprop="name">Удаление зубов перед имплантацией</div>
 				<div class="border-drop__content">
 					<div class="price-include row">
 						<div class="price-include__main grid-8 grid-12_m">
@@ -108,9 +119,13 @@
 							</div>
 						</div>
 						<div class="price-include__aside grid-4 grid-12_m">
-							<strong class="price-include__price">от 3 500 руб. за 1 челюсть</strong>
-							<strong class="price-include__price">от 5 000 руб. за 2 челюсти</strong>
-							<div class="price-include__note">У нас стоимость КТ входит даже в бесплатную консультацию – вы ничего не платите.</div>
+							<strong class="price-include__price" itemprop="description">от 3 500 руб. за 1 челюсть</strong>
+							<strong class="price-include__price" itemprop="description">от 5 000 руб. за 2 челюсти</strong>
+							<div class="price-include__note" itemprop="description">У нас стоимость КТ входит даже в бесплатную консультацию – вы ничего не платите.</div>
+						</div>
+						<div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="hidden">
+							<span itemprop="price" content="3500">3 500</span>
+							<meta itemprop="priceCurrency" content="RUB">
 						</div>
 						<div class="grid-12">
 							<div class="price-item__links">

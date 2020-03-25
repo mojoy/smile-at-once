@@ -86,27 +86,30 @@
 									<div class="checked-drop">
 										<div class="checked-drop__header">С немедленной нагрузкой</div>
 										<div class="checked-drop__content">
-											<div class="price-item">
+
+											<div class="price-item"  itemscope="" itemtype="http://schema.org/Product">
 												<div class="price-item__top">
 													<div class="price-item__top-left">
 														<div class="price-item__title">С адаптационным протезом</div>
-														<div class="price-item__descr">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
+														<div class="price-item__descr" itemprop="description">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
 													</div>
+													<meta itemprop="name" content="Название секции - название item">
+													<meta itemprop="url" content="url если есть">
 													<div class="price-item__top-info">
 														<figure class="price-item__info" data-tip="price-ID">i</figure>
-														<template id="price-ID">
+														<template id="price-ID" itemprop="description">
 															Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом.<br>
 															Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.
 														</template>
 													</div>
 													<div class="price-item__top-logo">
-														<img src="/img/price/nobel.png" alt="1">
+														<img src="/img/price/nobel.png" alt="1" itemprop="image">
 													</div>
-													<div class="price-item__top-right">
-														<div class="price-item__price">600 000 <small>руб</small></div>
-														<div class="price-item__price-old">850 000 руб</div>
-														<div class="price-item__label">Акция до 22.09.2019</div>
-														<div class="price-item__label price-item__label--gray">Поэтапная оплата 70/30</div>
+													<div class="price-item__top-right" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+														<div class="price-item__price">
+															<span itemprop="price" content="300000">600 000</span> <small>руб</small>
+															<meta itemprop="priceCurrency" content="RUB">
+														</div>
 													</div>
 												</div>
 												<div class="price-item__triggers">
@@ -134,27 +137,42 @@
 													<a href="#" class="link-arrow">Подробнее об услуге <span class="i i-ar-right"></span></a>
 												</div>
 											</div>
-											<div class="price-item">
+
+											<div class="price-item" itemscope="" itemtype="http://schema.org/Event">
 												<div class="price-item__top">
 													<div class="price-item__top-left">
 														<div class="price-item__title">С адаптационным протезом</div>
-														<div class="price-item__descr">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
+														<div class="price-item__descr" itemprop="description">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
 													</div>
+													<meta itemprop="name" content="Название секции - название item">
 													<div class="price-item__top-info">
 														<figure class="price-item__info" data-tip="price-ID2">i</figure>
-														<template id="price-ID2">
+														<template id="price-ID2" itemprop="description">
 															Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом.
 														</template>
 													</div>
 													<div class="price-item__top-logo">
-														<img src="/img/price/straumann.png" alt="1">
+														<img src="/img/price/straumann.png" alt="1" itemprop="image">
 													</div>
-													<div class="price-item__top-right">
-														<div class="price-item__price">600 000 <small>руб</small></div>
+													<div class="price-item__top-right" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+														<div class="price-item__price">
+															<span itemprop="price" content="300000">600 000</span> <small>руб</small>
+															<meta itemprop="priceCurrency" content="RUB">
+														</div>
 														<div class="price-item__price-old">850 000 руб</div>
 														<div class="price-item__label">Акция до 22.09.2019</div>
 														<div class="price-item__label price-item__label--gray">Поэтапная оплата 70/30</div>
 													</div>
+													<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+														<span itemprop="name">Клинике Smile-at-Once</span>
+														<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+															<meta itemprop="addressLocality" content="Москва">
+															<meta itemprop="addressRegion" content="МО">
+															<meta itemprop="telephone" content="+78003334628">
+														</span>
+													</span>
+													<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+													<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
 												</div>
 												<div class="price-item__triggers">
 													<span>Протез: несъемный</span>
@@ -181,20 +199,26 @@
 													<a href="#" class="link-arrow">Подробнее об услуге <span class="i i-ar-right"></span></a>
 												</div>
 											</div>
-											<div class="price-item">
+
+											<div class="price-item" itemscope="" itemtype="http://schema.org/Product">
 												<div class="price-item__top">
 													<div class="price-item__top-left">
 														<div class="price-item__title">С 2 имплантами Zygoma с немедленной нагрузкой имплантов с постоянным протезом</div>
-														<div class="price-item__descr">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
+														<div class="price-item__descr" itemprop="description">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
 													</div>
+													<meta itemprop="name" content="Название секции - название item">
+													<meta itemprop="url" content="url если есть">
 													<div class="price-item__top-info">
 
 													</div>
 													<div class="price-item__top-logo">
-														<img src="/img/price/osstem.png" alt="1">
+														<img src="/img/price/osstem.png" alt="1" itemprop="image">
 													</div>
-													<div class="price-item__top-right">
-														<div class="price-item__price">600 000 <small>руб</small></div>
+													<div class="price-item__top-right" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+														<div class="price-item__price">
+															<span itemprop="price" content="300000">600 000</span> <small>руб</small>
+															<meta itemprop="priceCurrency" content="RUB">
+														</div>
 													</div>
 												</div>
 												<div class="price-item__triggers">
@@ -222,20 +246,26 @@
 													<a href="#" class="link-arrow">Подробнее об услуге <span class="i i-ar-right"></span></a>
 												</div>
 											</div>
-											<div class="price-item">
+
+											<div class="price-item" itemscope="" itemtype="http://schema.org/Product">
 												<div class="price-item__top">
 													<div class="price-item__top-left">
 														<div class="price-item__title">С 2 имплантами Zygoma с немедленной нагрузкой имплантов с постоянным протезом</div>
-														<div class="price-item__descr">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
+														<div class="price-item__descr" itemprop="description">Установка 4 имплантов NobelSpeedy Groovy на 1 челюсть по оригинальной технологии "все на четырех" с адаптационным протезом на усиленном металлическом каркасе с винтовым креплением.</div>
 													</div>
+													<meta itemprop="name" content="Название секции - название item">
+													<meta itemprop="url" content="url если есть">
 													<div class="price-item__top-info">
 
 													</div>
 													<div class="price-item__top-logo">
 
 													</div>
-													<div class="price-item__top-right">
-														<div class="price-item__price">600 000 <small>руб</small></div>
+													<div class="price-item__top-right" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+														<div class="price-item__price">
+															<span itemprop="price" content="300000">600 000</span> <small>руб</small>
+															<meta itemprop="priceCurrency" content="RUB">
+														</div>
 													</div>
 												</div>
 												<div class="price-item__triggers">
