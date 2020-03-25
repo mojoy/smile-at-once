@@ -40,10 +40,10 @@
 <header class="pb pb-header">
 
 
-<section class="s-top-panel">
+<section class="s-top-panel" itemscope itemtype="http://schema.org/Organization">
 	<div class="container top-panel">
-		<a href="/" class="top-panel__logo">
-			<img src="/img/logo.svg" alt="Логотип" class="top-panel__logo-pc">
+		<a href="/" class="top-panel__logo" itemprop="url">
+			<img src="/img/logo.svg" alt="Логотип" class="top-panel__logo-pc" itemprop="logo">
 		</a>
 		<!--<div class="top-panel__prizes">
 			<a href="#"><img src="/img/header/prize_1.png" alt="1" title="Лучшая стоматологическая клиника по версии КоммерсантЪ"></a>
@@ -62,20 +62,24 @@
 			<a href="#" class="top-panel__link"><span class="i i-pin"></span>Адреса клиник</a>
 		</div>
 		<div class="top-panel__contacts">
-			<a href="tel:88003334628" class="top-panel__cont-mob">
+			<a href="tel:+78003334628" class="top-panel__cont-mob">
 				<span class="i i-phone"></span>
 			</a>
 			<div class="top-panel__cont">
 				<div>Для регионов</div>
-				<strong><a href="tel:88003334628">8 800 333-46-28</a></strong>
+				<strong><a href="tel:+78003334628">8 800 333-46-28</a></strong>
 				<a href="#" class="link-dot fancy-modal" data-src="#modal-callback" rel="nofollow">Заказать обратный звонок</a>
 			</div>
 			<div class="top-panel__cont">
 				<div>Для Москвы и МО</div>
-				<strong class="top-panel__online"><a href="tel:84955405042">8 495 540-50-42</a></strong>
-				<div>Ежедневно с 10:00 до 21:00 </div>
+				<strong class="top-panel__online"><a href="tel:+74955405042">8 495 540-50-42</a></strong>
+				<div itemprop="description">Ежедневно с 10:00 до 21:00 </div>
 			</div>
 		</div>
+		<meta itemprop="address" content="Москва, Дмитровское шоссе, дом 5, корпус 1">
+		<meta itemprop="address" content="Москва, ул. Станиславского дом 11">
+		<meta itemprop="telephone" content="+78003334628">
+		<meta itemprop="brand" content="Smile-at-Once">
 	</div>
 </section>
 
