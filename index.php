@@ -186,73 +186,81 @@
 	<div class="container cases-wrap">
 
 		<div class="cases">
-			<div class="case">
-				<div class="case__left">
-					<div class="case__cite">—  Не мог есть нормально еду. Был случай, когда кусочки пищи вывалились из рта прямо в гостях Это было ужасно!</div>
-					<div class="case__hwo">Бытаев В.А., 60 лет</div>
-					<div class="case__city">город Сызрань</div>
-					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-1" data-fancybox="cases">Видео отзыв</button>
-					<a href="#" class="fancy-modal case__before" data-src="#case-modal-1">
-						<img src="/img/cases/case-1-before.jpg" alt="1">
-					</a>
-				</div>
-				<div class="case__center">
-					<a href="#" data-src="#case-modal-1" class="case__before-mob fancy-modal">
-						<img src="/img/cases/case-1-before.jpg" alt="1">
-					</a>
-					<a href="#" data-src="#case-modal-1" class="case__after fancy-modal">
-						<img src="/img/cases/case-1-after.jpg" alt="1">
-					</a>
-				</div>
-				<div class="modal case-modal" id="case-modal-1">
-					<div class="h2 case-modal__title">Восстановление зубов верхней челюсти постоянным несъемным протезом на имплантах</div>
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video">
-						<img src="/img/cases/video.jpg" alt="1">
-						<button class="play-btn"></button>
-					</a>
-					<a href="#" class="link-arrow">Полный отчёт <span class="i i-ar-right"></span></a>
-					<div class="case-modal__order">
-						<div class="h3 case-modal__order-title">Узнайте какое решение подходит в вашем случае</div>
-						<form action="#" class="case-modal__form">
-							<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text input-text--round">
-							<button type="submit" class="button">Записаться к врачу</button>
-						</form>
-						<div class="case-modal__note">Бесплатная консультация имплантолога и ортопеда. Компьютерная томография и ортопанотграмма 0 руб.</div>
+			<div class="case" itemscope itemtype="http://schema.org/Review">
+				<div itemprop="itemReviewed">
+					<div class="case__left">
+						<div class="case__cite" itemprop="reviewBody">—  Не мог есть нормально еду. Был случай, когда кусочки пищи вывалились из рта прямо в гостях Это было ужасно!</div>
+						<div class="case__hwo">Бытаев В.А., 60 лет</div>
+						<meta itemprop="author" content="Бытаев В.А.">
+						<meta itemprop="dateCreated" content="2015-01-01">
+						<div class="case__city">город Сызрань</div>
+						<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-1" data-fancybox="cases">Видео отзыв</button>
+						<a href="#" class="fancy-modal case__before" data-src="#case-modal-1">
+							<img src="/img/cases/case-1-before.jpg" alt="1" itemprop="thumbnailUrl">
+						</a>
+					</div>
+					<div class="case__center">
+						<a href="#" data-src="#case-modal-1" class="case__before-mob fancy-modal">
+							<img src="/img/cases/case-1-before.jpg" alt="1" itemprop="image">
+						</a>
+						<a href="#" data-src="#case-modal-1" class="case__after fancy-modal">
+							<img src="/img/cases/case-1-after.jpg" alt="1" itemprop="image">
+						</a>
+					</div>
+					<div class="modal case-modal" id="case-modal-1">
+						<div class="h2 case-modal__title" itemprop="name">Восстановление зубов верхней челюсти постоянным несъемным протезом на имплантах</div>
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video">
+							<img src="/img/cases/video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+						<a href="#" class="link-arrow">Полный отчёт <span class="i i-ar-right"></span></a>
+						<div class="case-modal__order">
+							<div class="h3 case-modal__order-title">Узнайте какое решение подходит в вашем случае</div>
+							<form action="#" class="case-modal__form">
+								<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text input-text--round">
+								<button type="submit" class="button">Записаться к врачу</button>
+							</form>
+							<div class="case-modal__note">Бесплатная консультация имплантолога и ортопеда. Компьютерная томография и ортопанотграмма 0 руб.</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="case">
-				<div class="case__left">
-					<div class="case__cite">—  Не мог есть нормально еду.</div>
-					<div class="case__hwo">Бытаев В.А., 60 лет</div>
-					<div class="case__city">город Сызрань</div>
-					<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-2" data-fancybox="cases">Видео отзыв</button>
-					<a href="#" class="fancy-modal case__before" data-src="#case-modal-2">
-						<img src="/img/cases/case-1-before.jpg" alt="1">
-					</a>
-				</div>
-				<div class="case__center">
-					<a href="#" data-src="#case-modal-2" class="case__before-mob fancy-modal">
-						<img src="/img/cases/case-1-before.jpg" alt="1">
-					</a>
-					<a href="#" data-src="#case-modal-2" class="case__after fancy-modal">
-						<img src="/img/cases/case-1-after.jpg" alt="1">
-					</a>
-				</div>
-				<div class="modal case-modal" id="case-modal-2">
-					<div class="h2 case-modal__title">Восстановление зубов верхней челюсти</div>
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video">
-						<img src="/img/cases/video.jpg" alt="1">
-						<button class="play-btn"></button>
-					</a>
-					<a href="#" class="link-arrow">Полный отчёт <span class="i i-ar-right"></span></a>
-					<div class="case-modal__order">
-						<div class="h3 case-modal__order-title">Узнайте какое решение подходит в вашем случае</div>
-						<form action="#" class="case-modal__form">
-							<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text input-text--round">
-							<button type="submit" class="button">Записаться к врачу</button>
-						</form>
-						<div class="case-modal__note">Бесплатная консультация имплантолога и ортопеда. Компьютерная томография и ортопанотграмма 0 руб.</div>
+			<div class="case" itemscope itemtype="http://schema.org/Review">
+				<div itemprop="itemReviewed">
+					<div class="case__left">
+						<div class="case__cite" itemprop="reviewBody">—  Не мог есть нормально еду.</div>
+						<div class="case__hwo">Бытаев В.А., 60 лет</div>
+						<meta itemprop="author" content="Бытаев В.А.">
+						<meta itemprop="dateCreated" content="2015-01-01">
+						<div class="case__city">город Сызрань</div>
+						<button class="button button--outline case__more-btn fancy-modal" data-src="#case-modal-2" data-fancybox="cases">Видео отзыв</button>
+						<a href="#" class="fancy-modal case__before" data-src="#case-modal-2">
+							<img src="/img/cases/case-1-before.jpg" alt="1" itemprop="thumbnailUrl">
+						</a>
+					</div>
+					<div class="case__center">
+						<a href="#" data-src="#case-modal-2" class="case__before-mob fancy-modal">
+							<img src="/img/cases/case-1-before.jpg" alt="1" itemprop="image">
+						</a>
+						<a href="#" data-src="#case-modal-2" class="case__after fancy-modal">
+							<img src="/img/cases/case-1-after.jpg" alt="1" itemprop="image">
+						</a>
+					</div>
+					<div class="modal case-modal" id="case-modal-2">
+						<div class="h2 case-modal__title" itemprop="name">Восстановление зубов верхней челюсти</div>
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video">
+							<img src="/img/cases/video.jpg" alt="1">
+							<button class="play-btn"></button>
+						</a>
+						<a href="#" class="link-arrow">Полный отчёт <span class="i i-ar-right"></span></a>
+						<div class="case-modal__order">
+							<div class="h3 case-modal__order-title">Узнайте какое решение подходит в вашем случае</div>
+							<form action="#" class="case-modal__form">
+								<input type="tel" name="user_tel" placeholder="Введите телефон*" class="input-text input-text--round">
+								<button type="submit" class="button">Записаться к врачу</button>
+							</form>
+							<div class="case-modal__note">Бесплатная консультация имплантолога и ортопеда. Компьютерная томография и ортопанотграмма 0 руб.</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -323,92 +331,169 @@
 	<div class="container">
 		<div class="swiper-container promo-slider">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide promo-banner promo-banner--purple promo-banner--dark">
+				<div class="swiper-slide promo-banner promo-banner--purple promo-banner--dark" itemscope="" itemtype="http://schema.org/Event">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
 						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-1.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-1.png">
 					</div>
 					<div class="promo-banner__content">
 						<div class="promo-banner__date">до 18.03.2019</div>
-						<div class="promo-banner__title">Протезирование на&nbsp;имплантах Trefoil для&nbsp;нижней челюсти</div>
-						<ul class="promo-banner__list checked-pink-list">
+						<div class="promo-banner__title" itemprop="name">Протезирование на&nbsp;имплантах Trefoil для&nbsp;нижней челюсти</div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
 							<li>Бесплатная первичная консультация</li>
 							<li>Оплата без скрытых платежей</li>
 							<li>Бесплатная первичная консультация</li>
 						</ul>
-						<div class="promo-banner__prices">
+						<div class="promo-banner__prices" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
 							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
 							<div class="promo-banner__oldprice">120 000 руб</div>
 						</div>
 						<a href="#" class="button promo-banner__btn">Подробнее</a>
 					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
 				</div>
-				<div class="swiper-slide promo-banner promo-banner--yellow">
+				<div class="swiper-slide promo-banner promo-banner--yellow" itemscope="" itemtype="http://schema.org/Event">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
 						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-2.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-2.png">
 					</div>
 					<div class="promo-banner__content">
 						<div class="promo-banner__date">до 18.03.2019</div>
-						<div class="promo-banner__title">ALL-ON-4 - Все&nbsp;зубы на&nbsp;четырех имплантах</div>
-						<ul class="promo-banner__list checked-pink-list">
+						<div class="promo-banner__title" itemprop="name">ALL-ON-4 - Все&nbsp;зубы на&nbsp;четырех имплантах</div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
 							<li>Бесплатная первичная консультация</li>
 							<li>Оплата без скрытых платежей</li>
 							<li>Бесплатная первичная консультация</li>
 						</ul>
 						<div class="promo-banner__prices">
 							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
 							<div class="promo-banner__oldprice">120 000 руб</div>
 						</div>
 						<a href="#" class="button promo-banner__btn">Подробнее</a>
 					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
 				</div>
-				<div class="swiper-slide promo-banner promo-banner--pink">
+				<div class="swiper-slide promo-banner promo-banner--pink" itemscope="" itemtype="http://schema.org/Event">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
 						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-3.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-3.png">
 					</div>
 					<div class="promo-banner__content">
-						<div class="promo-banner__title">ALL-ON-6 - Протезирование на&nbsp;6 имплантах от 90 000 руб</div>
-						<ul class="promo-banner__list checked-pink-list">
+						<div class="promo-banner__title" itemprop="name">ALL-ON-6 - Протезирование на&nbsp;6 имплантах от 90 000 руб</div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
 							<li>Бесплатная первичная консультация</li>
 							<li>Оплата без скрытых платежей</li>
 							<li>Бесплатная первичная консультация</li>
 						</ul>
+						<div class="promo-banner__prices">
+							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
 						<a href="#" class="button promo-banner__btn">Подробнее</a>
 					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
 				</div>
-				<div class="swiper-slide promo-banner promo-banner--green">
+				<div class="swiper-slide promo-banner promo-banner--green" itemscope="" itemtype="http://schema.org/Event">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
 						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-4.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-4.png">
 					</div>
 					<div class="promo-banner__content">
-						<div class="promo-banner__title">Базальная имплантация зубов <nobr>от 90 000 руб</nobr></div>
-						<ul class="promo-banner__list checked-pink-list">
+						<div class="promo-banner__title" itemprop="name">Базальная имплантация зубов <nobr>от 90 000 руб</nobr></div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
 							<li>Бесплатная первичная консультация</li>
 							<li>Оплата без скрытых платежей</li>
 							<li>Бесплатная первичная консультация</li>
 							<li>Бесплатная первичная консультация</li>
 						</ul>
+						<div class="promo-banner__prices">
+							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
 						<a href="#" class="button promo-banner__btn">Подробнее</a>
 					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
 				</div>
-				<div class="swiper-slide promo-banner promo-banner--gray promo-banner--dark">
+				<div class="swiper-slide promo-banner promo-banner--gray promo-banner--dark" itemscope="" itemtype="http://schema.org/Event">
 					<div class="promo-banner__imgwrap">
 						<div class="slide-loading"></div>
 						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-5.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-5.png">
 					</div>
 					<div class="promo-banner__content">
-						<div class="promo-banner__title">Скуловая имплантация зубов <nobr>от 90 000 руб</nobr></div>
-						<ul class="promo-banner__list checked-pink-list">
+						<div class="promo-banner__title" itemprop="name">Скуловая имплантация зубов <nobr>от 90 000 руб</nobr></div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
 							<li>Бесплатная первичная консультация</li>
 							<li>Оплата без скрытых платежей</li>
 							<li>Бесплатная первичная консультация</li>
 							<li>Бесплатная первичная консультация</li>
 						</ul>
+						<div class="promo-banner__prices">
+							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
 						<a href="#" class="button promo-banner__btn">Подробнее</a>
 					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
 				</div>
 			</div>
 			<div class="promo-slider__nav">
@@ -428,125 +513,136 @@
 
 	<div class="prizes-slider swiper-container">
 		<div class="swiper-wrapper">
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/1.png" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/1_1.png" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">Статус лучшая стоматология страны 2018</div>
-					<div class="prize-block__descr">Медаль лучшие стоматологии РФ 2018</div>
+					<div class="prize-block__name" itemprop="name">Статус лучшая стоматология страны 2018</div>
+					<div class="prize-block__descr" itemprop="description">Медаль лучшие стоматологии РФ 2018</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/2.png" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/2_1.jpg" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">Права потребителей и качество обслуживания</div>
-					<div class="prize-block__descr">Награда Права потребителей и качество обслуживания</div>
+					<div class="prize-block__name" itemprop="name">Права потребителей и качество обслуживания</div>
+					<div class="prize-block__descr" itemprop="description">Награда Права потребителей и качество обслуживания</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/3.png" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/3_1.jpg" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">ТОП-100 лучших стоматологий России</div>
-					<div class="prize-block__descr">Сертификат STARTSMILE</div>
+					<div class="prize-block__name" itemprop="name">ТОП-100 лучших стоматологий России</div>
+					<div class="prize-block__descr" itemprop="description">Сертификат STARTSMILE</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/4.jpg" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/4_1.jpg" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">Инновационный центр СтАР</div>
-					<div class="prize-block__descr">Диплом Стоматологической Ассоциации России</div>
+					<div class="prize-block__name" itemprop="name">Инновационный центр СтАР</div>
+					<div class="prize-block__descr" itemprop="description">Диплом Стоматологической Ассоциации России</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/5.jpg" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/5_1.jpg" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">Международная премия «Грация»</div>
-					<div class="prize-block__descr">«Лучшая стоматологическая клиника. Доверие и репутация» «Лучшая сеть стоматологических клиник»</div>
+					<div class="prize-block__name" itemprop="name">Международная премия «Грация»</div>
+					<div class="prize-block__descr" itemprop="description">«Лучшая стоматологическая клиника. Доверие и репутация» «Лучшая сеть стоматологических клиник»</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/6.png" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/6_1.png" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">Премия «Время инноваций»</div>
-					<div class="prize-block__descr">«Лучшая стоматологическая клиника. Доверие и репутация» «Лучшая сеть стоматологических клиник»</div>
+					<div class="prize-block__name" itemprop="name">Премия «Время инноваций»</div>
+					<div class="prize-block__descr" itemprop="description">«Лучшая стоматологическая клиника. Доверие и репутация» «Лучшая сеть стоматологических клиник»</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/7.png" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/7_1.jpg" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">ТОП-100 лучших предприятий и организаций страны</div>
-					<div class="prize-block__descr">Награда 100 лучших предприятий и организаций</div>
+					<div class="prize-block__name" itemprop="name">ТОП-100 лучших предприятий и организаций страны</div>
+					<div class="prize-block__descr" itemprop="description">Награда 100 лучших предприятий и организаций</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/8.png" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/8_1.jpg" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">100 лучших медицинских организаций</div>
-					<div class="prize-block__descr">Награда 100 лучших медицинских организаций</div>
+					<div class="prize-block__name" itemprop="name">100 лучших медицинских организаций</div>
+					<div class="prize-block__descr" itemprop="description">Награда 100 лучших медицинских организаций</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/9.png" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/9_1.jpg" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">ISO ООО "Стоматология новая улыбка"</div>
-					<div class="prize-block__descr">Сертификат соответствия</div>
+					<div class="prize-block__name" itemprop="name">ISO ООО "Стоматология новая улыбка"</div>
+					<div class="prize-block__descr" itemprop="description">Сертификат соответствия</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/10.png" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/10_1.jpg" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">Высокое качество "Стоматология новая улыбка"</div>
-					<div class="prize-block__descr">Сертификат соответствия</div>
+					<div class="prize-block__name" itemprop="name">Высокое качество "Стоматология новая улыбка"</div>
+					<div class="prize-block__descr" itemprop="description">Сертификат соответствия</div>
 				</a>
 			</div>
-			<div class="swiper-slide">
-				<a href="#" class="prize-block">
+			<div class="swiper-slide" itemscope="" itemtype="http://schema.org/ImageObject">
+				<a href="#" class="prize-block" itemprop="url">
 					<header class="prize-block__header">
 						<div class="slide-loading"></div>
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/11.png" alt="1" class="swiper-lazy">
 						<img src="/img/prizes/placeholder.png" data-src="/img/prizes/11_1.jpg" alt="1" class="swiper-lazy">
+						<meta itemprop="contentUrl" content="/img/prizes/1_1.png">
 					</header>
-					<div class="prize-block__name">Инновация года ООО "Стоматология новая улыбка"</div>
-					<div class="prize-block__descr">Сертификат соответствия</div>
+					<div class="prize-block__name" itemprop="name">Инновация года ООО "Стоматология новая улыбка"</div>
+					<div class="prize-block__descr" itemprop="description">Сертификат соответствия</div>
 				</a>
 			</div>
 		</div>
@@ -732,166 +828,202 @@
 
 	<div class="swiper-container team-slider">
 		<div class="swiper-wrapper">
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/2.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/2.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Чорный Станислав</div>
-					<div class="team-info__descr">Специализация:<br>Стоматолог-ортопед</div>
+					<div class="team-info__name" itemprop="name">Чорный Станислав</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Стоматолог-ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>16+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/3.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/3.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Беспалов Роман</div>
-					<div class="team-info__descr">Специализация:<br>Челюстно-лицевой хирург, имплантолог</div>
+					<div class="team-info__name" itemprop="name">Беспалов Роман</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Челюстно-лицевой хирург, имплантолог</span></div>
 					<div class="team-info__xp">Опыт: <strong>22+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/4.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/4.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Путь Владимир</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Путь Владимир</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>27+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/1.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/1.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/5.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/5.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/6.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/6.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/7.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/7.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/8.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/8.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/9.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/9.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/10.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/10.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/11.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/11.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/12.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/12.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/13.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/13.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/14.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/14.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/15.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/15.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/16.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/16.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/17.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/17.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
-			<div class="swiper-slide team-slider__item">
+			<div class="swiper-slide team-slider__item" itemscope itemtype="http://schema.org/Person">
 				<div class="slide-loading"></div>
-				<a href="#"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/18.jpg" alt="1"></a>
+				<a href="#" itemprop="url"><img src="/img/team/placeholder.png" class="swiper-lazy" data-src="/img/team/18.jpg" alt="1"></a>
 				<a href="#" class="team-info">
-					<div class="team-info__name">Иван Иванов</div>
-					<div class="team-info__descr">Специализация:<br>Хирург-имплантолог, ортопед</div>
+					<div class="team-info__name" itemprop="name">Иван Иванов</div>
+					<div class="team-info__descr">Специализация:<br><span itemprop="jobTitle">Хирург-имплантолог, ортопед</span></div>
 					<div class="team-info__xp">Опыт: <strong>10+</strong></div>
+					<meta itemprop="description" content="Опыт: 16+">
+					<meta itemprop="image" content="/img/team/2.jpg"> <!-- юрл на фото врача -->
 				</a>
 			</div>
 		</div>
