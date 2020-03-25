@@ -209,7 +209,7 @@
 					</div>
 					<div class="modal case-modal" id="case-modal-1">
 						<div class="h2 case-modal__title" itemprop="name">Восстановление зубов верхней челюсти постоянным несъемным протезом на имплантах</div>
-						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video" itemprop="video">
 							<img src="/img/cases/video.jpg" alt="1">
 							<button class="play-btn"></button>
 						</a>
@@ -248,7 +248,7 @@
 					</div>
 					<div class="modal case-modal" id="case-modal-2">
 						<div class="h2 case-modal__title" itemprop="name">Восстановление зубов верхней челюсти</div>
-						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="case-modal__video fancy-video" itemprop="video">
 							<img src="/img/cases/video.jpg" alt="1">
 							<button class="play-btn"></button>
 						</a>
