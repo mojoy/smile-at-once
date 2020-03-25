@@ -102,99 +102,111 @@
 <section class="s-doctors s-def">
 	<div class="container">
 		<div class="row">
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="/doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
-						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<a href="/doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Намдаков<br>Николай Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Челюстно-лицевой хирург, имплантолог, ортопед</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 137</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
-					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/1.png" alt="">
+					<a href="doctor.php" class="doctor-preview__photo" itemprop="url">
+						<img src="/img/doctors/preview/1.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="doctor.php" class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</a>
-						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<a href="doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Чорный<br>Станислав Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/2.png" alt="">
+						<img src="/img/doctors/preview/2.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
-						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<a href="doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Намдаков<br>Николай Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/3.png" alt="">
+						<img src="/img/doctors/preview/3.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="/doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
-						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<a href="/doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Намдаков<br>Николай Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Челюстно-лицевой хирург, имплантолог, ортопед</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 137</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/1.png" alt="">
+						<img src="/img/doctors/preview/1.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="doctor.php" class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</a>
-						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<a href="doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Чорный<br>Станислав Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/2.png" alt="">
+						<img src="/img/doctors/preview/2.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
-						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<a href="doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Намдаков<br>Николай Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/3.png" alt="">
+						<img src="/img/doctors/preview/3.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
@@ -212,99 +224,111 @@
 				</div>
 			</div>
 
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="/doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
-						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<a href="/doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Намдаков<br>Николай Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Челюстно-лицевой хирург, имплантолог, ортопед</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 137</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/1.png" alt="">
+						<img src="/img/doctors/preview/1.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="doctor.php" class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</a>
-						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<a href="doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Чорный<br>Станислав Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/2.png" alt="">
+						<img src="/img/doctors/preview/2.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
-						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<a href="doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Намдаков<br>Николай Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/3.png" alt="">
+						<img src="/img/doctors/preview/3.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="/doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
-						<div class="doctor-preview__descr">Челюстно-лицевой хирург, имплантолог, ортопед</div>
+						<a href="/doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Намдаков<br>Николай Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Челюстно-лицевой хирург, имплантолог, ортопед</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 137</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/1.png" alt="">
+						<img src="/img/doctors/preview/1.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="doctor.php" class="h3 doctor-preview__name">Чорный<br>Станислав Владимирович</a>
-						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<a href="doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Чорный<br>Станислав Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/2.png" alt="">
+						<img src="/img/doctors/preview/2.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
-			<div class="grid-4 grid-6_l grid-12_s">
+			<div class="grid-4 grid-6_l grid-12_s" itemscope itemtype="http://schema.org/Person">
 				<div class="doctor-preview">
 					<div class="doctor-preview__content">
-						<a href="doctor.php" class="h3 doctor-preview__name">Намдаков<br>Николай Владимирович</a>
-						<div class="doctor-preview__descr">Хирург-имплантолог, пародонтолог</div>
+						<a href="doctor.php" class="h3 doctor-preview__name"><span itemprop="name">Намдаков<br>Николай Владимирович</span></a>
+						<div class="doctor-preview__descr" itemprop="jobTitle">Хирург-имплантолог, пародонтолог</div>
 						<div class="doctor-preview__actions">
 							<a href="#" class="link-dot">Отзывы 100</a>
 							<a href="/doctor.php" class="button button--outline button--medium">Подробнее <span class="i i-ar-right"></span></a>
 						</div>
-						<div class="doctor-preview__xp">Стаж 15 лет</div>
+						<div class="doctor-preview__xp" itemprop="description">Стаж 15 лет</div>
+						<meta itemprop="telephone" content="+78003334628">
+						<meta itemprop="worksFor" content="клиника Smile-at-Once">
 					</div>
 					<a href="doctor.php" class="doctor-preview__photo">
-						<img src="/img/doctors/preview/3.png" alt="">
+						<img src="/img/doctors/preview/3.png" alt="" itemprop="image">
 					</a>
 				</div>
 			</div>
