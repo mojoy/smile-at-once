@@ -1154,3 +1154,20 @@ $(function($){
 /***********************
 Truncated blocks END
 ***********************/
+
+
+
+$(document).ready(function($) {
+
+    $( function() {
+        $( "#form_date" ).datepicker({
+            showOn: "button",
+            numberOfMonths: 3,
+            buttonText: "Выбор даты"
+        });
+    } );
+
+
+});
+
+
