@@ -71,6 +71,28 @@
 	}
 }
 
+
+
+.button-green {
+	background: linear-gradient(to bottom, #72dbd4, #239ca3);
+	border: 1px solid #72dbd4;
+	box-shadow:  0 3px 0 0 #239ca3;
+	text-shadow: 0 1px 1px #239ca3;
+
+	&:focus {
+		background: linear-gradient(to bottom, #72dbd4, #239ca3);
+	}
+	&:hover{
+		background: linear-gradient(to bottom, #72dbd4, #239ca3);
+		box-shadow:  0 5px 0 0 #247b80;
+	}
+	&:active{
+		background: linear-gradient(to bottom, #72dbd4, #239ca3);
+		box-shadow:  0 1px 0 0 #247b80;
+	}
+}
+
+
 button::-moz-focus-inner {
 	border: 0;
 	padding: 0;

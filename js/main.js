@@ -1168,6 +1168,41 @@ $(document).ready(function($) {
     } );
 
 
+
+    $('select.select-custom').each(function(){
+        var title = $(this).attr('title');
+        if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+        $(this)
+            .css({'z-index':3,'opacity':0,'-khtml-appearance':'none','position': 'absolute'})
+            .after('<span class="select-custom-text">' + title + '</span>')
+            .change(function(){
+                val = $('option:selected',this).text();
+                $(this).next().text(val);
+                value = $('option:selected',this).val();
+                $("#period td").each(function(){
+                    if($(this).text()!=' + title + ')
+                        $(this).text(value+' мес')
+                });
+                $(".month_pay").hide();
+                $("#month_"+value).show();
+                $(".prepay").hide();
+                $("#prepay_"+value).show();
+            })
+    });
+
+    $(document).on('focus', ".select-custom-wrapper", function(e){
+        e.preventDefault();
+        if ($(this).hasClass('select-custom-text-active')) {
+            $(this).removeClass('select-custom-text-active');
+        }
+        else {
+            $(this).addClass('select-custom-text-active');
+        }
+        return false;
+    });
+
+
+
 });
 
 
