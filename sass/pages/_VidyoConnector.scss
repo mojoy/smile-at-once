@@ -24,13 +24,13 @@
 }
 #options {
 	position:   relative;
-	width: 100%;	
+	width: 100%;
 }
 #optionsVisibilityButton {
-    position: absolute;
-    z-index: 100;
-    left: 0;
-    top: -55px;
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	top: -55px;
 }/*
 #options span{
 	display: block;
@@ -55,14 +55,14 @@
 }
 #toolbarCenter{
 	float: left;
-    width: 60%;
+	width: 60%;
 	text-align: center;
 
 	@media (max-width: 640px) {
 		width: 100%;
 	}
 }
-#toolbarLeft {	
+#toolbarLeft {
 	text-align: left;
 	width: 20%;
 
@@ -74,7 +74,7 @@
 }
 #toolbarRight {
 	float: right;
-    width: 20%;
+	width: 20%;
 
 	@media (max-width: 640px) {
 		width: 100%;
@@ -109,12 +109,12 @@
 }
 
 #connectionStatus {
-    color: #fff;
-    margin: 0 10px;
-    position: absolute;
-    right: 0;
-    top: 10px;
-    font-weight: 700;
+	color: #fff;
+	margin: 0 10px;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	font-weight: 700;
 
 	@media (max-width: 640px) {
 		position: static;
@@ -122,12 +122,12 @@
 	}
 }
 #clientVersion {
-    color: #fff;
-    margin: 0 10px;
-    position: absolute;
-    right: 0;
-    bottom: 8px;
-    font-size: 75%;
+	color: #fff;
+	margin: 0 10px;
+	position: absolute;
+	right: 0;
+	bottom: 8px;
+	font-size: 75%;
 
 	@media (max-width: 640px) {
 		#clientVersion {
@@ -196,7 +196,7 @@
 	background-size:     33%;
 }
 .rendererWithChat{
-	
+
 }
 .rendererWithoutChat {
 	max-width: 100% !important;
@@ -615,13 +615,13 @@
 }
 /* end chat */
 .pb fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 .pb .cabinet {
-    padding-top: 60px;
-    padding-bottom: 50px;
+	padding-top: 60px;
+	padding-bottom: 50px;
 	position: relative;
 	z-index: 1;
 
@@ -662,7 +662,7 @@
 	}
 }
 .pb .cabinet-form-search {
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 
 	.form-row {
 		padding-bottom: 10px;
@@ -688,19 +688,19 @@
 }
 
 .pb .vertical-form-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-   /* min-height: 500px;*/
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	/* min-height: 500px;*/
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
 	padding-bottom: 50px;
 
 	&-login {
 		margin: 0 auto;
-		max-width: 480px;
+		max-width: 500px;
 	}
 
 	.vertical-form {
@@ -768,18 +768,18 @@
 
 
 .pb .ui-datepicker-trigger {
-    width: 45px;
-    height: 45px;
-    float: left;
-    border: none;
-    background: url("../img/icons/calendar.svg") 50% 50% no-repeat;
-    cursor: pointer;
-    margin: 5px 0 0;
-    padding: 0;
-    text-indent: -999px;
-    overflow: hidden;
-    background-color: none !important;
-    box-shadow: none !important;
+	width: 45px;
+	height: 45px;
+	float: left;
+	border: none;
+	background: url("../img/icons/calendar.svg") 50% 50% no-repeat;
+	cursor: pointer;
+	margin: 5px 0 0;
+	padding: 0;
+	text-indent: -999px;
+	overflow: hidden;
+	background-color: none !important;
+	box-shadow: none !important;
 
 	&:hover{
 		background: url("../img/icons/calendar.svg") 50% 50% no-repeat;
@@ -787,9 +787,9 @@
 	}
 }
 .pb .select-custom-wrapper {
-    position: relative;
-    margin-bottom: 10px;
-    z-index: 1;
+	position: relative;
+	margin-bottom: 10px;
+	z-index: 1;
 
 	&:after {
 		content: "";
@@ -806,65 +806,65 @@
 	}
 }
 .pb .select-custom-wrapper-active .select-custom-text {
-    border: 1px solid #239ca3;
-    -webkit-box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5), 0 0 0 1px #239ca3;
-    box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5), 0 0 0 1px #239ca3;
-    outline: none;
+	border: 1px solid #239ca3;
+	-webkit-box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5), 0 0 0 1px #239ca3;
+	box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5), 0 0 0 1px #239ca3;
+	outline: none;
 }
 .pb .select-custom {
-    display: inline-block;
-    font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.3;
-    -webkit-appearance: none;
-    border: 1px solid #cedae1;
-    background: #fff;
-    border-radius: 28px;
-    padding: 15px 25px;
-    overflow: visible;
-    margin: 0;
+	display: inline-block;
+	font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.3;
+	-webkit-appearance: none;
+	border: 1px solid #cedae1;
+	background: #fff;
+	border-radius: 28px;
+	padding: 15px 25px;
+	overflow: visible;
+	margin: 0;
 
 	option {
 		padding: 6px 4px;
 	}
 }
 .pb .select-custom-text {
-    position: relative;
-    z-index: 2;
-    padding: 15px 25px;
-    display: block;
-    background: #fff;
-    border-radius: 28px;
-    border: 1px solid #cedae1;
-    font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.3;
+	position: relative;
+	z-index: 2;
+	padding: 15px 25px;
+	display: block;
+	background: #fff;
+	border-radius: 28px;
+	border: 1px solid #cedae1;
+	font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.3;
 }
 .pb .select-custom--medium {
-    padding: 11px 25px 11px 10px;
-    font-size: 16px;
+	padding: 11px 25px 11px 10px;
+	font-size: 16px;
 }
 .pb .select-custom--medium option {
-    padding: 5px 25px 5px 10px;
+	padding: 5px 25px 5px 10px;
 }
 .pb .select-custom--small {
-    padding: 8px 13px;
-    font-size: 14px;
+	padding: 8px 13px;
+	font-size: 14px;
 }
 .pb .select-custom--small option {
-    padding: 5px 3px;
+	padding: 5px 3px;
 }
 .pb .chat-messaging {
-    position: relative;
+	position: relative;
 }
 .pb .chat-messaging-nav {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	width: auto;
 
 	.select-custom {
 		width: 100%;
@@ -897,12 +897,12 @@
 
 
 .pb .chat-msg_history {
-    font-size: 14px;
-    margin: 0 -5px;
+	font-size: 14px;
+	margin: 0 -5px;
 }
 .pb .talk-bubble{
-    font-size: 17px;
-    margin: 0 0 15px;
+	font-size: 17px;
+	margin: 0 0 15px;
 
 	.talktext {
 		border-radius: 5px;
@@ -910,27 +910,27 @@
 	}
 }
 .pb .headertext {
-    font-size: 12px;
+	font-size: 12px;
 }
 .pb .self_talk .talktext {
-    background: #72dbd4;
+	background: #72dbd4;
 }
 .pb .other_talk .talktext {
-    background: #239ca3;
-    color: #fff;
+	background: #239ca3;
+	color: #fff;
 }
 .pb .right-top {
-    margin-left: 35px;
+	margin-left: 35px;
 }
 .pb .left-top {
-    margin-right: 35px;
+	margin-right: 35px;
 }
 .pb .chat-messaging-TabButton {
-    overflow: hidden;
-    padding: 5px 0;
-    margin-bottom: 5px;
-    display: flex;
-    justify-content: center;
+	overflow: hidden;
+	padding: 5px 0;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
 
 	.button {
 		font-size: 14px;
@@ -962,8 +962,8 @@
 }
 
 .pb .link-to-room {
-    padding: 0 0 9px 40px;
-    overflow: hidden;
+	padding: 0 0 9px 40px;
+	overflow: hidden;
 }
 /* video chat full */
 .pb .chat-messaging.chat-messaging-full {
@@ -1124,22 +1124,14 @@
 	max-width: 900px;
 	margin: 0 auto;
 	display: flex;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
 	align-items: center;
 }
 .vertical-form-inner .vertical-form-col {
-	-ms-flex: 0 0 50%;
-	-webkit-box-flex: 0;
 	padding: 0 20px;
 	flex: 0 0 50%;
 }
 @media (max-width: 900px) {
 	.vertical-form-inner .vertical-form-col {
-		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
 		padding: 0 0 30px;
 	}
@@ -1193,7 +1185,6 @@
 		@media (max-width: 1550px) {
 			font-size: 15px;
 		}
-
 	}
 
 	&__th {
@@ -1263,6 +1254,10 @@
 				font-style: normal;
 				display: block;
 				box-shadow: 0 2px 0 0 #0b5357;
+
+				@media (max-width: 1180px) {
+					margin: 0;
+				}
 			}
 		}
 
@@ -1338,7 +1333,7 @@
 			position: relative;
 		}
 
-		> div > span {
+		.link-chat {
 			cursor: pointer;
 			display: block;
 		}
@@ -1512,9 +1507,7 @@
 	}
 }
 
-
-
-.pb .textarea {
+.textarea {
 	display: inline-block;
 	font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 	font-size: 18px;
@@ -1527,70 +1520,66 @@
 	padding: 15px 25px;
 	overflow: visible;
 	margin: 0;
-	width: 100%; }
-@media (max-width: 1024px) {
-	.pb .textarea {
+	width: 100%;
+
+	@media (max-width: 1024px) {
 		font-size: 16px;
-		padding: 12px 20px; } }
-.pb .textarea--round {
-	border-radius: 28px; }
-.pb .textarea::-webkit-input-placeholder {
-	font-size: 18px;
-	line-height: 1.3;
-	color: #7b90a1;
-	font-style: italic;
-	opacity: 1;
-	-webkit-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease; }
-.pb .textarea:-ms-input-placeholder {
-	font-size: 18px;
-	line-height: 1.3;
-	color: #7b90a1;
-	font-style: italic;
-	opacity: 1;
-	-webkit-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease; }
-.pb .textarea::-ms-input-placeholder {
-	font-size: 18px;
-	line-height: 1.3;
-	color: #7b90a1;
-	font-style: italic;
-	opacity: 1;
-	-webkit-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease; }
-.pb .textarea::placeholder {
-	font-size: 18px;
-	line-height: 1.3;
-	color: #7b90a1;
-	font-style: italic;
-	opacity: 1;
-	-webkit-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease; }
-@media (max-width: 1024px) {
-	.pb .textarea::-webkit-input-placeholder {
-		font-size: 16px; }
-	.pb .textarea:-ms-input-placeholder {
-		font-size: 16px; }
-	.pb .textarea::-ms-input-placeholder {
-		font-size: 16px; }
-	.pb .textarea::placeholder {
-		font-size: 16px; } }
-.pb .textarea:focus {
-	border: 1px solid #239ca3;
-	-webkit-box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5), 0 0 0 1px #239ca3;
-	box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5), 0 0 0 1px #239ca3;
-	outline: none; }
-.pb .textarea:focus::-webkit-input-placeholder {
-	opacity: 0.4; }
-.pb .textarea:focus:-ms-input-placeholder {
-	opacity: 0.4; }
-.pb .textarea:focus::-ms-input-placeholder {
-	opacity: 0.4; }
-.pb .textarea:focus::placeholder {
-	opacity: 0.4; }
-.pb .vertical-form .textarea {
-	margin-bottom: 10px;
-	width: 100%; }
+		padding: 12px 20px;
+	}
+
+	&--round{
+		border-radius: 28px;
+	}
+
+	&::placeholder {
+		font-size: 18px;
+		line-height: 1.3;
+		color: #7b90a1;
+		font-style: italic;
+		opacity: 1;
+		transition: opacity 0.3s ease;
+
+		@media (max-width: 1024px) {
+			font-size: 16px;
+		}
+	}
+
+	&:focus {
+		border: 1px solid #239ca3;
+		box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5), 0 0 0 1px #239ca3;
+		outline: none;
+
+		&::placeholder {
+			opacity: 0.4;
+		}
+	}
+}
+
+.vertical-form {
+	&-middle {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+
+		.consultation-rating-box {
+			padding: 0;
+
+			@media (max-width: 680px) {
+				padding: 0;
+			}
+		}
+	}
+
+
+
+	.textarea {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+}
 
 
 
@@ -1621,7 +1610,6 @@
 		display: inline-block;
 		margin: 0;
 		max-width: 100%;
-		overflow: auto;
 		position: relative;
 		text-align: left;
 		vertical-align: middle;
@@ -1636,51 +1624,56 @@
 		@media (max-width: 680px) {
 			padding: 20px;
 		}
-	}
 
-	.sec-title {
-		display: block;
-
-		@media (max-width: 680px) {
-			margin-bottom: 15px;
-		}
-	}
-
-	.textarea {
-		height: 135px;
-		resize: vertical;
-	}
-
-
-	.stars-rating {
-		margin: 0 0 25px;
-		display: flex;
-		justify-content: center;
-
-		@media (max-width: 680px) {
-			margin: 0 0 18px;
-		}
-
-		.jq-star {
-			width: 55px !important;
-			height: 55px !important;
+		.stars-rating {
+			margin: 0 0 25px;
+			display: flex;
+			justify-content: center;
 
 			@media (max-width: 680px) {
-				width: 50px !important;
-				height: 50px !important;
+				margin: 0 0 18px;
 			}
 
-			.jq-star-svg {
-				padding-left: 5px !important;
-				padding-right: 5px !important;
+			.jq-star {
+				width: 55px !important;
+				height: 55px !important;
 
 				@media (max-width: 680px) {
-					padding-left: 4px !important;
-					padding-right: 4px !important;
+					width: 50px !important;
+					height: 50px !important;
+				}
+
+				.jq-star-svg {
+					padding-left: 5px !important;
+					padding-right: 5px !important;
+
+					@media (max-width: 680px) {
+						padding-left: 4px !important;
+						padding-right: 4px !important;
+					}
 				}
 			}
 		}
+
+		.sec-title {
+			display: block;
+
+			@media (max-width: 680px) {
+				margin-bottom: 15px;
+			}
+		}
+
+		.textarea {
+			height: 135px;
+			resize: vertical;
+		}
+
+
 	}
+
+
+
+
 
 	.fancybox-close-small {
 		position: absolute;

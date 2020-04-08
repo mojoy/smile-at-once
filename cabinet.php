@@ -5,28 +5,24 @@
 
 <section class="cabinet">
 	<div class="container">
-
 		<h1 class="h1 sec-title">Кабинет</h1>
-
-		<div class="vertical-form-wrapper">
-			<form action="" method="post" class="vertical-form">
+		<div class="vertical-form-wrapper vertical-form-wrapper-login">
+			<form action="https://smile-at-once.ru/cabinet/" method="post" class="vertical-form">
 				<fieldset>
 					<div class="form-row">
-						<span><input type="text" placeholder="Введите имя*" class="input-text"></span>
+						<span><input type="text" name="user_login" id="user_login" placeholder="Введите имя*" class="input-text"></span>
 					</div>
 					<div class="form-row">
-						<span><input type="password" placeholder="Пароль" class="input-text"></span>
+						<span><input type="password" id="password" name="user_pw" placeholder="Пароль" class="input-text"></span>
 					</div>
-
+					<input type="hidden" name="enter" value="1">
 					<div class="form-row form-row-button">
 						<button type="submit" class="button">Вход</button>
 					</div>
+					<div id="error"></div>
 				</fieldset>
 			</form>
 		</div>
-
-
-
 	</div>
 </section>
 
