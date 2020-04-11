@@ -183,7 +183,163 @@ fieldset {
 
 
 
+///******/
+.select-custom-wrapper {
+	position: relative;
+	margin-bottom: 10px;
+	z-index: 1;
 
+	&:after {
+		content: "";
+		position: absolute;
+		right: 12px;
+		z-index: 5;
+		top: 50%;
+		margin: -3px 0 0;
+
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 8px solid $gray-text;
+	}
+
+	&-active {
+
+		.select-custom-text {
+			border: 1px solid $green-dark;
+			box-shadow: $shadow-block, 0 0 0 1px $green-dark;
+			outline: none;
+		}
+	}
+}
+.select-custom {
+	display: inline-block;
+	font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.3;
+	-webkit-appearance: none;
+	border: 1px solid #cedae1;
+	background: #fff;
+	border-radius: 28px;
+	padding: 15px 25px;
+	overflow: visible;
+	margin: 0;
+
+	option {
+		padding: 6px 4px;
+	}
+
+	&-text {
+		position: relative;
+		z-index: 2;
+		padding: 15px 25px;
+		display: block;
+		background: #fff;
+		border-radius: 28px;
+		border: 1px solid #cedae1;
+
+		font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 1.3;
+	}
+
+	&--medium{
+		padding: 11px 25px 11px 10px;
+		font-size: 16px;
+
+		option {
+			padding: 5px 25px 5px 10px;
+		}
+	}
+
+	&--small{
+		padding: 8px 13px;
+		font-size: 14px;
+
+		option {
+			padding: 5px 3px;
+
+		}
+	}
+}
+.chat-messaging {
+	position: relative;
+}
+
+
+.chat-messaging-nav {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	width: auto;
+
+	&-col {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 25%;
+		flex: 0 0 25%;
+		max-width: 25%;
+		padding: 0 10px 15px;
+
+		@include res(s){
+			-ms-flex: 0 0 50%;
+			flex: 0 0 50%;
+			max-width: 50%;
+			padding: 0 10px 5px;
+		}
+	}
+
+	&__label {
+		padding: 0 0 5px 13px;
+		margin: 0;
+		display: inline-block;
+		font-size: 18px;
+	}
+
+	.select-custom {
+		width: 100%;
+		display: block;
+		clear: both;
+	}
+
+}
+
+
+
+.chat-msg_history {
+	font-size: 14px;
+	margin: 0 -5px;
+}
+.talk-bubble{
+	font-size: 17px;
+	margin: 0 0 10px;
+}
+.headertext {
+	font-size: 14px;
+}
+
+
+.talk-bubble .talktext {
+	border-radius: 5px;
+	padding: 3px 8px;
+	background: #72dbd4;
+}
+
+.self_talk {
+
+}
+.tri-right {
+	margin-left: 35px;
+}
+.tri-left {
+	margin-right: 35px;
+}
+.right-top {
+
+}
 
 
 

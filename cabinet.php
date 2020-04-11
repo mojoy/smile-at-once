@@ -101,167 +101,113 @@
 		</div>
 		<div class="" id="reestr"></div>
 		<h2 class="h2 sec-title">Реестр консультаций</h2>
+
+
+
+
 		<div class="meeting-register">
 			<table class="meeting-register__table">
-				<tr>
-					<th class="meeting-register__th meeting-register__th-room">Комната</th>
-					<th class="meeting-register__th meeting-register__th-name">Пациент</th>
-					<th class="meeting-register__th meeting-register__th-name-doctor">Врач</th>
-					<th class="meeting-register__th meeting-register__th-date">Дата консультации</th>
-					<th class="meeting-register__th meeting-register__th-date">Дата окончания</th>
-					<th class="meeting-register__th meeting-register__th-link-doctor">Врачу</th>
-					<th class="meeting-register__th meeting-register__th-link-client">Пациенту</th>
-					<th class="meeting-register__th meeting-register__th-link-manager">Менджеру</th>
-					<th class="meeting-register__th meeting-register__th-creator">Автор</th>
-					<th class="meeting-register__th meeting-register__th-status">Статус</th>
-					<th class="meeting-register__th meeting-register__th-control">Операции</th>
-				</tr>
-				<tr>
-					<td class="meeting-register__td meeting-register__td-room"><div><em>34</em></div></td>
-					<td class="meeting-register__td meeting-register__td-name"><div>Горулева Евгения Романовна</div></td>
-					<td class="meeting-register__td meeting-register__td-name-doctor"><div>Копылов И.П.</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>07.04.2020 19:15</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>07.04.2020 19:50</div></td>
-					<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV8zNA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/cm9vbV8zNA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV8zNA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-name-creator"><div>vedishev@medwebservice.ru</div></td>
-					<td class="meeting-register__td meeting-register__td-status"><div>
-							<span class="meeting-register__meeting meeting-register__meeting-canceled">проведена</span>
-						</div>
-					</td>
-					<td class="meeting-register__td meeting-register__td-control">
-						<div>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(34,'Возобновить?','/index.php?cabinet=yes&reload=1&roomID='); return false">Возобновить</a>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(34,'Удалить консультацию?','/index.php?cabinet=yes&del=1&roomID='); return false">Удалить</a>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td class="meeting-register__td meeting-register__td-room"><div><em>39</em></div></td>
-					<td class="meeting-register__td meeting-register__td-name"><div>Горулева Евгения Романовна</div></td>
-					<td class="meeting-register__td meeting-register__td-name-doctor"><div>Копылов И.П.</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>07.04.2020 18:30</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div></div></td>
-					<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV8zOQ==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/cm9vbV8zOQ==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV8zOQ==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-name-creator"><div>konovalova@medwebservice.ru</div></td>
-					<td class="meeting-register__td meeting-register__td-status"><div>
-							<span class="meeting-register__meeting meeting-register__meeting-held">запланирована</span>
-						</div>
-					</td>
-					<td class="meeting-register__td meeting-register__td-control">
-						<div>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(39,'Удалить консультацию?','/index.php?cabinet=yes&del=1&roomID='); return false">Удалить</a>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td class="meeting-register__td meeting-register__td-room"><div><em>36</em></div></td>
-					<td class="meeting-register__td meeting-register__td-name"><div>Яковлев Алексей Геннадьевич</div></td>
-					<td class="meeting-register__td meeting-register__td-name-doctor"><div>Намдаков Н.В.</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>07.04.2020 17:00</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div></div></td>
-					<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV8zNg==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/cm9vbV8zNg==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV8zNg==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-name-creator"><div>vedishev@medwebservice.ru</div></td>
-					<td class="meeting-register__td meeting-register__td-status"><div>
-							<span class="meeting-register__meeting meeting-register__meeting-held">online</span>
-						</div>
-					</td>
-					<td class="meeting-register__td meeting-register__td-control">
-						<div>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(36,'Завершить?','/index.php?cabinet=yes&finish=1&roomID='); return false">Завершить</a>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(36,'Удалить консультацию?','/index.php?cabinet=yes&del=1&roomID='); return false">Удалить</a>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td class="meeting-register__td meeting-register__td-room"><div><em>33</em></div></td>
-					<td class="meeting-register__td meeting-register__td-name"><div>Борисов Михаил Николаевич</div></td>
-					<td class="meeting-register__td meeting-register__td-name-doctor"><div>Дулгаров Ж.Г.</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>07.04.2020 16:15</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>07.04.2020 16:45</div></td>
-					<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV8zMw==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/cm9vbV8zMw==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV8zMw==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-name-creator"><div>vedishev@medwebservice.ru</div></td>
-					<td class="meeting-register__td meeting-register__td-status"><div>
-							<span class="meeting-register__meeting meeting-register__meeting-canceled">проведена</span>
-						</div>
-					</td>
-					<td class="meeting-register__td meeting-register__td-control">
-						<div>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(33,'Возобновить?','/index.php?cabinet=yes&reload=1&roomID='); return false">Возобновить</a>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(33,'Удалить консультацию?','/index.php?cabinet=yes&del=1&roomID='); return false">Удалить</a>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td class="meeting-register__td meeting-register__td-room"><div><em>37</em></div></td>
-					<td class="meeting-register__td meeting-register__td-name"><div>Семина Валентина Александровна</div></td>
-					<td class="meeting-register__td meeting-register__td-name-doctor"><div>Васильев А.А.</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>07.04.2020 15:00</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>07.04.2020 15:46</div></td>
-					<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV8zNw==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/cm9vbV8zNw==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV8zNw==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-name-creator"><div>vedishev@medwebservice.ru</div></td>
-					<td class="meeting-register__td meeting-register__td-status"><div>
-							<span class="meeting-register__meeting meeting-register__meeting-canceled">проведена</span>
-						</div>
-					</td>
-					<td class="meeting-register__td meeting-register__td-control">
-						<div>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(37,'Возобновить?','/index.php?cabinet=yes&reload=1&roomID='); return false">Возобновить</a>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(37,'Удалить консультацию?','/index.php?cabinet=yes&del=1&roomID='); return false">Удалить</a>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td class="meeting-register__td meeting-register__td-room"><div><em>24</em></div></td>
-					<td class="meeting-register__td meeting-register__td-name"><div>Ходжаева Дарман Матякубовна</div></td>
-					<td class="meeting-register__td meeting-register__td-name-doctor"><div>Коликов Д.В.</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>06.04.2020 16:00</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div></div></td>
-					<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV8yNA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/cm9vbV8yNA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV8yNA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-name-creator"><div>kulakov@medwebservice.ru</div></td>
-					<td class="meeting-register__td meeting-register__td-status"><div>
-							<span class="meeting-register__meeting meeting-register__meeting-held">запланирована</span>
-						</div>
-					</td>
-					<td class="meeting-register__td meeting-register__td-control">
-						<div>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(24,'Удалить консультацию?','/index.php?cabinet=yes&del=1&roomID='); return false">Удалить</a>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td class="meeting-register__td meeting-register__td-room"><div><em>22</em></div></td>
-					<td class="meeting-register__td meeting-register__td-name"><div>Юшкевич Ираида Викторовна</div></td>
-					<td class="meeting-register__td meeting-register__td-name-doctor"><div>Кример Д.А.</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div>06.04.2020 15:00</div></td>
-					<td class="meeting-register__td meeting-register__td-date"><div></div></td>
-					<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV8yMg==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/cm9vbV8yMg==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV8yMg==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
-					<td class="meeting-register__td meeting-register__td-name-creator"><div>kulakov@medwebservice.ru</div></td>
-					<td class="meeting-register__td meeting-register__td-status"><div>
-							<span class="meeting-register__meeting meeting-register__meeting-held">запланирована</span>
-						</div>
-					</td>
-					<td class="meeting-register__td meeting-register__td-control">
-						<div>
-							<a href="javascript:void(0)" class="button button--small" onclick="confirmDelete(22,'Удалить консультацию?','/index.php?cabinet=yes&del=1&roomID='); return false">Удалить</a>
-						</div>
-					</td>
-				</tr>
+				<tbody>
+					<tr>
+						<th class="meeting-register__th meeting-register__th-room">Комната</th>
+						<th class="meeting-register__th meeting-register__th-name">Пациент</th>
+						<th class="meeting-register__th meeting-register__th-name-doctor">Врач</th>
+						<th class="meeting-register__th meeting-register__th-date">Дата консультации</th>
+						<th class="meeting-register__th meeting-register__th-date">Дата окончания</th>
+						<th class="meeting-register__th meeting-register__th-link-doctor">Врачу</th>
+						<th class="meeting-register__th meeting-register__th-link-client">Пациенту</th>
+						<th class="meeting-register__th meeting-register__th-link-manager">Менеджеру</th>
+						<th class="meeting-register__th meeting-register__th-creator">Автор</th>
+						<th class="meeting-register__th meeting-register__th-status">Статус</th>
+						<th class="meeting-register__th meeting-register__th-control">Операции</th>
+					</tr>
+					<tr>
+						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-work" data-src="#modal-room-60" data-fancybox="room">60</em></div></td>
+						<td class="meeting-register__td meeting-register__td-name"><div>Алипов Роман Абрагимович</div></td>
+						<td class="meeting-register__td meeting-register__td-name-doctor"><div>Васильев А.А.</div></td>
+						<td class="meeting-register__td meeting-register__td-date"><div>11.04.2020 16:00</div></td>
+						<td class="meeting-register__td meeting-register__td-date"><div></div></td>
+						<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV82MA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/patient_cm9vbV82MA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV82MA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-name-creator"><div>konovalova@medwebservice.ru</div></td>
+						<td class="meeting-register__td meeting-register__td-status"><div>
+								<span class="meeting-register__meeting meeting-register__meeting-held" title="запланирована">запланирована</span>
+							</div>
+						</td>
+						<td class="meeting-register__td meeting-register__td-control">
+							<div>
+								<a href="javascript:void(0)" class="button button--small button-delete" title="Удалить консультацию?" onclick="confirmDelete(60,'Удалить консультацию?','/index.php?cabinet=yes&amp;del=1&amp;roomID='); return false">Удалить</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-work" data-src="#modal-room-58" data-fancybox="room">58</em></div></td>
+						<td class="meeting-register__td meeting-register__td-name"><div>Николайчук Марина Павловна</div></td>
+						<td class="meeting-register__td meeting-register__td-name-doctor"><div>Васильев А.А.</div></td>
+						<td class="meeting-register__td meeting-register__td-date"><div>11.04.2020 10:45</div></td>
+						<td class="meeting-register__td meeting-register__td-date"><div></div></td>
+						<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV81OA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/patient_cm9vbV81OA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV81OA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-name-creator"><div>kulakov@medwebservice.ru</div></td>
+						<td class="meeting-register__td meeting-register__td-status"><div>
+								<span class="meeting-register__meeting meeting-register__meeting-held" title="запланирована">запланирована</span>
+							</div>
+						</td>
+						<td class="meeting-register__td meeting-register__td-control">
+							<div>
+								<a href="javascript:void(0)" class="button button--small button-delete" title="Удалить консультацию?" onclick="confirmDelete(58,'Удалить консультацию?','/index.php?cabinet=yes&amp;del=1&amp;roomID='); return false">Удалить</a><a href="javascript:void(0)" class="button button--small button-delete" title="Удалить консультацию?" onclick="confirmDelete(58,'Удалить консультацию?','/index.php?cabinet=yes&amp;del=1&amp;roomID='); return false">Удалить</a><a href="javascript:void(0)" class="button button--small button-delete" title="Удалить консультацию?" onclick="confirmDelete(58,'Удалить консультацию?','/index.php?cabinet=yes&amp;del=1&amp;roomID='); return false">Удалить</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-work" data-src="#modal-room-59" data-fancybox="room">59</em></div></td>
+						<td class="meeting-register__td meeting-register__td-name"><div>Ковальчук Сергей Владимирович</div></td>
+						<td class="meeting-register__td meeting-register__td-name-doctor"><div>Чернов А.Р.</div></td>
+						<td class="meeting-register__td meeting-register__td-date"><div>11.04.2020 10:00</div></td>
+						<td class="meeting-register__td meeting-register__td-date"><div></div></td>
+						<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV81OQ==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/patient_cm9vbV81OQ==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV81OQ==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-name-creator"><div>konovalova@medwebservice.ru</div></td>
+						<td class="meeting-register__td meeting-register__td-status"><div>
+								<span class="meeting-register__meeting meeting-register__meeting-held" title="запланирована">запланирована</span>
+							</div>
+						</td>
+						<td class="meeting-register__td meeting-register__td-control">
+							<div>
+								<a href="javascript:void(0)" class="button button--small button-delete" title="Удалить консультацию?" onclick="confirmDelete(59,'Удалить консультацию?','/index.php?cabinet=yes&amp;del=1&amp;roomID='); return false">Удалить</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-work" data-src="#modal-room-55" data-fancybox="room">55</em></div></td>
+						<td class="meeting-register__td meeting-register__td-name"><div>Коваленко Пётр Борисович</div></td>
+						<td class="meeting-register__td meeting-register__td-name-doctor"><div>Беспалов Р.Д.</div></td>
+						<td class="meeting-register__td meeting-register__td-date"><div>10.04.2020 19:08</div></td>
+						<td class="meeting-register__td meeting-register__td-date"><div>10.04.2020 21:00</div></td>
+						<td class="meeting-register__td meeting-register__td-link-doctor"><div><span class="link-chat">https://smile-at-once.ru/chat/doctor_cm9vbV81NQ==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/patient_cm9vbV81NQ==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV81NQ==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
+						<td class="meeting-register__td meeting-register__td-name-creator"><div>kulakov@medwebservice.ru</div></td>
+						<td class="meeting-register__td meeting-register__td-status"><div>
+								<span class="meeting-register__meeting meeting-register__meeting-canceled" title="проведена">проведена</span>
+							</div>
+						</td>
+						<td class="meeting-register__td meeting-register__td-control">
+							<div>
+								<a href="javascript:void(0)" class="button button--small button-renew" title="Возобновить" onclick="confirmDelete(55,'Возобновить?','/index.php?cabinet=yes&amp;reload=1&amp;roomID='); return false">Возобновить</a>
+								<a href="javascript:void(0)" class="button button--small button-delete" title="Удалить консультацию?" onclick="confirmDelete(55,'Удалить консультацию?','/index.php?cabinet=yes&amp;del=1&amp;roomID='); return false">Удалить</a>
+							</div>
+						</td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
+
+
+
 		<div class="pagination">
 			<div class="pagination__nav">
 
@@ -295,6 +241,100 @@
 
 
 
+<div class="modal modal-ba modal-room" id="modal-room-60">
+	<div class="h3 modal-ba__title">Информацией о консультации</div>
+
+	<div class="modal-room__content">
+		<div class="stars-rating-static"></div>
+
+		<div class="row">
+			<div class="grid-6">
+				<div class="modal-room__content-list">
+					<div class="modal-room__content-list-row">
+						<strong class="h4 modal-room__subtitle">Пациент:</strong>
+						Ковальчук Сергей Владимирович
+					</div>
+					<div class="modal-room__content-list-row">
+						<strong class="h4 modal-room__subtitle">Врач:</strong>
+						Беспалов Р.Д.
+					</div>
+					<div class="modal-room__content-list-row">
+						<strong class="h4 modal-room__subtitle">Автор:</strong>
+						kulakov@medwebservice.ru
+					</div>
+				</div>
+			</div>
+			<div class="grid-6">
+				<div class="modal-room__content-list-row">
+					<div class="modal-room__content-list-row">
+						<strong class="h4 modal-room__subtitle">Дата консультации:</strong>
+						10.04.2020 19:08
+					</div>
+					<div class="modal-room__content-list-row">
+						<strong class="h4 modal-room__subtitle">Дата окончания:</strong>
+						10.04.2020 19:08
+					</div>
+					<div class="modal-room__content-list-row">
+						<strong class="h4 modal-room__subtitle">Статус:</strong>
+						<span class="meeting-register__meeting meeting-register__meeting-held" title="запланирована">запланирована</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-room__details">
+			<div class="modal-room__details-row">
+				<strong class="h3 modal-room__subtitle">Отзыв пациента</strong>
+				Сразу после удаления зубов установлено по 6 имплантов Straumann на обе челюсти. Далее на импланты зафиксированы бескаркасные протезы по оригинальной технологии ProArch.
+			</div>
+			<div class="modal-room__details-row">
+				<strong class="h3 modal-room__subtitle">Комментарий менеджера</strong>
+				Сразу после удаления зубов установлено по 6 имплантов Straumann на обе челюсти. Далее на импланты зафиксированы бескаркасные протезы по оригинальной технологии ProArch.
+			</div>
+		</div>
+
+	</div>
+
+	<div class="slider-arrow slider-arrow--prev">
+		<span class="i i-left"></span>
+	</div>
+	<div class="slider-arrow slider-arrow--next">
+		<span class="i i-right"></span>
+	</div>
+
+</div>
+
+
+
+<div class="modal modal-ba modal-room modal-room-details" id="modal-room-58">
+	<div class="h3 modal-ba__title">Информацией о консультации</div>
+
+	<div class="modal-room__content">
+		<div class="stars-rating-big"></div>
+
+		<div class="row">
+			<div class="grid-6">
+				<strong class="h3 modal-room__subtitle">Отзыв пациента</strong>
+				Сразу после удаления зубов установлено по 6 имплантов Straumann на обе челюсти. Далее на импланты зафиксированы бескаркасные протезы по оригинальной технологии ProArch.
+			</div>
+			<div class="grid-6">
+				<strong class="h3 modal-room__subtitle">Комментарий менеджера</strong>
+				Сразу после удаления зубов установлено по 6 имплантов Straumann на обе челюсти. Далее на импланты зафиксированы бескаркасные протезы по оригинальной технологии ProArch.
+			</div>
+		</div>
+		<div class="row-btn">
+			<a href="javascript:void(0)" class="button button--medium">Сохранить</a>
+		</div>
+	</div>
+
+	<div class="slider-arrow slider-arrow--prev">
+		<span class="i i-left"></span>
+	</div>
+	<div class="slider-arrow slider-arrow--next">
+		<span class="i i-right"></span>
+	</div>
+
+</div>
 
 
 <?php include('footer.php'); ?>

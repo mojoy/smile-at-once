@@ -1153,22 +1153,7 @@
 		}
 	}
 
-	&__meeting {
-		display: block;
-		border-radius: 8px;
-		padding: 4px 10px;
-		color: #fff;
-		text-align: center;
-	}
 
-	&__meeting-held {
-		background: #72dbd4;
-		color: #000;
-	}
-
-	&__meeting-canceled {
-		background: #ff5274;
-	}
 
 	&__table {
 		width: 100%;
@@ -1211,7 +1196,7 @@
 		}
 
 		&-status {
-			width: 155px;
+			width: 3%;
 			text-align: center;
 		}
 
@@ -1319,7 +1304,11 @@
 		&-control {
 			text-align: center;
 			vertical-align: middle;
-			width: 160px;
+
+			> div {
+				display: flex;
+				justify-content: center;
+			}
 
 			.button {
 				font-size: 12px;
@@ -1327,6 +1316,72 @@
 				margin: 7px 0;
 				width: 125px;
 			}
+
+
+
+
+
+
+
+
+
+
+			.button {
+
+				width: 32px;
+				height: 32px;
+				text-indent: -9999px;
+				overflow: hidden;
+				margin: 0 4px;
+				padding: 0;
+
+				&:after {
+					position: absolute;
+					left: 0;
+					top: 0;
+					bottom: 0;
+					right: 0;
+					content: "";
+					background-size: 22px auto;
+					background-repeat: no-repeat;
+					background-position: 49% 50%;
+				}
+
+				&-renew {
+					background: linear-gradient(to bottom, #72dbd4, #239ca3);
+					box-shadow: 0 0 0 0 #247b80;
+					border: 1px solid #239ca3;
+
+					&:after{
+						background-image: url(../images/cabinet/icon-renew.svg);
+					}
+				}
+
+				$yellow: #fee4a1;
+
+				&-complete {
+					background: linear-gradient(to bottom, $yellow, darken($yellow, 10));
+					box-shadow: 0 0 0 0 darken($yellow, 30);
+					border: 1px solid darken($yellow, 10);
+
+					&:after{
+						background-image: url(../images/cabinet/icon-call-end.svg);
+						opacity: 0.75;
+					}
+				}
+				&-delete {
+					background: linear-gradient(to bottom, #f85e76, #e12e5e);
+					box-shadow: 0 0 0 0 #b0244a;
+					border: 1px solid #e12e5e;
+
+					&:after{
+						background-image: url(../images/cabinet/icon-delete.svg);
+					}
+				}
+
+			}
+
+
 		}
 
 		> div {
@@ -1369,8 +1424,89 @@
 
 		&-status {
 			text-align: center;
+
+			> div {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+			}
 		}
 	}
+
+
+	&__meeting {
+		display: block;
+		border-radius: 8px;
+		padding: 4px 10px;
+		color: #fff;
+		text-align: center;
+		white-space: nowrap;
+
+
+		border-radius: 50%;
+		width: 38px;
+		height: 38px;
+		text-indent: -9999px;
+		overflow: hidden;
+		margin: 0 4px;
+		padding: 0;
+		position: relative;
+
+		&:after {
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			content: "";
+			background-size: 26px auto;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+		}
+
+		&-held {
+			background: #ebd280;
+			color: #87651b;
+
+			&:after {
+				background-image: url(../images/cabinet/icon-planning.svg);
+				opacity: 0.75;
+			}
+		}
+
+		&-online {
+			background: #00994b;
+			color: #446b50;
+			border: 1px solid #446b50;
+
+			&:after {
+				background-image: url(../images/cabinet/icon-phone.svg);
+			}
+		}
+
+		&-canceled {
+			background: #239ca3;
+			color: #fff;
+
+			&:after {
+				background-image: url(../images/cabinet/icon-complete.svg);
+			}
+		}
+
+		&-not-place {
+			background: #f85e76;
+			color: #fff;
+
+			&:after {
+				background-image: url(../images/cabinet/icon-failure.svg);
+			}
+		}
+	}
+
+
 
 	&__th-link-doctor,
 	&__td-link-doctor {
@@ -1482,7 +1618,7 @@
 			content: "Операции";
 		}
 		&__meeting {
-			width: 145px;
+			/*width: 145px;*/
 		}
 	}
 }
@@ -1566,6 +1702,8 @@
 
 		.consultation-rating-box {
 			padding: 0;
+			max-width: 1440px;
+			width: 100%;
 
 			@media (max-width: 680px) {
 				padding: 0;
@@ -1614,12 +1752,13 @@
 		text-align: left;
 		vertical-align: middle;
 		background: #f8fbfc;
-		width: 500px;
 		will-change: transform, opacity;
 		border-radius: 10px;
 		padding: 20px 30px;
 		transform: translate3d(0, -20px, 0);
 		transition: all 0.5s ease;
+
+
 
 		@media (max-width: 680px) {
 			padding: 20px;
@@ -1730,6 +1869,163 @@
 
 
 }
+
+.editor-holder {
+	margin-bottom: 15px;
+}
+
+
+
+.stars-rating-big,
+.stars-rating-static {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+
+.pb .modal-room {
+	width: 600px;
+
+	&__title {
+
+	}
+
+	&__rating {
+		margin-bottom: 15px;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__content {
+		padding: 0 15px;
+	}
+
+	&__subtitle {
+		margin-bottom: 5px;
+		display: block;
+	}
+
+	&__details {
+
+		&-row {
+			margin: 0 0 20px;
+		}
+
+	}
+
+}
+
+
+
+.pb .modal-room {
+	width: 985px;
+
+	&__title {
+
+	}
+
+	&__rating {
+		margin-bottom: 15px;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__content {
+		padding: 0 15px;
+
+		&-list {
+
+			&-row {
+				margin-bottom: 5px;
+			}
+		}
+	}
+
+	&__subtitle {
+		margin-bottom: 5px;
+		display: block;
+	}
+
+	&__details {
+
+		&-row {
+			border-top: 1px solid #cedae1;
+			padding: 13px 0;
+			margin: 0;
+		}
+
+	}
+
+	.row {
+		margin-bottom: 25px;
+	}
+	.row-btn {
+
+	}
+	.button {
+
+	}
+
+}
+
+
+.pb .modal-room-details {
+	width: 1000px;
+
+
+
+}
+
+.pb .consultation-review .row [class*="grid"] {
+	padding-bottom: 25px;
+}
+
+.vertical-form-small {
+	max-width: 500px;
+	margin: 0 auto 30px;
+}
+
+.consultation-review {
+
+	.cke_editor_manager,
+	.cke_editor_patient{
+		width: 100% !important;
+	}
+
+
+	.modal-ba__title {
+		display: block;
+	}
+
+
+
+	.row {
+		margin-bottom: 20px;
+	}
+
+}
+.vertical-form__textarea {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+
+	.cke_editor_patient_review {
+		width: 100% !important;
+	}
+
+}
+
+.row-btn {
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.vertical-form .row-btn .button {
+	width: auto;
+}
+
 
 
 
