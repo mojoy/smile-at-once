@@ -122,7 +122,7 @@
 						<th class="meeting-register__th meeting-register__th-control">Операции</th>
 					</tr>
 					<tr>
-						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-work" data-src="#modal-room-60" data-fancybox="room">60</em></div></td>
+						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-room" data-src="#modal-room-60" data-fancybox="room" title="Получить информацию о консультации">60</em></div></td>
 						<td class="meeting-register__td meeting-register__td-name"><div>Алипов Роман Абрагимович</div></td>
 						<td class="meeting-register__td meeting-register__td-name-doctor"><div>Васильев А.А.</div></td>
 						<td class="meeting-register__td meeting-register__td-date"><div>11.04.2020 16:00</div></td>
@@ -142,7 +142,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-work" data-src="#modal-room-58" data-fancybox="room">58</em></div></td>
+						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-room" data-src="#modal-room-58" data-fancybox="room" title="Получить информацию о консультации">58</em></div></td>
 						<td class="meeting-register__td meeting-register__td-name"><div>Николайчук Марина Павловна</div></td>
 						<td class="meeting-register__td meeting-register__td-name-doctor"><div>Васильев А.А.</div></td>
 						<td class="meeting-register__td meeting-register__td-date"><div>11.04.2020 10:45</div></td>
@@ -162,7 +162,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-work" data-src="#modal-room-59" data-fancybox="room">59</em></div></td>
+						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-room" data-src="#modal-room-59" data-fancybox="room" title="Получить информацию о консультации">59</em></div></td>
 						<td class="meeting-register__td meeting-register__td-name"><div>Ковальчук Сергей Владимирович</div></td>
 						<td class="meeting-register__td meeting-register__td-name-doctor"><div>Чернов А.Р.</div></td>
 						<td class="meeting-register__td meeting-register__td-date"><div>11.04.2020 10:00</div></td>
@@ -182,7 +182,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-work" data-src="#modal-room-55" data-fancybox="room">55</em></div></td>
+						<td class="meeting-register__td meeting-register__td-room"><div><em class="fancy-room" data-src="#modal-room-55" data-fancybox="room" title="Получить информацию о консультации">55</em></div></td>
 						<td class="meeting-register__td meeting-register__td-name"><div>Коваленко Пётр Борисович</div></td>
 						<td class="meeting-register__td meeting-register__td-name-doctor"><div>Беспалов Р.Д.</div></td>
 						<td class="meeting-register__td meeting-register__td-date"><div>10.04.2020 19:08</div></td>

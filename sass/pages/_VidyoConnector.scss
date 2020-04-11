@@ -733,10 +733,10 @@
 
 	&-row {
 
-		:after {
+		:after {/*
 			clear: both;
 			display: block;
-			content: "";
+			content: "";*/
 		}
 
 		&__date {
@@ -1224,7 +1224,7 @@
 		}
 
 		&-room {
-			em {
+			.fancy-room {
 				width: 40px;
 				height: 40px;
 				overflow: hidden;
@@ -1238,6 +1238,7 @@
 				text-align: center;
 				font-style: normal;
 				display: block;
+				cursor: pointer;
 				box-shadow: 0 2px 0 0 #0b5357;
 
 				@media (max-width: 1180px) {
@@ -1308,6 +1309,10 @@
 			> div {
 				display: flex;
 				justify-content: center;
+
+				@media (max-width: 1180px) {
+					justify-content: flex-start;
+				}
 			}
 
 			.button {
@@ -1316,15 +1321,6 @@
 				margin: 7px 0;
 				width: 125px;
 			}
-
-
-
-
-
-
-
-
-
 
 			.button {
 
@@ -1342,7 +1338,7 @@
 					bottom: 0;
 					right: 0;
 					content: "";
-					background-size: 22px auto;
+					background-size: 20px auto;
 					background-repeat: no-repeat;
 					background-position: 49% 50%;
 				}
@@ -1378,10 +1374,7 @@
 						background-image: url(../images/cabinet/icon-delete.svg);
 					}
 				}
-
 			}
-
-
 		}
 
 		> div {
@@ -1405,6 +1398,8 @@
 			padding: 4px 9px;
 			display: none;
 			width: 210px;
+			min-height: 45px;
+			text-align: center;
 		}
 
 		> div > i:after {
@@ -1426,12 +1421,12 @@
 			text-align: center;
 
 			> div {
-				display: -webkit-box;
-				display: -ms-flexbox;
 				display: flex;
-				-webkit-box-pack: center;
-				-ms-flex-pack: center;
 				justify-content: center;
+
+				@media (max-width: 1180px) {
+					justify-content: flex-start;
+				}
 			}
 		}
 	}
