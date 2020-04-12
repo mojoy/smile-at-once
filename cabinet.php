@@ -103,7 +103,25 @@
 		<h2 class="h2 sec-title">Реестр консультаций</h2>
 
 
+		<div class="meeting-filter">
 
+			<form action="">
+				<fieldset>
+					<select id="" class="form__select form__select--small" name="doctor">
+						<option value="Фильтр по врачу">Фильтр по врачу</option>
+						<option value="Бакарян С.М.">Бакарян Сона Мартиросовна</option>
+						<option value="Сидоров Д.А.">Сидоров Дмитрий Алексеевич</option>
+						<option value="Тарабановская М.И.">Тарабановская Марина Игоревна</option>
+						<option value="Чернов А.Р.">Чернов Андрей Растиславович</option>
+						<option value="Чорный С.В.">Чорный Станислав Владимирович</option>
+					</select>
+					<input type="search" class="input-text input-text--small" placeholder="Поиск по пациенту">
+					<input type="search" class="input-text input-text--small" placeholder="Поиск по менеджеру">
+					<button type="submit" class="button button--small">Фильтровать</button>
+				</fieldset>
+			</form>
+
+		</div>
 
 		<div class="meeting-register">
 			<table class="meeting-register__table">
