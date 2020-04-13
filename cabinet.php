@@ -104,7 +104,6 @@
 
 
 		<div class="meeting-filter">
-
 			<form action="">
 				<fieldset>
 					<select id="" class="form__select form__select--small" name="doctor">
@@ -115,12 +114,18 @@
 						<option value="Чернов А.Р.">Чернов Андрей Растиславович</option>
 						<option value="Чорный С.В.">Чорный Станислав Владимирович</option>
 					</select>
+					<select id="" class="form__select form__select--small" name="doctor">
+						<option value="Фильтр по врачу">Фильтр менеджеру</option>
+						<option value="Бакарян С.М.">Бакарян Сона Мартиросовна</option>
+						<option value="Сидоров Д.А.">Сидоров Дмитрий Алексеевич</option>
+						<option value="Тарабановская М.И.">Тарабановская Марина Игоревна</option>
+						<option value="Чернов А.Р.">Чернов Андрей Растиславович</option>
+						<option value="Чорный С.В.">Чорный Станислав Владимирович</option>
+					</select>
 					<input type="search" class="input-text input-text--small" placeholder="Поиск по пациенту">
-					<input type="search" class="input-text input-text--small" placeholder="Поиск по менеджеру">
 					<button type="submit" class="button button--small">Фильтровать</button>
 				</fieldset>
 			</form>
-
 		</div>
 
 		<div class="meeting-register">
@@ -149,13 +154,21 @@
 						<td class="meeting-register__td meeting-register__td-link-client"><div><span class="link-chat">https://smile-at-once.ru/chat/patient_cm9vbV82MA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
 						<td class="meeting-register__td meeting-register__td-link-manager"><div><span class="link-chat">https://smile-at-once.ru/chat/manager_cm9vbV82MA==/</span><i>Нажмите, чтобы скопировать строку в буфер обмена</i></div></td>
 						<td class="meeting-register__td meeting-register__td-name-creator"><div>konovalova@medwebservice.ru</div></td>
-						<td class="meeting-register__td meeting-register__td-status"><div>
+						<td class="meeting-register__td meeting-register__td-status">
+							<div>
 								<span class="meeting-register__meeting meeting-register__meeting-held" title="запланирована">запланирована</span>
+								<span class="meeting-register__meeting meeting-register__meeting-completed" title="проведена">проведена</span>
+								<span class="meeting-register__meeting meeting-register__meeting-online" title="онлайн">онлайн</span>
+								<span class="meeting-register__meeting meeting-register__meeting-failed" title="не состоялась">не состоялась</span>
+								<span class="meeting-register__meeting meeting-register__meeting-canceled" title="отменена">отменена</span>
 							</div>
 						</td>
 						<td class="meeting-register__td meeting-register__td-control">
 							<div>
-								<a href="javascript:void(0)" class="button button--small button-delete" title="Удалить консультацию?" onclick="confirmDelete(60,'Удалить консультацию?','/index.php?cabinet=yes&amp;del=1&amp;roomID='); return false">Удалить</a>
+								<a href="javascript:void(0)" class="button button--small button-cancel" title="Отменить" onclick="confirmDelete({$products[i].id},'Отменить?','/index.php?cabinet=yes&canceled=1&roomID='); return false">Возобновить</a>
+								<a href="javascript:void(0)" class="button button--small button-renew" title="Возобновить" onclick="confirmDelete({$products[i].id},'Возобновить?','/index.php?cabinet=yes&reload=1&roomID='); return false">Возобновить</a>
+								<a href="javascript:void(0)" class="button button--small button-complete" title="Завершить?" onclick="confirmDelete({$products[i].id},'Завершить?','/index.php?cabinet=yes&finish=1&roomID='); return false">Завершить</a>
+								<a href="javascript:void(0)" class="button button--small button-delete" title="Удалить консультацию?" onclick="confirmDelete({$products[i].id},'Удалить консультацию?','/index.php?cabinet=yes&del=1&roomID='); return false">Удалить</a>
 							</div>
 						</td>
 					</tr>
