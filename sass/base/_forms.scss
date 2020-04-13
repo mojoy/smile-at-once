@@ -282,7 +282,7 @@ label {
 	border-radius: 28px;
 	padding: 15px 25px;
 	overflow: visible;
-	margin: 0;
+	margin: 0 0 10px;
 	width: 100%;
 
 	@include res(l){
@@ -315,6 +315,20 @@ label {
 			opacity: 0.4;
 		}
 	}
+
+	&--medium{
+		padding: 13px 20px;
+		font-size: 16px;
+
+		&::placeholder {
+			font-size: 16px;
+
+			@include res(l){
+				font-size: 15px;
+			}
+		}
+	}
+
 }
 
 .vertical-form .textarea {

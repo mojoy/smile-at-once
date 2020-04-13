@@ -1,0 +1,132 @@
+.pb .form-pay {
+  max-width: 360px;
+  margin: 0 auto;
+}
+.pb .form-pay .form__label {
+  text-align: center;
+}
+.pb .form-pay .textarea {
+  height: 130px;
+}
+.pb .form-pay .amount.input-text {
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .pb .form-pay {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.pb .form-pay #alfa-payment-button {
+  text-align: center;
+  margin: 0 0 25px;
+}
+.pb .form-pay .alfa-payment__message {
+  padding: 10px 0;
+}
+.pb .form-pay .alfa-payment__button {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding: 15px 30px;
+  font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.3;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
+  border: 1px solid #ee496b;
+  -webkit-box-shadow: 0 3px 0 0 #b0244a;
+  box-shadow: 0 3px 0 0 #b0244a;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-shadow: 0 1px 1px #9c1d40;
+  border-radius: 30px;
+  -webkit-tap-highlight-color: transparent;
+  min-height: inherit;
+  margin-top: 10px;
+  padding: 11px 20px;
+  font-size: 16px;
+}
+@media (max-width: 1024px) {
+  .pb .form-pay .alfa-payment__button {
+    font-size: 16px;
+    padding: 13px 20px 11px;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .pb .form-pay .alfa-payment__button {
+    font-size: 14px;
+  }
+}
+.pb .form-pay .alfa-payment__button:focus {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
+  outline: none;
+}
+.pb .form-pay .alfa-payment__button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
+  -webkit-box-shadow: 0 5px 0 0 #b0244a;
+  box-shadow: 0 5px 0 0 #b0244a;
+  -webkit-transform: translate3d(0, -2px, 0);
+  transform: translate3d(0, -2px, 0);
+}
+.pb .form-pay .alfa-payment__button:active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
+  -webkit-box-shadow: 0 1px 0 0 #b0244a;
+  box-shadow: 0 1px 0 0 #b0244a;
+  -webkit-transform: translate3d(0, 2px, 0);
+  transform: translate3d(0, 2px, 0);
+}
+.pb .form-pay .alfa-payment__button--medium {
+  padding: 11px 20px;
+  font-size: 16px;
+}
+.pb .form-pay .alfa-payment__button--small {
+  padding: 8px 15px;
+  font-size: 14px;
+}
+.pb .card-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0 10px;
+}
+.pb .card-list-row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.pb .card-list img {
+  margin: 0 auto 25px;
+  display: block;
+  max-width: 180px;
+}
+.pb .form__label {
+  display: block;
+  font-size: 23px;
+  padding: 0 20px 7px;
+}
+@media (max-width: 1024px) {
+  .pb .form__label {
+    font-size: 20px;
+    padding: 0 15px 7px;
+  }
+}

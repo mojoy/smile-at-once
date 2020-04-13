@@ -1236,6 +1236,7 @@
 		padding: 12px 10px;
 		text-align: left;
 		vertical-align: middle;
+		box-shadow: 0 0 2px -1px #239ca3 inset;
 
 		@media (max-width: 1700px) {
 			padding: 12px 10px;
@@ -1289,6 +1290,36 @@
 
 		&-name {
 			font-weight: 700;
+
+			div {
+				padding-left: 45px;
+			}
+
+			.user-comment {
+				width: 34px;
+				height: 34px;
+				cursor: pointer;
+				border-radius: 50%;
+				background: #239ca3;
+				border: 1px solid #25878e;
+				box-shadow: 0 0 2px #25878e inset;
+				position: absolute;
+				left: 0;
+				top: 50%;
+				margin: -17px 0 0;
+
+				&:after {
+					background: no-repeat url(../images/cabinet/icon-comment.svg) 50% 50%;
+					background-size: 24px auto;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					position: absolute;
+					content: "";
+					z-index: 2;
+				}
+			}
 		}
 
 		&-name-doctor {
@@ -1346,6 +1377,7 @@
 		&-control {
 			text-align: center;
 			vertical-align: middle;
+			width: 1%;
 
 			> div {
 				display: flex;
@@ -1354,77 +1386,6 @@
 
 				@media (max-width: 1180px) {
 					justify-content: flex-start;
-				}
-			}
-
-			.button {
-				font-size: 12px;
-				padding: 5px 10px;
-				margin: 7px 0;
-				width: 125px;
-			}
-
-			.button {
-
-				width: 34px;
-				height: 34px;
-				text-indent: -9999px;
-				overflow: hidden;
-				margin: 0 4px;
-				padding: 0;
-
-				&:after {
-					position: absolute;
-					left: 0;
-					top: 0;
-					bottom: 0;
-					right: 0;
-					content: "";
-					background-size: 20px auto;
-					background-repeat: no-repeat;
-					background-position: 49% 50%;
-				}
-
-				&-cancel {
-					background: linear-gradient(to bottom, #f85e76, #e12e5e);
-					box-shadow: 0 0 2px 0 #b0244a inset;
-					border: 1px solid #e12e5e;
-
-					&:after{
-						background-image: url(../images/cabinet/icon-cancel.svg);
-					}
-				}
-
-				&-renew {
-					background: linear-gradient(to bottom, #72dbd4, #239ca3);
-					box-shadow: 0 0 2px 0 #247b80 inset;
-					border: 1px solid #239ca3;
-
-					&:after{
-						background-image: url(../images/cabinet/icon-renew.svg);
-					}
-				}
-
-				$yellow: #fee4a1;
-
-				&-complete {
-					background: linear-gradient(to bottom, $yellow, darken($yellow, 10));
-					box-shadow: 0 0 2px 0 darken($yellow, 30) inset;
-					border: 1px solid darken($yellow, 10);
-
-					&:after{
-						background-image: url(../images/cabinet/icon-call-end.svg);
-						opacity: 0.75;
-					}
-				}
-				&-delete {
-					background: linear-gradient(to bottom, #f85e76, #e12e5e);
-					box-shadow: 0 0 2px 0 #b0244a inset;
-					border: 1px solid #e12e5e;
-
-					&:after{
-						background-image: url(../images/cabinet/icon-delete.svg);
-					}
 				}
 			}
 		}
@@ -1562,6 +1523,70 @@
 
 			&:after {
 				background-image: url(../images/cabinet/icon-failure.svg);
+			}
+		}
+	}
+
+	&-button {
+
+		width: 34px;
+		height: 34px;
+		text-indent: -9999px;
+		overflow: hidden;
+		margin: 0 4px;
+		padding: 0;
+		border-radius: 50%;
+		position: relative;
+
+
+		&:after {
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			content: "";
+			background-size: 20px auto;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+		}
+
+		&-cancel {
+			background: linear-gradient(to bottom, #f85e76, #e12e5e);
+			box-shadow: 0 0 2px 0 #b0244a inset;
+			border: 1px solid #e12e5e;
+
+			&:after{
+				background-image: url(../images/cabinet/icon-cancel.svg);
+			}
+		}
+
+		&-renew {
+			background: linear-gradient(to bottom, #72dbd4, #239ca3);
+			box-shadow: 0 0 2px 0 #247b80 inset;
+			border: 1px solid #239ca3;
+
+			&:after{
+				background-image: url(../images/cabinet/icon-renew.svg);
+			}
+		}
+
+		&-complete {
+			background: linear-gradient(to bottom, #f85e76, #e12e5e);
+			box-shadow: 0 0 2px 0 #b0244a inset;
+			border: 1px solid #e12e5e;
+
+			&:after{
+				background-image: url(../images/cabinet/icon-call-end.svg);
+			}
+		}
+		&-delete {
+			background: linear-gradient(to bottom, #f85e76, #e12e5e);
+			box-shadow: 0 0 2px 0 #b0244a inset;
+			border: 1px solid #e12e5e;
+
+			&:after{
+				background-image: url(../images/cabinet/icon-delete.svg);
 			}
 		}
 	}
@@ -2109,7 +2134,44 @@
 }
 
 
+.legend-icons {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 40px 0 20px;
+	font-size: 18px;
 
 
+
+	h4 {
+		margin: 0 0 15px;
+
+		span {
+			background: none;
+		}
+	}
+
+	ul {
+
+		margin-bottom: 30px;
+
+		li {
+			margin: 0 0 15px;
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+		}
+
+		span {
+			float: left;
+			margin: 0 13px 0 0 !important;
+			width: 38px !important;
+			height: 38px !important;
+
+			&::after {
+				background-size: 24px auto !important;
+			}
+		}
+	}
+}
 
 
