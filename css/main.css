@@ -17614,6 +17614,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0 3px;
 }
 @media (max-width: 1180px) {
   .pb .meeting-register__td-control > div {
@@ -17629,8 +17630,8 @@
   width: 125px;
 }
 .pb .meeting-register__td-control .button {
-  width: 32px;
-  height: 32px;
+  width: 34px;
+  height: 34px;
   text-indent: -9999px;
   overflow: hidden;
   margin: 0 4px;
@@ -17650,8 +17651,8 @@
 .pb .meeting-register__td-control .button-cancel {
   background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
   background: linear-gradient(to bottom, #f85e76, #e12e5e);
-  -webkit-box-shadow: 0 0 0 0 #b0244a;
-          box-shadow: 0 0 0 0 #b0244a;
+  -webkit-box-shadow: 0 0 2px 0 #b0244a inset;
+          box-shadow: 0 0 2px 0 #b0244a inset;
   border: 1px solid #e12e5e;
 }
 .pb .meeting-register__td-control .button-cancel:after {
@@ -17660,8 +17661,8 @@
 .pb .meeting-register__td-control .button-renew {
   background: -webkit-gradient(linear, left top, left bottom, from(#72dbd4), to(#239ca3));
   background: linear-gradient(to bottom, #72dbd4, #239ca3);
-  -webkit-box-shadow: 0 0 0 0 #247b80;
-          box-shadow: 0 0 0 0 #247b80;
+  -webkit-box-shadow: 0 0 2px 0 #247b80 inset;
+          box-shadow: 0 0 2px 0 #247b80 inset;
   border: 1px solid #239ca3;
 }
 .pb .meeting-register__td-control .button-renew:after {
@@ -17670,8 +17671,8 @@
 .pb .meeting-register__td-control .button-complete {
   background: -webkit-gradient(linear, left top, left bottom, from(#fee4a1), to(#fdd66f));
   background: linear-gradient(to bottom, #fee4a1, #fdd66f);
-  -webkit-box-shadow: 0 0 0 0 #fcb90a;
-          box-shadow: 0 0 0 0 #fcb90a;
+  -webkit-box-shadow: 0 0 2px 0 #fcb90a inset;
+          box-shadow: 0 0 2px 0 #fcb90a inset;
   border: 1px solid #fdd66f;
 }
 .pb .meeting-register__td-control .button-complete:after {
@@ -17681,8 +17682,8 @@
 .pb .meeting-register__td-control .button-delete {
   background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
   background: linear-gradient(to bottom, #f85e76, #e12e5e);
-  -webkit-box-shadow: 0 0 0 0 #b0244a;
-          box-shadow: 0 0 0 0 #b0244a;
+  -webkit-box-shadow: 0 0 2px 0 #b0244a inset;
+          box-shadow: 0 0 2px 0 #b0244a inset;
   border: 1px solid #e12e5e;
 }
 .pb .meeting-register__td-control .button-delete:after {
@@ -17771,6 +17772,9 @@
 }
 .pb .meeting-register__meeting-held {
   background: #ebd280;
+  border: 1px solid #d3bb6f;
+  -webkit-box-shadow: 0 0 2px #d3bb6f inset;
+          box-shadow: 0 0 2px #d3bb6f inset;
 }
 .pb .meeting-register__meeting-held:after {
   background-image: url(../images/cabinet/icon-planning.svg);
@@ -17778,13 +17782,18 @@
 }
 .pb .meeting-register__meeting-completed {
   background: #239ca3;
+  border: 1px solid #25878e;
+  -webkit-box-shadow: 0 0 2px #25878e inset;
+          box-shadow: 0 0 2px #25878e inset;
 }
 .pb .meeting-register__meeting-completed:after {
   background-image: url(../images/cabinet/icon-complete.svg);
 }
 .pb .meeting-register__meeting-online {
   background: #00994b;
-  border: 1px solid #446b50;
+  border: 1px solid #007a3d;
+  -webkit-box-shadow: 0 0 2px #007a3d inset;
+          box-shadow: 0 0 2px #007a3d inset;
 }
 .pb .meeting-register__meeting-online:after {
   background-image: url(../images/cabinet/icon-phone.svg);
@@ -17793,6 +17802,8 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
   background: linear-gradient(to bottom, #f85e76, #e12e5e);
   border: 1px solid #b0244a;
+  -webkit-box-shadow: 0 0 2px #b0244a inset;
+          box-shadow: 0 0 2px #b0244a inset;
 }
 .pb .meeting-register__meeting-failed:after {
   background-image: url(../images/cabinet/icon-failed.svg);
@@ -17800,6 +17811,8 @@
 .pb .meeting-register__meeting-canceled {
   background: #a4a4a4;
   border: 1px solid #939393;
+  -webkit-box-shadow: 0 0 2px #939393 inset;
+          box-shadow: 0 0 2px #939393 inset;
 }
 .pb .meeting-register__meeting-canceled:after {
   background-image: url(../images/cabinet/icon-failure.svg);

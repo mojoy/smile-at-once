@@ -1350,6 +1350,7 @@
 			> div {
 				display: flex;
 				justify-content: center;
+				padding: 0 3px;
 
 				@media (max-width: 1180px) {
 					justify-content: flex-start;
@@ -1365,8 +1366,8 @@
 
 			.button {
 
-				width: 32px;
-				height: 32px;
+				width: 34px;
+				height: 34px;
 				text-indent: -9999px;
 				overflow: hidden;
 				margin: 0 4px;
@@ -1386,7 +1387,7 @@
 
 				&-cancel {
 					background: linear-gradient(to bottom, #f85e76, #e12e5e);
-					box-shadow: 0 0 0 0 #b0244a;
+					box-shadow: 0 0 2px 0 #b0244a inset;
 					border: 1px solid #e12e5e;
 
 					&:after{
@@ -1396,7 +1397,7 @@
 
 				&-renew {
 					background: linear-gradient(to bottom, #72dbd4, #239ca3);
-					box-shadow: 0 0 0 0 #247b80;
+					box-shadow: 0 0 2px 0 #247b80 inset;
 					border: 1px solid #239ca3;
 
 					&:after{
@@ -1408,7 +1409,7 @@
 
 				&-complete {
 					background: linear-gradient(to bottom, $yellow, darken($yellow, 10));
-					box-shadow: 0 0 0 0 darken($yellow, 30);
+					box-shadow: 0 0 2px 0 darken($yellow, 30) inset;
 					border: 1px solid darken($yellow, 10);
 
 					&:after{
@@ -1418,7 +1419,7 @@
 				}
 				&-delete {
 					background: linear-gradient(to bottom, #f85e76, #e12e5e);
-					box-shadow: 0 0 0 0 #b0244a;
+					box-shadow: 0 0 2px 0 #b0244a inset;
 					border: 1px solid #e12e5e;
 
 					&:after{
@@ -1515,6 +1516,8 @@
 
 		&-held {
 			background: #ebd280;
+			border: 1px solid #d3bb6f;
+			box-shadow: 0 0 2px #d3bb6f inset;
 
 			&:after {
 				background-image: url(../images/cabinet/icon-planning.svg);
@@ -1524,6 +1527,8 @@
 
 		&-completed {
 			background: #239ca3;
+			border: 1px solid #25878e;
+			box-shadow: 0 0 2px #25878e inset;
 
 			&:after {
 				background-image: url(../images/cabinet/icon-complete.svg);
@@ -1532,7 +1537,8 @@
 
 		&-online {
 			background: #00994b;
-			border: 1px solid #446b50;
+			border: 1px solid #007a3d;
+			box-shadow: 0 0 2px #007a3d inset;
 
 			&:after {
 				background-image: url(../images/cabinet/icon-phone.svg);
@@ -1542,6 +1548,7 @@
 		&-failed {
 			background: linear-gradient(to bottom, #f85e76, #e12e5e);
 			border: 1px solid #b0244a;
+			box-shadow: 0 0 2px #b0244a inset;
 
 			&:after {
 				background-image: url(../images/cabinet/icon-failed.svg);
@@ -1551,6 +1558,7 @@
 		&-canceled {
 			background: #a4a4a4;
 			border: 1px solid #939393;
+			box-shadow: 0 0 2px #939393 inset;
 
 			&:after {
 				background-image: url(../images/cabinet/icon-failure.svg);
