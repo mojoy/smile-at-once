@@ -1,0 +1,638 @@
+.meeting-filter {
+
+	.form__select {
+		float: left;
+		width: 16rem;
+		margin: 0 15px 10px 0;
+	}
+
+	.input-text {
+		float: left;
+		width: 13rem;
+		margin: 0 15px 10px 0;
+	}
+
+	input {
+		margin: 0 15px 10px 0;
+	}
+}
+
+
+.meeting-register {
+
+	tr:nth-child(2n) {
+		background: #eefafc;
+	}
+	tr {
+		transition: all 0.3s ease;
+
+		&:hover {
+			background: #c3edf4;
+		}
+	}
+
+
+
+	&__table {
+		width: 100%;
+		border-collapse: collapse;
+		background: #e6eff6;
+		line-height: 1.3;
+		font-size: 17px;
+		border: 1px solid #239ca3;
+
+		@media (max-width: 1700px) {
+			font-size: 16px;
+		}
+
+		@media (max-width: 1550px) {
+			font-size: 15px;
+		}
+	}
+
+	&__th {
+		text-align: left;
+		background: #239ca3;
+		padding: 8px 10px;
+		font-weight: 700;
+		font-size: 16px;
+		color: #fff;
+		vertical-align: middle;
+
+
+		@media (max-width: 1700px) {
+			padding: 8px 10px;
+			font-size: 15px;
+		}
+
+		@media (max-width: 1550px) {
+			padding: 8px 8px;
+		}
+
+		&-room {
+			width: 1%;
+			padding-right: 5px;
+			padding-left: 5px;
+			line-break: anywhere;
+			overflow-wrap: break-word;
+			hyphens: manual;
+		}
+
+		&-date {
+
+		}
+
+		&-status {
+			width: 3%;
+			text-align: center;
+		}
+
+		&-control {
+			text-align: center;
+		}
+	}
+
+	&__td {
+		padding: 12px 10px;
+		text-align: left;
+		vertical-align: middle;
+		box-shadow: 0 0 2px -1px #239ca3 inset;
+
+		@media (max-width: 1700px) {
+			padding: 12px 10px;
+		}
+
+		@media (max-width: 1550px) {
+			padding: 8px 8px;
+			font-size: 15px;
+		}
+
+		&-active {
+			background: rgba(255,82,116,0.5);
+		}
+
+		&-room {
+
+			padding-right: 5px;
+			padding-left: 5px;
+
+			.fancy-room {
+				width: 40px;
+				height: 40px;
+				overflow: hidden;
+				background: #239ca3;
+				border-radius: 50%;
+				margin: 0 auto;
+				color: #fff;
+				font-weight: 700;
+				line-height: 40px;
+				font-size: 26px;
+				text-align: center;
+				font-style: normal;
+				display: block;
+				cursor: pointer;
+				box-shadow: 0 2px 0 0 #0b5357;
+
+				@media (max-width: 1700px) {
+					width: 35px;
+					height: 35px;
+					line-height: 35px;
+					font-size: 24px;
+				}
+
+				@media (max-width: 1180px) {
+					margin: 0;
+				}
+			}
+		}
+
+		&-name {
+			font-weight: 700;
+
+			div {
+				padding-right: 45px;
+			}
+
+			.user-comment {
+				width: 34px;
+				height: 34px;
+				cursor: pointer;
+				border-radius: 50%;
+				background: linear-gradient(to bottom, #ebd280, #d3bb6f);
+				border: 1px solid #d3bb6f;
+				box-shadow: 0 0 2px #d3bb6f inset;
+				position: absolute;
+				right: 0;
+				top: 50%;
+				margin: -17px 0 0;
+				transition: all 0.3s ease;
+
+				&:after {
+					background: no-repeat url(../images/cabinet/icon-comment.svg) 50% 50%;
+					background-size: 24px auto;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					position: absolute;
+					content: "";
+					z-index: 2;
+					opacity: 0.6;
+				}
+
+				&:hover {
+					box-shadow: 0 0 2px #d3bb6f, 0 0 2px #d3bb6f inset;
+				}
+			}
+		}
+
+		&-name-doctor {
+			font-weight: 700;
+			width: 145px;
+		}
+
+		&-date {
+			width: 3%;
+		}
+
+		&-link-doctor {
+			width: 11.8%;
+			word-break: break-all;
+
+			@media (max-width: 1700px) {
+				width: 13%;
+			}
+		}
+
+		&-link-client {
+			width: 11.8%;
+			word-break: break-all;
+
+			@media (max-width: 1700px) {
+				width: 13%;
+			}
+		}
+
+		&-link-manager {
+			width: 11.8%;
+			word-break: break-all;
+
+			@media (max-width: 1700px) {
+				width: 13%;
+			}
+		}
+
+		&-name-creator {
+			word-break: break-all;
+			width: 3%;
+
+			div {
+				text-overflow: ellipsis;
+				overflow: hidden;
+				width: 120px;
+				word-break: break-all;
+
+				@media (max-width: 1180px) {
+					width: auto;
+				}
+			}
+		}
+
+		&-control {
+			text-align: center;
+			vertical-align: middle;
+			width: 1%;
+
+			> div {
+				display: flex;
+				justify-content: center;
+				padding: 0 3px;
+
+				@media (max-width: 1180px) {
+					justify-content: flex-start;
+				}
+			}
+		}
+
+		> div {
+			position: relative;
+		}
+
+		.link-chat {
+			cursor: pointer;
+			display: block;
+		}
+
+		> div > i {
+			position: absolute;
+			top: 0;
+			margin: -50px 0 0;
+			left: 0;
+			background: #000;
+			color: #fff;
+			font-size: 14px;
+			border-radius: 5px;
+			padding: 4px 9px;
+			display: none;
+			width: 210px;
+			min-height: 45px;
+			text-align: center;
+			word-break: break-word;
+		}
+
+		> div > i:after {
+			width: 0;
+			height: 0;
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			border-top: 8px solid #000;
+			content: "";
+			top: 100%;
+			left: 20px;
+			position: absolute;
+		}
+		&:hover > div > i {
+			display: block;
+		}
+
+		&-status {
+			text-align: center;
+
+			> div {
+				display: flex;
+				justify-content: center;
+
+				@media (max-width: 1180px) {
+					justify-content: flex-start;
+				}
+			}
+		}
+	}
+
+
+	&__status {
+		display: block;
+		border-radius: 8px;
+		padding: 4px 10px;
+		color: #fff;
+		text-align: center;
+		white-space: nowrap;
+
+
+		border-radius: 50%;
+		width: 38px;
+		height: 38px;
+		text-indent: -9999px;
+		overflow: hidden;
+		margin: 0 4px;
+		padding: 0;
+		position: relative;
+
+		&:after {
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			content: "";
+			background-size: 26px auto;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+		}
+
+		&-held {
+			background: linear-gradient(to bottom, #ebd280, #d3bb6f);
+			border: 1px solid #d3bb6f;
+			box-shadow: 0 0 2px #d3bb6f inset;
+
+			&:after {
+				background-image: url(../images/cabinet/icon-planning.svg);
+				opacity: 0.75;
+			}
+		}
+
+		&-completed {
+			background: #239ca3;
+			border: 1px solid #25878e;
+			box-shadow: 0 0 2px #25878e inset;
+
+			&:after {
+				background-image: url(../images/cabinet/icon-complete.svg);
+			}
+		}
+
+		&-online {
+			background: #00994b;
+			border: 1px solid #007a3d;
+			box-shadow: 0 0 2px #007a3d inset;
+
+			&:after {
+				background-image: url(../images/cabinet/icon-phone.svg);
+			}
+		}
+
+		&-failed {
+			background: linear-gradient(to bottom, #f85e76, #e12e5e);
+			border: 1px solid #b0244a;
+			box-shadow: 0 0 2px #b0244a inset;
+
+			&:after {
+				background-image: url(../images/cabinet/icon-failed.svg);
+			}
+		}
+
+		&-canceled {
+			background: #a4a4a4;
+			border: 1px solid #939393;
+			box-shadow: 0 0 2px #939393 inset;
+
+			&:after {
+				background-image: url(../images/cabinet/icon-failure.svg);
+			}
+		}
+	}
+
+	&-button {
+
+		width: 34px;
+		height: 34px;
+		text-indent: -9999px;
+		overflow: hidden;
+		margin: 0 4px;
+		padding: 0;
+		border-radius: 50%;
+		position: relative;
+		transition: all 0.3s ease;
+
+
+		&:after {
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			content: "";
+			background-size: 20px auto;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+		}
+
+		&-cancel {
+			background: linear-gradient(to bottom, #f85e76, #e12e5e);
+			box-shadow: 0 0 2px 0 #b0244a inset;
+			border: 1px solid #e12e5e;
+
+			&:after{
+				background-image: url(../images/cabinet/icon-cancel.svg);
+			}
+
+			&:hover {
+				box-shadow: 0 0 3px #b0244a;
+			}
+		}
+
+		&-renew {
+			background: linear-gradient(to bottom, #72dbd4, #239ca3);
+			box-shadow: 0 0 2px 0 #247b80 inset;
+			border: 1px solid #239ca3;
+
+
+			&:after{
+				background-image: url(../images/cabinet/icon-renew.svg);
+			}
+
+			&:hover {
+				box-shadow: 0 0 3px #247b80;
+			}
+		}
+
+		&-complete {
+			background: linear-gradient(to bottom, #f85e76, #e12e5e);
+			box-shadow: 0 0 2px 0 #b0244a inset;
+			border: 1px solid #e12e5e;
+
+			&:after{
+				background-image: url(../images/cabinet/icon-call-end.svg);
+			}
+
+			&:hover {
+				box-shadow: 0 0 3px #b0244a;
+			}
+		}
+		&-delete {
+			background: linear-gradient(to bottom, #f85e76, #e12e5e);
+			box-shadow: 0 0 2px 0 #b0244a inset;
+			border: 1px solid #e12e5e;
+
+			&:after{
+				background-image: url(../images/cabinet/icon-delete.svg);
+			}
+
+			&:hover {
+				box-shadow: 0 0 3px #b0244a;
+			}
+		}
+	}
+
+
+
+	&__th-link-doctor,
+	&__td-link-doctor {
+		color: #000;
+		background: rgba(255,255,0,0.4);
+	}
+	&__th-link-client,
+	&__td-link-client {
+		color: #000;
+		background: rgba(114,219,212,0.4);
+	}
+	&__th-link-manager,
+	&__td-link-manager {
+		color: #000;
+		background: rgba(255,82,116,0.4);
+	}
+
+
+
+	@media (max-width: 1180px) {
+		&__table,
+		&__table tbody,
+		&__table tbody tr,
+		&__table tbody td{
+			display: block;
+			width: auto;
+		}
+		&__table {
+			position: relative;
+		}
+		&__th-link-doctor,
+		&__td-link-doctor,
+		&__th-link-client,
+		&__td-link-client,
+		&__th-link-manager,
+		&__td-link-manager {
+			width: 100%;
+		}
+		&__table tbody tr {
+			position: relative;
+			z-index: 2;
+			border-bottom: 15px solid #fff;
+		}
+		&__table tr:after {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 150px;
+			z-index: 0;
+			background: rgba(114,219,212,0.95);
+		}
+		&__table tbody th{
+			display: none;
+		}
+		&__td {
+			padding: 0;
+			text-align: left;
+			overflow: hidden;
+			position: relative;
+			z-index: 2;
+			font-size: 14px;
+		}
+		&__td > div {
+			padding: 8px 13px;
+			overflow: hidden;
+		}
+		&__td::before {
+			width: 150px;
+			font-weight: 700;
+			line-height: 1.5;
+			text-align: left;
+			float: left;
+			padding: 6px 5px;
+			font-size: 16px;
+		}
+		&__td-room::before {
+			content: "Комната";
+		}
+		&__td-name::before {
+			content: "Имя пациента";
+		}
+		&__td-name-doctor::before {
+			content: "Имя доктора";
+		}
+		&__td-date::before {
+			content: "Дата";
+		}
+		&__td-date-end::before {
+			content: "Дата окончания";
+		}
+		&__td-link-doctor::before {
+			content: "Врачу";
+		}
+		&__td-link-client::before {
+			content: "Пациенту";
+		}
+		&__td-link-manager::before {
+			content: "Менджеру";
+		}
+		&__td-name-creator::before {
+			content: "Кто создал";
+		}
+		&__td-status::before {
+			content: "Статус";
+		}
+		&__td-control::before {
+			content: "Операции";
+		}
+		&__meeting {
+			/*width: 145px;*/
+		}
+	}
+}
+
+
+
+.legend-icons {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 40px 0 20px;
+	font-size: 18px;
+
+	h4 {
+		margin: 0 0 15px;
+
+		span {
+			background: none;
+		}
+	}
+
+	ul {
+
+		margin-bottom: 30px;
+
+		li {
+			margin: 0 0 15px;
+			overflow: hidden;
+			display: flex;
+			align-items: center;
+		}
+
+		span {
+			float: left;
+			margin: 0 13px 0 0 !important;
+			width: 38px !important;
+			height: 38px !important;
+
+			&::after {
+				background-size: 24px auto !important;
+			}
+		}
+	}
+}
+
+
+.pb .link-to-room {
+	padding: 0 0 9px 40px;
+	overflow: hidden;
+}

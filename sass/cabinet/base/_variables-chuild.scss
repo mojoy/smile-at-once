@@ -1,0 +1,45 @@
+$breakpoints: (
+		'xxl': (max-width: 1680px),
+		'xl': (max-width: 1400px),
+		'l': (max-width: 1024px),
+		'm': (max-width: 768px),
+		's': (max-width: 680px),
+		'xs': (max-width: 480px),
+		'xxs': (max-width: 375px),
+);
+
+$font: 'PF DinDisplay Pro', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+$font-icon: 'smileicons' !important;
+
+$container_width: 1330px;
+
+$gutter: 15px;
+
+$shadow-block: 0 2px 15px 0 transparentize(#a6bfcf,0.5);
+$shadow-block-big: 0 3px 35px 0 transparentize(#a6bfcf,0.3);
+
+$pink: #ff5274;
+$green: #72dbd4;
+$green-dark: #239ca3;
+$green-light: #d5f4f4;
+$black: #000000;
+$bg-color: #f8fbfc;
+$gray-text: #7b90a1;
+$gray-border: #cedae1;
+$gray-bg: #e6eff6;
+$green-bg: #eefafc;
+
+@mixin res($breakpoint) {
+	@media #{inspect(map-get($breakpoints, $breakpoint))} {
+		@content;
+	}
+}
+
+//fix ro min() max() css functions
+@function max($numbers...){
+	@return m#{a}x(#{$numbers})
+}
+
+@function min($numbers...){
+	@return m#{i}n(#{$numbers})
+}
