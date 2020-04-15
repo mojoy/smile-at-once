@@ -1,9 +1,41 @@
+
+@import 'cabinet/base/variables-chuild';
+@import 'addtooldstyle';
 .pb {
 	@import 'cabinet/base/variables-chuild';
 	@import 'cabinet/base/forms-chuild';
 	@import 'cabinet/base/buttons-chuild';
 	@import 'cabinet/pay';
+
+	@include res(m){
+		.header-banner__title {
+			line-height: 1.5;
+		}
+	}
+
+
+	@include res(s){
+		.teledent-triggers__left {
+			display: block;
+		}
+		.teledent-trigger-head {
+			display: flex;
+		}
+	}
+
+	.teledent-triggers {
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
 }
 @import 'cabinet/video-chat';
 @import 'cabinet/cabinet';
 @import 'cabinet/meeting';
+
+
+
+
+

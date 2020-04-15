@@ -10,7 +10,7 @@
 		overflow: hidden;
 	}
 
-	@media (max-width: 1000px) {
+	@include res(l){
 		padding-top: 0;
 	}
 }
@@ -31,6 +31,7 @@
 		width: 100%;
 	}
 }
+
 .pb .form {
 	&__label {
 		display: block;
@@ -38,10 +39,9 @@
 		padding: 0 20px 7px;
 	}
 
-
 	&__select {
 		display: inline-block;
-		font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+		font-family: $font;
 		font-size: 18px;
 		font-weight: 300;
 		line-height: 1.3;
@@ -53,7 +53,7 @@
 		margin: 0 0 10px;
 		width: 100%;
 
-		@media (max-width: 1024px) {
+		@include res(l){
 			font-size: 16px;
 			padding: 12px 20px;
 		}
@@ -61,24 +61,27 @@
 		&--medium{
 			padding: 13px 20px;
 			font-size: 16px;
+
+			@include res(l){
+				font-size: 15px;
+				padding: 12px 20px;
+			}
 		}
 
 		&--small{
 			padding: 11px 15px;
-			font-size: 14px;
+			font-size: 15px;
+
+			@include res(l){
+				padding: 11px 15px;
+				font-size: 15px;
+			}
 		}
 	}
 
 	&-row {
 
-		:after {/*
-			clear: both;
-			display: block;
-			content: "";*/
-		}
-
 		&__date {
-			/*padding-right: 50px;*/
 			position: relative;
 
 			.input-text {
@@ -102,9 +105,6 @@
 	}
 }
 
-
-
-
 .pb .ui-datepicker-trigger {
 	width: 45px;
 	height: 45px;
@@ -124,115 +124,6 @@
 		box-shadow: none !important;
 	}
 }
-.pb .select-custom-wrapper {
-	position: relative;
-	margin-bottom: 10px;
-	z-index: 1;
-
-	&:after {
-		content: "";
-		position: absolute;
-		right: 12px;
-		z-index: 5;
-		top: 50%;
-		margin: -3px 0 0;
-		width: 0;
-		height: 0;
-		border-left: 5px solid transparent;
-		border-right: 5px solid transparent;
-		border-top: 8px solid #7b90a1;
-	}
-}
-.pb .select-custom-wrapper-active .select-custom-text {
-	border: 1px solid #239ca3;
-	-webkit-box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5), 0 0 0 1px #239ca3;
-	box-shadow: 0 2px 15px 0 rgba(166, 191, 207, 0.5), 0 0 0 1px #239ca3;
-	outline: none;
-}
-.pb .select-custom {
-	display: inline-block;
-	font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 1.3;
-	-webkit-appearance: none;
-	border: 1px solid #cedae1;
-	background: #fff;
-	border-radius: 28px;
-	padding: 15px 25px;
-	overflow: visible;
-	margin: 0;
-
-	option {
-		padding: 6px 4px;
-	}
-}
-.pb .select-custom-text {
-	position: relative;
-	z-index: 2;
-	padding: 15px 25px;
-	display: block;
-	background: #fff;
-	border-radius: 28px;
-	border: 1px solid #cedae1;
-	font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 1.3;
-}
-.pb .select-custom--medium {
-	padding: 11px 25px 11px 10px;
-	font-size: 16px;
-}
-.pb .select-custom--medium option {
-	padding: 5px 25px 5px 10px;
-}
-.pb .select-custom--small {
-	padding: 8px 13px;
-	font-size: 14px;
-}
-.pb .select-custom--small option {
-	padding: 5px 3px;
-}
-.pb .chat-messaging {
-	position: relative;
-}
-.pb .chat-messaging-nav {
-	display: flex;
-	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
-	width: auto;
-
-	.select-custom {
-		width: 100%;
-		display: block;
-		clear: both;
-	}
-
-	&__label {
-		padding: 0 0 5px 13px;
-		margin: 0;
-		display: inline-block;
-		font-size: 18px;
-	}
-
-	&-col {
-		flex: 0 0 25%;
-		max-width: 25%;
-		padding: 0 10px 15px;
-
-		@media (max-width: 680px) and (orientation: portrait){
-			flex: 0 0 50%;
-			max-width: 50%;
-			padding: 0 10px 5px;
-		}
-	}
-
-
-}
-
-
 
 .xdsoft_datetimepicker  button[type="button"].xdsoft_next,
 .xdsoft_datetimepicker  button[type="button"].xdsoft_prev,
@@ -259,6 +150,10 @@
 .xdsoft_datetimepicker .xdsoft_datepicker {
 	width: 73.5% !important;
 	margin: 0 0 0 1.5% !important;
+
+	@include res(xs){
+		font-size: 15px !important;
+	}
 }
 .xdsoft_datetimepicker .xdsoft_calendar td, .xdsoft_datetimepicker .xdsoft_calendar th {
 	font-size: 15px !important;
@@ -274,34 +169,28 @@
 .xdsoft_datetimepicker .xdsoft_timepicker {
 	width: 22.0% !important;
 	margin-left: 1.5% !important;
-
-	@media (max-width: 480px) {
-
-	}
 }
+
 .xdsoft_datetimepicker .xdsoft_month {
 	width: 105px !important;
 	font-size: 15px !important;
 	line-height: 1.5 !important;
-}
-@media (max-width: 480px) {
-	.xdsoft_datetimepicker .xdsoft_month {
+
+	@include res(xs){
 		width: 85px !important;
 	}
 }
+
 .xdsoft_datetimepicker .xdsoft_year {
 	width:80px !important;
 	line-height: 1.5 !important;
 	font-size: 15px !important;
-}
-@media (max-width: 480px) {
-	.xdsoft_datetimepicker .xdsoft_datepicker {
-		font-size: 15px !important;
-	}
-	.xdsoft_datetimepicker .xdsoft_year {
+
+	@include res(xs){
 		width: 50px !important;
 	}
 }
+
 .xdsoft_datetimepicker button[type="button"].xdsoft_next,
 .xdsoft_datetimepicker button[type="button"].xdsoft_prev {
 	margin-left: auto !important;
@@ -315,17 +204,6 @@
 	font-size: 14px !important;
 	height: 33px !important;
 	line-height: 33px !important;
-}
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:last-child {
-	/*border-right: 1px solid #ddd !important;
-	border-bottom: none !important;*/
-}
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:nth-child(1),
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:nth-child(2) {
-	/*border-top: 0 !important;*/
-}
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:nth-child(2n) {
-	/*border-left: 1px solid #ddd;*/
 }
 .xdsoft_monthpicker button[type="button"].xdsoft_prev,
 .xdsoft_monthpicker button[type="button"].xdsoft_today_button,
@@ -347,19 +225,18 @@
 	margin-bottom: 12px !important;
 }
 
-
 .pb .vertical-form-inner {
 	max-width: 900px;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
 }
+
 .vertical-form-inner .row {
 	width: 100%;
 	width: calc(100% + 30px)!important;
+	align-items: center;
 }
-
-
 
 .to-up {
 	position: fixed !important;
@@ -376,21 +253,19 @@
 	background-repeat: no-repeat !important;
 	display: none !important;
 
-	@media (max-width: 1180px) {
+	@include res(l){
 		display: block !important;
 	}
 }
 
-
 .vertical-form {
 	&-middle {
-
 		.consultation-rating-box {
 			padding: 0;
 			max-width: 1440px;
 			width: 100%;
 
-			@media (max-width: 680px) {
+			@include res(s){
 				padding: 0;
 			}
 		}
@@ -438,7 +313,7 @@
 		transform: translate3d(0, -20px, 0);
 		transition: all 0.5s ease;
 
-		@media (max-width: 680px) {
+		@include res(s){
 			padding: 20px;
 		}
 
@@ -447,7 +322,7 @@
 			display: flex;
 			justify-content: center;
 
-			@media (max-width: 680px) {
+			@include res(s) {
 				margin: 0 0 18px;
 			}
 
@@ -455,7 +330,7 @@
 				width: 55px !important;
 				height: 55px !important;
 
-				@media (max-width: 680px) {
+				@include res(s) {
 					width: 50px !important;
 					height: 50px !important;
 				}
@@ -464,7 +339,7 @@
 					padding-left: 5px !important;
 					padding-right: 5px !important;
 
-					@media (max-width: 680px) {
+					@include res(s) {
 						padding-left: 4px !important;
 						padding-right: 4px !important;
 					}
@@ -475,7 +350,7 @@
 		.sec-title {
 			display: block;
 
-			@media (max-width: 680px) {
+			@include res(s) {
 				margin-bottom: 15px;
 			}
 		}
@@ -531,7 +406,6 @@
 			box-shadow: none;
 		}
 
-
 		&:hover::before,
 		&:hover::after {
 			background: #ff5274;
@@ -551,10 +425,16 @@
 }
 
 .pb .modal-room {
-	width: 600px;
 
-	&__title {
+	width: 985px;
 
+	&__subtitle {
+		margin-bottom: 5px;
+		display: block;
+	}
+
+	&__content {
+		padding: 0 15px;
 	}
 
 	&__rating {
@@ -563,25 +443,14 @@
 		justify-content: center;
 	}
 
-	&__content {
-		padding: 0 15px;
+	.modal-ba__title {
+		font-weight: 700;
 	}
 
-	&__subtitle {
-		margin-bottom: 5px;
-		display: block;
+	h5,
+	.h5 {
+		font-size: 19px;
 	}
-
-	&__details {
-
-		&-row {
-			margin: 0 0 20px;
-		}
-	}
-}
-
-.pb .modal-room {
-	width: 985px;
 
 	&__title {
 
@@ -599,7 +468,26 @@
 		&-list {
 
 			&-row {
-				margin-bottom: 5px;
+				margin-bottom: 2px;
+				overflow: hidden;
+
+				strong {
+					font-size: 17px;
+					float: left;
+					line-height: 1.7;
+					font-weight: 700;
+					margin: 0 0 8px;
+					padding: 0 10px 0 0;
+				}
+
+				span {
+					font-size: 17px;
+					line-height: 1.7;
+					margin: 0 0 8px;
+					overflow: hidden;
+					display: block;
+					padding: 0;
+				}
 			}
 		}
 	}
@@ -621,11 +509,26 @@
 	.row {
 		margin-bottom: 25px;
 	}
+
+	.meeting-register__status {
+		width: 27px;
+		height: 27px;
+		margin: 0;
+	}
+
 	.row-btn {
 
 	}
+
 	.button {
 
+	}
+
+	&__details {
+
+		&-row {
+			margin: 0 0 20px;
+		}
 	}
 }
 
@@ -679,5 +582,3 @@
 .vertical-form .row-btn .button {
 	width: auto;
 }
-
-

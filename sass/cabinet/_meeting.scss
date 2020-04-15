@@ -17,36 +17,30 @@
 	}
 }
 
-
 .meeting-register {
-
-	tr:nth-child(2n) {
-		background: #eefafc;
-	}
-	tr {
-		transition: all 0.3s ease;
-
-		&:hover {
-			background: #c3edf4;
-		}
-	}
-
-
 
 	&__table {
 		width: 100%;
 		border-collapse: collapse;
 		background: #e6eff6;
-		line-height: 1.3;
-		font-size: 17px;
+		line-height: 1.4;
+		font-size: 16px;
 		border: 1px solid #239ca3;
-
-		@media (max-width: 1700px) {
-			font-size: 16px;
-		}
 
 		@media (max-width: 1550px) {
 			font-size: 15px;
+		}
+	}
+
+	tr:nth-child(2n) {
+		background: #eefafc;
+	}
+
+	tr {
+		transition: all 0.3s ease;
+
+		&:hover {
+			background: #c3edf4;
 		}
 	}
 
@@ -93,14 +87,10 @@
 	}
 
 	&__td {
-		padding: 12px 10px;
+		padding: 11px 9px;
 		text-align: left;
 		vertical-align: middle;
 		box-shadow: 0 0 2px -1px #239ca3 inset;
-
-		@media (max-width: 1700px) {
-			padding: 12px 10px;
-		}
 
 		@media (max-width: 1550px) {
 			padding: 8px 8px;
@@ -120,7 +110,7 @@
 				width: 40px;
 				height: 40px;
 				overflow: hidden;
-				background: #239ca3;
+				background: linear-gradient(to bottom, #72dbd4, #239ca3);
 				border-radius: 50%;
 				margin: 0 auto;
 				color: #fff;
@@ -147,6 +137,7 @@
 		}
 
 		&-name {
+
 			font-weight: 700;
 
 			div {
@@ -158,37 +149,36 @@
 				height: 34px;
 				cursor: pointer;
 				border-radius: 50%;
-				background: linear-gradient(to bottom, #ebd280, #d3bb6f);
-				border: 1px solid #d3bb6f;
-				box-shadow: 0 0 2px #d3bb6f inset;
+				background: linear-gradient(to bottom, #ffcb20, #e8ba2c);
+				border: 1px solid #d9b13b;
+				box-shadow: 0 0 2px #e8ba2c inset;
 				position: absolute;
-				right: 0;
+				right: 8px;
 				top: 50%;
 				margin: -17px 0 0;
 				transition: all 0.3s ease;
 
 				&:after {
 					background: no-repeat url(../images/cabinet/icon-comment.svg) 50% 50%;
-					background-size: 24px auto;
-					left: 0;
-					right: 0;
-					top: 0;
-					bottom: 0;
+					background-size: 100% 100%;
+					left: 3px;
+					right: 3px;
+					top: 3px;
+					bottom: 3px;
 					position: absolute;
 					content: "";
 					z-index: 2;
-					opacity: 0.6;
 				}
 
 				&:hover {
-					box-shadow: 0 0 2px #d3bb6f, 0 0 2px #d3bb6f inset;
+					box-shadow: 0 0 2px #d9b13b, 0 0 2px #d9b13b inset;
 				}
 			}
 		}
 
 		&-name-doctor {
 			font-weight: 700;
-			width: 145px;
+			width: 165px;
 		}
 
 		&-date {
@@ -197,6 +187,7 @@
 
 		&-link-doctor {
 			width: 11.8%;
+			min-width: 90px;
 			word-break: break-all;
 
 			@media (max-width: 1700px) {
@@ -206,6 +197,7 @@
 
 		&-link-client {
 			width: 11.8%;
+			min-width: 90px;
 			word-break: break-all;
 
 			@media (max-width: 1700px) {
@@ -215,6 +207,7 @@
 
 		&-link-manager {
 			width: 11.8%;
+			min-width: 90px;
 			word-break: break-all;
 
 			@media (max-width: 1700px) {
@@ -224,16 +217,16 @@
 
 		&-name-creator {
 			word-break: break-all;
-			width: 3%;
+			width: 8%;
+			min-width: 110px;
 
 			div {
 				text-overflow: ellipsis;
 				overflow: hidden;
-				width: 120px;
 				word-break: break-all;
 
 				@media (max-width: 1180px) {
-					width: auto;
+
 				}
 			}
 		}
@@ -254,45 +247,86 @@
 			}
 		}
 
-		> div {
-			position: relative;
-		}
-
 		.link-chat {
 			cursor: pointer;
 			display: block;
+
+			&:after {
+				content: "";
+				position: absolute;
+				width: 26px;
+				height: 26px;
+				background: #049198 no-repeat url(../images/cabinet/icon-link-copy.svg) 50% 50%;
+				bottom: -7px;
+				left: -4px;
+				z-index: 1;
+				transition: all 0.5s ease;
+				border-radius: 50%;
+				background-size: 16px 16px;
+				opacity: 0;
+			}
+
+			&:hover {
+
+				&:after {
+					opacity: 0.9;
+				}
+			}
+
+			&.link-chat-copy {
+				&:after {
+					background-color: #e12e5e;
+				}
+			}
 		}
 
-		> div > i {
-			position: absolute;
-			top: 0;
-			margin: -50px 0 0;
-			left: 0;
-			background: #000;
-			color: #fff;
-			font-size: 14px;
-			border-radius: 5px;
-			padding: 4px 9px;
-			display: none;
-			width: 210px;
-			min-height: 45px;
-			text-align: center;
-			word-break: break-word;
+		> div {
+			position: relative;
+
+			> i {
+				position: absolute;
+				top: 0;
+				margin: -50px 0 0;
+				left: 0;
+				background: #000;
+				color: #fff;
+				font-size: 14px;
+				border-radius: 5px;
+				padding: 4px 9px;
+				width: 210px;
+				text-align: center;
+				word-break: break-word;
+				transition: all 0.85s ease;
+				opacity: 0;
+				visibility: hidden;
+				height: 48px;
+				display: flex;
+				justify-items: center;
+				align-items: center;
+				justify-content: center;
+
+				em {
+					font-style: normal;
+					display: inline-block;
+				}
+
+				&:after {
+					width: 0;
+					height: 0;
+					border-left: 5px solid transparent;
+					border-right: 5px solid transparent;
+					border-top: 8px solid #000;
+					content: "";
+					top: 100%;
+					left: 20px;
+					position: absolute;
+				}
+			}
 		}
 
-		> div > i:after {
-			width: 0;
-			height: 0;
-			border-left: 5px solid transparent;
-			border-right: 5px solid transparent;
-			border-top: 8px solid #000;
-			content: "";
-			top: 100%;
-			left: 20px;
-			position: absolute;
-		}
 		&:hover > div > i {
-			display: block;
+			opacity: 1;
+			visibility: visible;
 		}
 
 		&-status {
@@ -309,16 +343,69 @@
 		}
 	}
 
+	&__user {
+		display: block;
+		padding: 0 0 0 27px;
+		position: relative;
+		cursor: pointer;
+
+		&:after {
+			position: absolute;
+			left: 0;
+			content: "";
+			top: 50%;
+			margin: -12px 0 0;
+			width: 24px;
+			height: 24px;
+			z-index: 1;
+			background: no-repeat url(../images/cabinet/icon-patient.svg);
+			background-size: 100% auto;
+		}
+	}
+
+	&__doctor {
+		display: block;
+		padding: 0 0 0 27px;
+		position: relative;
+
+
+		&:after {
+			position: absolute;
+			left: 0;
+			content: "";
+			top: 50%;
+			margin: -12px 0 0;
+			width: 24px;
+			height: 24px;
+			z-index: 1;
+			background: no-repeat url(../images/cabinet/icon-doctor.svg);
+			background-size: 100% auto;
+		}
+	}
+
+	&__date {
+		display: block;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 0 0 0 25px;
+		background: no-repeat url(../images/cabinet/icon-date.svg);
+		background-size: 24px auto;
+		line-height: 26px;
+	}
+	&__time {
+		display: block;
+		font-size: 19px;
+		font-weight: 700;
+		background: no-repeat url(../images/cabinet/icon-time_clock.svg);
+		color: #25878e;
+		background-size: 24px auto;
+		line-height: 22px;
+		padding: 0 0 0 25px;
+		margin: 3px auto 0;
+	}
 
 	&__status {
 		display: block;
-		border-radius: 8px;
-		padding: 4px 10px;
-		color: #fff;
-		text-align: center;
-		white-space: nowrap;
-
-
 		border-radius: 50%;
 		width: 38px;
 		height: 38px;
@@ -330,29 +417,28 @@
 
 		&:after {
 			position: absolute;
-			left: 0;
-			top: 0;
-			bottom: 0;
-			right: 0;
+			left: 3px;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
 			content: "";
-			background-size: 26px auto;
+			background-size: 100% 100%;
 			background-repeat: no-repeat;
 			background-position: 50% 50%;
 		}
 
 		&-held {
-			background: linear-gradient(to bottom, #ebd280, #d3bb6f);
-			border: 1px solid #d3bb6f;
-			box-shadow: 0 0 2px #d3bb6f inset;
+			background: linear-gradient(to bottom, #ffcb20, #e8ba2c);
+			border: 1px solid #d9b13b;
+			box-shadow: 0 0 2px #e8ba2c inset;
 
 			&:after {
 				background-image: url(../images/cabinet/icon-planning.svg);
-				opacity: 0.75;
 			}
 		}
 
 		&-completed {
-			background: #239ca3;
+			background: linear-gradient(to bottom, #72dbd4, #239ca3);
 			border: 1px solid #25878e;
 			box-shadow: 0 0 2px #25878e inset;
 
@@ -362,7 +448,7 @@
 		}
 
 		&-online {
-			background: #00994b;
+			background: linear-gradient(to bottom, #72dbd4, #239ca3);
 			border: 1px solid #007a3d;
 			box-shadow: 0 0 2px #007a3d inset;
 
@@ -382,7 +468,7 @@
 		}
 
 		&-canceled {
-			background: #a4a4a4;
+			background: linear-gradient(to bottom, #b9b9b9, #a3a3a3);
 			border: 1px solid #939393;
 			box-shadow: 0 0 2px #939393 inset;
 
@@ -404,15 +490,14 @@
 		position: relative;
 		transition: all 0.3s ease;
 
-
 		&:after {
 			position: absolute;
-			left: 0;
-			top: 0;
-			bottom: 0;
-			right: 0;
+			left: 4px;
+			top: 4px;
+			bottom: 4px;
+			right: 4px;
 			content: "";
-			background-size: 20px auto;
+			background-size: 100% 100%;
 			background-repeat: no-repeat;
 			background-position: 50% 50%;
 		}
@@ -459,6 +544,7 @@
 				box-shadow: 0 0 3px #b0244a;
 			}
 		}
+
 		&-delete {
 			background: linear-gradient(to bottom, #f85e76, #e12e5e);
 			box-shadow: 0 0 2px 0 #b0244a inset;
@@ -474,25 +560,23 @@
 		}
 	}
 
-
-
 	&__th-link-doctor,
 	&__td-link-doctor {
 		color: #000;
-		background: rgba(255,255,0,0.4);
+		background: rgba(255,255,0,0.3);
 	}
+
 	&__th-link-client,
 	&__td-link-client {
 		color: #000;
-		background: rgba(114,219,212,0.4);
+		background: rgba(114,219,212,0.3);
 	}
+
 	&__th-link-manager,
 	&__td-link-manager {
 		color: #000;
-		background: rgba(255,82,116,0.4);
+		background: rgba(255,82,116,0.3);
 	}
-
-
 
 	@media (max-width: 1180px) {
 		&__table,
@@ -517,16 +601,17 @@
 			position: relative;
 			z-index: 2;
 			border-bottom: 15px solid #fff;
-		}
-		&__table tr:after {
-			content: "";
-			position: absolute;
-			left: 0;
-			top: 0;
-			bottom: 0;
-			width: 150px;
-			z-index: 0;
-			background: rgba(114,219,212,0.95);
+
+			&:after {
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				width: 150px;
+				z-index: 0;
+				background: rgba(114,219,212,0.95);
+			}
 		}
 		&__table tbody th{
 			display: none;
@@ -538,19 +623,21 @@
 			position: relative;
 			z-index: 2;
 			font-size: 14px;
-		}
-		&__td > div {
-			padding: 8px 13px;
-			overflow: hidden;
-		}
-		&__td::before {
-			width: 150px;
-			font-weight: 700;
-			line-height: 1.5;
-			text-align: left;
-			float: left;
-			padding: 6px 5px;
-			font-size: 16px;
+
+			&::before {
+				width: 150px;
+				font-weight: 700;
+				line-height: 1.5;
+				text-align: left;
+				float: left;
+				padding: 6px 5px;
+				font-size: 16px;
+			}
+
+			> div {
+				padding: 8px 13px;
+				overflow: hidden;
+			}
 		}
 		&__td-room::before {
 			content: "Комната";
@@ -585,13 +672,8 @@
 		&__td-control::before {
 			content: "Операции";
 		}
-		&__meeting {
-			/*width: 145px;*/
-		}
 	}
 }
-
-
 
 .legend-icons {
 	margin: 0 auto;
@@ -630,7 +712,6 @@
 		}
 	}
 }
-
 
 .pb .link-to-room {
 	padding: 0 0 9px 40px;

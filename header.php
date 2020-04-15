@@ -32,6 +32,7 @@
 <!--	<link href="css/all_doctors_dev.css" rel="stylesheet">-->
 <!--	<link href="css/animate.min.css" rel="stylesheet">-->
 	<link href="css/main.css?v=25" rel="stylesheet">
+	<link href="css/main-chuild.css?v=25" rel="stylesheet">
 </head>
 
 <body>

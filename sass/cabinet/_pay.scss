@@ -16,6 +16,8 @@
 		margin-right: auto;
 		display: block;
 		text-align: center;
+		padding: 6px 20px;
+		font-size: 25px;
 	}
 
 	max-width: 360px;
@@ -30,14 +32,15 @@
 		text-align: center;
 		margin: 0 0 25px;
 	}
+
 	.alfa-payment__message {
 		padding: 10px 0;
 	}
+
 	.alfa-payment__button {
 		display: inline-block;
 		vertical-align: middle;
 		position: relative;
-		padding: 15px 30px;
 		font-family: $font;
 		line-height: 1.3;
 		text-decoration: none;
@@ -50,7 +53,6 @@
 		border: 1px solid #ee496b;
 		box-shadow:  0 3px 0 0 #b0244a;
 		color: #fff;
-		font-size: 18px;
 		font-weight: bold;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
@@ -59,7 +61,6 @@
 		-webkit-tap-highlight-color: transparent;
 		min-height: inherit;
 		margin-top: 10px;
-
 		padding: 11px 20px;
 		font-size: 16px;
 
@@ -68,6 +69,7 @@
 			padding: 13px 20px 11px;
 			width: 100%;
 		}
+
 		@include res(xs){
 			font-size: 14px;
 		}
@@ -101,11 +103,7 @@
 
 		}
 	}
-
-
 }
-
-
 
 .card-list {
 
@@ -124,8 +122,8 @@
 	}
 }
 
-
 .form {
+
 	&__label {
 		display: block;
 		font-size: 23px;
@@ -135,6 +133,7 @@
 			font-size: 20px;
 			padding: 0 15px 7px;
 		}
+
 		@include res(xs){
 			font-size: 20px;
 			padding: 0 15px 7px;

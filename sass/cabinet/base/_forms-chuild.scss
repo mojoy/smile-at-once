@@ -32,14 +32,12 @@ fieldset {
 	}
 }
 
-
 .vertical-form{
 
 	&-middle {
 		display: flex;
 		justify-content: center;
 	}
-
 }
 
 .textarea {
@@ -73,6 +71,7 @@ fieldset {
 		font-style: italic;
 		opacity: 1;
 		transition: opacity 0.3s ease;
+
 		@include res(l){
 			font-size: 16px;
 		}
