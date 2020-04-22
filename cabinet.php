@@ -2,6 +2,21 @@
 
 
 
+<!-- ошибка поиска -->
+<div class="pb">
+	<div class="box-pay-success meeting-filter-error">
+		<strong class="h3 sec-title">Результат не найден</strong>
+		<div class="row-btn">
+			<a href="" class="button button-green button--medium">Повторить поиск</a>
+		</div>
+	</div>
+</div>
+<!--// ошибка поиска -->
+
+
+
+
+
 
 <section class="cabinet">
 	<div class="container">

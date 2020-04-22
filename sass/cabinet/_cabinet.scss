@@ -10,6 +10,10 @@
 		overflow: hidden;
 	}
 
+	&--doc .container {
+		max-width: 1330px;
+	}
+
 	@include res(l){
 		padding-top: 0;
 	}
@@ -445,6 +449,8 @@
 
 	.modal-ba__title {
 		font-weight: 700;
+		border-bottom: 1px solid #cedae1;
+		padding: 0 0 15px;
 	}
 
 	h5,
@@ -511,8 +517,8 @@
 	}
 
 	.meeting-register__status {
-		width: 27px;
-		height: 27px;
+		width: 28px;
+		height: 28px;
 		margin: 0;
 	}
 
@@ -528,13 +534,16 @@
 
 		&-row {
 			margin: 0 0 20px;
+			font-size: 18px;
 		}
 	}
 }
 
 
 .pb .modal-room-details {
-	width: 1000px;
+	width: 800px;
+	font-size: 18px;
+	text-align: center;
 }
 
 .pb .consultation-review .row [class*="grid"] {

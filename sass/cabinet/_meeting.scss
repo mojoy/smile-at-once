@@ -15,6 +15,19 @@
 	input {
 		margin: 0 15px 10px 0;
 	}
+
+	&-error {
+		max-width: 480px;
+		margin: 0 auto 30px;
+
+		&:before {
+			background-image: url(../images/cabinet/icon-search-error.svg) !important;
+			width: 150px !important;
+			height: 125px !important;
+			background-size: 100% 100% !important;
+			margin-bottom: 0 !important;
+		}
+	}
 }
 
 .meeting-register {
@@ -116,19 +129,12 @@
 				color: #fff;
 				font-weight: 700;
 				line-height: 40px;
-				font-size: 26px;
+				font-size: 21px;
 				text-align: center;
 				font-style: normal;
 				display: block;
 				cursor: pointer;
 				box-shadow: 0 2px 0 0 #0b5357;
-
-				@media (max-width: 1700px) {
-					width: 35px;
-					height: 35px;
-					line-height: 35px;
-					font-size: 24px;
-				}
 
 				@media (max-width: 1180px) {
 					margin: 0;
@@ -139,6 +145,14 @@
 		&-name {
 
 			font-weight: 700;
+
+			&--doc {
+				width: 480px;
+
+				@include res(l) {
+					width: auto;
+				}
+			}
 
 			div {
 				padding-right: 45px;
@@ -172,6 +186,17 @@
 
 				&:hover {
 					box-shadow: 0 0 2px #d9b13b, 0 0 2px #d9b13b inset;
+				}
+
+				&--absent {
+					background: linear-gradient(to bottom, #dbdad6, #b3b3b1);
+					border: 1px solid #b7b7b6;
+					box-shadow: 0 0 2px #b7b7b6 inset;
+					cursor: auto;
+
+					&:hover {
+						box-shadow: none;
+					}
 				}
 			}
 		}
@@ -345,10 +370,10 @@
 
 	&__user {
 		display: block;
-		padding: 0 0 0 27px;
+		/*padding: 0 0 0 27px;*/
 		position: relative;
 		cursor: pointer;
-
+/*
 		&:after {
 			position: absolute;
 			left: 0;
@@ -360,15 +385,15 @@
 			z-index: 1;
 			background: no-repeat url(../images/cabinet/icon-patient.svg);
 			background-size: 100% auto;
-		}
+		}*/
 	}
 
 	&__doctor {
 		display: block;
-		padding: 0 0 0 27px;
+		/*padding: 0 0 0 27px;*/
 		position: relative;
 
-
+/*
 		&:after {
 			position: absolute;
 			left: 0;
@@ -380,7 +405,7 @@
 			z-index: 1;
 			background: no-repeat url(../images/cabinet/icon-doctor.svg);
 			background-size: 100% auto;
-		}
+		}*/
 	}
 
 	&__date {
@@ -675,11 +700,43 @@
 	}
 }
 
+.comment-edit {
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 4px;
+	padding: 0;
+	border-radius: 50%;
+	position: relative;
+	vertical-align: middle;
+	transition: all 0.3s ease;
+
+
+	&:after {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		content: "";
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-image: url(../images/cabinet/icon-edit.svg);
+	}
+}
+
 .legend-icons {
 	margin: 0 auto;
 	max-width: 900px;
 	padding: 40px 0 20px;
 	font-size: 18px;
+
+	.row {
+		justify-content: center;
+	}
 
 	h4 {
 		margin: 0 0 15px;
