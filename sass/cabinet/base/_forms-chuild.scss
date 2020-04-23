@@ -38,7 +38,29 @@ fieldset {
 		display: flex;
 		justify-content: center;
 	}
+
+	&-small {
+		max-width: 500px;
+		margin: 0 auto 30px;
+	}
+
+	&__notes {
+		font-size: 15px;
+	}
+
+	&__textarea {
+		max-width: 800px;
+		width: 100%;
+		margin: 0 auto;
+
+		.cke_editor_patient_review {
+			width: 100% !important;
+		}
+	}
 }
+
+
+
 
 .textarea {
 	display: inline-block;

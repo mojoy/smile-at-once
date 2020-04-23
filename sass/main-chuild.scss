@@ -13,7 +13,6 @@
 		}
 	}
 
-
 	@include res(s){
 		.teledent-triggers__left {
 			display: block;
@@ -22,14 +21,6 @@
 			display: flex;
 		}
 	}
-
-	.teledent-triggers {
-		max-width: 1000px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-
 }
 @import 'cabinet/video-chat';
 @import 'cabinet/cabinet';

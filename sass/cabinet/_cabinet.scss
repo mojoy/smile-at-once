@@ -49,7 +49,7 @@
 		font-size: 18px;
 		font-weight: 300;
 		line-height: 1.3;
-		border: 1px solid #cedae1;
+		border: 1px solid $gray-border;
 		background: #fff;
 		border-radius: 28px;
 		padding: 15px 25px;
@@ -167,8 +167,8 @@
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-	background: #239ca3 !important;
-	box-shadow: #72dbd4 0 1px 3px 0 inset !important;
+	background: $green-dark !important;
+	box-shadow: $green 0 1px 3px 0 inset !important;
 }
 .xdsoft_datetimepicker .xdsoft_timepicker {
 	width: 22.0% !important;
@@ -251,7 +251,7 @@
 	width: 50px;
 	height: 50px;
 	text-indent: -9999px;
-	background-color: #ee496b !important;
+	background-color: $pink !important;
 	background-size: 30px auto !important;
 	background-position: 50% 50% !important;
 	background-repeat: no-repeat !important;
@@ -291,7 +291,6 @@
 	transform: translateZ(0);
 	width: 100%;
 	z-index: 99992;
-	background: rgba(0,0,0,0.7);
 
 	&-bg {
 		display: flex;
@@ -301,6 +300,8 @@
 		align-items: center;
 		padding: 0 20px;
 		box-sizing: content-box;
+		background: $black;
+		opacity: .7;
 	}
 
 	&-box {
@@ -389,7 +390,7 @@
 			margin-left: -7px;
 			width: 14px;
 			height: 2px;
-			background: #000;
+			background: $black;
 			transition: all 0.3s ease;
 			border-radius: 0;
 		}
@@ -412,7 +413,7 @@
 
 		&:hover::before,
 		&:hover::after {
-			background: #ff5274;
+			background: $pink;
 		}
 	}
 }
@@ -456,6 +457,21 @@
 	h5,
 	.h5 {
 		font-size: 19px;
+	}
+
+	p {
+		margin: 0 0 15px;
+	}
+
+	a {
+
+		color: $pink;
+		border-bottom: 1px dotted $pink;
+		transition: all 0.3s ease;
+
+		&:hover {
+			border-bottom: 1px dotted transparent;
+		}
 	}
 
 	&__title {
@@ -506,7 +522,7 @@
 	&__details {
 
 		&-row {
-			border-top: 1px solid #cedae1;
+			border-top: 1px solid $gray-border;
 			padding: 13px 0;
 			margin: 0;
 		}
@@ -543,16 +559,10 @@
 .pb .modal-room-details {
 	width: 800px;
 	font-size: 18px;
-	text-align: center;
 }
 
 .pb .consultation-review .row [class*="grid"] {
 	padding-bottom: 25px;
-}
-
-.vertical-form-small {
-	max-width: 500px;
-	margin: 0 auto 30px;
 }
 
 .consultation-review {
@@ -571,16 +581,6 @@
 	}
 }
 
-.vertical-form__textarea {
-	max-width: 800px;
-	width: 100%;
-	margin: 0 auto;
-
-	.cke_editor_patient_review {
-		width: 100% !important;
-	}
-}
-
 .row-btn {
 	display: flex;
 	justify-content: center;
@@ -590,4 +590,8 @@
 
 .vertical-form .row-btn .button {
 	width: auto;
+}
+
+.pb .stars-rating-static .jq-star {
+	cursor: inherit;
 }

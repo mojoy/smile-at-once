@@ -2,3 +2,7 @@
 prepros-6.config
 orders.csv
 .htaccess
+.sass-cache/3d4d76eef83e959fa9027abf282f93c70bacfd9a/_cabinet.scssc
+*.scssc
+sass/debug.log
+sass/debug.log
