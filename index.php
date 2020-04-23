@@ -1620,6 +1620,9 @@
 </section>
 
 
+
+
+
 <section class="s-faq-steps" data-lazybg="/img/home/faq-steps-bg.jpg">
 	<div class="container">
 		<div class="h1 s-faq-steps__title">Что надо знать,<br>выбирая клинику?</div>
