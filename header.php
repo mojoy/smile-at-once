@@ -32,7 +32,7 @@
 <!--	<link href="css/all_doctors_dev.css" rel="stylesheet">-->
 <!--	<link href="css/animate.min.css" rel="stylesheet">-->
 	<link href="css/main.css?v=25" rel="stylesheet">
-	<link href="css/main-chuild.css?v=25" rel="stylesheet">
+	<link href="css-chuild/main-chuild.css?v=25" rel="stylesheet">
 </head>
 
 <body>
@@ -993,6 +993,51 @@
 </div>
 
 </header>
+
+
+
+<div class="banners">
+	<!---  banner -->
+	<div class="container-banner container-banner2"><a href="/borba-s-koronavirusom.html" title="Оберегаем от коронавируса!" class="container-banner-col container-banner-col_coronavirus"> 			<span class="through-block-holder"> 				<span class="through-block through-block_coronavirus"> 					<span class="through-block__title">Оберегаем <span>от коронавируса!</span></span> 					<span class="through-block__content"> 						<span class="ul"> 							<span class="li">Маски и антисептики в подарок</span> 							<span class="li">Усиленные меры санитарной безопасности</span> 							<span class="li">Такси за наш счет во время лечения</span> 						</span> 					</span> 				</span> 			</span> 		</a>
+		<div class="container-banner-col container-banner-col_info">
+			<div class="through-block-holder"><a href="javascript:void(0);" class="through-block__close" data-js-hide-ribbon="coronavirus">&nbsp;</a>
+				<div class="through-block through-block_info">
+					<div class="through-block__content">
+						<div class="through-block__title">Повышение цен!</div>
+						<p>С 1 мая 2020 мы вынуждены повысить цены!<br>
+							Для пациентов, обратившихся до 30.04.2020<br>
+							предусмотрены специальные условия.</p>
+						<div class="through-block-button"><a href="#modal-callback" class="button button--outline button--medium fancy-modal">Подробности у менеджера</a></div>
+						<!---//  banner --></div>
+				</div>
+			</div>
+		</div>
+		<a href="javascript:void(0);" class="through-block__close" data-js-hide-ribbon="coronavirus"></a>
+	</div>
+
+	<!---  banner 2 -->
+	<div class="container-banner banner-taxi">
+		<div class="container"><a href="https://smile-at-once.ru/teledent-online-stomatolog.html" title="Стоматолог online и такси на время карантина!">
+				<picture class="banner-taxi__img">
+					<source srcset="https://smile-at-once.ru/data/teeth_new/images/banner-corona/img-taxi-banner.webp" type="image/webp">
+					<source srcset="https://smile-at-once.ru/data/teeth_new/images/banner-corona/img-taxi-banner.jpg" type="image/jpeg">
+					<img src="https://smile-at-once.ru/data/teeth_new/images/banner-corona/img-taxi-banner.jpg" alt="Стоматолог online и такси на время карантина!">
+				</picture>
+			</a>
+			<div class="banner-taxi__content">
+				<div class="banner-taxi__title">Стоматолог online и такси<br>
+					на время карантина! <span>БЕсплатно!</span></div>
+				<span class="ul">
+					<span class="li">общайтесь с врачом не выходя из дома</span>
+					<span class="li">на видео консультации врач оценит проблему</span>
+					<span class="li">при необходимости лечения - такси из дома и обратно</span>
+				</span>
+				<div class="through-block-button"><a href="#modal-callback" class="button button--outline button--medium fancy-modal">заказать консультацию</a><a href="https://smile-at-once.ru/teledent-online-stomatolog.html" title="Как это работает?" class="link">Как это работает?</a></div>
+				<a href="https://smile-at-once.ru/teledent-online-stomatolog.html" title="Профилактика коронавируса и безопасность лечения!" class="banner-taxi__car">&nbsp;</a></div>
+		</div>
+	</div>
+	<!---//  banner 2 -->
+</div>
 
 
 <section class="s-breadcrumbs compensate-for-scrollbar">

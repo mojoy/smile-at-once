@@ -22,11 +22,22 @@
 		}
 	}
 }
+.content ::selection {
+	border: 1px solid $pink;
+}
 @import 'cabinet/video-chat';
 @import 'cabinet/cabinet';
 @import 'cabinet/meeting';
+@import 'banner/banner';
+.swiper-inner {
+	padding: 15px 0 45px;
+	margin: 0 auto;
+	max-width: 800px;
 
-
+	&-full {
+		max-width: inherit;
+	}
+}
 
 
 

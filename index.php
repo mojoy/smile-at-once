@@ -506,6 +506,185 @@
 </section>
 
 
+<section class="s-promo s-promo-full">
+	<div class="container">
+		<div class="swiper-container promo-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide promo-banner promo-banner--purple promo-banner--dark" itemscope="" itemtype="http://schema.org/Event">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-1.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-1.png">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__date">до 18.03.2019</div>
+						<div class="promo-banner__title" itemprop="name">Протезирование на&nbsp;имплантах Trefoil для&nbsp;нижней челюсти</div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<div class="promo-banner__prices" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
+				</div>
+				<div class="swiper-slide promo-banner promo-banner--yellow" itemscope="" itemtype="http://schema.org/Event">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-2.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-2.png">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__date">до 18.03.2019</div>
+						<div class="promo-banner__title" itemprop="name">ALL-ON-4 - Все&nbsp;зубы на&nbsp;четырех имплантах</div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<div class="promo-banner__prices">
+							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
+				</div>
+				<div class="swiper-slide promo-banner promo-banner--pink" itemscope="" itemtype="http://schema.org/Event">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-3.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-3.png">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__title" itemprop="name">ALL-ON-6 - Протезирование на&nbsp;6 имплантах от 90 000 руб</div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<div class="promo-banner__prices">
+							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
+				</div>
+				<div class="swiper-slide promo-banner promo-banner--green" itemscope="" itemtype="http://schema.org/Event">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-4.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-4.png">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__title" itemprop="name">Базальная имплантация зубов <nobr>от 90 000 руб</nobr></div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<div class="promo-banner__prices">
+							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
+				</div>
+				<div class="swiper-slide promo-banner promo-banner--gray promo-banner--dark" itemscope="" itemtype="http://schema.org/Event">
+					<div class="promo-banner__imgwrap">
+						<div class="slide-loading"></div>
+						<a href="#"><img src="/img/promo/placeholder.png" data-src="/img/promo/img-5.png" alt="1" class="promo-banner__img swiper-lazy"></a>
+						<meta itemprop="image" content="/img/promo/img-5.png">
+					</div>
+					<div class="promo-banner__content">
+						<div class="promo-banner__title" itemprop="name">Скуловая имплантация зубов <nobr>от 90 000 руб</nobr></div>
+						<ul class="promo-banner__list checked-pink-list" itemprop="description">
+							<li>Бесплатная первичная консультация</li>
+							<li>Оплата без скрытых платежей</li>
+							<li>Бесплатная первичная консультация</li>
+							<li>Бесплатная первичная консультация</li>
+						</ul>
+						<div class="promo-banner__prices">
+							<div class="promo-banner__price">90 000 руб</div>
+							<meta itemprop="price" content="90000">
+							<meta itemprop="priceCurrency" content="RUB">
+							<div class="promo-banner__oldprice">120 000 руб</div>
+						</div>
+						<a href="#" class="button promo-banner__btn">Подробнее</a>
+					</div>
+					<span class="hidden" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+						<span itemprop="name">Клинике Smile-at-Once</span>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="addressLocality" content="Москва">
+							<meta itemprop="addressRegion" content="МО">
+							<meta itemprop="telephone" content="+78003334628">
+						</span>
+					</span>
+					<time class="hidden" itemprop="startDate" datetime="2020-03-31">2020-03-31</time>
+					<time class="hidden" itemprop="endDate" datetime="2020-03-31">2020-03-31</time>
+				</div>
+			</div>
+			<div class="promo-slider__nav">
+				<div class="i i-left promo-slider__prev"></div>
+				<div class="promo-slider__pages"></div>
+				<div class="i i-right promo-slider__next"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-prizes s-def">
 	<div class="container">
 		<div class="h1 sec-title">Наши партнеры и&nbsp;награды</div>
@@ -1032,70 +1211,92 @@
 </section>
 
 
-<section class="s-regions s-def" data-lazybg="/img/home/regions-bg.png">
+<section class="s-regions s-def" data-lazybg="/data/teeth_new/img/home/regions-bg.png" style="background-image: url(&quot;/data/teeth_new/img/home/regions-bg.png&quot;);">
 	<div class="container s-regions__pc">
 		<div class="h1 sec-title">Помогаем восстановить зубы пациентам со&nbsp;всей&nbsp;России и&nbsp;других стран</div>
-		<div class="sec-title-descr">Мы предлагаем максимально комфортные условия прохождения лечения в&nbsp;Москве в&nbsp;клинике «Smile-at-Once»</div>
-
+		<div class="sec-title-descr">Мы предлагаем максимально комфортные условия прохождения лечения в&nbsp;Москве в&nbsp;клинике &laquo;Smile-at-Once&raquo;</div>
 		<div class="regions-steps">
-			<a href="#" class="regions-step">
+			<a href="/regions.html" class="regions-step">
 				<div class="regions-step__bg">
-					<img src="" data-lazy="/img/home/region-step-1.png" alt="1">
+					<picture>
+						<source srcset="/data/teeth_new/img/home/region-step-1.webp" type="image/webp">
+						<source srcset="/data/teeth_new/img/home/region-step-1.png" type="image/jpeg">
+						<img data-lazy="/data/teeth_new/img/home/region-step-1.png" alt="Дистанционная консультация врача онлайн">
+					</picture>
 				</div>
 				<strong>01</strong>
-				<div class="regions-step__descr">Дистанционная <br>консультация врача <br>онлайн</div>
+				<div class="regions-step__descr">Дистанционная <br>
+					консультация врача <br>
+					онлайн
+				</div>
 			</a>
-			<a href="#" class="regions-step">
+			<a href="/regions.html#container-transfer-programs" class="regions-step">
 				<div class="regions-step__bg">
-					<img src="" data-lazy="/img/home/region-step-2.png" alt="1">
+					<picture>
+						<source srcset="/data/teeth_new/img/home/region-step-2.webp" type="image/webp">
+						<source srcset="/data/teeth_new/img/home/region-step-2.png" type="image/jpeg">
+						<img data-lazy="/data/teeth_new/img/home/region-step-2.png" alt="Организация приезда и размещения">
+					</picture>
 				</div>
 				<strong>02</strong>
-				<div class="regions-step__descr">Организация <br>приезда и <br>размещения</div>
+				<div class="regions-step__descr">Организация <br>
+					приезда и <br>
+					размещения
+				</div>
 			</a>
-			<a href="#" class="regions-step">
+			<a href="/regions.html" class="regions-step">
 				<div class="regions-step__bg">
-					<img src="" data-lazy="/img/home/region-step-3.png" alt="1">
+					<picture>
+						<source srcset="/data/teeth_new/img/home/region-step-3.webp" type="image/webp">
+						<source srcset="/data/teeth_new/img/home/region-step-3.png" type="image/jpeg">
+						<img data-lazy="/data/teeth_new/img/home/region-step-3.png" alt="Восстановление зубов за 1-3 дня">
+					</picture>
 				</div>
 				<strong>03</strong>
-				<div class="regions-step__descr">Восстановление <br>зубов за 1-3 дня</div>
+				<div class="regions-step__descr">Восстановление <br>
+					зубов за 1-3 дня
+				</div>
 			</a>
-			<a href="#" class="regions-step">
+			<a href="/regions.html" class="regions-step">
 				<div class="regions-step__bg">
-					<img src="" data-lazy="/img/home/region-step-4.png" alt="1">
+					<picture>
+						<source srcset="/data/teeth_new/img/home/region-step-4.webp" type="image/webp">
+						<source srcset="/data/teeth_new/img/home/region-step-4.png" type="image/jpeg">
+						<img data-lazy="/data/teeth_new/img/home/region-step-4.png" alt="Забота и уход во время лечения">
+					</picture>
 				</div>
 				<strong>04</strong>
-				<div class="regions-step__descr">Забота и уход <br>во время лечения</div>
+				<div class="regions-step__descr">Забота и уход <br>
+					во время лечения
+				</div>
 			</a>
-			<a href="#" class="regions-step">
+			<a href="/regions.html" class="regions-step">
 				<div class="regions-step__bg">
-					<img src="" data-lazy="/img/home/region-step-5.png" alt="1">
+					<picture>
+						<source srcset="/data/teeth_new/img/home/region-step-5.webp" type="image/webp">
+						<source srcset="/data/teeth_new/img/home/region-step-5.png" type="image/jpeg">
+						<img data-lazy="/data/teeth_new/img/home/region-step-5.png" alt="Проводы домой и поддержка после">
+					</picture>
 				</div>
 				<strong>05</strong>
-				<div class="regions-step__descr">Проводы <br>домой и поддержка <br>после</div>
+				<div class="regions-step__descr">Проводы <br>
+					домой и поддержка <br>
+					после
+				</div>
 			</a>
 		</div>
 	</div>
-
 	<div class="container s-regions__mob">
 		<div class="regions-banner">
-			<a href="#" class="regions-banner__link"></a>
 			<div class="regions-banner__content">
 				<div class="h2 regions-banner__title">Совместите преображение улыбки и&nbsp;посещение столицы</div>
-				<div class="regions-banner__phone">
-					<small>Для регионов</small>
-					<a href="tel:88003334628">8 800 333-46-28</a>
-				</div>
-				<div class="regions-banner__phone">
-					<small>Для Москвы и МО</small>
-					<a href="tel:84955405042">8 495 540-50-42</a>
-				</div>
-				<a href="#" class="button regions-banner__btn">Узнать больше</a>
+				<div class="regions-banner__phone"><small>Для регионов</small><a href="tel:88003334628" title="для звонков из регионов">8 800 333-46-28</a></div>
+				<div class="regions-banner__phone"><small>Для Москвы и МО</small><a href="tel:84955405042" title="для звонков из Москвы и МО">8 495 540-50-42</a></div>
+				<a href="/regions.html" class="button regions-banner__btn">Узнать больше</a>
 			</div>
 		</div>
 	</div>
-
 </section>
-
 
 <section class="s-popular-services s-def-bottom">
 	<div class="container">

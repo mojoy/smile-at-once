@@ -1,0 +1,800 @@
+
+*, :after, :before {
+  background-repeat: no-repeat;
+          box-sizing: inherit;
+}
+.container-banner .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1330px;
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.container-banner .button {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding: 15px 30px;
+  font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.3;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
+  border: 1px solid #ee496b;
+  box-shadow: 0 3px 0 0 #b0244a;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-shadow: 0 1px 1px #9c1d40;
+  border-radius: 30px;
+}
+
+@media (max-width: 1024px) {
+  .container-banner .button {
+    font-size: 16px;
+    padding: 13px 20px 11px;
+  }
+}
+
+.container-banner .button:focus {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
+  outline: none;
+}
+
+.container-banner .button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
+  box-shadow: 0 5px 0 0 #b0244a;
+  transform: translate3d(0, -2px, 0);
+}
+
+.container-banner .button:active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f85e76), to(#e12e5e));
+  background: linear-gradient(to bottom, #f85e76, #e12e5e);
+  box-shadow: 0 1px 0 0 #b0244a;
+  transform: translate3d(0, 2px, 0);
+}
+
+.container-banner .button .i {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.container-banner .button--medium {
+  padding: 11px 20px;
+  font-size: 16px;
+}
+
+.container-banner .button--medium .i {
+  margin-left: 5px;
+}
+
+.container-banner .button--small {
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.container-banner .button--small .i {
+  margin-left: 5px;
+}
+
+.container-banner button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.container-banner .button--outline {
+  border: 1px solid #ff5274;
+  box-shadow: none;
+  background: transparent;
+  color: #ff5274;
+  font-weight: normal;
+  text-shadow: none;
+  text-transform: none;
+}
+
+.container-banner .button--outline:focus {
+  background: #ff5274;
+  outline: none;
+  transform: none;
+  border-color: #ff5274;
+  color: #fff;
+}
+
+.container-banner .button--outline:hover {
+  background: #ff5274;
+  box-shadow: none;
+  transform: none;
+  border-color: #ff5274;
+  color: #fff;
+}
+
+.container-banner .button--outline:active {
+  background: #ff5274;
+  border-color: #ff5274;
+  color: #fff;
+  box-shadow: none;
+  transform: none;
+}
+
+
+
+
+.container-banner {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+  font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+
+  &:after {
+    content: '';
+    border-bottom: 1px solid #dcdcdc;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  &-col {
+    width: 50%;
+    float: left;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+
+    @media screen and (max-width: 1100px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 639px) {
+      height: auto;
+    }
+
+    &_coronavirus {
+      width: 55%;
+      position: relative;
+      overflow: hidden;
+      background: #fdaf69;
+      text-decoration: none;
+
+      @media screen and (max-width: 1100px) {
+        width: 100%;
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: -154px;
+        top: 0;
+        z-index: 0;
+        background: url("../images/banner-corona/virus1.webp") no-repeat 100% 50%;
+
+        @media screen and (max-width: 1280px) {
+            right: -190px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            right: 0;
+            background-position: 50% 50%;
+        }
+
+        @media screen and (max-width: 639px) {
+          display: block;
+          max-width: 280px;
+          height: 280px;
+          position: static;
+          margin: -45px auto -65px;
+          background: url("../images/banner-corona/virus2.webp") no-repeat 50% 50%;
+        }
+      }
+    }
+
+    &_info {
+      background-color: #72dbd4;
+      width: 45%;
+      position: relative;
+
+      @media screen and (max-width: 1100px) {
+        width: 100%;
+      }
+
+    }
+  }
+}
+
+.no-webp .container-banner-col_coronavirus:before {
+  background: url(../images/banner-corona/virus1.jpg) no-repeat 100% 50%;
+}
+@media screen and (max-width: 639px){
+.no-webp .container-banner-col_coronavirus:before {
+  background: url(../images/banner-corona/virus2.jpg) no-repeat 50% 50%;
+}
+}
+
+
+
+
+.container-banner-col .through-block_info::before {
+  content: "";
+  position: absolute;
+  left: 348px;
+  pointer-events: none;
+  z-index: 0;
+  width: 260px;
+  height: 334px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  top: -15px;
+  background-image: url("../images/banner-corona/doc.webp");
+
+  @media screen and (max-width: 639px) {
+    position: static;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.no-webp .container-banner-col .through-block_info::before {
+  background-image: url("../images/banner-corona/doc.png");
+}
+
+
+
+.through-block {
+  position: relative;
+  z-index: 1;
+  width: 465px;
+  padding-left: 29px;
+
+  @media screen and (max-width: 1280px) {
+    width: 430px;
+  }
+
+  @media screen and (max-width: 1100px) {
+    width: 390px;
+  }
+
+  @media screen and (max-width: 639px) {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+    &.through-block_coronavirus {
+      text-align: left;
+    }
+  }
+
+  &-holder{
+
+    @media screen and (max-width: 1100px) {
+      max-width: 639px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  &-inner-img {
+
+    a {
+      display: block;
+      width: 257px;
+      height: 100%;
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  &__title {
+    font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #020202;
+    margin-bottom: 22px;
+    font-size: 32px;
+    display: block;
+    line-height: 1.10;
+    letter-spacing: 0.025em;
+
+    @media screen and (max-width: 639px) {
+        margin-bottom: 15px;
+    }
+
+    & > span {
+      display: block;
+      padding: 0 0 0 10px;
+      margin: -7px 0 0;
+
+      @media screen and (max-width: 639px) {
+          margin: 0;
+          display: inline;
+          padding: 0;
+      }
+    }
+  }
+
+  &_coronavirus {
+    min-height: 250px;
+    float: right;
+  }
+
+  &__content {
+    position: absolute;
+    bottom: -5px;
+    color: #232323;
+    font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.35;
+    right: 0;
+    z-index: 15;
+    font-size: 18px;
+    top: auto;
+    left: 0;
+    letter-spacing: 0.015em;
+
+    @media screen and (max-width: 639px) {
+      position: static;
+
+      br {
+        display: none;
+      }
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+  }
+
+  .ul {
+    font-size: 16px;
+  }
+
+  .li {
+    display: block;
+    padding: 0 0 8px 29px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      top: 0.25em;
+      left: 0;
+      width: 16px;
+      height: 16px;
+      border: 1px solid #392818;
+      border-radius: 50%;
+    }
+
+    &::after {
+      content: '\e909';
+      font-family: "smileicons" !important;
+      position: absolute;
+      z-index: 2;
+      top: 0.95em;
+      left: 5px;
+      color: #392818;
+      font-size: 0.52em;
+      line-height: 1;
+    }
+  }
+
+  &-button {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    align-items: center;
+
+    @media (max-width: 680px) {
+      justify-content: center;
+      flex-direction: column;
+      clear: both;
+    }
+
+    a {
+      color: #ff5274;
+      font-size: 18px;
+      border-bottom: 1px solid rgba(255, 82, 116, 0.5);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      font-weight: 400;
+
+      @media (max-width: 680px) {
+        margin: 0 0 18px !important;
+
+        .link {
+          font-size: 16px;
+        }
+      }
+
+      &:hover {
+        border-bottom: 1px solid transparent;
+      }
+    }
+  }
+}
+
+
+.through-block_coronavirus .through-block__title {
+  position: absolute;
+  left: -59px;
+  top: 11px;
+}
+@media screen and (max-width: 639px) {
+  .through-block_coronavirus {
+    float: none;
+    min-height: 10px;
+    margin: 0 auto;
+    max-width: 639px;
+    display: block;
+  }
+}
+
+.through-block-inner {
+  display: flex;
+  text-justify: none;
+}
+@media screen and (max-width: 639px) {
+
+  .through-block-inner-text {
+    width: 100%;
+  }
+}
+
+.through-block__close {
+  background-image: url(../images/banner-icon-close.svg);
+  background-position: 50%;
+  transition: opacity .2s ease-out;
+  background-size: 20px 20px;
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  right: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 2;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+@media screen and (max-width: 639px) {
+
+  .through-block__close {
+    right: 0;
+    top: 0;
+  }
+
+  .container-banner .container-banner-col:first-child .through-block__close {
+    display: block;
+  }
+}
+
+.container-banner-col_info .through-block__close {
+  display: none;
+}
+@media screen and (max-width: 639px) {
+
+  .container-banner-col_info .through-block__close {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 639px) {
+
+  .through-block_coronavirus .through-block__title {
+    position: static;
+  }
+}
+
+
+.through-block_info .through-block__title {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 639px) {
+
+  .through-block__title,
+  .through-block_info .through-block__title {
+    font-size: 26px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 380px) {
+
+  .through-block__title,
+  .through-block_info .through-block__title {
+    font-size: 24px;
+  }
+}
+
+.through-block__sub-title {
+  font-family: Rubik,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 32px;
+  line-height: 25px;
+  max-width: 592px;
+  font-size: 17px;
+  display: block;
+  color: #fff;
+}
+
+.through-block_coronavirus .through-block__sub-title {
+  margin-bottom: 47px;
+  max-width: 630px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+.through-block__sub-title__grid {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+
+
+
+
+.container-banner-col_info .through-block__content {
+  position: static;
+  width: auto;
+  color: #020202;
+  padding: 39px 0 21px;
+
+  @media screen and (max-width: 639px) {
+      padding: 20px 0 0;
+  }
+
+  p {
+    margin: 0 0 15px;
+
+    @media screen and (max-width: 639px) {
+        margin: 0 0 8px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 639px) {
+
+  .container-banner-col_coronavirus .through-block__content,
+  .container-banner-col_info .through-block__content {
+    overflow: hidden;
+  }
+
+  .container-banner-col_coronavirus .through-block__content {
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 0 30px;
+  }
+}
+
+
+
+.container-banner .through-block-button .button--outline {
+  color: #fff;
+  border-color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container-banner .through-block-button .button--outline:hover,
+.container-banner .through-block-button .button--outline:focus,
+.container-banner .through-block-button .button--outline:active {
+  box-shadow: none;
+  transform: none;
+  border-color: #ff5274;
+  color: #fff;
+}
+
+.container-banner.banner-taxi .through-block-button .button--outline {
+  color: #ed476b;
+  border-color: #ed476b;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.container-banner.banner-taxi .through-block-button .button--outline:hover,
+.container-banner.banner-taxi .through-block-button .button--outline:focus,
+.container-banner.banner-taxi .through-block-button .button--outline:active {
+  background: #ff5274;
+  box-shadow: none;
+  transform: none;
+  border-color: #ff5274;
+  color: #fff;
+}
+
+.banner-taxi {
+  background: #f8fbfc;
+  position: relative;
+
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+  &::before {
+    content: '';
+    border-bottom: 1px solid #dcdcdc;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  &__title {
+    font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #020202;
+    font-size: 32px;
+    display: block;
+    line-height: 1.0;
+    letter-spacing: 0.025em;
+    margin: 0 0 8px;
+
+    br {
+      @media screen and (max-width: 500px) {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 750px) {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    @media screen and (max-width: 500px) {
+        text-align: center;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    span {
+      text-transform: uppercase;
+      color: #ed476b;
+    }
+
+  }
+  &__img {
+    float: left;
+    margin: 0 49px 0 -30px;
+    text-align: center;
+
+    @media screen and (max-width: 1300px) {
+      margin: 0 25px 0 -100px;
+    }
+
+    @media screen and (max-width: 1000px) {
+      margin: 0 20px 0 -155px;
+    }
+
+    @media screen and (max-width: 720px) {
+      margin: 0 20px 0 -210px;
+    }
+    @media screen and (max-width: 639px) {
+      margin: 0 auto -15px;
+      float: none;
+      display: block;
+    }
+  }
+
+  &__content {
+    float: left;
+    width: 511px;
+    position: relative;
+    padding: 30px 0 0 0;
+    height: 269px;
+
+    @media screen and (max-width: 800px) {
+      width: 490px;
+      height: auto;
+    }
+
+    @media screen and (max-width: 720px) {
+      width: 460px;
+      height: auto;
+    }
+
+    @media screen and (max-width: 639px) {
+      width: 100%;
+    }
+  }
+
+  &__car {
+    position: absolute;
+    width: 690px;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    overflow: hidden;
+    text-indent: -9999px;
+    z-index: 0;
+    background: url(../images/banner-corona/img-taxi-banner-car.webp) no-repeat 0 100%;
+
+    @media screen and (max-width: 639px) {
+        display: none;
+    }
+  }
+
+  .ul {
+    font-size: 16px;
+    padding-left: 25px;
+    display: block;
+    overflow: hidden;
+
+    .li {
+      display: block;
+      padding: 0 0 6px 29px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        top: 0.25em;
+        left: 0;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #392818;
+        border-radius: 50%;
+      }
+
+      &::after {
+        content: '\e909';
+        font-family: "smileicons" !important;
+        position: absolute;
+        z-index: 2;
+        top: 0.95em;
+        left: 5px;
+        color: #392818;
+        font-size: 0.52em;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+.no-webp .banner-taxi__car {
+  background: url(../images/banner-corona/img-taxi-banner-car.jpg) no-repeat 0 100%;
+}
+
+.banner-taxi .through-block-button {
+  padding-top: 7px;
+}
+
+
+@media screen and (max-width: 639px) {
+	.banners{
+		display: flex;
+		flex-flow: wrap;
+	}
+	.banners .container-banner2{
+		width: 100%;
+		order:1;
+	}
+	.banners .banner-taxi{
+		width: 100%;
+		order:0;
+	}
+}
