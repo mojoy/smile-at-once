@@ -138,6 +138,10 @@
   font-family: "PF DinDisplay Pro", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
 
+  hr {
+    display: none;
+  }
+
   &:after {
     content: '';
     border-bottom: 1px solid #dcdcdc;
