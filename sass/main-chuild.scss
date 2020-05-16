@@ -25,10 +25,14 @@
 .content ::selection {
 	border: 1px solid $pink;
 }
+
 @import 'cabinet/video-chat';
 @import 'cabinet/cabinet';
 @import 'cabinet/meeting';
+@import 'cabinet/stage-order';
 @import 'banner/banner';
+
+
 .swiper-inner {
 	padding: 15px 0 45px;
 	margin: 0 auto;
@@ -39,5 +43,46 @@
 	}
 }
 
+/* fix btn s-doctor-portfolio */
+.s-doctor-portfolio .btn-center {
+	padding-top: 35px;
 
+	@include res(l){
+		padding-top: 25px;
+	}
+}
+
+/* fix faq for inner page */
+.pb .oc-faq {
+	max-width: 100%;
+}
+.oc-faq .title_faq {
+	font-size: 26px;
+	margin: 35px 0 20px;
+	text-transform: none;
+}
+.pb .oc-faq-inner-page .border-drops--list .border-drop__header::before {
+	display: none !important;
+}
+.pb .oc-faq-inner-page .border-drops--list .border-drop__header {
+	padding-left: 25px;
+}
+.pb .oc-faq-inner-page .price-include {
+	padding-left: 25px !important;
+}
+/*// fix faq for inner page */
+
+
+.xdsoft_datetimepicker {
+	padding: 0 !important;
+}
+.xdsoft_datetimepicker .xdsoft_datepicker {
+
+}
+
+.form-row:after {
+	clear: both;
+	content: "";
+	display: block;
+}
 

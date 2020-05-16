@@ -1,3 +1,22 @@
+
+.button {
+	&--big {
+		padding: 18px 35px;
+		font-size: 18px;
+
+		@include res(l){
+			padding: 15px 30px;
+			font-size: 18px;
+
+		}
+		@include res(xs){
+			font-size: 16px;
+		}
+	}
+}
+
+
+
 .button-green {
 	background: linear-gradient(to bottom, #72dbd4, #239ca3);
 	border: 1px solid #72dbd4;
@@ -17,3 +36,92 @@
 	}
 }
 
+
+.button-add {
+
+	width: 38px;
+	height: 38px;
+	padding: 0;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	box-shadow: none;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+	&:after {
+		width: 4px;
+		height: 14px;
+		position: absolute;
+		content: "";
+		left: 50%;
+		top: 50%;
+		background: #fff;
+		margin: -7px 0 0 -2px;
+	}
+
+	&:before {
+		width: 14px;
+		height: 4px;
+		position: absolute;
+		content: "";
+		left: 50%;
+		top: 50%;
+		background: #fff;
+		margin: -2px 0 0 -7px;
+	}
+
+	&:hover {
+
+	}
+}
+
+.button-remove {
+	width: 38px;
+	height: 38px;
+	padding: 0;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	box-shadow: none;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+	&:before {
+		width: 14px;
+		height: 4px;
+		position: absolute;
+		content: "";
+		left: 50%;
+		top: 50%;
+		background: #fff;
+		margin: -2px 0 0 -7px;
+	}
+
+	&:hover {
+
+	}
+}
+
+
+.btn-holder {
+
+	padding: 5px 0;
+	display: flex;
+	margin: 0 0 10px;
+
+	.button {
+		margin: 0 10px;
+	}
+
+	&-top {
+		margin: 0 0 25px;
+		align-items: flex-end;
+		justify-content: flex-end;
+
+		@include res(m){
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}

@@ -131,3 +131,60 @@ fieldset {
 
 
 
+/* checkbox-chustom */
+.checkbox-chustom {
+
+	input {
+		padding: 0;
+		height: initial;
+		width: initial;
+		margin-bottom: 0;
+		display: none;
+		cursor: pointer;
+
+		&:checked + label:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 9px;
+			width: 6px;
+			height: 14px;
+			border: solid $green-dark;
+			border-width: 0 2px 2px 0;
+			transform: rotate(45deg);
+			margin: -12px 0 0;
+		}
+	}
+
+	label {
+		position: relative;
+		cursor: pointer;
+
+		&:before {
+			content: '';
+			-webkit-appearance: none;
+			background-color: transparent;
+			border: 2px solid $green-dark;
+			box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+			padding: 10px;
+			display: inline-block;
+			position: relative;
+			vertical-align: middle;
+			cursor: pointer;
+			margin-right: 10px;
+			height: 24px;
+			border-radius: 3px;
+		}
+	}
+
+	.form__label {
+		padding-left: 0;
+		display: flex;
+		align-self: center;
+		align-items: center;
+	}
+
+}
+
+
