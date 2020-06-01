@@ -46,6 +46,17 @@
 		@media (max-width: 1550px) {
 			font-size: 15px;
 		}
+
+		&-footer {
+			background: lighten($green, 0.4);
+			font-weight: 700;
+		}
+
+		.fancy-room {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+		}
 	}
 
 	tr:nth-child(2n) {
@@ -100,6 +111,13 @@
 		&-control {
 			text-align: center;
 		}
+
+		&-material-art,
+		&-material-amount{
+			text-align: center;
+			vertical-align: middle;
+		}
+
 	}
 
 	&__td {
@@ -263,6 +281,37 @@
 			text-align: center;
 			vertical-align: middle;
 			width: 1%;
+
+			> div {
+				display: flex;
+				justify-content: center;
+				padding: 0 3px;
+
+				@media (max-width: 1180px) {
+					justify-content: flex-start;
+				}
+			}
+		}
+
+		&-material-art {
+			text-align: center;
+			vertical-align: middle;
+			width: 120px;
+
+			> div {
+				display: flex;
+				justify-content: center;
+				padding: 0 3px;
+
+				@media (max-width: 1180px) {
+					justify-content: flex-start;
+				}
+			}
+		}
+		&-material-amount {
+			text-align: center;
+			vertical-align: middle;
+			width: 120px;
 
 			> div {
 				display: flex;
@@ -574,19 +623,37 @@
 		}
 
 		&-delete {
-			background: linear-gradient(to bottom, #f85e76, #e12e5e);
-			box-shadow: 0 0 2px 0 #b0244a inset;
-			border: 1px solid #e12e5e;
+			 background: linear-gradient(to bottom, #f85e76, #e12e5e);
+			 box-shadow: 0 0 2px 0 #b0244a inset;
+			 border: 1px solid #e12e5e;
+
+			 &:after{
+				 background-image: url(../images/cabinet/icon-delete.svg);
+			 }
+
+			 &:hover {
+				 box-shadow: 0 0 3px #b0244a;
+			 }
+		}
+
+		&-edit {
+			background: linear-gradient(to bottom, #72dbd4, #239ca3);
+			box-shadow: 0 0 2px 0 #247b80 inset;
+			border: 1px solid #239ca3;
 
 			&:after{
-				background-image: url(../images/cabinet/icon-delete.svg);
+				background-image: url(../images/cabinet/icon-edit2.svg);
+				background-size: 80% 80%;
 			}
 
 			&:hover {
-				box-shadow: 0 0 3px #b0244a;
+				box-shadow: 0 0 3px #247b80;
 			}
 		}
+
+
 	}
+
 
 	&__th-link-doctor,
 	&__td-link-doctor {
@@ -606,13 +673,31 @@
 		background: rgba(255,82,116,0.3);
 	}
 
+
+
 	@media (max-width: 1180px) {
+
+
+
 		&__table,
+		&__table thead,
 		&__table tbody,
+		&__table tfoot,
+		&__table tr,
+		&__table td,
 		&__table tbody tr,
 		&__table tbody td{
 			display: block;
-			width: auto;
+			width: 100%;
+		}
+		&__table thead {
+			display: none !important;
+		}
+		&__table tfoot tr {
+			border: none;
+		}
+		&__table tbody tr:last-child {
+
 		}
 		&__table {
 			position: relative;
@@ -704,6 +789,34 @@
 		&__td-control::before {
 			content: "Операции";
 		}
+
+
+
+
+		&__td-name-clinic::before,
+		&__td-clinic::before{
+			content: "Клиника";
+		}
+
+		&__td-material-name::before {
+			content: "Название";
+		}
+		&__td-cabinet::before {
+			content: "Кабинет";
+		}
+		&__td-material-count::before {
+			content: "Итого";
+		}
+		&__td-material-count-mob {
+			display: none !important;
+		}
+		&__td-material-art::before {
+			content: "Артикул";
+		}
+		&__td-material-amount::before {
+			content: "Количество";
+		}
+
 	}
 }
 

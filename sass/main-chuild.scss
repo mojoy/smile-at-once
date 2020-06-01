@@ -31,6 +31,7 @@
 @import 'cabinet/meeting';
 @import 'cabinet/stage-order';
 @import 'banner/banner';
+@import 'cabinet/calc-teez';
 
 
 .swiper-inner {
@@ -78,6 +79,10 @@
 }
 .xdsoft_datetimepicker .xdsoft_datepicker {
 
+}
+
+.pb .sub-menu-doctor__info small {
+	white-space: normal;
 }
 
 .form-row:after {

@@ -1,0 +1,19 @@
+.contentpane table {
+  width: 100% !important;
+  font-size: 15pt !important;
+  border: 1px solid #000 !important;
+}
+.contentpane table td,
+.contentpane table th{
+  text-align: center !important;
+}
+.contentpane table th {
+  font-size: 16pt !important;
+  padding: 13px 15px !important;
+}
+.contentpane table td {
+  padding: 13px 15px !important;
+}
+.contentpane table .meeting-register__td-material-name {
+  text-align: left !important;
+}

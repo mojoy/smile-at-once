@@ -68,7 +68,9 @@
 		overflow: hidden;
 	}
 
-	&--doc .container {
+	&--doc .container,
+	&--order .container,
+	&--order .container{
 		max-width: 1330px;
 	}
 
@@ -135,7 +137,7 @@
 
 		&--medium{
 			padding: 13px 20px;
-			font-size: 16px;
+			font-size: 15px;
 
 			@include res(l){
 				font-size: 15px;
@@ -144,11 +146,11 @@
 		}
 
 		&--small{
-			padding: 11px 15px;
+			padding: 9px 15px;
 			font-size: 15px;
 
 			@include res(l){
-				padding: 11px 15px;
+				padding: 9px 15px;
 				font-size: 15px;
 			}
 		}
@@ -660,6 +662,7 @@
 	justify-content: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
+	flex-wrap: wrap;
 
 	&-save {
 		padding-top: 25px;
