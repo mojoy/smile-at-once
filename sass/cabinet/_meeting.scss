@@ -673,11 +673,7 @@
 		background: rgba(255,82,116,0.3);
 	}
 
-
-
 	@media (max-width: 1180px) {
-
-
 
 		&__table,
 		&__table thead,
@@ -789,15 +785,10 @@
 		&__td-control::before {
 			content: "Операции";
 		}
-
-
-
-
 		&__td-name-clinic::before,
 		&__td-clinic::before{
 			content: "Клиника";
 		}
-
 		&__td-material-name::before {
 			content: "Название";
 		}
@@ -816,7 +807,6 @@
 		&__td-material-amount::before {
 			content: "Количество";
 		}
-
 	}
 }
 
@@ -832,7 +822,6 @@
 	position: relative;
 	vertical-align: middle;
 	transition: all 0.3s ease;
-
 
 	&:after {
 		position: absolute;

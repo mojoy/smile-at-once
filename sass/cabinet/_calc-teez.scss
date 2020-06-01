@@ -283,8 +283,10 @@
 			}
 
 			&.z {
-				margin-left: 5px;
-				margin-right: -5px;
+				@include res(xs){
+					margin-left: 5px;
+					margin-right: -5px;
+				}
 
 				.teez-text {
 					@include res(s) {
@@ -308,8 +310,10 @@
 			}
 
 			&.z {
-				margin-left: 7px;
-				margin-right: -7px;
+				@include res(xs) {
+					margin-left: 7px;
+					margin-right: -7px;
+				}
 
 				.teez-text {
 					@include res(s) {
@@ -340,10 +344,11 @@
 				}
 			}
 
-
 			&.z  {
-				margin-left: 9px;
-				margin-right: -9px;
+				@include res(xs) {
+					margin-left: 9px;
+					margin-right: -9px;
+				}
 
 				.teez-text {
 					@include res(s) {
@@ -375,8 +380,10 @@
 			}
 
 			&.z {
-				margin-left: 8px;
-				margin-right: -8px;
+				@include res(xs) {
+					margin-left: 8px;
+					margin-right: -8px;
+				}
 
 				.teez-text {
 					@include res(s) {
@@ -409,8 +416,10 @@
 			}
 
 			&.z {
-				margin-left: 10px;
-				margin-right: -10px;
+				@include res(xs) {
+					margin-left: 10px;
+					margin-right: -10px;
+				}
 
 				.teez-text {
 					@include res(s) {
@@ -477,9 +486,11 @@
 			}
 
 			&.z {
-				margin-left: 2px;
-				margin-right: -2px;
-
+				@include res(xs) {
+					margin-left: 2px;
+					margin-right: -2px;
+				}
+				
 				.teez-text {
 					@include res(s) {
 						margin-left: -5px;
