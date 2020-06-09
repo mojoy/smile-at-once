@@ -1014,14 +1014,14 @@
 		</div>
 		<a href="javascript:void(0);" class="through-block__close" data-js-hide-ribbon="coronavirus"></a>
 	</div>
-
 	<!---  banner 2 -->
 	<div class="container-banner banner-taxi">
-		<div class="container"><a href="https://smile-at-once.ru/teledent-online-stomatolog.html" title="Стоматолог online и такси на время карантина!">
+		<div class="container">
+			<a href="https://smile-at-once.ru/teledent-online-stomatolog.html" title="Стоматолог online">
 				<picture class="banner-taxi__img">
-					<source srcset="https://smile-at-once.ru/data/teeth_new/images/banner-corona/img-taxi-banner.webp" type="image/webp">
-					<source srcset="https://smile-at-once.ru/data/teeth_new/images/banner-corona/img-taxi-banner.jpg" type="image/jpeg">
-					<img src="https://smile-at-once.ru/data/teeth_new/images/banner-corona/img-taxi-banner.jpg" alt="Стоматолог online и такси на время карантина!">
+					<source srcset="/data/teeth_new/images/banner-corona/img-taxi-banner.webp" type="image/webp"></source>
+					<source srcset="/data/teeth_new/images/banner-corona/img-taxi-banner.png" type="image/jpeg"></source>
+					<img src="/data/teeth_new/images/banner-corona/img-taxi-banner.png" alt="Стоматолог online">
 				</picture>
 			</a>
 			<div class="banner-taxi__content">
@@ -1033,7 +1033,8 @@
 					<span class="li">при необходимости лечения - такси из дома и обратно</span>
 				</span>
 				<div class="through-block-button"><a href="#modal-callback" class="button button--outline button--medium fancy-modal">заказать консультацию</a><a href="https://smile-at-once.ru/teledent-online-stomatolog.html" title="Как это работает?" class="link">Как это работает?</a></div>
-				<a href="https://smile-at-once.ru/teledent-online-stomatolog.html" title="Профилактика коронавируса и безопасность лечения!" class="banner-taxi__car">&nbsp;</a></div>
+				<a href="https://smile-at-once.ru/teledent-online-stomatolog.html" title="Профилактика коронавируса и безопасность лечения!" class="banner-taxi__car">&nbsp;</a>
+			</div>
 		</div>
 	</div>
 	<!---//  banner 2 -->

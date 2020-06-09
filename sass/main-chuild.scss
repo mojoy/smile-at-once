@@ -31,7 +31,7 @@
 @import 'cabinet/meeting';
 @import 'cabinet/stage-order';
 @import 'banner/banner';
-@import 'cabinet/calc-teez';
+@import 'cabinet/teez';
 
 
 .swiper-inner {
@@ -91,3 +91,22 @@
 	display: block;
 }
 
+
+
+.pb .license-slider .swiper-slide {
+	width: auto;
+	flex-shrink: 2;
+}
+.pb .license-slider .swiper-slide img {
+	height: 250px;
+	width: auto;
+	margin: 0 auto;
+}
+.pb .license-block__header {
+	transition: all 0.3s ease;
+}
+
+
+.pb .license-block:hover .license-block__header {
+	border: 5px solid #72dbd4;
+}

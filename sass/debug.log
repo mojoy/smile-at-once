@@ -163,3 +163,5 @@
 [0516/144837.445:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
 [0516/150003.676:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
 [0525/015419.014:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL-адрес не использует поддерживаемый протокол  (0x2ee6)
+[0608/112810.885:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL-адрес не использует поддерживаемый протокол  (0x2ee6)
+[0608/112820.915:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL-адрес не использует поддерживаемый протокол  (0x2ee6)

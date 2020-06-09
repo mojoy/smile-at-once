@@ -71,7 +71,7 @@
 		&:after {
 			content: "";
 			left: 50%;
-			margin: 0 0 0 -2px;
+			margin: 0 0 0 -1px;
 			top: 0;
 			bottom: 0;
 			position: absolute;
@@ -87,7 +87,7 @@
 		&:before {
 			content: "";
 			top: 50%;
-			margin: -2px 0 0;
+			margin: -1px 0 0;
 			left: 0;
 			right: 0;
 			position: absolute;
@@ -204,6 +204,18 @@
 			display: block;
 			position: relative;
 			z-index: 1;
+
+			&-current {
+				display: none;
+			}
+		}
+
+		&.current .teez-img {
+			display: none;
+
+			&-current {
+				display: block;
+			}
 		}
 
 		&-text {
@@ -490,7 +502,7 @@
 					margin-left: 2px;
 					margin-right: -2px;
 				}
-				
+
 				.teez-text {
 					@include res(s) {
 						margin-left: -5px;
@@ -779,5 +791,38 @@
 	.teezes2 .a8 {
 		width: 5%;
 	}
+}
 
+.modal-teez,
+.pb .modal-teez {
+	width: 800px;
+
+
+}
+.modal-teez {
+
+	.form-row {
+		padding-bottom: 13px;
+		align-items: flex-end;
+	}
+
+	.form__label {
+		font-size: 18px;
+		padding: 0 0 7px 22px;
+	}
+
+	.input-text {
+		margin-bottom: 10px;
+	}
+
+	.rows {
+		padding: 0 0 10px;
+	}
+	.row-btn-save {
+
+		.button {
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+	}
 }

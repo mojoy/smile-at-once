@@ -92,16 +92,7 @@
 
 
 
-	.input-text-quantity {
-		width: 100px;
-		text-align: center;
-		padding-right: 0;
-		padding-left: 0;
 
-		@include res(m){
-			width: 100%;
-		}
-	}
 
 
 
@@ -177,6 +168,17 @@
 	}
 
 
+}
+
+.input-text-quantity {
+	width: 100px;
+	text-align: center;
+	padding-right: 0;
+	padding-left: 0;
+
+	@include res(m){
+		width: 100%;
+	}
 }
 
 
@@ -379,3 +381,5 @@
 		}
 	}
 }
+
+
