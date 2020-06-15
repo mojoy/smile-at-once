@@ -677,3 +677,137 @@
 .pb .stars-rating-static .jq-star {
 	cursor: inherit;
 }
+
+
+
+.selectedelement {
+
+	&-title {
+		margin: 0 0 12px !important;
+
+		@include res(s) {
+			text-align: center;
+		}
+	}
+
+	&-table {
+		margin: 0 0 30px;
+		width: 100%;
+		background: #e6eff6;
+		border: 1px solid #8bcbce;
+
+		&-title {
+			vertical-align: middle;
+			padding: 5px 30px 7px 15px;
+
+			@include res(s) {
+				padding: 8px 15px;
+				text-align: center;
+			}
+
+
+			a {
+				color: $green-dark;
+				text-decoration: underline;
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+
+		tr:nth-child(2n) {
+			background: #eefafc;
+		}
+
+		tr {
+			transition: all 0.6s ease;
+
+			&:hover {
+				background: #c3edf4;
+			}
+		}
+
+		&-nav {
+			vertical-align: middle;
+			padding: 5px 15px 7px 30px;
+			text-align: right;
+			min-width: 175px;
+
+			@include res(s) {
+				text-align: center;
+				padding-right: 0;
+				padding-left: 0;
+			}
+
+			&-link {
+				color: $pink !important;
+				text-decoration: underline !important;
+				display: inline-block;
+				margin: 0 5px;
+				position: relative;
+				width: 34px;
+				height: 34px;
+				text-indent: -9999px;
+				transition: all 0.3s ease;
+				border-radius: 50%;
+				text-align: left;
+
+				&:after {
+					position: absolute;
+					left: 4px;
+					top: 4px;
+					bottom: 4px;
+					right: 4px;
+					content: "";
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					background-position: 50% 50%;
+				}
+
+				&-del {
+					background: linear-gradient(to bottom, #ff8497, #e12e5e);
+					box-shadow: 0 0 2px 0 #b0244a inset;
+					border: 1px solid #e12e5e;
+
+					&:after {
+						background-image: url(../images/cabinet/icon-delete.svg);
+					}
+
+					&:hover {
+						box-shadow: 0 0 3px #b0244a;
+					}
+				}
+
+				&-edit {
+					background: linear-gradient(to bottom, #72dbd4, #239ca3);
+					box-shadow: 0 0 2px 0 #247b80 inset;
+					border: 1px solid #239ca3;
+
+					&:after {
+						background-image: url(../images/cabinet/icon-edit2.svg);
+						background-size: 90% 90%;
+					}
+
+					&:hover {
+						box-shadow: 0 0 3px #247b80;
+					}
+				}
+			}
+		}
+	}
+
+
+
+	@include res(s) {
+		&-table,
+		&-table thead,
+		&-table tbody,
+		&-table tfoot,
+		&-table tr,
+		&-table td {
+			display: block;
+			width: 100%;
+		}
+	}
+}
