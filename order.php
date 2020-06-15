@@ -7,7 +7,7 @@
 		<h1 class="h1 sec-title">ЗАКАЗ №083 от <span class="order-date">14.06.2020</span></h1>
 
 
-		<h2 class="order-sub-title">Статус: <span class="order-status">ОТПРАВЛЕН - <span class="order-status-text order-status--urgent">СРОЧНЫЙ</span></span></h2>
+		<h2 class="order-sub-title sec-title">Статус: <span class="order-view-status">ОТПРАВЛЕН - <span class="order-view-status-text order-view-status--urgent">СРОЧНЫЙ</span></span></h2>
 		<div class="row order-info-patient">
 			<div class="grid-6 grid-12_l">
 				<table class="n-table">
@@ -52,22 +52,22 @@
 			</div>
 		</div>
 
-		<div class="order-info">
+		<div class="order-view-info">
 			<h3>История заказа:</h3>
 			<table class="order-info-list">
 				<tr>
-					<th class="order-info-list__title">Отправил:</th>
-					<td class="order-info-list__text">Чернов Андрей Растиславович,</td>
-					<td class="order-info-list__date">18.06.2020</td>
+					<th class="order-view-info-list__title">Отправил:</th>
+					<td class="order-view-info-list__text">Чернов Андрей Растиславович</td>
+					<td class="order-view-info-list__date">18.06.2020</td>
 				</tr>
 				<tr>
-					<th class="order-info-list__title">Создал:</th>
-					<td class="order-info-list__text">Копылов Иван Павлович, </td>
-					<td class="order-info-list__date">14.06.2020</td>
+					<th class="order-view-info-list__title">Создал:</th>
+					<td class="order-view-info-list__text">Копылов Иван Павлович</td>
+					<td class="order-view-info-list__date">14.06.2020</td>
 				</tr>
 				<tr>
-					<th class="order-info-list__title" colspan="2">Дата последнего изменения:</th>
-					<td class="order-info-list__date">19.06.2020</td>
+					<th class="order-view-info-list__title" colspan="2">Дата последнего изменения:</th>
+					<td class="order-view-info-list__date">19.06.2020</td>
 				</tr>
 			</table>
 		</div>
