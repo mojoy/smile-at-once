@@ -5,9 +5,10 @@
 <section class="order-view">
 	<div class="container">
 		<h1 class="h1 sec-title">ЗАКАЗ №083 от <span class="order-date">14.06.2020</span></h1>
-
-
 		<h2 class="order-sub-title sec-title">Статус: <span class="order-view-status">ОТПРАВЛЕН - <span class="order-view-status-text order-view-status--urgent">СРОЧНЫЙ</span></span></h2>
+		<div class="row-print">
+			<a href="" class="row-print-link" title="Печать">Печать</a>
+		</div>
 		<div class="row order-info-patient">
 			<div class="grid-6 grid-12_l">
 				<table class="n-table">
