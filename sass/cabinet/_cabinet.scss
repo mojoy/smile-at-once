@@ -716,6 +716,12 @@
 			}
 		}
 
+		&-count {
+			vertical-align: middle;
+			text-align: center;
+			padding: 5px 10px 7px 10px;
+		}
+
 		tr:nth-child(2n) {
 			background: #eefafc;
 		}
@@ -728,11 +734,18 @@
 			}
 		}
 
+		&-count {
+			min-width: 10%;
+			padding: 5px 10px 7px;
+			white-space: nowrap;
+		}
+
 		&-nav {
 			vertical-align: middle;
 			padding: 5px 15px 7px 30px;
 			text-align: right;
-			min-width: 175px;
+			min-width: 10%;
+			white-space: nowrap;
 
 			@include res(s) {
 				text-align: center;
@@ -808,6 +821,44 @@
 		&-table td {
 			display: block;
 			width: 100%;
+		}
+	}
+}
+
+.header-topline {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 18px;
+
+	&__text {
+		padding: 0 10px 10px 0;
+	}
+
+	&__user {
+		font-weight: 700;
+	}
+}
+
+
+
+.modal {
+	&-small {
+		&__content {
+
+		}
+	}
+
+	&-ba__title {
+
+	}
+
+	&-coordination {
+		.row {
+			text-align: center;
+
+			[class*="grid"] {
+				padding-bottom: 20px;
+			}
 		}
 	}
 }

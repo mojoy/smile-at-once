@@ -220,12 +220,13 @@
 .stage-order-work .sec-title,
 .stage-order-work-list .sec-title,
 .stage-order-materials-list .form__label {
+	/*
 	position: sticky;
 	top: 59px;
 	background: #f8fbfc;
 	z-index: 2;
 	padding-bottom: 15px;
-	margin-bottom: 10px;
+	margin-bottom: 10px;*/
 }
 .form-row-fio {
 	position: sticky;
@@ -362,7 +363,7 @@
 }
 .row-print {
 	display: flex;
-	justify-content: right;
+	justify-content: flex-end;
 	margin-bottom: 15px;
 
 	&-link {
@@ -381,5 +382,4 @@
 		}
 	}
 }
-
 

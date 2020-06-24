@@ -141,7 +141,11 @@
 	}
 }
 
-
+.tr-active td,
+.tr-hover td {
+	background: #46c1c8;
+	color: #fff;
+}
 
 .order-table-schema {
 	margin-bottom: 30px;

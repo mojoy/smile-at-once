@@ -33,6 +33,7 @@
 @import 'banner/banner';
 @import 'cabinet/teez';
 @import 'cabinet/order-page';
+@import 'cabinet/icons';
 
 .swiper-inner {
 	padding: 15px 0 45px;
@@ -126,9 +127,11 @@
 	}
 }
 
-.review-thanks-selfi .review-thanks__text p {
+.review-thanks-selfi .review-thanks__text p,
+.review-thanks .review-thanks__text p{
 	margin: 0 0 13px;
 }
+
 
 
 /* fix gallery in page doctor */

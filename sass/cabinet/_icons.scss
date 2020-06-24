@@ -1,0 +1,35 @@
+.c-icon {
+	display: block;
+	border-radius: 50%;
+	width: 38px;
+	height: 38px;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 4px;
+	padding: 0;
+	position: relative;
+	background: -webkit-gradient(linear, left top, left bottom, from(#72dbd4), to(#239ca3));
+	background: linear-gradient(to bottom, #72dbd4, #239ca3);
+	border: 1px solid #25878e;
+	box-shadow: 0 0 2px #25878e inset;
+
+	&::after {
+		position: absolute;
+		left: 5px;
+		top: 5px;
+		bottom: 5px;
+		right: 5px;
+		content: "";
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+
+	&-copy {
+		&::after {
+			background-image: url(../images/cabinet/icon-copy1.svg);
+		}
+	}
+}
+
+
