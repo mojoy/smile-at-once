@@ -9,6 +9,10 @@ fieldset {
 		padding: 13px 20px;
 		font-size: 16px;
 
+		@include res(l){
+			font-size: 15px;
+		}
+
 		&::placeholder {
 			font-size: 16px;
 
@@ -58,6 +62,8 @@ fieldset {
 		}
 	}
 }
+
+
 
 
 
@@ -187,4 +193,56 @@ fieldset {
 
 }
 
+
+
+.form {
+	&__select {
+		display: inline-block;
+		font-family: $font;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 1.3;
+		border: 1px solid $gray-border;
+		background: #fff;
+		border-radius: 28px;
+		padding: 15px 25px;
+		overflow: visible;
+		margin: 0 0 10px;
+		width: 100%;
+
+		@include res(l){
+			font-size: 16px;
+			padding: 12px 20px;
+		}
+
+		&--medium{
+			padding: 13px 20px;
+			font-size: 15px;
+
+			@include res(l){
+				font-size: 15px;
+				padding: 13px 15px;
+			}
+		}
+
+		&--small{
+			padding: 9px 15px;
+			font-size: 15px;
+
+			@include res(l){
+				padding: 9px 15px;
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+.input-text[disabled],
+.textarea[disabled],
+.form__select[disabled] {
+	opacity: 0.65 !important;
+	cursor: inherit;
+	background: $gray-text !important;
+	color: #fff !important;
+}
 

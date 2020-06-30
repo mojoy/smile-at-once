@@ -172,9 +172,9 @@
 
 .input-text-quantity {
 	width: 100px;
-	text-align: center;
-	padding-right: 0;
-	padding-left: 0;
+	text-align: center !important;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
 
 	@include res(m){
 		width: 100%;

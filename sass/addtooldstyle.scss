@@ -154,6 +154,7 @@
     }
     .consult-block__img_mob img{
         margin: 0 auto;
+        display: block;
     }
     .pb .s-def{
         padding: 15px 0;
@@ -327,8 +328,11 @@
 }
 
 .pb .fancy-work{
-    padding: 10px 0px;
+    padding: 10px 0;
     width:80% !important;
     margin: 0 auto;
     font-size:16px;
+}
+.pb .doctor-header__photo {
+    height: auto;
 }

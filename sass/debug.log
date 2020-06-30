@@ -276,3 +276,7 @@
 [0623/155020.381:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
 [0623/155034.445:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
 [0624/011244.315:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
+[0628/011544.644:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
+[0628/011655.958:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
+[0628/011658.594:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
+[0628/011706.661:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
